@@ -11,7 +11,7 @@
 [![TypeScript](https://img.shields.io/badge/typescript-5.6-3178C6?logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
 [![Pydantic AI](https://img.shields.io/badge/pydantic--ai-claude--sonnet--4.5-2251FF)](https://ai.pydantic.dev/)
 [![License MIT](https://img.shields.io/badge/license-MIT-051C2C)](#license)
-[![Status](https://img.shields.io/badge/status-pre--alpha-C77700)](#calendrier)
+[![Status](https://img.shields.io/badge/status-pre--alpha-C77700)](#6-livrables-imposes-pr-sassi)
 
 </div>
 
@@ -138,7 +138,7 @@ poetry run skillnav --help
 | [`docs/PRD_CONDENSE_SKILLNAV.pdf`](docs/PRD_CONDENSE_SKILLNAV.pdf) | PRD condensé — version premium 25 pages A4 (cover Navy, TOC, tables, schémas) |
 | [`docs/PRD.md`](docs/PRD.md) | **Référence exhaustive** — PRD complet (~2 600 lignes, 27 sections + N1–N4) |
 | [`docs/CHARTE_GRAPHIQUE_SKILLNAV.pdf`](docs/CHARTE_GRAPHIQUE_SKILLNAV.pdf) | Charte graphique officielle — 13 pages premium (palette, typographie, composants) |
-| [`docs/RAPPORT_METHODOLOGIQUE.md`](docs/RAPPORT_METHODOLOGIQUE.md) | Livrable **L5** — rapport académique (auteur Bachirou Konaté, en cours) |
+| [`docs/RAPPORT_METHODOLOGIQUE.md`](docs/RAPPORT_METHODOLOGIQUE.md) | Livrable **L5** — rapport académique (en cours de rédaction) |
 | [`docs/PLAN_SOUTENANCE.md`](docs/PLAN_SOUTENANCE.md) | Livrable **L6** — plan détaillé soutenance 25 min |
 | [`docs/RGPD_DPIA.md`](docs/RGPD_DPIA.md) | DPIA simplifiée + protocole robots.txt + base légale art. 6.1.f |
 | [`CLAUDE.md`](CLAUDE.md) | Consignes Claude Code (conventions, env, RGPD, ne pas faire) |
@@ -184,16 +184,16 @@ poetry run skillnav --help
 │   ├── api/                 # FastAPI endpoints
 │   └── cli.py               # Typer CLI
 │
-├── web/                     # Next.js 15 (Karamo lead)
+├── web/                     # Next.js 15 — dashboard 8 pages
 │   └── src/{app,components,lib/api}/
 │
 ├── notebooks/               # 5 notebooks numérotés
 │   ├── 00_setup_dev.ipynb
-│   ├── 01_data_quality.ipynb            (Bachirou Konaté)
-│   ├── 02_ner_comparison.ipynb          (Karamo)
-│   ├── 03_graph_analysis.ipynb          (Bachirou Konaté)
-│   ├── 04_forecasting_comparison.ipynb  (Karamo)
-│   └── 05_dashboard_data_prep.ipynb     (Karamo)
+│   ├── 01_data_quality.ipynb            # complétude · bruit · biais (PRD §N3)
+│   ├── 02_ner_comparison.ipynb          # étude comparative NER (PRD §N2.1)
+│   ├── 03_graph_analysis.ipynb          # PageRank · Louvain · Leiden (PRD §N2.2)
+│   ├── 04_forecasting_comparison.ipynb  # ARIMA · Prophet · LSTM (PRD §N2.3)
+│   └── 05_dashboard_data_prep.ipynb     # JSON pré-calculés pour /web
 │
 ├── tests/                   # pytest + 30 fixtures gold (couverture ≥ 70 %)
 │   ├── unit/
@@ -214,33 +214,16 @@ poetry run skillnav --help
 
 ---
 
-## Calendrier — 18 jours, 3 sprints
-
-```
-Sprint 1 — Fondations              J1 → J6   (10–16 mai 2026)
-Sprint 2 — Cœur Web Mining         J7 → J12  (17–22 mai 2026)
-Sprint 3 — Forecasting + Finition  J13 → J18 (23–28 mai 2026)
-SOUTENANCE                          J19       (28 mai 2026)
-```
-
-| Sprint | Karamo focus | Bachirou Konaté focus |
-|---|---|---|
-| **S1** J1–J6 | DBs · scrapers · schémas Pydantic · pipeline ingestion + extraction · **dashboard skeleton** + Vercel | Charte PDF · **notebook `01_data_quality`** · plan + chapitres 1–2 du rapport L5 |
-| **S2** J7–J12 | NER + tableau F1 · normalisation · **pages `/ner-explorer` + `/graph` + `/skills`** · dark mode | Graph builder · PageRank · Louvain · Leiden · **rédaction §N1 + N2.1 + N2.2 + N3 + N4 du L5** |
-| **S3** J13–J18 | Forecasting (ARIMA + Prophet + LSTM) · **pages `/forecasting` + `/comparative-study`** · polish · démo | **Rapport L5 final (PDF)** · deck PPTX · répétitions chronométrées |
-
----
-
 ## 6 livrables imposés (Pr. Sassi)
 
-| # | Livrable | Forme livrée | Owner |
-|---|---|---|---|
-| **L1** | Scripts de collecte documentés | Repo `skillnav/` (`scrapers/`, `pipelines/`) + README | Karamo |
-| **L2** | Base de données hybride | MongoDB Atlas + Neo4j AuraDB + Elastic Cloud (dumps fournis) | Karamo + Bachirou Konaté |
-| **L3** | Pipeline IA validé par métriques | Notebook `02_ner_comparison.ipynb` + page `/comparative-study` | Karamo |
-| **L4** | Dashboard interactif | `skillnav.vercel.app` (8 pages) | **Karamo** |
-| **L5** | Rapport méthodologique | `docs/RAPPORT_METHODOLOGIQUE.md` → PDF (25–40 pages) | **Bachirou Konaté** |
-| **L6** | Présentation soutenance | `docs/PLAN_SOUTENANCE.md` + deck PPTX + démo live | Bachirou Konaté + Karamo |
+| # | Livrable | Forme livrée |
+|---|---|---|
+| **L1** | Scripts de collecte documentés | Repo `skillnav/` (`scrapers/`, `pipelines/`) + README |
+| **L2** | Base de données hybride | MongoDB Atlas + Neo4j AuraDB + Elastic Cloud (dumps fournis) |
+| **L3** | Pipeline IA validé par métriques | Notebook `02_ner_comparison.ipynb` + page `/comparative-study` |
+| **L4** | Dashboard interactif | `skillnav.vercel.app` (8 pages) |
+| **L5** | Rapport méthodologique | `docs/RAPPORT_METHODOLOGIQUE.md` → PDF (25–40 pages) |
+| **L6** | Présentation soutenance | `docs/PLAN_SOUTENANCE.md` + deck PPTX + démo live |
 
 ---
 
@@ -303,7 +286,7 @@ make clean         # supprime caches (pytest, mypy, ruff, coverage)
 
 - Branches courtes par sprint et par feature : `feat/sprint-1-mongodb-setup`, `fix/scraper-rekrute-pagination`
 - **Conventional Commits** : `feat:` `fix:` `docs:` `refactor:` `test:` `chore:` `perf:`
-- PR review systématique entre Karamo et Bachirou Konaté avant merge sur `main`
+- PR review systématique en binôme avant merge sur `main`
 - Pre-commit hooks obligatoires (`make setup` les installe)
 
 ### Pydantic = source de vérité unique
@@ -367,36 +350,9 @@ DPIA complète : [`docs/RGPD_DPIA.md`](docs/RGPD_DPIA.md).
 
 ## Équipe
 
-<table>
-<tr>
-<td valign="top" width="50%">
+Projet porté en **binôme** par **Karamo Sylla** et **Bachirou Konaté**, élèves-ingénieurs en filière SDBIA à l'ENSA-Tétouan, sous l'encadrement du **Pr. Imad Sassi** (module M242).
 
-### Karamo Sylla
-**Backend · IA · Dashboard Next.js**
-
-- Web Content Mining (NER + Pydantic AI)
-- Web Usage Mining (forecasting)
-- Pipeline FastAPI · modélisation MongoDB
-- Dashboard Next.js + visualisations
-- Étude comparative NER (§N2.1) + Forecasting (§N2.3)
-
-</td>
-<td valign="top" width="50%">
-
-### Bachirou Konaté
-**Structure · Data Quality · Rédaction**
-
-- Web Structure Mining (Neo4j, PageRank, Louvain)
-- Data Quality Framework (notebook `01_data_quality`)
-- **Rédaction intégrale du rapport méthodologique L5**
-- Charte graphique · deck soutenance
-- Étude comparative Communautés (§N2.2) + RGPD (§N4)
-
-</td>
-</tr>
-</table>
-
-Matrice RACI détaillée : [`docs/PRD_CONDENSE.md`](docs/PRD_CONDENSE.md) §17 ou [`docs/PRD.md`](docs/PRD.md) Annexe RACI.
+Couverture parallèle des trois axes Web Mining (Content · Structure · Usage), de la collecte des données à la soutenance, en pair-rédaction sur les sections critiques.
 
 ---
 

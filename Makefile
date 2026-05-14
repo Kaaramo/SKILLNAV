@@ -1,7 +1,7 @@
 # SKILLNAV — commandes courantes
 # Usage : `make help`
 
-.PHONY: help install install-web setup lint format typecheck test test-fast quality clean api web-dev cli
+.PHONY: help install install-web setup lint format typecheck test test-fast quality audit audit-web audit-all clean api web-dev cli
 
 # ─── Installation ───────────────────────────────────────────────────────────
 install: ## Installe les dépendances Python via Poetry
@@ -33,6 +33,16 @@ test-fast: ## Tests rapides (skip integration + slow)
 
 quality: lint typecheck test ## Pipeline qualité complet (lint + typecheck + test)
 	@echo "✅ Quality gate passé."
+
+# ─── Sécurité (audit supply-chain) ─────────────────────────────────────────
+audit: ## Audit Python (vulnérabilités via pip-audit)
+	poetry run pip-audit
+
+audit-web: ## Audit web (pnpm audit niveau moderate+)
+	cd web && pnpm audit --prod --audit-level=moderate
+
+audit-all: audit audit-web ## Audit Python + web — à lancer avant chaque push
+	@echo "✅ Audit supply-chain passé."
 
 # ─── Maintenance ────────────────────────────────────────────────────────────
 clean: ## Nettoie caches + builds

@@ -130,7 +130,7 @@ poetry run skillnav index push
 ├── data/                    # raw/ exports/ audit/ gitignored ; gold_set/ commit
 ├── sources/registry.yaml    # Registre conformité robots.txt + TOS (PRD §8.5)
 ├── docs/                    # PRD, charte, rapport L5, plan soutenance
-└── scripts/                 # Build PDFs (charte + PRD condensé)
+└── scripts/                 # Scripts utilitaires (seed taxonomy, etc.)
 ```
 
 ---
@@ -142,6 +142,24 @@ poetry run skillnav index push
 - Tous les scrapers respectent `robots.txt` + `Crawl-delay`
 - User-Agent identifié : `SkillnavBot/1.0 (Academic; M242 ENSA-Tetouan)`
 - DPIA : [`docs/RGPD_DPIA.md`](docs/RGPD_DPIA.md)
+
+---
+
+## Sécurité supply-chain
+
+L'écosystème npm a subi plusieurs attaques massives en 2025-2026 (Shai-Hulud, mini Shai-Hulud). Le 11 mai 2026, **42 packages `@tanstack/*`** ont été compromis (CVE-2026-45321) — la famille `@tanstack/query*` que nous utilisons a été confirmée *clean* mais on durcit quand même.
+
+**Règles non-négociables** :
+
+1. **Versions pinnées** (sans `^` ni `~`) pour les deps critiques de sécurité :
+   - `@tanstack/react-query` et `@tanstack/react-query-devtools` → version exacte
+   - Toute nouvelle dep utilisée pour traiter du contenu utilisateur ou exécuter du code → version exacte
+2. **Lockfiles toujours commités** : `poetry.lock` (Python) et `web/pnpm-lock.yaml` (TS)
+3. **Audit avant chaque push** : `make audit-all` (combine `pip-audit` côté Python et `pnpm audit` côté web)
+4. **Bannis** :
+   - `@tanstack/react-query-next-experimental` (CVE-2024-24558 XSS — on ne l'a jamais ajouté)
+   - Toute dep marquée *experimental* / *alpha* sans audit préalable
+5. **Update process** : `pnpm update` ou `poetry update` jamais en aveugle — toujours vérifier le changelog + lire un avis sécurité (Snyk, Wiz, GitHub Advisories) si la dep est critique
 
 ---
 
