@@ -54,7 +54,7 @@
                               ▼
 ┌─────────────────────────────────────────────────────────────────┐
 │  ÉTAPE 1 — COLLECTE                          (Karamo lead)      │
-│  Scrapy + Playwright + Apify MCP + Firecrawl                    │
+│  Crawl4AI + Playwright + Firecrawl + Apify                      │
 │   • Maroc        : Rekrute, EmploiTIC, LinkedIn MA              │
 │   • International: LinkedIn, Indeed, builtin.com, WTTJ          │
 │   • Signaux      : Google Trends, GitHub, HuggingFace           │
@@ -160,8 +160,8 @@
 
 | Source | Mode | Particularité |
 |---|---|---|
-| **Rekrute** | Scrapy (HTML statique) | Premier portail MA · sitemap accessible |
-| **EmploiTIC** | Scrapy + Playwright (JS) | Spécialisé IT — IA / DS / dev |
+| **Rekrute** | Crawl4AI (HTML statique → markdown) | Premier portail MA · sitemap accessible |
+| **EmploiTIC** | Playwright (pagination JS) | Spécialisé IT — IA / DS / dev |
 | **LinkedIn MA** | Apify MCP `linkedin-jobs-scraper` | Plafond 200 offres / session |
 | **Pages carrières** | Firecrawl MCP | OCP, INWI, banques, scale-ups |
 
@@ -170,8 +170,8 @@
 | Source | Mode | Particularité |
 |---|---|---|
 | **LinkedIn Inter.** | Apify (FR + EU + US) | Volume principal |
-| **Indeed** (.fr / .com) | Scrapy + Playwright | HTML stable, FR + EN |
-| **builtin.com** | Scrapy | Tech-only US, IA pointue |
+| **Indeed** (.fr / .com) | Playwright (anti-bot stealth) | HTML stable, FR + EN |
+| **builtin.com** | Crawl4AI | Tech-only US, IA pointue |
 | **Welcome to the Jungle** | Playwright (SPA) | Marché tech FR, descriptions denses |
 | **Otta** *(si bandwidth)* | Firecrawl | Tech jobs UK / EU |
 
@@ -215,7 +215,7 @@ TOTAL                :       500 – 2 000 offres
 ```
    ┌──────────────────────────────────────────┐
    │  COLLECTE  (Karamo)                      │
-   │  Scrapy · Playwright · Apify · Firecrawl │
+   │  Crawl4AI · Playwright · Firecrawl · Apify│
    └─────────────────┬────────────────────────┘
                      ▼
    ┌──────────────────────────────────────────┐
@@ -273,7 +273,7 @@ TOTAL                :       500 – 2 000 offres
         ▼
    ┌────────────────────────────────┐
    │  Cleaning                      │
-   │   BeautifulSoup → text propre  │
+   │   Crawl4AI → markdown propre   │
    │   fasttext-langdetect (lang)   │
    │   spaCy (tokenization)         │
    └────────┬───────────────────────┘
@@ -338,7 +338,7 @@ ELASTICSEARCH  (dérivé)
 |---|---|---|
 | **Language** | Python | 3.12 |
 | **Package** | Poetry | 1.8+ |
-| **Scraping** | Scrapy · Playwright · Apify MCP · Firecrawl MCP | latest |
+| **Scraping** | Crawl4AI · Playwright · Firecrawl · Apify (LinkedIn actor) | latest |
 | **Extraction IA** | pydantic-ai · anthropic (Claude Sonnet 4.5 + Haiku 4.5) | latest |
 | **NLP** | transformers · sentence-transformers · spaCy · fasttext-langdetect | 4.40+ |
 | **Graph** | neo4j-driver · networkx · python-louvain · igraph · neo4j-GDS | 5.20+ |

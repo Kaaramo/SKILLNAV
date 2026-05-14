@@ -66,7 +66,7 @@ SKILLNAV démontre la couverture rigoureuse des **trois axes canoniques du Web M
 ```
    ┌──────────────────────────────────────────┐
    │  COLLECTE                                │
-   │  Scrapy · Playwright · Apify · Firecrawl │
+   │  Crawl4AI · Playwright · Firecrawl · Apify│
    └─────────────────┬────────────────────────┘
                      ▼
    ┌──────────────────────────────────────────┐
@@ -156,7 +156,7 @@ poetry run skillnav --help
 | **Package mgr** | Poetry | 1.8+ |
 | **Extraction IA** | Pydantic AI + Anthropic Claude (Sonnet 4.5 + Haiku 4.5) | latest |
 | **NLP** | HuggingFace Transformers · sentence-transformers · spaCy · fasttext-langdetect | 4.40+ |
-| **Web scraping** | Scrapy · Playwright · Apify MCP · Firecrawl MCP | latest |
+| **Web scraping** | Crawl4AI · Playwright · Firecrawl · Apify (LinkedIn actor) | latest |
 | **Storage** | MongoDB Atlas (M0) · Neo4j AuraDB Free · Elasticsearch Cloud Free | — |
 | **Drivers** | motor · neo4j · elasticsearch | latest |
 | **Graph algos** | NetworkX · python-louvain · igraph · neo4j-GDS | latest |
@@ -165,7 +165,7 @@ poetry run skillnav --help
 | **Frontend** | Next.js 15 · React 19 · TypeScript 5.6 · Tailwind v4 · Shadcn/ui | — |
 | **State / data** | TanStack Query 5 | latest |
 | **Charts** | Recharts · Tremor · react-force-graph-2d · Plotly | latest |
-| **DevOps** | GitHub Actions · Render (API) · Vercel (UI) | — |
+| **DevOps** | GitHub · Render (API) · Vercel (UI) | — |
 | **Quality** | ruff · mypy strict · black · pytest (couverture ≥ 70 %) | latest |
 
 ---
@@ -205,7 +205,6 @@ poetry run skillnav --help
 ├── docs/                    # PRD, charte, rapport L5, plan soutenance
 ├── scripts/                 # Scripts utilitaires (seed taxonomy, etc.)
 │
-├── .github/workflows/       # CI : python (ruff+black+mypy+pytest) + web (lint+build)
 ├── pyproject.toml           # Poetry + ruff + mypy + black + pytest configs
 ├── .pre-commit-config.yaml  # ruff + black + mypy + check-yaml + detect-secrets
 ├── Makefile                 # Commandes courantes
@@ -247,7 +246,7 @@ SOUTENANCE                          J19       (28 mai 2026)
 
 ## Quality gates
 
-> CI GitHub Actions exécute le pipeline complet sur chaque PR — voir [`.github/workflows/ci.yml`](.github/workflows/ci.yml).
+> Quality gate manuel : `make quality` exécute le pipeline complet localement (lint + typecheck + test). Pre-commit hooks bloquent les commits non conformes.
 
 ### Python
 

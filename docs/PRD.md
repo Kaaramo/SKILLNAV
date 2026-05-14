@@ -334,7 +334,7 @@ C'est le parcours optimisé en priorité, exécuté à chaque sprint. **Tout tou
                               ▼
 ┌─────────────────────────────────────────────────────────────────┐
 │  ÉTAPE 1 — Collecte (Karamo lead)                               │
-│  Scrapy + Playwright + Apify MCP + Firecrawl                    │
+│  Crawl4AI + Playwright + Firecrawl + Apify                      │
 │                                                                 │
 │  → Sources Maroc :  rekrute, emploitic, linkedin MA             │
 │  → Sources Inter :  linkedin, indeed, builtin.com, WTTJ         │
@@ -680,15 +680,15 @@ Le pipeline SKILLNAV chaîne **8 étapes** sur 4 outils de stockage : système d
    ┌──────────────────────────────────────────┐
    │  COLLECTE (Karamo)                       │
    │   ┌────────────┐  ┌─────────────┐        │
-   │   │ Scrapy     │  │ Playwright  │        │
+   │   │ Crawl4AI   │  │ Playwright  │        │
    │   │ Rekrute    │  │ EmploiTIC   │        │
-   │   │ Indeed     │  │ WTTJ        │        │
+   │   │ builtin    │  │ Indeed/WTTJ │        │
    │   └─────┬──────┘  └──────┬──────┘        │
    │         │                │                │
    │   ┌─────▼────────────────▼──────┐        │
-   │   │ Apify MCP  +  Firecrawl     │        │
+   │   │ Apify  +  Firecrawl         │        │
    │   │  LinkedIn MA + International│        │
-   │   │  Pages JS dynamiques        │        │
+   │   │  Pages JS dynamiques rebelles│        │
    │   └─────────────┬──────────────┘         │
    │                 │                         │
    │   ┌─────────────▼──────────────┐         │
@@ -759,7 +759,8 @@ Le pipeline SKILLNAV chaîne **8 étapes** sur 4 outils de stockage : système d
         ▼
    ┌─────────────────────────────────────────┐
    │ Cleaner :                               │
-   │   - HTML strip (BeautifulSoup)          │
+   │   - Markdown propre fourni par Crawl4AI │
+   │     (selectolax si fallback HTML brut)  │
    │   - Lang detect (fasttext langid)       │
    │   - Sentence split (spaCy)              │
    └────────┬────────────────────────────────┘
@@ -1013,7 +1014,7 @@ INDEX ELASTICSEARCH (dérivé) :
   "base_url": "https://www.rekrute.com",
   "country": "MA",
   "geography": "national",
-  "scraper_type": "scrapy",
+  "scraper_type": "crawl4ai",
   "robots_txt_compliant": true,
   "tos_reviewed_at": "2026-05-08",
   "rate_limit_seconds": 5,
@@ -1173,8 +1174,8 @@ SKILLNAV agrège trois catégories de sources, chacune justifiée par sa fonctio
 
 | Source | URL | Mode collecte | Particularités |
 |---|---|---|---|
-| **Rekrute** | rekrute.com | Scrapy (HTML statique) | Premier portail emploi MA, ~3 000 offres actives, sitemap accessible |
-| **EmploiTIC** | emploitic.com | Scrapy + Playwright (pagination JS) | Spécialisé IT — concentration IA / DS / dev |
+| **Rekrute** | rekrute.com | Crawl4AI (HTML statique → markdown propre) | Premier portail emploi MA, ~3 000 offres actives, sitemap accessible |
+| **EmploiTIC** | emploitic.com | Playwright (pagination JS) + Crawl4AI post-traitement | Spécialisé IT — concentration IA / DS / dev |
 | **LinkedIn Maroc** | linkedin.com (filtre `geo=MA`) | Apify MCP (`apify/linkedin-jobs-scraper`) | Plafond : 200 offres / session pour respecter quotas |
 | **Pages carrières** | careers.ocp.ma, jobs.inwi.ma, etc. | Firecrawl MCP | Top 10 employeurs IA Maroc (banques, télécoms, OCP, scale-ups) |
 
@@ -1185,8 +1186,8 @@ SKILLNAV agrège trois catégories de sources, chacune justifiée par sa fonctio
 | Source | URL | Mode collecte | Particularités |
 |---|---|---|---|
 | **LinkedIn International** | linkedin.com | Apify (filtres : France, Europe, US) | Volume principal compétences mondiales |
-| **Indeed** | indeed.fr, indeed.com | Scrapy + Playwright | Bon volume FR + EN, structure HTML stable |
-| **builtin.com** | builtin.com | Scrapy | Tech-only US, riche en compétences IA pointues |
+| **Indeed** | indeed.fr, indeed.com | Playwright (anti-bot stealth) | Bon volume FR + EN, structure HTML stable |
+| **builtin.com** | builtin.com | Crawl4AI | Tech-only US, riche en compétences IA pointues |
 | **Welcome to the Jungle** | welcometothejungle.com | Playwright (SPA) | Marché tech FR, descriptions très détaillées |
 | **Otta** *(si bandwidth)* | otta.com | Firecrawl | Tech jobs UK/EU, qualité descriptive élevée |
 
@@ -1246,16 +1247,28 @@ Le pipeline d'extraction enchaîne **quatre étapes** :
 ### 9.2 Étape 1 — Cleaning
 
 ```python
-from bs4 import BeautifulSoup
+from crawl4ai import AsyncWebCrawler
+from selectolax.parser import HTMLParser  # fallback ultra-rapide
 from fasttext.FastText import _FastText
 import spacy
 
-def clean_text(raw_html: str) -> tuple[str, str]:
+# Crawl4AI fournit déjà du markdown propre — c'est la voie principale
+async def clean_via_crawl4ai(url: str) -> tuple[str, str]:
+    async with AsyncWebCrawler() as crawler:
+        result = await crawler.arun(url=url, magic=True)  # anti-bot intégré
+        text = result.markdown
+        lang = langid_model.predict(text[:500])[0][0].replace("__label__", "")
+        return text, lang
+
+
+# Fallback selectolax si on a déjà le HTML brut (Apify, Playwright, Firecrawl)
+def clean_via_selectolax(raw_html: str) -> tuple[str, str]:
     """Retourne (texte_nettoyé, langue_détectée)."""
-    soup = BeautifulSoup(raw_html, "lxml")
-    for tag in soup(["script", "style", "nav", "footer"]):
-        tag.decompose()
-    text = soup.get_text(separator="\n", strip=True)
+    tree = HTMLParser(raw_html)
+    for sel in ("script", "style", "nav", "footer"):
+        for node in tree.css(sel):
+            node.decompose()
+    text = tree.body.text(separator="\n").strip() if tree.body else ""
     text = "\n".join(line for line in text.split("\n") if line.strip())
     lang = langid_model.predict(text[:500])[0][0].replace("__label__", "")
     return text, lang
@@ -1911,10 +1924,11 @@ Voir [§22 Plan de soutenance](#22-plan-de-soutenance-25-min). Deck PPTX : 18–
 |---|---|---|---|
 | **Language** | Python | 3.12 | Compatibilité pydantic-ai, transformers, neuralforecast |
 | **Package mgr** | Poetry | 1.8+ | Lockfile reproductible |
-| **Web scraping** | Scrapy | 2.11+ | Sources statiques (Rekrute, Indeed, builtin) |
-| | Playwright | 1.40+ | Sources JS (EmploiTIC, WTTJ) |
-| | Apify MCP | — | LinkedIn — pipeline reproductible et conforme |
-| | Firecrawl MCP | — | Pages dynamiques diverses + fallback |
+| **Web scraping** | Crawl4AI | 0.4+ | Scraper IA-natif → markdown propre, anti-bot intégré (Rekrute, builtin, Papers W. C.) |
+| | Playwright | 1.40+ | Navigateur headless pour JS / SPA (EmploiTIC, Indeed, WTTJ) |
+| | Firecrawl-py | 1.6+ | Service managé fallback robuste (pages dynamiques rebelles) |
+| | apify-client | 1.7+ | LinkedIn jobs — actor conforme TOS, plafond quotas |
+| | selectolax | 0.3+ | Parser HTML rapide (Cython) en fallback |
 | **Extraction IA** | pydantic-ai | latest | Framework agentique typé |
 | | anthropic | latest | Claude SDK officiel |
 | | Modèles Claude | sonnet-4-5 + haiku-4-5 | Qualité + coût |
@@ -1972,8 +1986,11 @@ transformers = "^4.40"
 sentence-transformers = "^2.7"
 torch = "^2.3"
 spacy = "^3.7"
-scrapy = "^2.11"
 playwright = "^1.40"
+crawl4ai = "^0.4"
+firecrawl-py = "^1.6"
+apify-client = "^1.7"
+selectolax = "^0.3"
 motor = "^3.4"
 neo4j = "^5.20"
 networkx = "^3.3"
@@ -1988,8 +2005,6 @@ fastapi = "^0.110"
 uvicorn = "^0.27"
 typer = "^0.12"
 rich = "^13.7"
-beautifulsoup4 = "^4.12"
-lxml = "^5.2"
 
 [tool.poetry.group.dev.dependencies]
 ruff = "^0.4"

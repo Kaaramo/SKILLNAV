@@ -24,7 +24,7 @@ sources:
     base_url: https://www.rekrute.com
     country: MA
     geography: national
-    scraper_type: scrapy
+    scraper_type: crawl4ai
     robots_txt_url: https://www.rekrute.com/robots.txt
     robots_txt_compliant: null  # à vérifier avant first run
     tos_url: https://www.rekrute.com/conditions
@@ -39,7 +39,7 @@ sources:
     base_url: https://www.emploitic.com
     country: MA
     geography: national
-    scraper_type: scrapy_playwright
+    scraper_type: playwright
     robots_txt_url: https://www.emploitic.com/robots.txt
     robots_txt_compliant: null
     tos_url: null
@@ -47,14 +47,14 @@ sources:
     tos_reviewed_by: null
     rate_limit_seconds: 5
     is_active: false
-    notes: "Spécialisé IT. Pagination JS — Playwright requis."
+    notes: "Spécialisé IT. Pagination JS — Playwright requis. Crawl4AI en post-traitement markdown."
 
   - id: linkedin_ma
     name: LinkedIn Maroc
     base_url: https://www.linkedin.com
     country: MA
     geography: linkedin_country
-    scraper_type: apify_mcp
+    scraper_type: apify
     actor: apify/linkedin-jobs-scraper
     filter: "geo=MA"
     robots_txt_compliant: true  # Apify gère
@@ -70,11 +70,11 @@ sources:
     base_url: https://www.ocpgroup.ma/careers
     country: MA
     geography: company_careers
-    scraper_type: firecrawl_mcp
+    scraper_type: firecrawl
     robots_txt_compliant: null
     tos_reviewed_at: null
     is_active: false
-    notes: "Top employeur IA Maroc — pages carrières."
+    notes: "Top employeur IA Maroc — pages carrières. Firecrawl pour gestion JS dynamique."
 
   # ═════════════════════════════════════════════════════════════════════════
   # INTERNATIONAL (PRD §8.3)
@@ -85,7 +85,7 @@ sources:
     base_url: https://www.linkedin.com
     country: INT
     geography: international
-    scraper_type: apify_mcp
+    scraper_type: apify
     actor: apify/linkedin-jobs-scraper
     filter: "geo=FR,EU,US"
     robots_txt_compliant: true
@@ -99,44 +99,46 @@ sources:
     base_url: https://fr.indeed.com
     country: FR
     geography: national
-    scraper_type: scrapy_playwright
+    scraper_type: playwright
     robots_txt_url: https://fr.indeed.com/robots.txt
     robots_txt_compliant: null
     tos_reviewed_at: null
     rate_limit_seconds: 5
     is_active: false
+    notes: "Anti-bot Indeed agressif — Playwright avec stealth."
 
   - id: indeed_us
     name: Indeed US
     base_url: https://www.indeed.com
     country: US
     geography: international
-    scraper_type: scrapy_playwright
+    scraper_type: playwright
     robots_txt_url: https://www.indeed.com/robots.txt
     robots_txt_compliant: null
     tos_reviewed_at: null
     rate_limit_seconds: 5
     is_active: false
+    notes: "Plan B Apify si Playwright bloqué."
 
   - id: builtin_us
     name: Built In
     base_url: https://builtin.com
     country: US
     geography: international
-    scraper_type: scrapy
+    scraper_type: crawl4ai
     robots_txt_url: https://builtin.com/robots.txt
     robots_txt_compliant: null
     tos_reviewed_at: null
     rate_limit_seconds: 5
     is_active: false
-    notes: "Tech-only US. Riche en compétences IA pointues."
+    notes: "Tech-only US. Riche en compétences IA pointues. HTML statique → Crawl4AI direct."
 
   - id: wttj_fr
     name: Welcome to the Jungle
     base_url: https://www.welcometothejungle.com
     country: FR
     geography: international
-    scraper_type: scrapy_playwright
+    scraper_type: playwright
     robots_txt_url: https://www.welcometothejungle.com/robots.txt
     robots_txt_compliant: null
     tos_reviewed_at: null
@@ -186,7 +188,7 @@ sources:
     base_url: https://paperswithcode.com
     country: GLOBAL
     geography: weak_signal
-    scraper_type: scrapy
+    scraper_type: crawl4ai
     robots_txt_url: https://paperswithcode.com/robots.txt
     robots_txt_compliant: null
     tos_reviewed_at: null

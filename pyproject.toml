@@ -37,11 +37,13 @@ torch = "^2.3"
 spacy = "^3.7"
 fasttext-langdetect = "^1.0.5"
 
-# Web scraping (PRD §8.1–8.4)
-scrapy = "^2.11"
-playwright = "^1.40"
-beautifulsoup4 = "^4.12"
-lxml = "^5.2"
+# Web scraping moderne (PRD §8.1–8.4)
+# Stack 2026 : pas de Scrapy ni BeautifulSoup. Approche AI-native.
+playwright = "^1.40"          # navigateur headless pour JS / SPA
+crawl4ai = "^0.4"              # scraper IA-natif → markdown propre, anti-bot integré
+firecrawl-py = "^1.6"          # service managé, fallback robuste pour pages dynamiques
+apify-client = "^1.7"          # SDK Apify (LinkedIn jobs scraper conforme)
+selectolax = "^0.3"            # parser HTML moderne (Cython, plus rapide que lxml)
 
 # Storage drivers — NoSQL polyglotte (PRD §7)
 motor = "^3.4"
@@ -170,7 +172,8 @@ module = [
     "prophet.*",
     "fasttext.*",
     "igraph.*",
-    "scrapy.*",
+    "crawl4ai.*",
+    "firecrawl.*",
     "sentence_transformers.*",
 ]
 ignore_missing_imports = true
