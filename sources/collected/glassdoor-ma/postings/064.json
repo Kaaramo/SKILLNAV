@@ -1,0 +1,51 @@
+{
+  "job_id": "glassdoor-ma-2026-064",
+  "source": "glassdoor-ma",
+  "source_url": "https://www.glassdoor.com/job-listing/data-analyst-intern-hf-marjane-JV_IC3935929_KO0,22_KE23,30.htm?jl=1010131559668",
+  "source_ref": "1010131559668",
+  "title": "Data Analyst Intern (H/F)",
+  "title_normalized": "DATA_ANALYST",
+  "company": "Marjane",
+  "company_type": "entité morale privée",
+  "location": "Casablanca",
+  "country": "MA",
+  "remote_policy": "unknown",
+  "posted_date": null,
+  "deadline_date": null,
+  "contract_type": "Stage",
+  "experience_min_years": null,
+  "experience_max_years": null,
+  "salary_range": null,
+  "description": "Skip to main content\n\n \n\n[Glassdoor Home](https://www.glassdoor.com/index.htm)\n\n- [Community](https://www.glassdoor.com/Community/index.htm)\n- [Jobs](https://www.glassdoor.com/Job/index.htm)\n- [Companies](https://www.glassdoor.com/Reviews/index.htm)\n- [Salaries](https://www.glassdoor.com/Salaries/index.htm)\n- [For Employers](https://www.glassdoor.com/employers/?source=gdemployermenu)\n\nSearch\n\nNotifications\n\nLoading...\n\nSign In\n\nSearch\n\nSign in to apply\n\nDans le cadre du renforcement de notre Direction Service Client, nous recherchons un(e) **Data Analyst Intern** motivé(e) et rigoureux(se), souhaitant contribuer à l’analyse des données et à l’aide à la prise de décision.\n\nMissions principales\n\nRattaché(e) à la Direction Service Client, vous participerez aux missions suivantes :\n\n- Collecter, consolider et analyser les données liées à la satisfaction et à l’expérience client ;\n- Concevoir et mettre à jour des tableaux de bord et reportings de suivi des indicateurs clés (KPI) ;\n- Identifier les tendances, anomalies et opportunités d’amélioration ;\n- Produire des analyses permettant de soutenir la prise de décision et l’optimisation des actions de la Direction ;\n- Formuler des recommandations basées sur les données ;\n- Collaborer avec les différentes parties prenantes pour répondre à leurs besoins en analyse.\n\n**Profil recherché**\n\n- Étudiant(e) en dernière année d’école d’ingénieur, de commerce ou d’université avec une spécialisation en Data Analytics, Statistiques, Informatique Décisionnelle ou domaine similaire ;\n- Bonne maîtrise d’Microsoft Excel et de Microsoft Power BI ;\n- Connaissances en Statistics et en analyse de données ;\n- La maîtrise de SQL et/ou de Python est un atout ;\n- Esprit analytique, sens de l’organisation et capacité à synthétiser les résultats ;\n- Bon relationnel et aptitude à travailler en équipe.\n\n**Compétences clés**\n\n- Analyse et interprétation des données ;\n- Visualisation de données et création de dashboards ;\n- Esprit critique et orientation résultats ;\n- Capacité à formuler des recommandations concrètes.\n\n**Durée du stage**\n\n-Stage de 4 à 6 mois.\n\n**Localisation**\n\n-Casablanca.\n\n**Type de stage**\n\nStage de fin d’études (PFE) ou stage conventionné.\n\nWork Location: In person",
+  "skills_required": [
+    "Python",
+    "SQL",
+    "Power BI",
+    "Excel",
+    "Statistics",
+    "Business Intelligence",
+    "Data Visualization",
+    "KPI / Reporting"
+  ],
+  "skills_optional": [],
+  "responsibilities": [],
+  "tools_mentioned": [
+    "Power BI",
+    "Excel"
+  ],
+  "frameworks_mentioned": [],
+  "languages_programming": [
+    "Python",
+    "SQL"
+  ],
+  "domains_iaml": [
+    "BUSINESS_INTELLIGENCE"
+  ],
+  "job_family": "DATA_ANALYST",
+  "languages_spoken": [],
+  "scraped_at": "2026-05-14T22:00:00Z",
+  "scraper": "skillnav-firecrawl-v1.0",
+  "rgpd_compliant": true,
+  "personal_data_stripped": true,
+  "extraction_confidence": 0.65
+}

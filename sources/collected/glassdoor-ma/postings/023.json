@@ -1,0 +1,56 @@
+{
+  "job_id": "glassdoor-ma-2026-023",
+  "source": "glassdoor-ma",
+  "source_url": "https://www.glassdoor.com/job-listing/business-intelligence-analyst-admiral-JV_IC3935929_KO0,29_KE30,37.htm?jl=1008699208482",
+  "source_ref": "1008699208482",
+  "title": "Business Intelligence Analyst",
+  "title_normalized": "BUSINESS_ANALYST",
+  "company": "Admiral",
+  "company_type": "entité morale privée",
+  "location": "Casablanca",
+  "country": "MA",
+  "remote_policy": "unknown",
+  "posted_date": "2026-03-30",
+  "deadline_date": null,
+  "contract_type": null,
+  "experience_min_years": 3,
+  "experience_max_years": null,
+  "salary_range": null,
+  "description": "Postuler\n\nLa révolution numérique change tout. Elle transforme notre façon de travailler et d’interagir. Admiral Digital Consulting spécialisée en IA & Data Analytics aide ses clients à obtenir des performances élevées grâce aux informations tirées de leurs données, qui permettent de prendre de meilleures décisions et de renforcer les relations clients de la stratégie à l’exécution.\n\nAdmiral collabore avec les organisations pour développer des fonctionnalités analytiques - allant de l’accès aux données à la modélisation prédictive, en passant par la génération de rapports, et pour la modélisation prédictive - afin de surperformer la concurrence.\n\nNos succès, plus de 50 clients satisfaits au Maroc et à l'international. Vous rejoindrez une équipe dynamique et enthousiaste, expérimentée dans les principaux outils, méthodes et applications de business intelligence analyst afin d'aider nos clients grands comptes à améliorer leurs résultats et performances\n\n# **Mission :**\n\n- Collecte, analyse et interprétation des données commerciales\n\n- Rédaction des spécifications fonctionnelles et techniques.\n\n- Assurer des points réguliers avec les différentes parties prenantes.\n\n- Analyser les besoins fonctionnels et techniques du... Secteur d'activité : Informatique Fonction : Informatique / Electronique\n\n- Développement et maintenance des tableaux de bord, des rapports et des visualisations.\n\n- Collaboration avec les équipes internes pour comprendre les besoins en matière de reporting et d'analyse de données.\n\n- Réalisation d'analyses approfondies pour identifier les tendances et les insights pertinents.\n\n- Contribution à l'élaboration de stratégies basées sur les données.\n\n- Fourniture de recommandations pour améliorer les performances et l'efficacité opérationnelle.\n\n- Participation à des projets d'intégration de données et de gestion de la qualité des données.\n\n# Compétences Requises:\n\n- Bac +5 en big data ou business intelligence analytic\n\n- Minimum 3 ans d’expérience dans un domaine connexe\n\n- Expérience pratique dans la conception, le développement et le déploiement de modèles d'apprentissage automatique\n\n- Très bonne maitrise des requêtes SQL\n\n- Connaissances des outils de restitutions tel que SAS, Cognos, Power BI ou équivalent\n\n- Maitriser le fonctionnement et les principes des ETL comme Talend est un plus\n\n- Excellente connaissance des réglementations nationales et internationales sur la protection des données (RGPD, CCPA, etc.).\n\n- Solides compétences en matière de gestion des risques et de conformité.\n\n- Capacité à évaluer les politiques et les procédures de protection des données et à les mettre en œuvre.\n\n- Compétences en matière de communication et de sensibilisation pour travailler avec des équipes multidisciplinaires.\n\n- Compétences en communication pour présenter les résultats de manière claire et compréhensible\n\n- Capacité à travailler en équipe et à collaborer avec des professionnels de différents départements.\n\n- Capacité à résoudre les problèmes de confidentialité des données et à prendre des décisions éclairées.\n\n- Esprit analytique pour évaluer les risques et les impacts potentiels sur la protection des données.\n\n- Aptitude à travailler de manière indépendante et à gérer plusieurs tâches simultanément.\n\n- Connaissance des meilleures pratiques en matière de sécurité de l'information et de gestion des risques\n\n- Capacité d’apprendre et d’adopter régulièrement de nouvelles technolie\n\n- Solides compétences analytiques et de résolution de problèmes\n\n**_Merci de nous communiquer votre CV actualisé à_** **_recrut@admiral.ma_** **_en mentionnant dans l’objet du mail la réf BI_**\n\nPostuler",
+  "skills_required": [
+    "SQL",
+    "Machine Learning",
+    "Power BI",
+    "Talend",
+    "Big Data",
+    "SAS",
+    "ETL",
+    "Business Intelligence",
+    "Data Visualization",
+    "KPI / Reporting"
+  ],
+  "skills_optional": [],
+  "responsibilities": [],
+  "tools_mentioned": [
+    "Power BI",
+    "Talend"
+  ],
+  "frameworks_mentioned": [],
+  "languages_programming": [
+    "SQL",
+    "SAS"
+  ],
+  "domains_iaml": [
+    "BIG_DATA",
+    "BUSINESS_INTELLIGENCE",
+    "DATA_ENGINEERING",
+    "ML_CLASSIC"
+  ],
+  "job_family": "BUSINESS_ANALYST",
+  "languages_spoken": [],
+  "scraped_at": "2026-05-14T22:00:00Z",
+  "scraper": "skillnav-firecrawl-v1.0",
+  "rgpd_compliant": true,
+  "personal_data_stripped": true,
+  "extraction_confidence": 0.85
+}

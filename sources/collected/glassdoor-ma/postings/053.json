@@ -1,0 +1,69 @@
+{
+  "job_id": "glassdoor-ma-2026-053",
+  "source": "glassdoor-ma",
+  "source_url": "https://www.glassdoor.com/job-listing/data-science-engineer-a2mac1-JV_IC3935929_KO0,21_KE22,28.htm?jl=1010000570260",
+  "source_ref": "1010000570260",
+  "title": "Data Science Engineer",
+  "title_normalized": "DATA_SCIENTIST",
+  "company": "A2MAC1",
+  "company_type": "entité morale privée",
+  "location": "Casablanca",
+  "country": "MA",
+  "remote_policy": "unknown",
+  "posted_date": null,
+  "deadline_date": null,
+  "contract_type": null,
+  "experience_min_years": 3,
+  "experience_max_years": null,
+  "salary_range": null,
+  "description": "Skip to main content\n\n \n\n[Glassdoor Home](https://www.glassdoor.com/index.htm)\n\n- [Community](https://www.glassdoor.com/Community/index.htm)\n- [Jobs](https://www.glassdoor.com/Job/index.htm)\n- [Companies](https://www.glassdoor.com/Reviews/index.htm)\n- [Salaries](https://www.glassdoor.com/Salaries/index.htm)\n- [For Employers](https://www.glassdoor.com/employers/?source=gdemployermenu)\n\nSearch\n\nNotifications\n\nLoading...\n\nSign In\n\nSearch\n\nSign in to apply\n\nWe are seeking an experienced **Data Science Engineer** to join our growing Data & Insights team in Casablanca. In this role, you will be responsible for developing and maintaining scalable data pipelines and architectures, while enabling high-performance analytics and machine learning workflows across the organization.\n\nYou will work closely with engineering, product, and AI/ML teams to design and deploy advanced data solutions using the Microsoft Fabric ecosystem. Your expertise will help unlock the value of our data, driving business insights and supporting strategic decision-making through robust, production-grade data engineering.\n\nThis is a key position within our global AI and Data Engineering community, reporting directly to the Engineering Manager.\n\n**GROUP ACTIVITY**\n\n**A2MAC1** is the leading provider of automotive benchmarking and data analytics worldwide.\n\nOur solutions help OEMs and suppliers understand their competitive landscape, accelerate development, and make better strategic decisions based on reliable, structured, and actionable insights.\n\nThrough our digital platforms, data services, consulting expertise, and AI-driven solutions, A2MAC1 supports the world’s top automotive players.\n\nWith 700+ employees across Europe, Asia, and North America, A2MAC1 continues its strong growth, driven by innovation and customer success.\n\n**KEY RESPONSIBILITIES**\n\n- Design, build, and maintain robust ETL/ELT data pipelines using Microsoft Fabric tools\n- Develop scalable data warehouse architecture for analytics and reporting\n- Collaborate with cross-functional teams (Data Science, AI, Product, Engineering)\n- Ensure data quality, security, and compliance across the data lifecycle\n- Integrate structured and unstructured data from multiple sources\n- Leverage Python and open-source libraries to enhance data workflows\n- Monitor and improve performance of data processing pipelines\n- Apply best practices in data governance and version control\n\n**Requirements**\n\n**PROFILE & SKILLS**\n\nMust-Have\n\n- Hands-on experience with Microsoft Fabric ecosystem: OneLake, Data Factory, Data Warehouse, Synapse\n- Strong proficiency in Python, SQL, and data transformation libraries (e.g. Pandas, PySpark)\n- Proven experience designing and implementing ETL/ELT pipelines\n- Solid understanding of data modeling and performance optimization\n- Excellent problem-solving skills and attention to detail\n- 3+ years of experience in a production-grade environment\n- Fluent in English (written and verbal)\n\nNice to Have\n\n- Familiarity with machine learning workflows and tools (Azure ML, Scikit-learn, MLflow)\n- Experience with Power BI and data visualization best practices\n- Exposure to DevOps concepts and tools (CI/CD, Azure DevOps)\n- Relevant certifications (DP-203, DP-900, or equivalent)\n- Fluency in French is a plus",
+  "skills_required": [
+    "Python",
+    "SQL",
+    "PySpark",
+    "Machine Learning",
+    "Scikit-learn",
+    "MLflow",
+    "Power BI",
+    "Azure",
+    "Azure ML",
+    "CI/CD",
+    "Data Warehouse",
+    "Pandas",
+    "ETL",
+    "ELT",
+    "Data Visualization",
+    "KPI / Reporting"
+  ],
+  "skills_optional": [],
+  "responsibilities": [],
+  "tools_mentioned": [
+    "MLflow",
+    "Power BI",
+    "Azure"
+  ],
+  "frameworks_mentioned": [
+    "Scikit-learn",
+    "Pandas"
+  ],
+  "languages_programming": [
+    "Python",
+    "SQL"
+  ],
+  "domains_iaml": [
+    "BIG_DATA",
+    "BUSINESS_INTELLIGENCE",
+    "CLOUD_DATA",
+    "DATA_ENGINEERING",
+    "ML_CLASSIC"
+  ],
+  "job_family": "DATA_SCIENTIST",
+  "languages_spoken": [
+    "Français"
+  ],
+  "scraped_at": "2026-05-14T22:00:00Z",
+  "scraper": "skillnav-firecrawl-v1.0",
+  "rgpd_compliant": true,
+  "personal_data_stripped": true,
+  "extraction_confidence": 0.65
+}

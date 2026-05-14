@@ -1,0 +1,59 @@
+{
+  "job_id": "glassdoor-ma-2026-019",
+  "source": "glassdoor-ma",
+  "source_url": "https://www.glassdoor.com/job-listing/data-scientist-ref04-trusted-financial-advisors-JV_IC3937708_KO0,20_KE21,47.htm?jl=1007716895968",
+  "source_ref": "1007716895968",
+  "title": "Data Scientist (REF04)",
+  "title_normalized": "DATA_SCIENTIST",
+  "company": "Trusted Financial Advisors",
+  "company_type": "entité morale privée",
+  "location": "Aïn Sebaa",
+  "country": "MA",
+  "remote_policy": "unknown",
+  "posted_date": "2026-03-30",
+  "deadline_date": null,
+  "contract_type": null,
+  "experience_min_years": 2,
+  "experience_max_years": null,
+  "salary_range": null,
+  "description": "Nous sommes à la recherche pour le compte d'une banque internationale, basée à Casablanca, un Data Scientist.\n\n**Missions & Activités:**\n\n**a. Cas de nouveaux besoins :**\n\n- Cadrage et définition du besoin avec les métiers\n- Ateliers avec les équipes digital, architecture, infrastructure pour fournir les prérequis à l’industrialisation des modèles\n\n- Développement des modèles sur le datalab\n\n- Partage itératif des résultats obtenus\n\n- Planification de phase de tests avec les métiers\n\n- Ajustements suite aux retours des métiers\n\n- Mise en production et ordonnancement du modèle sur la plateforme dédiée\n\n- Documentation des modèles développés\n\n- Formation sur les modèles développés\n\n**b. Modèles existants :**\n\n- Interactions avec les équipes architecture, DIFA, IT pour l’industrialisation des modèles\n\n- Tests des modèles sur les plateformes datalab et de production\n\n- Echange avec les métiers pour cibler les améliorations à apporter aux modèles\n\n- Monitoring des résultats vs prévisions\n- Documentations associées\n\n**Profil Recherché :**\n\n- Ingénieur (BAC+ 5 ou plus), ayant minimum 2 ans d’expérience dans le\n\ndomaine bancaire.\n- Data scientist confirmé, avec un minimum de 5 ans d’expérience dans le\n\ndéveloppement de modèles analytiques et Machine Learning.\n\n**Compétences opérationnelles:**\n\n- Expérience dans le domaine bancaire sur des sujets analytiques.\n- Bonne connaissance des outils Python, GytHub,\n- Capacité à développer sous Sql\n- Connaissances des méthodes de gestion de projet en AGILE\n- Bonnes capacités d'analyse et rédactionnelles\n- Une capacité de coordination avec les différents acteurs d’un projet\n- Maitrise des méthodologies projets (Cadrage, conception, Homologation Bancaire, Conduite de Changement, ...)\n- Sens de la communication et aisance relationnelle\n\n**Compétences techniques :**\n\nL’asset technologique est basé sur les technologies suivantes :\n\n- Language/Environnement de développement : Python/Anaconda, JupyterLab, Gitlab\n\n- Machine Learning : Scikit-learn\n\n- Ordonnanceur : Air flow\n\n- ETL : Talend, SQL Server\n\n- Reporting : Business Objects, Cognos, SAS\n\n- UNIX/Windows : Scripting Shell/Power Shell\n\n**Durée la** **mission :** 3 mois renouvelables (Projet sur minimum 1 année)\n\n**Lieu :** Casablanca",
+  "skills_required": [
+    "Python",
+    "SQL",
+    "Machine Learning",
+    "Scikit-learn",
+    "GitLab",
+    "Talend",
+    "SAS",
+    "ETL",
+    "Forecasting",
+    "Agile",
+    "KPI / Reporting"
+  ],
+  "skills_optional": [],
+  "responsibilities": [],
+  "tools_mentioned": [
+    "GitLab",
+    "Talend"
+  ],
+  "frameworks_mentioned": [
+    "Scikit-learn"
+  ],
+  "languages_programming": [
+    "Python",
+    "SQL",
+    "SAS"
+  ],
+  "domains_iaml": [
+    "DATA_ENGINEERING",
+    "ML_CLASSIC",
+    "TIME_SERIES"
+  ],
+  "job_family": "DATA_SCIENTIST",
+  "languages_spoken": [],
+  "scraped_at": "2026-05-14T22:00:00Z",
+  "scraper": "skillnav-firecrawl-v1.0",
+  "rgpd_compliant": true,
+  "personal_data_stripped": true,
+  "extraction_confidence": 0.85
+}

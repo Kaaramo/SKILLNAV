@@ -1,0 +1,50 @@
+{
+  "job_id": "glassdoor-ma-2026-042",
+  "source": "glassdoor-ma",
+  "source_url": "https://www.glassdoor.com/job-listing/ing%C3%A9nieur-d-%C3%A9tat-data-analyst-rabat-JV_IC3941674_KO0,35.htm?jl=1010040645929",
+  "source_ref": "1010040645929",
+  "title": "ingénieur d’État/ Data Analyst – Rabat",
+  "title_normalized": "DATA_ANALYST",
+  "company": "Anonyme",
+  "company_type": "inconnu",
+  "location": "Rabat",
+  "country": "MA",
+  "remote_policy": "unknown",
+  "posted_date": "2026-03-30",
+  "deadline_date": null,
+  "contract_type": "CDI",
+  "experience_min_years": null,
+  "experience_max_years": null,
+  "salary_range": null,
+  "description": "#### **Description emploi**\n\nNous recherchons un ingénieur d’État/Data Analyst chargé d’analyser les données, concevoir des tableaux de bord et rapports, suivre les KPI et appuyer la prise de décision stratégique. Profil demandé : diplôme d’ingénieur d’État en informatique/data analyst, maîtrise de SQL, Power BI/Tableau et bases de Python/statistiques. Poste en CDI à Rabat, salaire à négocier. Fonction : Informatique – Développement. Confidentialité de l’entreprise.\n\n- Informatique\n\n- 3 mois avant\n- Rabat\n\nIs my resume a good match?\n\n## Conversations @\n\nKick off the conversation by asking about salaries, interviews or anything else @.\n\n[Explore more Bowls](https://www.glassdoor.com/Community/search/bowls)\n\n### Find your happy place\n\nRead authentic reviews with a Glassdoor account. Only apply to jobs you love.\n\nSign in",
+  "skills_required": [
+    "Python",
+    "SQL",
+    "Power BI",
+    "Tableau",
+    "Statistics",
+    "Data Visualization",
+    "KPI / Reporting"
+  ],
+  "skills_optional": [],
+  "responsibilities": [],
+  "tools_mentioned": [
+    "Power BI",
+    "Tableau"
+  ],
+  "frameworks_mentioned": [],
+  "languages_programming": [
+    "Python",
+    "SQL"
+  ],
+  "domains_iaml": [
+    "BUSINESS_INTELLIGENCE"
+  ],
+  "job_family": "DATA_ANALYST",
+  "languages_spoken": [],
+  "scraped_at": "2026-05-14T22:00:00Z",
+  "scraper": "skillnav-firecrawl-v1.0",
+  "rgpd_compliant": true,
+  "personal_data_stripped": true,
+  "extraction_confidence": 0.85
+}

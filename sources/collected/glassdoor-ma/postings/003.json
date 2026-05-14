@@ -1,0 +1,39 @@
+{
+  "job_id": "glassdoor-ma-2026-003",
+  "source": "glassdoor-ma",
+  "source_url": "https://www.glassdoor.com/job-listing/associate-data-engineer-capgemini-JV_IC3935929_KO0,23_KE24,33.htm?jl=1010128275066",
+  "source_ref": "1010128275066",
+  "title": "Associate Data Engineer",
+  "title_normalized": "DATA_ENGINEER",
+  "company": "Capgemini",
+  "company_type": "entité morale privée",
+  "location": "Casablanca",
+  "country": "MA",
+  "remote_policy": "remote",
+  "posted_date": "2026-05-08",
+  "deadline_date": null,
+  "contract_type": null,
+  "experience_min_years": null,
+  "experience_max_years": null,
+  "salary_range": null,
+  "description": "## **à propos du post**\n\nDans le cadre de sa croissance, **Capgemini** renforce ses équipes **Data & Analytics** et recrute des **Data Engineers Juniors** pour intervenir sur des projets innovants à forte valeur ajoutée.\n\n## **Vos missions**\n\n- Participer à la **conception et au développement de pipelines de données**\n- Assurer la **collecte, le traitement et l’intégration des données** depuis différentes sourcesContribuer à la mise en place et à l’évolution de **Data Lakes et Data Warehouses**\n- Développer et maintenir des processus **ETL / ELT** Garantir la **qualité, la fiabilité et la performance des données**\n- Participer aux phases de **tests, de documentation et de mise en production**\n- Collaborer étroitement avec les **Data Analysts, Data Scientists et équipes métiers**\n\n## **Nos engagements et priorités**\n\nLe groupe Capgemini encourage une culture inclusive dans un cadre multiculturel et handi-accueillant. En nous rejoignant, vous intégrez un collectif qui valorise la diversité, développe le potentiel de ses talents, s’engage dans des initiatives solidaires avec ses partenaires, et se mobilise pour réduire son impact environnemental sur tous ses sites et auprès de ses clients.\n\n## **Quelques raisons de nous rejoindre**\n\n- **Qualité de vie au travail :** Possibilité de télétravail au Maroc ainsi qu’à l’international et autonomie dans l’organisation de votre quotidien, missions hybrides selon vos préférences.\n- **Apprentissage en continu :** accédez aux formations et certifications dédiées à votre techno, accompagnement personnalisé et parcours d’intégration structuré.\n- **Projets variés et à fort impact :** intervenez auprès de grands comptés dans des secteurs diversifiés avec des enjeux métiers et technologiques stimulants.\n- **Écosystème d’expertise** : bénéficiez d’un accompagnement technique personnalisé et d’une intégration active dans nos communautés métiers.",
+  "skills_required": [
+    "ETL",
+    "ELT"
+  ],
+  "skills_optional": [],
+  "responsibilities": [],
+  "tools_mentioned": [],
+  "frameworks_mentioned": [],
+  "languages_programming": [],
+  "domains_iaml": [
+    "DATA_ENGINEERING"
+  ],
+  "job_family": "DATA_ENGINEER",
+  "languages_spoken": [],
+  "scraped_at": "2026-05-14T22:00:00Z",
+  "scraper": "skillnav-firecrawl-v1.0",
+  "rgpd_compliant": true,
+  "personal_data_stripped": true,
+  "extraction_confidence": 0.85
+}

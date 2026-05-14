@@ -1,0 +1,46 @@
+{
+  "job_id": "glassdoor-ma-2026-033",
+  "source": "glassdoor-ma",
+  "source_url": "https://www.glassdoor.com/job-listing/data-engineer-data-quality-ia-matching-brome-consulting-technology-JV_IC3935929_KO0,38_KE39,66.htm?jl=1009914011643",
+  "source_ref": "1009914011643",
+  "title": "Data Engineer / Data Quality & IA Matching",
+  "title_normalized": "DATA_ENGINEER",
+  "company": "BROME Consulting & Technology",
+  "company_type": "entité morale privée",
+  "location": "Casablanca",
+  "country": "MA",
+  "remote_policy": "unknown",
+  "posted_date": "2026-03-30",
+  "deadline_date": null,
+  "contract_type": "Freelance",
+  "experience_min_years": null,
+  "experience_max_years": null,
+  "salary_range": null,
+  "description": "**Description du poste**\n\n# **Data Engineer / Data Quality & IA Matching**\n\nNous recherchons pour notre client un **Data Engineer expérimenté** pour une mission freelance axée sur la **structuration et la fiabilisation des données**.\n\n### **Missions principales**\n\nConcevoir et mettre en œuvre des pipelines de traitement de données.\n\nAssurer la qualité, la cohérence et la traçabilité des données.\n\nDocumenter les traitements et les règles appliquées.\n\nProduire des rapports de suivi et des tableaux de bord.\n\nContribuer à l’amélioration continue des processus de traitement et d’analyse des données.\n\n### **Profil recherché**\n\nExpérience confirmée en **data engineering** et **gestion de données multi-sources**.\n\nMaîtrise des outils et langages de traitement de données ( **Python, SQL, ETL/ELT…**).\n\nRigueur, sens du détail et capacité à structurer des données complexes.\n\nIntérêt marqué pour les projets liés à **l’intelligence artificielle** et à la **qualité des données**.\n\n### **Informations sur le poste**\n\nDate souhaitée\n\nNon définie\n\nDate limite candidature\n\nNon définie\n\nExpérience professionnelle\n\nBAC+5 Master, BAC+5 ingénieur\n\nType de contrat\n\nFreelance\n\nSecteur d’activité\n\nIT\n\nVille\n\nCasablanca\n\nPays\n\nMaroc",
+  "skills_required": [
+    "Python",
+    "SQL",
+    "ETL",
+    "ELT",
+    "Data Visualization",
+    "KPI / Reporting"
+  ],
+  "skills_optional": [],
+  "responsibilities": [],
+  "tools_mentioned": [],
+  "frameworks_mentioned": [],
+  "languages_programming": [
+    "Python",
+    "SQL"
+  ],
+  "domains_iaml": [
+    "DATA_ENGINEERING"
+  ],
+  "job_family": "DATA_ENGINEER",
+  "languages_spoken": [],
+  "scraped_at": "2026-05-14T22:00:00Z",
+  "scraper": "skillnav-firecrawl-v1.0",
+  "rgpd_compliant": true,
+  "personal_data_stripped": true,
+  "extraction_confidence": 0.85
+}

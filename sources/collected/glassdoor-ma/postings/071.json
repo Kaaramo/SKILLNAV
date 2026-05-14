@@ -1,0 +1,74 @@
+{
+  "job_id": "glassdoor-ma-2026-071",
+  "source": "glassdoor-ma",
+  "source_url": "https://www.glassdoor.com/job-listing/data-engineer-hf-futuresight-JV_IC3935929_KO0,16_KE17,28.htm?jl=1010134790285",
+  "source_ref": "1010134790285",
+  "title": "DATA ENGINEER (H/F)",
+  "title_normalized": "DATA_ENGINEER",
+  "company": "FutureSight",
+  "company_type": "entité morale privée",
+  "location": "Casablanca",
+  "country": "MA",
+  "remote_policy": "on-site",
+  "posted_date": null,
+  "deadline_date": null,
+  "contract_type": "CDI",
+  "experience_min_years": null,
+  "experience_max_years": null,
+  "salary_range": null,
+  "description": "Skip to main content\n\n \n\n[Glassdoor Home](https://www.glassdoor.com/index.htm)\n\n- [Community](https://www.glassdoor.com/Community/index.htm)\n- [Jobs](https://www.glassdoor.com/Job/index.htm)\n- [Companies](https://www.glassdoor.com/Reviews/index.htm)\n- [Salaries](https://www.glassdoor.com/Salaries/index.htm)\n- [For Employers](https://www.glassdoor.com/employers/?source=gdemployermenu)\n\nSearch\n\nNotifications\n\nLoading...\n\nSign In\n\nSearch\n\nSign in to apply\n\n**DATA ENGINEER (H/F)**\n\n**FUTURESIGHT** recrute !\n\n**Tes missions principales :** Tu joueras un rôle clé dans la conception et l’industrialisation de nos solutions data.\n\n− Développer et maintenir des pipelines de données robustes et scalables.\n\n− Collecter, nettoyer, transformer et sécuriser de grands volumes de données.\n\n− Optimiser les flux de données pour alimenter les modèles de Machine Learning.\n\n− Collaborer avec les Data Scientists pour mettre en production les modèles IA.\n\n− Mettre en place des traitements batch et temps réel (streaming).\n\n− Assurer la qualité, la traçabilité et la gouvernance des données.\n\n− Automatiser et documenter les workflows de données.\n\n− Assurer la maintenance corrective et évolutive.\n\n**Profil recherché :**\n\n− Bac+5 en informatique, Big Data ou équivalent.\n\n− Expérience réussie en Data Engineering.\n\n− Maîtrise des outils Big Data : Spark, Kafka, Batch & Streaming Processing.\n\n− Compétences en SQL, Python, Docker, Git, scripts Bash, Azure DevOps.\n\n− Connaissance des environnements Cloud (AWS, Azure, GCP).\n\n− Capacité à travailler en étroite collaboration avec Data Scientists & DevOps.\n\n− Connaissance des approches récentes (MLOps, GenAI, data pipelines modernes) est un plus. − Français courant, anglais professionnel souhaité.\n\n**Conditions :**\n\n− Lieu : Technopark, Casablanca\n\n− Contrat : CDI - Temps plein\n\n− Disponibilité : Immédiate\n\nRémunération : 3.000,00DH à 9.000,00DH par mois\n\nLieu du poste : En présentiel",
+  "skills_required": [
+    "Python",
+    "SQL",
+    "Spark",
+    "Machine Learning",
+    "Azure",
+    "AWS",
+    "GCP",
+    "Docker",
+    "Git",
+    "Kafka",
+    "CI/CD",
+    "Big Data",
+    "GenAI",
+    "Transformers",
+    "MLOps"
+  ],
+  "skills_optional": [],
+  "responsibilities": [],
+  "tools_mentioned": [
+    "Azure",
+    "AWS",
+    "GCP",
+    "Docker",
+    "Git",
+    "Kafka"
+  ],
+  "frameworks_mentioned": [
+    "Transformers"
+  ],
+  "languages_programming": [
+    "Python",
+    "SQL"
+  ],
+  "domains_iaml": [
+    "BIG_DATA",
+    "CLOUD_DATA",
+    "DATA_ENGINEERING",
+    "DEEP_LEARNING",
+    "GENERATIVE_AI",
+    "MLOPS",
+    "ML_CLASSIC",
+    "NLP"
+  ],
+  "job_family": "DATA_ENGINEER",
+  "languages_spoken": [
+    "Anglais",
+    "Français"
+  ],
+  "scraped_at": "2026-05-14T22:00:00Z",
+  "scraper": "skillnav-firecrawl-v1.0",
+  "rgpd_compliant": true,
+  "personal_data_stripped": true,
+  "extraction_confidence": 0.65
+}

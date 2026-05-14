@@ -1,0 +1,68 @@
+{
+  "job_id": "glassdoor-ma-2026-072",
+  "source": "glassdoor-ma",
+  "source_url": "https://www.glassdoor.com/job-listing/data-scientist-hf-futuresight-JV_IC3935929_KO0,17_KE18,29.htm?jl=1010134794972",
+  "source_ref": "1010134794972",
+  "title": "DATA SCIENTIST (H/F)",
+  "title_normalized": "DATA_SCIENTIST",
+  "company": "FutureSight",
+  "company_type": "entité morale privée",
+  "location": "Casablanca",
+  "country": "MA",
+  "remote_policy": "on-site",
+  "posted_date": null,
+  "deadline_date": null,
+  "contract_type": "CDI",
+  "experience_min_years": null,
+  "experience_max_years": null,
+  "salary_range": null,
+  "description": "Skip to main content\n\n \n\n[Glassdoor Home](https://www.glassdoor.com/index.htm)\n\n- [Community](https://www.glassdoor.com/Community/index.htm)\n- [Jobs](https://www.glassdoor.com/Job/index.htm)\n- [Companies](https://www.glassdoor.com/Reviews/index.htm)\n- [Salaries](https://www.glassdoor.com/Salaries/index.htm)\n- [For Employers](https://www.glassdoor.com/employers/?source=gdemployermenu)\n\nSearch\n\nNotifications\n\nLoading...\n\nSign In\n\nSearch\n\n## Are you open to new opportunities?\n\nUpload your resume to increase your chances of getting noticed.\n\nUpload resume\n\nSign in to apply\n\n**DATA SCIENTIST (H/F)**\n\n**FUTURESIGHT** recrute!\n\n**Tes missions principales :**\n\nAu sein de l’équipe R&D, tu participeras au développement et à l’amélioration continue de nos solutions Sales Prediction et Fraud Detection.\n\n− Identifier les problématiques métiers liés à la prédiction et à la détection de fraude.\n\n− Définir des modélisations statistiques adaptées aux cas d’usage.\n\n− Sourcer, organiser et traiter des données structurées et non structurées.\n\n− Concevoir, entraîner et optimiser des modèles de Machine Learning et Deep Learning.\n\n− Implémenter les algorithmes dans un environnement scalable (traitement parallèle, pipelines data).\n\n− Effectuer des tests, valider les modèles et assurer leur robustesse.\n\n− Collaborer étroitement avec les Data Engineers et les DevOps Cloud pour l’industrialisation.\n\n− Documenter les travaux et partager les bonnes pratiques au sein de l’équipe.\n\n**Profil recherché :**\n\n− Bac+5 en Data Science, mathématiques appliquées, informatique ou équivalent.\n\n− Expérience réussie en Machine Learning / IA appliqué (supervisé, non-supervisé, renforcement…).\n\n− Solides compétences en Python, R, SQL et frameworks ML/IA (Scikit-learn, TensorFlow, PyTorch).\n\n− Bonne compréhension des environnements Big Data et Cloud (AWS, Azure, GCP).\n\n− Esprit analytique, rigoureux et innovant.\n\n− Capacité à travailler en équipe pluridisciplinaire (Data, DevOps, BizDev produits).\n\n− Maîtrise du français, anglais professionnel souhaité.\n\n**Conditions :**\n\n− Lieu : Technopark, Casablanca\n\n− Contrat : CDI\n\n\\- Temps plein\n\n− Disponibilité : Immédiate\n\nRémunération : 3.000,00DH à 9.000,00DH par mois\n\nLieu du poste : En présentiel",
+  "skills_required": [
+    "Python",
+    "SQL",
+    "R",
+    "Machine Learning",
+    "Deep Learning",
+    "TensorFlow",
+    "PyTorch",
+    "Scikit-learn",
+    "Azure",
+    "AWS",
+    "GCP",
+    "Big Data",
+    "Statistics"
+  ],
+  "skills_optional": [],
+  "responsibilities": [],
+  "tools_mentioned": [
+    "Azure",
+    "AWS",
+    "GCP"
+  ],
+  "frameworks_mentioned": [
+    "TensorFlow",
+    "PyTorch",
+    "Scikit-learn"
+  ],
+  "languages_programming": [
+    "Python",
+    "SQL",
+    "R"
+  ],
+  "domains_iaml": [
+    "BIG_DATA",
+    "CLOUD_DATA",
+    "DEEP_LEARNING",
+    "ML_CLASSIC"
+  ],
+  "job_family": "DATA_SCIENTIST",
+  "languages_spoken": [
+    "Anglais",
+    "Français"
+  ],
+  "scraped_at": "2026-05-14T22:00:00Z",
+  "scraper": "skillnav-firecrawl-v1.0",
+  "rgpd_compliant": true,
+  "personal_data_stripped": true,
+  "extraction_confidence": 0.65
+}

@@ -1,0 +1,47 @@
+{
+  "job_id": "glassdoor-ma-2026-010",
+  "source": "glassdoor-ma",
+  "source_url": "https://www.glassdoor.com/job-listing/data-analyst-hf-JV_IC3941674_KO0,15.htm?jl=1010121908400",
+  "source_ref": "1010121908400",
+  "title": "Data Analyst (H/F)",
+  "title_normalized": "DATA_ANALYST",
+  "company": "Anonyme",
+  "company_type": "inconnu",
+  "location": "Rabat",
+  "country": "MA",
+  "remote_policy": "unknown",
+  "posted_date": "2026-05-02",
+  "deadline_date": null,
+  "contract_type": null,
+  "experience_min_years": null,
+  "experience_max_years": null,
+  "salary_range": null,
+  "description": "#### **Description emploi**\n\nNous lançons une campagne pour constituer une base de données de profils qualifiés dans le domaine : Data & Analyse de données. Profil recherché : Data Analyst (H/F) avec 5 ans d’expérience, maîtrise des outils BI (Power BI, Tableau), du SQL et solide compétence en analyse de données et data‑visualisation. Avantages : intégration à une CVthèque qualifiée, priorité sur les opportunités correspondantes, accompagnement durant le processus de sélection, accès à des postes au Maroc et à l’international via notre réseau de partenaires. Votre candidature sera traitée confidentiellement.\n\n- Informatique\n\n- À discuter\n- 2 semaines avant\n- Rabat\n\nIs my resume a good match?\n\n## Conversations @\n\nKick off the conversation by asking about salaries, interviews or anything else @.\n\n[Explore more Bowls](https://www.glassdoor.com/Community/search/bowls)\n\n### Find your happy place\n\nRead authentic reviews with a Glassdoor account. Only apply to jobs you love.\n\nSign in",
+  "skills_required": [
+    "SQL",
+    "Power BI",
+    "Tableau",
+    "Business Intelligence",
+    "Data Visualization"
+  ],
+  "skills_optional": [],
+  "responsibilities": [],
+  "tools_mentioned": [
+    "Power BI",
+    "Tableau"
+  ],
+  "frameworks_mentioned": [],
+  "languages_programming": [
+    "SQL"
+  ],
+  "domains_iaml": [
+    "BUSINESS_INTELLIGENCE"
+  ],
+  "job_family": "DATA_ANALYST",
+  "languages_spoken": [],
+  "scraped_at": "2026-05-14T22:00:00Z",
+  "scraper": "skillnav-firecrawl-v1.0",
+  "rgpd_compliant": true,
+  "personal_data_stripped": true,
+  "extraction_confidence": 0.85
+}

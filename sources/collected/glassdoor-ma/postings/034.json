@@ -1,0 +1,52 @@
+{
+  "job_id": "glassdoor-ma-2026-034",
+  "source": "glassdoor-ma",
+  "source_url": "https://www.glassdoor.com/job-listing/lead-data-engineer-cih-bank-JV_IC3935929_KO0,18_KE19,27.htm?jl=1009914158741",
+  "source_ref": "1009914158741",
+  "title": "Lead Data Engineer",
+  "title_normalized": "DATA_ARCHITECT",
+  "company": "CIH BANK",
+  "company_type": "entité morale privée",
+  "location": "Casablanca",
+  "country": "MA",
+  "remote_policy": "unknown",
+  "posted_date": "2026-03-30",
+  "deadline_date": null,
+  "contract_type": "CDI",
+  "experience_min_years": null,
+  "experience_max_years": null,
+  "salary_range": null,
+  "description": "Date\n\n29-04-2026\n\nDirection\n\n**LEAD DATA ENGINEER**\n\nContrat\n\nCDI\n\nLocalisation\n\nCasablanca\n\nFonction\n\nData Engineer\n\n### **Contexte du recrutement et définition de poste**\n\n**Position Overview:**\n\nCIH BANK is seeking a Head of Data Engineering to lead the design, automation, and optimization of its data infrastructure. This role involves overseeing data architecture, orchestrating pipelines, ensuring data quality and security, and defining engineering standards. Working closely with Data Science, Analytics, and Data Management teams, the ideal candidate will bring deep expertise in big data technologies (Hadoop, PySpark), DevOps (CI/CD, Docker, Ansible), and team leadership, while staying current with industry best practices to drive a modern, efficient, and reliable data ecosystem.\n\n**Key Responsibilities:**\n\n- Architecture & Industrialization:\n- Design and continuously improve the architecture of the Data stack.\n- Oversee the implementation and maintenance of the data platform.\n- Automate and orchestrate data processing workflows.\n- Optimize Data pipelines when required.\n- Implement unit and functional tests for all critical data applications.\n- Collaboration & Methodology:\n\n- Work closely with the Data Science, Data Analytics, and Data Management teams to understand needs and provide appropriate technical solutions.\n- Define and enforce a methodology for the Data Engineering team.\n- Ensure systematic documentation of all engineering work and solutions.\n- Data Quality & Security:\n  - Implement access control rules and data security recommendations.\n  - Contribute to defining technical data quality metrics.\n  - Deploy and monitor data quality indicators across the platform.\n- Benchmarking and state-of-the-art monitoring: Capacity to benchmark data architectures and pipelines and stay up-to-date with the latest practices.\n- Norming: Define and maintain the standards and norms for data pipelines, code and Operations.\n\n### **Profil recherché**\n\n**Qualifications:**\n\n- Bachelor's degree in Big Data, Cloud computing, Data Engineering, Computer Science, or a related field.\n- Strong knowledge in Data modeling and SQL Querying.\n- Strong knowledge in Hadoop based technologies.\n- Strong knowledge in Python and PySpark.\n- Strong knowledge in DevOps technologies: CI/CD (Jenkins), Containers (Docker) and Infra as Code (Ansible);\n- Strong analytical and problem-solving skills.\n- Ability to lead a team and work in a group.\n- **Bonus:**\n- GitLabFLow framework;\n- Terraform",
+  "skills_required": [
+    "Python",
+    "SQL",
+    "PySpark",
+    "Hadoop",
+    "Docker",
+    "Terraform",
+    "CI/CD",
+    "Big Data"
+  ],
+  "skills_optional": [],
+  "responsibilities": [],
+  "tools_mentioned": [
+    "Docker",
+    "Terraform"
+  ],
+  "frameworks_mentioned": [],
+  "languages_programming": [
+    "Python",
+    "SQL"
+  ],
+  "domains_iaml": [
+    "BIG_DATA",
+    "DATA_ENGINEERING"
+  ],
+  "job_family": "DATA_ARCHITECT",
+  "languages_spoken": [],
+  "scraped_at": "2026-05-14T22:00:00Z",
+  "scraper": "skillnav-firecrawl-v1.0",
+  "rgpd_compliant": true,
+  "personal_data_stripped": true,
+  "extraction_confidence": 0.85
+}

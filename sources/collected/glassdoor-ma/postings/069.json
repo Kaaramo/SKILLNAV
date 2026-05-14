@@ -1,0 +1,48 @@
+{
+  "job_id": "glassdoor-ma-2026-069",
+  "source": "glassdoor-ma",
+  "source_url": "https://www.glassdoor.com/job-listing/data-scientist-senior-brome-consulting-technology-JV_IC3935929_KO0,21_KE22,49.htm?jl=1010134648919",
+  "source_ref": "1010134648919",
+  "title": "Data Scientist Senior",
+  "title_normalized": "DATA_SCIENTIST",
+  "company": "BROME Consulting & Technology",
+  "company_type": "entité morale privée",
+  "location": "Casablanca",
+  "country": "MA",
+  "remote_policy": "unknown",
+  "posted_date": null,
+  "deadline_date": null,
+  "contract_type": "Freelance",
+  "experience_min_years": 10,
+  "experience_max_years": null,
+  "salary_range": null,
+  "description": "**Description du poste**\n\n# **Nous recrutons pour notre client dans le secteur bancaire un(e) Data Scientist Senior**\n\nDans le cadre d’un projet stratégique de transformation data, notre client, acteur majeur du secteur bancaire, recherche un(e) Data Scientist confirmé(e) avec minimum 10 ans d’expérience.\n\nMissions principales :\n\n- Concevoir, développer et déployer des modèles de Machine Learning et d’IA avancés\n\n- Exploiter et analyser de grands volumes de données afin d’identifier des insights stratégiques\n\n- Participer à la mise en place de solutions de scoring, prédiction et segmentation\n\n- Collaborer avec les équipes métiers, IT et Data sur des problématiques à forte valeur ajoutée\n\n- Optimiser les performances des modèles et assurer leur amélioration continue\n\n- Participer à la gouvernance et à la qualité des données\n\n- Réaliser des reportings et dashboards d’aide à la décision\n\nProfil recherché :\n\n- Minimum 10 ans d’expérience en Data Science\n\n- Expérience significative dans le secteur bancaire ou financier\n\n- Maîtrise de Python, SQL et des outils de Machine Learning\n\n- Bonne connaissance des environnements Big Data et des outils de visualisation\n\n- Expérience en modélisation prédictive, IA avancée ou NLP\n\n- Forte capacité d’analyse et de résolution de problématiques complexes\n\n- Bon relationnel et capacité à évoluer dans des environnements exigeants\n\nPoste basé à Casablanca\n\n### **Informations sur le poste**\n\nDate souhaitée\n\nNon définie\n\nDate limite candidature\n\nNon définie\n\nExpérience professionnelle\n\nBAC+5 Master, BAC+5 ingénieur\n\nType de contrat\n\nFreelance\n\nSecteur d’activité\n\nBanque\n\nVille\n\nCasablanca\n\nPays\n\nMaroc",
+  "skills_required": [
+    "Python",
+    "SQL",
+    "Machine Learning",
+    "NLP",
+    "Big Data",
+    "Data Visualization"
+  ],
+  "skills_optional": [],
+  "responsibilities": [],
+  "tools_mentioned": [],
+  "frameworks_mentioned": [],
+  "languages_programming": [
+    "Python",
+    "SQL"
+  ],
+  "domains_iaml": [
+    "BIG_DATA",
+    "ML_CLASSIC",
+    "NLP"
+  ],
+  "job_family": "DATA_SCIENTIST",
+  "languages_spoken": [],
+  "scraped_at": "2026-05-14T22:00:00Z",
+  "scraper": "skillnav-firecrawl-v1.0",
+  "rgpd_compliant": true,
+  "personal_data_stripped": true,
+  "extraction_confidence": 0.65
+}

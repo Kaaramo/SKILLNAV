@@ -1,0 +1,48 @@
+{
+  "job_id": "glassdoor-ma-2026-070",
+  "source": "glassdoor-ma",
+  "source_url": "https://www.glassdoor.com/job-listing/ai-python-developer-trading-market-analysis-saas-remote-tradeai-agency-JV_KO0,55_KE56,70.htm?jl=1010134770910",
+  "source_ref": "1010134770910",
+  "title": "AI Python Developer – Trading & Market Analysis SaaS (Remote)",
+  "title_normalized": "ML_ENGINEER",
+  "company": "Anonyme",
+  "company_type": "inconnu",
+  "location": "Remote",
+  "country": "MA",
+  "remote_policy": "remote",
+  "posted_date": null,
+  "deadline_date": null,
+  "contract_type": "Freelance",
+  "experience_min_years": null,
+  "experience_max_years": null,
+  "salary_range": null,
+  "description": "Skip to main content\n\n \n\n[Glassdoor Home](https://www.glassdoor.com/index.htm)\n\n- [Community](https://www.glassdoor.com/Community/index.htm)\n- [Jobs](https://www.glassdoor.com/Job/index.htm)\n- [Companies](https://www.glassdoor.com/Reviews/index.htm)\n- [Salaries](https://www.glassdoor.com/Salaries/index.htm)\n- [For Employers](https://www.glassdoor.com/employers/?source=gdemployermenu)\n\nSearch\n\nNotifications\n\nLoading...\n\nSign In\n\nSearch\n\n## Are you open to new opportunities?\n\nUpload your resume to increase your chances of getting noticed.\n\nUpload resume\n\nSign in to apply\n\n**TradeAI Agency** is building an AI-powered SaaS platform focused on ICT/SMC market analysis and smart trading tools for traders worldwide.\n\nWe are looking for a passionate AI/Python Developer to join our remote startup project and help us build innovative trading analysis systems using AI and automation.\n\nThis is a remote opportunity where we first want to organize an online meeting to get to know each other, discuss the project vision, and explore long-term collaboration.\n\n_**Responsibilities**_\n\n- Develop backend systems using Python\n- Build AI-powered market analysis tools\n- Integrate chart and market data APIs\n- Work on ICT/SMC detection logic\n- Build automation systems and APIs\n- Collaborate on AI chart analysis features\n- Optimize performance and scalability\n\n_**Requirements**_\n\n- Strong experience with Python\n- Experience with FastAPI or Django\n- Knowledge of AI APIs and automation\n- Experience working with APIs\n- Understanding of trading/financial markets is a plus\n- Problem-solving mindset\n- Good communication skills\n- Ability to work remotely\n\n_**Nice To Have**_\n\n- Experience with TradingView APIs\n- Knowledge of machine learning\n- Computer vision experience\n- Interest in trading or fintech\n\n_**Job Type**_\n\n- Remote\n- Freelance / Contract\n- Potential long-term collaboration\n\n_**Hiring Process**_\n\n- First online meeting\n- Technical discussion\n- Small test/project discussion\n- Collaboration start\n\nApplication Question(s):\n\n- Do you have any experience in Trading?\n\nWork Location: Remote\n\nIs my resume a good match?\n\n## Conversations @TradeAI Agency\n\nKick off the conversation by asking about salaries, interviews or anything else @TradeAI Agency.\n\nSee what other AI Python Developer – Trading & Market Analysis SaaS (Remote) are saying\n\n[\\\\\n\\\\\n**Interview Tips** \\\\\n\\\\\n804K members](https://www.glassdoor.com/Community/interview-tips) [\\\\\n\\\\\n**Salary Negotiations** \\\\\n\\\\\n775K members](https://www.glassdoor.com/Community/salary-negotiations-dvf8-5)\n\n[Explore more Bowls](https://www.glassdoor.com/Community/search/bowls)\n\n### Find your happy place\n\nRead authentic reviews with a Glassdoor account. Only apply to jobs you love.\n\nSign in",
+  "skills_required": [
+    "Python",
+    "Machine Learning",
+    "Computer Vision",
+    "FastAPI",
+    "Django"
+  ],
+  "skills_optional": [],
+  "responsibilities": [],
+  "tools_mentioned": [],
+  "frameworks_mentioned": [
+    "FastAPI",
+    "Django"
+  ],
+  "languages_programming": [
+    "Python"
+  ],
+  "domains_iaml": [
+    "COMPUTER_VISION",
+    "ML_CLASSIC"
+  ],
+  "job_family": "ML_ENGINEER",
+  "languages_spoken": [],
+  "scraped_at": "2026-05-14T22:00:00Z",
+  "scraper": "skillnav-firecrawl-v1.0",
+  "rgpd_compliant": true,
+  "personal_data_stripped": true,
+  "extraction_confidence": 0.65
+}

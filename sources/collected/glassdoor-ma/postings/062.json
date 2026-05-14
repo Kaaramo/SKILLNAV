@@ -1,0 +1,44 @@
+{
+  "job_id": "glassdoor-ma-2026-062",
+  "source": "glassdoor-ma",
+  "source_url": "https://www.glassdoor.com/job-listing/data-analyst-newrest-JV_IC3935929_KO0,12_KE13,20.htm?jl=1010122866323",
+  "source_ref": "1010122866323",
+  "title": "Data Analyst",
+  "title_normalized": "DATA_ANALYST",
+  "company": "Newrest",
+  "company_type": "entité morale privée",
+  "location": "Casablanca",
+  "country": "MA",
+  "remote_policy": "unknown",
+  "posted_date": null,
+  "deadline_date": null,
+  "contract_type": null,
+  "experience_min_years": null,
+  "experience_max_years": null,
+  "salary_range": null,
+  "description": "[Glassdoor Home](https://www.glassdoor.com/index.htm)\n\n- [Community](https://www.glassdoor.com/Community/index.htm)\n- [Jobs](https://www.glassdoor.com/Job/index.htm)\n- [Companies](https://www.glassdoor.com/Reviews/index.htm)\n- [Salaries](https://www.glassdoor.com/Salaries/index.htm)\n- [For Employers](https://www.glassdoor.com/employers/?source=gdemployermenu)\n\nSearch\n\nNotifications\n\nLoading...\n\nSign In\n\nSkip to main content\n\nSearch\n\nSign in to apply\n\nRattaché au Directeur des Systèmes d’information, Le Data Analyst intervient sur les applications métiers et les données associées.\n\nIl participe à des projets applicatifs et data pour des clients internes et externes, en collaboration avec des prestataires, dans le respect des standards groupe de sécurité et de gouvernance IT.\n\nCes responsabilités principales sont :\n\n- Assurer le support applicatif, l’exploitation et la fiabilité des données, et contribuer aux projets IT, tout en garantissant la conformité aux règles de sécurité et de gouvernance du groupe Newrest.\n\n- Assurer le support applicatif et traiter les incidents, analyser les anomalies applicatives et assurer leur résolution ou leur escalade.\n\n- Garantir la qualité et la fiabilité des données : réaliser des extractions, contrôles et analyses simples afin d’assurer la cohérence des données.\n\n- Produire et maintenir les reportings et tableaux de bord : concevoir des indicateurs métiers (KPI) et assurer leur mise à jour pour le suivi des activités.\n\n- Gérer et suivre les flux de données inter-applicatifs : superviser les échanges de données (ETL, API, formats CSV/XML/JSON) et traiter les erreurs ou rejets.\n\n- Collaborer avec les équipes internes, clients et prestataires pour assurer le bon fonctionnement des applications et des solutions data.\n\n- Appliquer les règles de sécurité et de gouvernance IT du groupe et veiller à la conformité des procédures et livrables.\n\n- Documenter les procédures et solutions techniques afin d’assurer la traçabilité et la continuité des opérations.\n\n- De formation en systèmes d’information, data / informatique ou diplôme de l’enseignement supérieur capitalisant sur une expérience professionnelle.\n\n- Maîtrise des outils d’analyse et de reporting (Power BI, Power Platform, SharePoint)\n\n- Compréhension des flux de données (ETL, API, formats CSV/XML/JSON\n\n**A PROPOS DE NEWREST :**\n\nHumilité, simplicité, efficience, et sens des responsabilités, telles sont les valeurs de Newrest. Fort de ses 4700 collaborateurs présents dans tout le royaume, acteur majeur du catering aérien, Newrest est le seul opérateur à intervenir sur l’ensemble des secteurs : catering aérien, restauration collective, base-vies, retail et facility management.",
+  "skills_required": [
+    "Power BI",
+    "ETL",
+    "Data Visualization",
+    "KPI / Reporting"
+  ],
+  "skills_optional": [],
+  "responsibilities": [],
+  "tools_mentioned": [
+    "Power BI"
+  ],
+  "frameworks_mentioned": [],
+  "languages_programming": [],
+  "domains_iaml": [
+    "BUSINESS_INTELLIGENCE",
+    "DATA_ENGINEERING"
+  ],
+  "job_family": "DATA_ANALYST",
+  "languages_spoken": [],
+  "scraped_at": "2026-05-14T22:00:00Z",
+  "scraper": "skillnav-firecrawl-v1.0",
+  "rgpd_compliant": true,
+  "personal_data_stripped": true,
+  "extraction_confidence": 0.65
+}

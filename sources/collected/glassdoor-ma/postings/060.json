@@ -1,0 +1,45 @@
+{
+  "job_id": "glassdoor-ma-2026-060",
+  "source": "glassdoor-ma",
+  "source_url": "https://www.glassdoor.com/job-listing/data-analyst-drc-JV_KO0,12_KE13,16.htm?jl=1010110832598",
+  "source_ref": "1010110832598",
+  "title": "Data Analyst",
+  "title_normalized": "DATA_ANALYST",
+  "company": "Anonyme",
+  "company_type": "inconnu",
+  "location": "Morocco",
+  "country": "MA",
+  "remote_policy": "on-site",
+  "posted_date": null,
+  "deadline_date": null,
+  "contract_type": "CDI",
+  "experience_min_years": null,
+  "experience_max_years": null,
+  "salary_range": null,
+  "description": "Skip to main content\n\n \n\n[Glassdoor Home](https://www.glassdoor.com/index.htm)\n\n- [Community](https://www.glassdoor.com/Community/index.htm)\n- [Jobs](https://www.glassdoor.com/Job/index.htm)\n- [Companies](https://www.glassdoor.com/Reviews/index.htm)\n- [Salaries](https://www.glassdoor.com/Salaries/index.htm)\n- [For Employers](https://www.glassdoor.com/employers/?source=gdemployermenu)\n\nSearch\n\nNotifications\n\nLoading...\n\nSign In\n\nSearch\n\nSign in to apply\n\nDans le cadre du développement du département RH , nous recrutons un(e) Data Analyst RH\n\nMissions :\n\n\\- Collecter, analyser et interpréter les données liées aux actions recrutement , formation ....\n\n\\- Concevoir des tableaux de bord et indicateurs de performance (KPI)\n\n\\- Suivre l’efficacité des programmes de formation et proposer des axes d’amélioration\n\n\\- Collaborer avec les équipes RH et Formation pour optimiser les dispositifs\n\n\\- Automatiser les reportings et fiabiliser les données\n\nProfil recherché :\n\nProfil recherché :\n\nBac+5 en Data, Statistiques, RH ou équivalent\n\nExpérience en analyse de données (idéalement en RH )\n\nMaîtrise d’Excel, Power BI ou outils similaires\n\nEsprit analytique, rigueur et sens de la confidentialité\n\nType d'emploi : Temps plein, CDI\n\nLieu du poste : En présentiel\n\nIs my resume a good match?\n\n## Conversations @DRC\n\nKick off the conversation by asking about salaries, interviews or anything else @DRC.\n\n[Explore more Bowls](https://www.glassdoor.com/Community/search/bowls)\n\n### Find your happy place\n\nRead authentic reviews with a Glassdoor account. Only apply to jobs you love.\n\nSign in",
+  "skills_required": [
+    "Power BI",
+    "Excel",
+    "Statistics",
+    "Data Visualization",
+    "KPI / Reporting"
+  ],
+  "skills_optional": [],
+  "responsibilities": [],
+  "tools_mentioned": [
+    "Power BI",
+    "Excel"
+  ],
+  "frameworks_mentioned": [],
+  "languages_programming": [],
+  "domains_iaml": [
+    "BUSINESS_INTELLIGENCE"
+  ],
+  "job_family": "DATA_ANALYST",
+  "languages_spoken": [],
+  "scraped_at": "2026-05-14T22:00:00Z",
+  "scraper": "skillnav-firecrawl-v1.0",
+  "rgpd_compliant": true,
+  "personal_data_stripped": true,
+  "extraction_confidence": 0.65
+}

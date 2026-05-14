@@ -1,0 +1,66 @@
+{
+  "job_id": "glassdoor-ma-2026-052",
+  "source": "glassdoor-ma",
+  "source_url": "https://www.glassdoor.com/job-listing/data-scientist-ml-engineer-coface-JV_IC3935929_KO0,26_KE27,33.htm?jl=1009916297045",
+  "source_ref": "1009916297045",
+  "title": "Data Scientist / ML Engineer",
+  "title_normalized": "ML_ENGINEER",
+  "company": "Coface",
+  "company_type": "entité morale privée",
+  "location": "Casablanca",
+  "country": "MA",
+  "remote_policy": "unknown",
+  "posted_date": null,
+  "deadline_date": null,
+  "contract_type": null,
+  "experience_min_years": null,
+  "experience_max_years": null,
+  "salary_range": null,
+  "description": "**Description du poste**\n\nRattaché à la Direction de la Stratégie et du Développement, le Data Lab regroupe des compétences de Data Science, d’IA et de Software Engineering pour concevoir, développer et déployer des solutions opérationnelles améliorant les processus, les produits et les services de l’entreprise. L’équipe compte une trentaine de personnes réparties entre Paris, Toronto et Casablanca.\n\nLe Data Lab cherche à mettre en œuvre les meilleures pratiques de développement, principalement en Python mais aussi en React et en Java, et gère des pipelines CI/CD pour déployer des applications et des APIs sur les infrastructures Docker/Kubernetes, sur Apache Airflow et dans le Cloud.\n\nLe partage des connaissances par des présentations entres membres de l’équipe, la formation et la veille technologique sur du temps réservé font partie du mode de fonctionnement du Data Lab.\n\nLes cas d’utilisation de la data science sont variés et aboutissent à des mises en œuvre concrètes dans les outils internes et les applications clientes, par exemple :\n\n- Scoring du risque de défaillance des entreprises\n- Extraction d’informations à partir d’images et de documents\n- Construction et exploitation de graphe de connaissances\n- Moteur de recherche spécialisé dans l’identification des entreprises\n- Modélisation et simulations financières\n\n**Les missions :**\n\n- Vous intégrez l'équipe de Data Lab de Coface et travaillez le plus souvent en binôme ou dans des équipes réduites sur des projets innovants\n- Vous concevez et développez complètement des solutions pouvant mettre en œuvre des technologies de Machine Learning, jusqu’au déploiement sur nos infrastructures de containers ou dans le cloud, et au monitoring en production\n- Vous contribuez à la veille technologique\n\n**Qualifications**\n\n- Diplôme d’Ingénieur ou équivalent en Data Science : apprentissage supervisé et non-supervisé, clustering, NLP…\n- Deux années ou plus d’expérience dans un rôle similaire\n- Maîtrise de Python, son écosystème et des bonnes pratiques de revue de code et d’intégration continue\n- Utilisation de Linux et Git\n- Autonomie, curiosité, rigueur\n- Anglais : projets dans des contextes internationaux\n\n**Compétences appréciées :**\n\n- Expérience en développement d’application Python avec des standards de qualité élevés\n- Mise en œuvre de chaîne CI/CD\n- Expérience de déploiement Docker/Kubernetes et d'application dans le cloud\n- Pratique de SQL et expérience en bases NoSQL (document, graph)\n\n**Informations supplémentaires**\n\n- Questionnaire à choix multiples (QCM) portant sur les compétences techniques requises pour le poste — durée estimée : 10 minutes\n- Entretien technique, incluant une revue du parcours professionnel du/de la candidat(e) — durée estimée : 1 heure\n- Évaluation technique en Python et en apprentissage automatique (Machine Learning), réalisée sans assistance d’un modèle massif de langage (LLM) — deux notebooks Colab, d’environ 45 minutes chacun\n- Entretien avec le service des ressources humaines — durée estimée : 45 minutes\n- Présentation d’une proposition d’embauche",
+  "skills_required": [
+    "Python",
+    "SQL",
+    "Java",
+    "Machine Learning",
+    "NLP",
+    "NoSQL",
+    "Docker",
+    "Kubernetes",
+    "Git",
+    "Linux",
+    "Airflow",
+    "CI/CD",
+    "LLM"
+  ],
+  "skills_optional": [],
+  "responsibilities": [],
+  "tools_mentioned": [
+    "Docker",
+    "Kubernetes",
+    "Git",
+    "Linux",
+    "Airflow"
+  ],
+  "frameworks_mentioned": [],
+  "languages_programming": [
+    "Python",
+    "SQL",
+    "Java"
+  ],
+  "domains_iaml": [
+    "DATA_ENGINEERING",
+    "GENERATIVE_AI",
+    "MLOPS",
+    "ML_CLASSIC",
+    "NLP"
+  ],
+  "job_family": "ML_ENGINEER",
+  "languages_spoken": [
+    "Anglais"
+  ],
+  "scraped_at": "2026-05-14T22:00:00Z",
+  "scraper": "skillnav-firecrawl-v1.0",
+  "rgpd_compliant": true,
+  "personal_data_stripped": true,
+  "extraction_confidence": 0.65
+}

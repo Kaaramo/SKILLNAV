@@ -1,0 +1,68 @@
+{
+  "job_id": "glassdoor-ma-2026-041",
+  "source": "glassdoor-ma",
+  "source_url": "https://www.glassdoor.com/job-listing/data-platform-engineer-avl-JV_IC3941173_KO0,22_KE23,26.htm?jl=1010039184617",
+  "source_ref": "1010039184617",
+  "title": "Data Platform Engineer",
+  "title_normalized": "DATA_ENGINEER",
+  "company": "AVL",
+  "company_type": "entité morale privée",
+  "location": "El Jadida",
+  "country": "MA",
+  "remote_policy": "unknown",
+  "posted_date": "2026-03-30",
+  "deadline_date": null,
+  "contract_type": "CDI",
+  "experience_min_years": 5,
+  "experience_max_years": null,
+  "salary_range": null,
+  "description": "# **Data Platform Engineer**\n\n**YOUR RESPONSIBILITIES:**\n\n- Review and stabilize existing platform implementations (Databricks, Foundry – pipelines, Ontology schemas, Workshop applications, Functions, notebooks).\n\n- Identify performance bottlenecks, technical debt, and governance gaps across data pipelines and application layers.\n\n- Lead Ontology governance and design reviews, acting as a gatekeeper for all schema changes (Object Types, Links, Properties, Actions).\n\n- Define and document target data architectures (ingestion, transformation, and consumption layers).\n\n- Establish coding standards, naming conventions, repository structures, and Function versioning policies.\n\n- Enforce code reviews and technical validation before production deployment through Foundry Branching and Proposal workflows.\n\n- Define and implement a structured testing strategy (unit tests for Functions, integration tests, data quality checks, pipeline expectations).\n\n- Design and improve CI/CD pipelines and Dev/Test/Prod promotion processes using Foundry Marketplace/DevOps.\n\n- Automate deployments, rollbacks, and environment configurations.\n\n- Create and maintain architecture documentation (ADRs, data lineage diagrams, Ontology schemas, data flow diagrams).\n\n- Design reusable Workshop component libraries, custom widgets, and Slate application patterns.\n\n- Design and validate new platform solutions aligned with strategy, security, and governance requirements.\n\n- Mentor the development team on architectural thinking and platform best practices (40% hands-on coding, 60% architecture/leadership).\n\n**YOUR PROFILE:**\n\n- Master’s degree in Computer Science, Data Engineering, or a related field.\n- 5+ years of experience in data engineering or platform architecture roles.\n\n- Strong expertise in modern data platforms (Databricks, Snowflake, AWS Glue, Azure Synapse, or similar). Foundry experience is strongly preferred but not required.\n\n- Advanced skills in Python (PySpark), SQL (Spark SQL), and TypeScript for backend logic and application development.\n\n- Experience with distributed data processing (Spark architecture, partitioning strategies, performance optimization).\n\n- Strong understanding of relational databases (PostgreSQL, Oracle, or similar).\n\n- Experience with CI/CD workflows, Git branching strategies, and automated testing in data environments.\n\n- Solid experience in end-to-end ETL and data transformation processes.\n\n- Proven experience in performance optimization and scalable architecture design.\n\n- Experience in defining development standards, interface contracts, and engineering best practices.\n\n- Hands-on coding mindset: must write production code daily, not only review or document.\n\n- Structured, analytical, and documentation-oriented approach.\n\n- Strong communication and technical leadership skills, with very good proficiency in English and French.\n\n- A role with true technical ownership: architecture, scaling, and governance decisions that directly impact production AI solutions.\n\n- Complex projects that go beyond “just pipelines” – covering big data processing and large-scale ML/DL deployment.\n\n- Opportunities to deepen your expertise in Databricks, cloud-native ML, and MLOps.\n\n- A team where your input and technical decisions truly matter.\n\n- A competitive package and benefits.\n\nJoin us and make a direct impact on shaping the future of Data, AI, and Mobility.\n\n**If you have these qualifications and are looking for a new challenge, we encourage you to apply to discuss it further!**\n\n## **About AVL**\n\nAVL is one of the world’s leading mobility technology companies for development, simulation and testing in the automotive industry, and beyond. We provide concepts, solutions and methodologies in fields like vehicle development and integration, e-mobility, automated and connected mobility (ADAS/AD), and software for a greener, safer, better world of mobility.\n\nFind out more: www.avl.com\n\n## **You are interested in a job at AVL but you are not sure how to apply or want to know what happens after you send your application?**\n\n**Check out our step-by-step guide**\n\n## **AVL is not just about cars. It's about changing the future. Together.**\n\nLocation:\nSala Al Jadida, MA\n\nCompany: AVL Maroc SARL AU\n\nJob Function: Mobility Technologies\n\nContract Type: Permanent\n\nPosting Date: Apr 19, 2026\n\nJob ID: 38965\n\n## **About AVL**\n\nAVL is one of the world’s leading mobility technology companies for development, simulation and testing in the automotive industry, and beyond. We provide concepts, solutions and methodologies in fields like vehicle development and integration, e-mobility, automated and connected mobility (ADAS/AD), and software for a greener, safer, better world of mobility.\n\nFind out more: www.avl.com\n\n**Job Segment:** Manufacturing Engineer, Computer Science, Database, SQL, Oracle, Engineering, Technology",
+  "skills_required": [
+    "Python",
+    "SQL",
+    "TypeScript",
+    "PySpark",
+    "Spark",
+    "Databricks",
+    "Snowflake",
+    "PostgreSQL",
+    "Azure",
+    "AWS",
+    "Git",
+    "CI/CD",
+    "Big Data",
+    "MLOps",
+    "ETL"
+  ],
+  "skills_optional": [],
+  "responsibilities": [],
+  "tools_mentioned": [
+    "Databricks",
+    "Snowflake",
+    "PostgreSQL",
+    "Azure",
+    "AWS",
+    "Git"
+  ],
+  "frameworks_mentioned": [],
+  "languages_programming": [
+    "Python",
+    "SQL",
+    "TypeScript"
+  ],
+  "domains_iaml": [
+    "BIG_DATA",
+    "CLOUD_DATA",
+    "DATA_ENGINEERING",
+    "MLOPS"
+  ],
+  "job_family": "DATA_ENGINEER",
+  "languages_spoken": [
+    "Français"
+  ],
+  "scraped_at": "2026-05-14T22:00:00Z",
+  "scraper": "skillnav-firecrawl-v1.0",
+  "rgpd_compliant": true,
+  "personal_data_stripped": true,
+  "extraction_confidence": 0.85
+}

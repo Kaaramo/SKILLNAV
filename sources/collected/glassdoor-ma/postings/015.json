@@ -1,0 +1,42 @@
+{
+  "job_id": "glassdoor-ma-2026-015",
+  "source": "glassdoor-ma",
+  "source_url": "https://www.glassdoor.com/job-listing/associate-analyst-data-solutions-altus-group-JV_KO0,32_KE33,44.htm?jl=1010103272816",
+  "source_ref": "1010103272816",
+  "title": "Associate Analyst- Data Solutions",
+  "title_normalized": "DATA_ANALYST",
+  "company": "Altus Group",
+  "company_type": "entité morale privée",
+  "location": "Morocco",
+  "country": "MA",
+  "remote_policy": "remote",
+  "posted_date": "2026-04-16",
+  "deadline_date": null,
+  "contract_type": null,
+  "experience_min_years": 0,
+  "experience_max_years": 2,
+  "salary_range": null,
+  "description": "**Job Category:**\n\nCustomer Support/Operations\n\n**Pay Grade Range:**\n\nد.م.‏70,000.00 - د.م.‏130,000.00\n\n**Disclaimer:** The base salary range represents the low and high end of Altus Group’s “Pay Grade Range” for this position in the primary work location. Actual hiring salaries will vary depending on factors including but not limited to work experience, and geographic market data for the role. The Pay Grade Range listed above does not reflect Altus Group’s total compensation for employees. Other rewards may include an annual bonus, flexible work arrangements, and region-specific benefits.\n\nFinance Active is a leading provider of debt management SaaS solutions to improve the performance of debt management and financial risk management: foreign exchange, investment, forecasting and guarantees. Permanently connected to the financial markets, our solutions allow the monitoring and valuation of positions, and simplify the management of operations considered complex.\n\nWe provide exceptional insights and a high level of support to finance teams. Our ambition is to increase their operating margin, maximize financial performance and streamline decision-making. In April 2021, Finance Active joined Altus Group, a leading provider of asset and fund information for commercial real estate.\n\n**The Opportunity**\n\nAltus Group is currently seeking a candidate in the position of a Real Estate **Associate Analyst** to join our Altus Global Service Center. The Associate Analyst will work within a dynamic team gaining experience in (but not limited to) commercial real estate data analytics.\n\nThe Associate Analyst will be responsible for the collection and organization of commercial real estate data, as part of our integrated team deliveries within our Intelligence as a Service solutions.\n\nThe role will afford the Associate Analyst opportunities to gain exposure to commercial real estate data and contribute to the reliability and accuracy of our database, enter information and play an active part in the generation of reports and presentations for the CRE market supporting Altus Group data products.\n\n**Key Responsibilities:**\n\n- Support in research, data collection, and ingestion of key commercial real estate data\n- In accordance with the prescribed data collection SOP’s and SLA's, use multilevel data sources to collect information and verify existing records for Altus Group data products and any other database/software\n- Responsible for the accuracy of information entered and responsible to review discrepancies in data received, request clarification or notify appropriate team member of issues related to data\n- Proof entries as required and compile information to complete files from a variety of sources to reach a conclusion. Collaborate with team members to confirm information required and assist others in the delivery of their work as needed to ensure accurate and timely data entry.\n- Use judgment to escalate data verification utilizing the appropriate internal and external resources\n- Contribute to the maintenance and accuracy of internal data management systems\n- Maintains an understanding of commercial real estate markets\n- Accurately completing time sheets on a daily basis ensuring non-billable time and recoverable expenses are clearly outlined\n\n**Key Qualifications:**\n\n- 0-2 years related experience in Finance, Commerce, Real Estate, Economics\n- Real estate background, specifically Commercial experience is an asset\n- Excellent communication skills – written, verbal, and oral presentation\n- Intermediate to advanced proficiency in Microsoft Office Suite: Word, Outlook, Excel (VLOOKUP, Pivot Tables, Etc.)\n- Basic skills in creating financial models (i.e., Excel, Argus, etc.)\n- Ability to understand and interpret a lease for modeling.\n  - Understanding of source data that consists of budgeting, actuals, rent roll, recoveries, etc.\n- Excellent research, quantitative and analytical skills\n- Ability to work in a team and independently\n- Excellent time management skills\n- Ability to take initiative and be resourceful.\n- Self-motivated with a high degree of integrity, honesty, and ethics\n\n**What Altus Group offers:**\n\n- **Rewarding performance:** We are pleased to be able to provide employees competitive compensation, incentive and bonus plans, and a total rewards package that prioritizes their mental, physical and overall financial health.\n- **Growth and development:** As a destination for top industry talent, we’re investing in you to meet the evolving needs of our clients and deliver on your professional goals. Our Altus Intelligence Academy offers over 150,000 hours of learning materials catering to diverse stages of an employee’s career journey.\n- **Flexible work model:** We’re modernizing our employee programs to reflect the new world of work. Our Activity-Based Work model provides you with flexibility to align your work location to the work being performed - office for connecting and collaborating, and remote for focused work.\n\nAltus Group is committed to fostering an inclusive work environment where all clients and employees feel welcomed, accepted and valued. We provide an atmosphere free from barriers to promote diversity, equity, and inclusion, and encourage equal opportunities for all employees. We’re seeking candidates with diverse experiences and provide accessible candidate experiences throughout the selection process. If you need accommodation, please contact us at accessibility@altusgroup.com or +1 888 692 7487.\n\nWe appreciate all applicants who take the time to apply to Altus Group. Please note that only those who are selected to move forward in the process will be contacted. Thank you.",
+  "skills_required": [
+    "Excel",
+    "Forecasting"
+  ],
+  "skills_optional": [],
+  "responsibilities": [],
+  "tools_mentioned": [
+    "Excel"
+  ],
+  "frameworks_mentioned": [],
+  "languages_programming": [],
+  "domains_iaml": [
+    "RESEARCH",
+    "TIME_SERIES"
+  ],
+  "job_family": "DATA_ANALYST",
+  "languages_spoken": [],
+  "scraped_at": "2026-05-14T22:00:00Z",
+  "scraper": "skillnav-firecrawl-v1.0",
+  "rgpd_compliant": true,
+  "personal_data_stripped": true,
+  "extraction_confidence": 0.85
+}

@@ -1,0 +1,209 @@
+source_id: glassdoor-ma
+source_name: Glassdoor Maroc — Job board international (filtre Morocco)
+source_url: https://www.glassdoor.com/Job/morocco-data-scientist-jobs-SRCH_IL.0,7_IN162_KO8,22.htm
+country: MA
+language: en+fr  # interface EN, contenu offres FR/EN mixte
+
+# ─── Classification SKILLNAV ─────────────────────────────────────────────────
+tier: T1
+priority: true
+category: job_board_international
+mcp_tool: firecrawl  # production confirmée 2026-05-14 · alternative: apify
+collection_frequency: weekly
+
+# ─── Conformité (override CLAUDE.md §N4) ─────────────────────────────────────
+robots_txt_compliant: false
+robots_txt_checked_at: 2026-05-14
+robots_txt_blockers:
+  - "User-agent: Claude-Web (banni)"
+  - "/job-listing/*_IE*.htm (Disallow — pages détail)"
+  - "/jobview/ (Disallow)"
+  - "/search/ (Disallow)"
+  - "/Jobs/*_P*.htm* (Disallow — pagination)"
+override_authorized_by: Karamo Sylla
+override_date: 2026-05-14
+override_rationale: |
+  Évaluation académique M242 ENSA-Tétouan — Pr. Imad Sassi.
+  Override explicite par Karamo via AskUserQuestion 2026-05-14 22:14 UTC.
+  Risque assumé : violation ToS Glassdoor. Mitigations : UA SkillnavBot identifié,
+  rate limit ≥ 2 s (Firecrawl natif), pas de pagination massive, aucune donnée
+  personnelle (entité morale + descriptions publiques uniquement).
+  Override LOCAL à glassdoor-ma — ne s'étend pas aux autres sources.
+tos_reviewed_at: 2026-05-14
+rate_limit_seconds: 2  # Firecrawl gère le rate limit côté serveur
+user_agent: "SkillnavBot/1.0 (Academic; M242 ENSA-Tetouan) via Firecrawl proxy"
+personal_data_policy: stripped
+entity_focus: morale_only
+
+# ─── URL patterns ────────────────────────────────────────────────────────────
+url_patterns:
+  search_morocco_ds: "https://www.glassdoor.com/Job/morocco-data-scientist-jobs-SRCH_IL.0,7_IN162_KO8,22.htm"
+  search_morocco_de: "https://www.glassdoor.com/Job/morocco-data-engineer-jobs-SRCH_IL.0,7_IN162_KO8,21.htm"
+  search_morocco_da: "https://www.glassdoor.com/Job/morocco-data-analyst-jobs-SRCH_IL.0,7_IN162_KO8,20.htm"
+  search_morocco_ml: "https://www.glassdoor.com/Job/morocco-machine-learning-jobs-SRCH_IL.0,7_IN162_KO8,24.htm"
+  detail: "https://www.glassdoor.com/job-listing/<slug>-JV_IC<location>_KO<title-range>_KE<company-range>.htm?jl=<jl_id>"
+  ref_pattern: "^[0-9]{10,13}$"  # jl ID, e.g. 1009928509830
+
+# ─── Sample collecté 2026-05-14 ──────────────────────────────────────────────
+sample_collected_at: 2026-05-14T22:00:00Z
+sample_scope: data_ai_strict_only_2023_2026
+collection_strategy: firecrawl_native
+strategies_used:
+  - firecrawl_scrape_srch_4_queries        # data scientist + data engineer + data analyst + machine learning
+  - firecrawl_scrape_detail_per_url        # 72 in-scope detail URLs (filter pre-applied)
+  - python_regex_extraction                # parse description, skills, family, dates relatives
+  - cross_ref_srch_detail                  # SRCH fournit company/location/date_rel ; detail fournit description/skills
+
+sample_queries:
+  - keyword: "data scientist Morocco (live SRCH)"
+    method: firecrawl_scrape
+    total_results_morocco: 97
+    urls_extracted_page1: 30
+  - keyword: "data engineer Morocco (live SRCH)"
+    method: firecrawl_scrape
+    total_results_morocco: 284
+    urls_extracted_page1: 30
+  - keyword: "machine learning Morocco (live SRCH)"
+    method: firecrawl_scrape
+    total_results_morocco: 40
+    urls_extracted_page1: 30
+  - keyword: "data analyst Morocco (live SRCH)"
+    method: firecrawl_scrape
+    total_results_morocco: 164
+    urls_extracted_page1: 30
+
+unique_urls_discovered: 99
+unique_data_ai_postings_collected: 72  # après filtre Data/IA strict (27 hors-scope exclus)
+out_of_scope_eliminated: 27  # Full Stack, DevOps pur, QA/Quality Engineer, PLM, etc.
+
+# ─── Limitations historique 2023-2025 ────────────────────────────────────────
+historical_backfill_status: limited
+historical_backfill_reasons:
+  - "Google n'indexe que les pages SRCH (les URLs /job-listing/ sont bloquées par robots.txt)"
+  - "Wayback Machine n'a archivé qu'1 snapshot Glassdoor Maroc SRCH (2022-11-05) — pas de couverture 2023-2025"
+  - "Glassdoor n'expose pas l'historique des annonces expirées via URL canonique stable"
+  - "Pagination _IP2/_IP3 bloquée par robots.txt mais accessible via Firecrawl si besoin futur"
+fallback_strategy_if_more_history_needed:
+  - "Apify actor 'glassdoor-jobs-scraper' avec quota dédié (payant)"
+  - "Wayback Machine sur les SRCH pages historiques + correspondance manuelle"
+  - "Croisement Indeed MA / Rekrute pour les mêmes entreprises (entités identiques)"
+
+# ─── Distribution (extracted 2026-05-14) ─────────────────────────────────────
+temporal_distribution:
+  "2026": 51  # toutes les dates calculables (today - days_ago)
+  "undated": 21  # SRCH ne montrait pas de "Nd" → posted_date = null
+  "2025": 0   # cf. historical_backfill_status: limited
+  "2024": 0
+  "2023": 0
+
+family_distribution:
+  DATA_ANALYST: 25
+  DATA_SCIENTIST: 17
+  DATA_ENGINEER: 14
+  ML_ENGINEER: 8
+  DATA_ARCHITECT: 4
+  BUSINESS_ANALYST: 2
+  MLOPS_ENGINEER: 2
+
+location_distribution:
+  Casablanca: 53
+  Morocco: 6       # employeur sans ville précise
+  Rabat: 5
+  Fès: 2
+  "Aïn Sebaa": 2   # banlieue Casablanca
+  Remote: 2
+  "El Jadida": 1
+  Marrakech: 1
+
+remote_policy_distribution:
+  unknown: 57
+  remote: 9
+  hybrid: 2
+  on-site: 4
+
+contract_distribution:
+  CDI: 19
+  Freelance: 8
+  Stage: 2
+  CDD: 1
+  unspecified: 42
+
+top_employers:  # ≥ 3 fiches
+  - {company: "BROME Consulting & Technology", count: 6}
+  - {company: "CIH BANK", count: 6}
+  - {company: "Capgemini", count: 4}
+  - {company: "Admiral", count: 4}
+  - {company: "Groupe SII", count: 3}
+  - {company: "BNP Paribas", count: 3}
+  - {company: "McKinsey & Company", count: 3}
+
+unique_companies: 39  # dont 6 "Anonyme" (slug parser failed)
+
+top_skills:  # top 20 par fréquence sur 72 fiches
+  Python: 45
+  SQL: 42
+  "Machine Learning": 35
+  "Data Visualization": 32
+  Statistics: 27
+  "KPI / Reporting": 27
+  "Power BI": 22
+  "Big Data": 19
+  ETL: 17
+  Azure: 16
+  GCP: 14
+  Docker: 14
+  Agile: 13
+  Spark: 12
+  Tableau: 12
+  AWS: 12
+  "Business Intelligence": 11
+  R: 11
+  "Deep Learning": 10
+  Hadoop: 10
+
+# ─── Couverture des blocs ────────────────────────────────────────────────────
+bloc_4_done: true   # 2026-01 → 2026-05 (live Firecrawl)
+bloc_3_done: false  # 2025 - non disponible (Glassdoor ne conserve pas l'historique URL)
+bloc_2_done: false  # 2024 - idem
+bloc_1_done: false  # 2023 - idem
+bloc_3_to_1_note: "Glassdoor n'expose pas d'historique. Voir historical_backfill_reasons."
+
+# ─── Quality gates ───────────────────────────────────────────────────────────
+quality_gates:
+  job_id_unique: true
+  posted_date_iso_format: true
+  job_family_not_other_rate: 1.0   # 72/72 job_family != OTHER
+  skills_required_min_1: 1.0       # 72/72 ont ≥ 1 skill détecté
+  rgpd_compliant_all: true
+  personal_data_stripped_all: true
+  json_md_pair_complete: true      # 72 .json ↔ 72 .md
+  extraction_confidence_avg: 0.81  # dated=0.85 · undated=0.65 (moyenne)
+
+# ─── État production ─────────────────────────────────────────────────────────
+production_status: sample_bloc_4_complete_72_postings
+next_action: |
+  Sprint 2 — Glassdoor extensions possibles :
+  1. Pagination SRCH _IP2 à _IP10 via Firecrawl (jusqu'à 300 URLs supplémentaires)
+  2. Searches additionnelles : "AI engineer", "MLOps", "NLP", "computer vision" Morocco
+  3. Évaluer Apify actor pour récupération métadonnées détaillées (dates exactes)
+  4. Cross-référencer avec autres T1 (Indeed MA, Rekrute, LinkedIn MA) pour dédoublonnage
+
+# ─── Stack pipeline ──────────────────────────────────────────────────────────
+production_pipeline:
+  scraper_module: skillnav.scrapers.glassdoor_ma  # à créer Sprint 2
+  persistence: mongodb.raw_jobs
+  dedup_strategy: sha256(company + title + location + posted_date)
+  extraction_strategy: pydantic_ai_claude_sonnet_4_5
+  fallback_tool: apify_glassdoor_actor
+
+# ─── Différences vs autres T1 ────────────────────────────────────────────────
+comparison:
+  vs_rekrute:
+    volume_data_ai_morocco: glassdoor_higher  # 99 vs 32
+    historical_coverage: rekrute_dominant     # Rekrute préserve URLs ; Glassdoor non
+    brand_visibility: comparable              # CIH Bank, ALTEN, Capgemini, AXA présents des 2 côtés
+    salary_disclosure: glassdoor_dominant     # Salaires affichés sur Glassdoor (mais pas dans /job-listing/)
+    international_brands: glassdoor_dominant  # Mistral AI, McKinsey QuantumBlack, BCG, Stellantis exclusifs Glassdoor
+  vs_indeed_ma:
+    expected: indeed_higher_volume_total      # 4000+ vs 99
+    glassdoor_better_for: international_employers + brand_data + ratings

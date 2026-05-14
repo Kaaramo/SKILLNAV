@@ -1,0 +1,54 @@
+{
+  "job_id": "glassdoor-ma-2026-056",
+  "source": "glassdoor-ma",
+  "source_url": "https://www.glassdoor.com/job-listing/data-scientist-alten-JV_IC3938208_KO0,14_KE15,20.htm?jl=1010075836074",
+  "source_ref": "1010075836074",
+  "title": "Data scientist",
+  "title_normalized": "DATA_SCIENTIST",
+  "company": "ALTEN",
+  "company_type": "entité morale privée",
+  "location": "Fès",
+  "country": "MA",
+  "remote_policy": "unknown",
+  "posted_date": null,
+  "deadline_date": null,
+  "contract_type": null,
+  "experience_min_years": 3,
+  "experience_max_years": 5,
+  "salary_range": null,
+  "description": "**Description du poste**\n\nNous recherchons un(e) Data Analyst junior passionné(e) pour rejoindre notre équipe.\n\n**Profil:**\n\nBac+5 en Big DATA / BI\n\nAvec Expérience (3-5ans)\n\n- Avoir des connaissances sur PLM/DataBricks\n- Développement des rapports Power BI\n- Analyse et développement avancée des erreur/remonté sur les jobs de Databricks\n- Test et validation de non-régression des données automobile\n- Support et animation de la résolution des incidents\n- Réaliser un accompagnement méthodologique des utilisateurs\n- Rédaction de gammes de support, de méthodes de base et de gamme de recette\n\n**Qualifications**\n\n**Compétences requises :**\n\n- Bon niveau en français et en Anglais (Parler & écrit)\n- Connaissance de bases de données structurées\n- Maitrise Power BI (Dax, Power Query, Reporting)\n- Maîtrise des langages de requêtes de type SQL, python, ML\n- MAJ les bases en ajoutant les données manquantes et en supprimant les erreurs\n- Habilité à acquérir de nouvelles connaissances.\n\n**Compétences appréciées :**\n\n- Esprit de synthèse\n- Analyse critique\n- Rigueur\n- Gestion Relation Clientèle (Communication, serviabilité, écoute actif).\n- Connaissance en culture automobile\n\n**Informations supplémentaires**\n\nVous êtes rigoureux, créatif, curieux et vous aimez travailler en équipe et monter en compétence dans un environnement dynamique. Les métiers du service vous animent et vous souhaitez évoluer dans un environnement convivial, rejoignez-nous !",
+  "skills_required": [
+    "Python",
+    "SQL",
+    "Databricks",
+    "Power BI",
+    "Big Data",
+    "KPI / Reporting"
+  ],
+  "skills_optional": [],
+  "responsibilities": [],
+  "tools_mentioned": [
+    "Databricks",
+    "Power BI"
+  ],
+  "frameworks_mentioned": [],
+  "languages_programming": [
+    "Python",
+    "SQL"
+  ],
+  "domains_iaml": [
+    "BIG_DATA",
+    "BUSINESS_INTELLIGENCE",
+    "DATA_ENGINEERING"
+  ],
+  "job_family": "DATA_SCIENTIST",
+  "languages_spoken": [
+    "Anglais",
+    "Français"
+  ],
+  "scraped_at": "2026-05-14T22:00:00Z",
+  "scraper": "skillnav-firecrawl-v1.0",
+  "rgpd_compliant": true,
+  "personal_data_stripped": true,
+  "extraction_confidence": 0.65
+}

@@ -1,0 +1,41 @@
+{
+  "job_id": "glassdoor-ma-2026-036",
+  "source": "glassdoor-ma",
+  "source_url": "https://www.glassdoor.com/job-listing/data-analyst-cih-bank-JV_IC3935929_KO0,12_KE13,21.htm?jl=1009946519065",
+  "source_ref": "1009946519065",
+  "title": "DATA ANALYST",
+  "title_normalized": "DATA_ANALYST",
+  "company": "CIH BANK",
+  "company_type": "entité morale privée",
+  "location": "Casablanca",
+  "country": "MA",
+  "remote_policy": "unknown",
+  "posted_date": "2026-03-30",
+  "deadline_date": null,
+  "contract_type": "CDI",
+  "experience_min_years": 2,
+  "experience_max_years": null,
+  "salary_range": null,
+  "description": "Date\n\n21-11-2025\n\nDirection\n\n**DATA ANALYST**\n\nContrat\n\nCDI\n\nLocalisation\n\nCasablanca\n\nFonction\n\nAutre fonction\n\n### **Contexte du recrutement et définition de poste**\n\n**Votre mission**\n\nDans le cadre du développement de la direction Qualité, nous recrutons un Data Analyst, BI et Solutions Qualité. Vous serez le fournisseur exclusif des KPI, tableaux de bord et éléments de mesure pour l'ensemble des entités de la Direction Qualité tout en endossant le rôle d'AMOA .\n\n**Vos principales missions :**\n\n- Centraliser et gérer les données de mesure\n- Développer et diffuser les KPI & Dashboards\n- Assurer l’AMOA des solutions et outils métier\n- Optimiser et mutualiser les ressources\n\n**Vos responsabilités clés :**\n\n- Superviser la production et la maintenance des KPI pour toutes les cellules qualité.\n- Valider les méthodologies de calcul et garantir la cohérence des indicateurs.\n- Piloter la qualité, la pertinence et la ponctualité des livrables BI.\n- Définir et maintenir le catalogue des reportings et dashboards disponibles.\n- Coordonner l'expression des besoins et la formalisation des cahiers de charges\n- Animer la communauté des utilisateurs Qualité et faciliter le partage d’expérience.\n\n### **Profil recherché**\n\n**Formation et expérience**\n\n- Bac +5 en Informatique Décisionnelle, Systèmes d’Information ou équivalent.\n- Minimum 2 ans d’expérience en gestion de données, Business Intelligence et pilotage de solutions métier.\n\n**Compétences techniques**\n\n- Maîtrise des outils BI et des bases de données.\n- Expérience confirmée en gestion de projet applicatif et méthodologie agile.\n- Connaissance souhaitée des processus et normes qualité.\n\n**Autres compétences**\n\n- Forte orientation service client interne\n- Excellentes capacités de coordination et de pédagogie\n- Rigueur méthodologique et sens de la communication\n- Esprit d’analyse.",
+  "skills_required": [
+    "Business Intelligence",
+    "Agile",
+    "Data Visualization",
+    "KPI / Reporting"
+  ],
+  "skills_optional": [],
+  "responsibilities": [],
+  "tools_mentioned": [],
+  "frameworks_mentioned": [],
+  "languages_programming": [],
+  "domains_iaml": [
+    "BUSINESS_INTELLIGENCE"
+  ],
+  "job_family": "DATA_ANALYST",
+  "languages_spoken": [],
+  "scraped_at": "2026-05-14T22:00:00Z",
+  "scraper": "skillnav-firecrawl-v1.0",
+  "rgpd_compliant": true,
+  "personal_data_stripped": true,
+  "extraction_confidence": 0.85
+}

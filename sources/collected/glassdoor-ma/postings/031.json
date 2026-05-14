@@ -1,0 +1,50 @@
+{
+  "job_id": "glassdoor-ma-2026-031",
+  "source": "glassdoor-ma",
+  "source_url": "https://www.glassdoor.com/job-listing/data-engineer-brome-consulting-technology-JV_IC3935929_KO0,13_KE14,41.htm?jl=1009896932256",
+  "source_ref": "1009896932256",
+  "title": "Data Engineer",
+  "title_normalized": "DATA_ENGINEER",
+  "company": "BROME Consulting & Technology",
+  "company_type": "entité morale privée",
+  "location": "Casablanca",
+  "country": "MA",
+  "remote_policy": "unknown",
+  "posted_date": "2026-03-30",
+  "deadline_date": null,
+  "contract_type": "Freelance",
+  "experience_min_years": null,
+  "experience_max_years": null,
+  "salary_range": null,
+  "description": "**Description du poste**\n\n# **Data Engineer**\n\n### **Missions principales**\n\nGarantir la qualité, l’intégrité et la disponibilité de la plateforme data.\n\nConcevoir, développer et maintenir les pipelines de données.\n\nMettre en œuvre des solutions de traitement de données scalables.\n\nCollaborer avec les équipes BI, Data Science et métiers.\n\n### **Profil recherché**\n\nFormation Bac+5 en informatique, data engineering, systèmes d'information ou domaines équivalents.\n\nExpérience en conception de pipelines de données et en gestion de plateformes data.\n\nMaîtrise des outils et langages : **Python**, **SQL**, **Spark**, **Kafka**, **Airflow**, etc.\n\nBonnes connaissances en modélisation de données et architecture Big Data.\n\n### **Informations sur le poste**\n\nDate souhaitée\n\nNon définie\n\nDate limite candidature\n\nNon définie\n\nExpérience professionnelle\n\nBAC+5 Master, BAC+5 ingénieur\n\nType de contrat\n\nFreelance\n\nSecteur d’activité\n\nAssurance, IT\n\nVille\n\nCasablanca\n\nPays\n\nMaroc",
+  "skills_required": [
+    "Python",
+    "SQL",
+    "Spark",
+    "Airflow",
+    "Kafka",
+    "Big Data"
+  ],
+  "skills_optional": [],
+  "responsibilities": [],
+  "tools_mentioned": [
+    "Airflow",
+    "Kafka"
+  ],
+  "frameworks_mentioned": [],
+  "languages_programming": [
+    "Python",
+    "SQL"
+  ],
+  "domains_iaml": [
+    "BIG_DATA",
+    "DATA_ENGINEERING"
+  ],
+  "job_family": "DATA_ENGINEER",
+  "languages_spoken": [],
+  "scraped_at": "2026-05-14T22:00:00Z",
+  "scraper": "skillnav-firecrawl-v1.0",
+  "rgpd_compliant": true,
+  "personal_data_stripped": true,
+  "extraction_confidence": 0.85
+}

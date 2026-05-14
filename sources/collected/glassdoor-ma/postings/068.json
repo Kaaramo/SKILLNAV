@@ -1,0 +1,41 @@
+{
+  "job_id": "glassdoor-ma-2026-068",
+  "source": "glassdoor-ma",
+  "source_url": "https://www.glassdoor.com/job-listing/ing%C3%A9nieur-data-scientist-fh-safran-JV_IC3935929_KO0,27_KE28,34.htm?jl=1010134453269",
+  "source_ref": "1010134453269",
+  "title": "ingénieur Data Scientist F-H",
+  "title_normalized": "DATA_SCIENTIST",
+  "company": "Safran",
+  "company_type": "entité morale privée",
+  "location": "Casablanca",
+  "country": "MA",
+  "remote_policy": "hybrid",
+  "posted_date": null,
+  "deadline_date": null,
+  "contract_type": null,
+  "experience_min_years": null,
+  "experience_max_years": null,
+  "salary_range": null,
+  "description": "**Job Description**\n\nvous contribuez dans un projet d'innovation centrés sur la donnée et les mathématiques/physique appliquées (Statistiques, Machine/Deep Learning), à l'analyse, le traitement et la restitution des données,\n\n- Extraire les données nécessaires à l'analyse\n\n- Définir des règles de gestion de nettoyage des bases de données,\n- Développer et implémenter des modèles d'algorithmes avancés à base de l'IA (ex : machine learning et le deep learning),\n- Analyser et interpréter des données.\n- Collaborer avec les équipes techniques et métiers pour identifier les meilleures solutions.\n- Assurer la performance et l'amélioration continue des modèles en production.\n\n## **Job Requirements**\n\nDiplômé(e) d'une école d'ingénieur ou formation universitaire avec une spécialisation en en Data Science ou Intelligence Artificielle, vous disposez d'une première expérience préalable d'au moins deux ans dans le même poste.\n\n## **Company Information**\n\nSafran is an international high-technology group, operating in the aviation (propulsion, equipment and interiors), defense and space markets. Its core purpose is to contribute to a safer, more sustainable world, where air transport is more environmentally friendly, comfortable and accessible. Safran has a global presence, with 100,000 employees and sales of 27.3 billion euros in 2024, and holds, alone or in partnership, world or regional leadership positions in its core markets.\n\nSafran is in the 2nd place in the aerospace and defense industry in TIME magazine's \"World's best companies 2024\" ranking.\n\nSafran Electrical & Power is one of the world's leaders in aircraft electrical systems. The company is a key player in equipment electrification and in the electric and hybrid propulsion sector. It has over 14,000 employees across 13 different countries.\n\n### **Locate your future workplace**\n\nRoute de Nouasseur 20100\n\nCasablanca\n\nMorocco",
+  "skills_required": [
+    "Machine Learning",
+    "Deep Learning",
+    "Statistics"
+  ],
+  "skills_optional": [],
+  "responsibilities": [],
+  "tools_mentioned": [],
+  "frameworks_mentioned": [],
+  "languages_programming": [],
+  "domains_iaml": [
+    "DEEP_LEARNING",
+    "ML_CLASSIC"
+  ],
+  "job_family": "DATA_SCIENTIST",
+  "languages_spoken": [],
+  "scraped_at": "2026-05-14T22:00:00Z",
+  "scraper": "skillnav-firecrawl-v1.0",
+  "rgpd_compliant": true,
+  "personal_data_stripped": true,
+  "extraction_confidence": 0.65
+}

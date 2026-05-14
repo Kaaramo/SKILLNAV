@@ -1,0 +1,42 @@
+{
+  "job_id": "glassdoor-ma-2026-018",
+  "source": "glassdoor-ma",
+  "source_url": "https://www.glassdoor.com/job-listing/data-analyst-ref05-trusted-financial-advisors-JV_IC3937708_KO0,18_KE19,45.htm?jl=1006363021763",
+  "source_ref": "1006363021763",
+  "title": "Data Analyst (REF05)",
+  "title_normalized": "DATA_ANALYST",
+  "company": "Trusted Financial Advisors",
+  "company_type": "entité morale privée",
+  "location": "Aïn Sebaa",
+  "country": "MA",
+  "remote_policy": "unknown",
+  "posted_date": "2026-03-30",
+  "deadline_date": null,
+  "contract_type": "Freelance",
+  "experience_min_years": null,
+  "experience_max_years": null,
+  "salary_range": null,
+  "description": "Nous recherchons pour le compte d'une banque de la place à Casablanca, un Data Analyst.\n\n**Principales Missions:**\n\n- Produire des Dashboards pour le métier en se basant sur les besoins définis.\n- Adapter les applicatifs aux besoins des métiers de la banque.\n- Piloter les développements nécessaires autour des Dashboard.\n- Fournir toute aide nécessaire pour la mise en place des Dashboard pour le métier.\n- Mener des formations pour les nouvelles entrantes ainsi que les nouveaux utilisateurs et produire la documentation nécessaire.\n\n**Expertise souhaitable :**\n\n- Profil Sénior en Gestion de Projet (réalisation du planning du projet, gestion des priorités, pilotage et coordination des tâches et des intervenants du projet, formalisation des documents, conduite des tests, compte-rendu, présentations, ...) avec une connaissance des process et activités de la banque.\n- Maîtrise Tableau pour développement.\n- Expert en Data science, Data Analysis, Data modélisation et visualisation.\n- Expertise Tableau nécessaire et Alteryx souhaitée.\n- Connaissance en méthodologie Agile.\n\n**Type de Contrat:** Freelance\n\n**Durée de la mission:** 3 mois renouvelables\n\n**Lieu:** Casablanca",
+  "skills_required": [
+    "Tableau",
+    "Agile",
+    "Data Visualization"
+  ],
+  "skills_optional": [],
+  "responsibilities": [],
+  "tools_mentioned": [
+    "Tableau"
+  ],
+  "frameworks_mentioned": [],
+  "languages_programming": [],
+  "domains_iaml": [
+    "BUSINESS_INTELLIGENCE"
+  ],
+  "job_family": "DATA_ANALYST",
+  "languages_spoken": [],
+  "scraped_at": "2026-05-14T22:00:00Z",
+  "scraper": "skillnav-firecrawl-v1.0",
+  "rgpd_compliant": true,
+  "personal_data_stripped": true,
+  "extraction_confidence": 0.85
+}

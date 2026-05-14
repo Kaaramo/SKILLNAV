@@ -1,0 +1,75 @@
+{
+  "job_id": "glassdoor-ma-2026-024",
+  "source": "glassdoor-ma",
+  "source_url": "https://www.glassdoor.com/job-listing/data-engineer-ads-glory-JV_KO0,13_KE14,23.htm?jl=1009240217418",
+  "source_ref": "1009240217418",
+  "title": "DATA ENGINEER",
+  "title_normalized": "DATA_ENGINEER",
+  "company": "Anonyme",
+  "company_type": "inconnu",
+  "location": "Morocco",
+  "country": "MA",
+  "remote_policy": "unknown",
+  "posted_date": "2026-03-30",
+  "deadline_date": null,
+  "contract_type": "CDI",
+  "experience_min_years": 1,
+  "experience_max_years": 3,
+  "salary_range": null,
+  "description": "#### **Description emploi**\n\nLe recruteur :\n\nNous somme une société spécialisée dans le Web Marketing\n\nPoste à occuper :\n\nADS GLORY recrute un Data Engineer expérimenté pour rejoindre notre équipe technique dynamique. Dans ce rôle, vous serez responsable de concevoir, construire et optimiser des pipelines de données fiables et évolutifs pour alimenter nos applications analytiques et nos systèmes décisionnels. Responsabilités principales :Concevoir, développer et maintenir des pipelines de données robustes en utilisant des technologies telles que Hadoop, Spark, Kafka et l’écosystème Big Data; Créer et optimiser des processus ETL/ELT pour extraire, transformer et charger efficacement les données provenant de sources diverses; Collaborer avec les équipes de data science et d’analyse pour comprendre les besoins en données et fournir des solutions techniques adaptées; Assurer la qualité, la fiabilité et la performance des pipelines de données; Mettre en place des solutions de surveillance et de journalisation (ELK) pour garantir la visibilité et le dépannage des systèmes; Contribuer à l’automatisation des processus de déploiement et d’exploitation à l’aide de technologies de conteneurisation comme Docker et Kubernetes; Participer à la prise de décisions technologiques stratégiques pour l’architecture des données .\n\nProfil recherché :\n\nQualifications requises : Avoir au Minimum de 2 ans d’expérience professionnelle en tant que Data Engineer ou un rôle similaire Excellente compétences en programmation backend (Go, Python, Scala, Java) Connaissances solides des technologies frontend (React) Expérience dans la conception et la mise en œuvre de pipelines de données à l’aide d’outils Big Data Maîtrise des pratiques de développement logiciel et de l’intégration continue Compréhension des concepts de machine learning et d’intelligence artificielle Capacité à travailler de manière autonome et à gérer plusieurs tâches en parallèle Excellent esprit d’équipe et de collaboration Motivation, curiosité intellectuelle et volonté d’apprendre continuellement Atouts supplémentaires :Expérience dans la création et l’optimisation d’entrepôts de données Connaissance des méthodologies Agile et des pratiques DevOps Familiarité avec les technologies cloud (AWS, GCP, Azure) Compétences en architecture de systèmes distribués et tolérants aux pannes Ce que nous offrons : Un environnement de travail stimulant et collaboratif au sein d’une équipe technique talentueuse Des opportunités de formation et de développement professionnel continu Un package de rémunération compétitif avec des avantages sociaux attrayants Un cadre de travail moderne et agréable, propice à l’innovation et à la créativité Une culture d’entreprise valorisant l’inclusion, le respect et l’épanouissement personnel Si vous êtes passionné par les données, que vous aimez relever des défis techniques et que vous souhaitez rejoindre une équipe dynamique dans une entreprise à la pointe de la technologie, n’hésitez pas à postuler pour ce poste de Data Engineer passionnant.\n\nPostulez dès maintenant et rejoignez-notre groupe ADS GLORY\n\nSecteur(s) d’activité :\n\nInformatique / Internet / Multimedia\n\nMétier(s) :\n\nInformatique / Internet / Multimedia\n\nNiveau d’expériences requis :\n\nDébutant (de 1 à 3 ans)\n\nNiveau d’études exigé :\n\nBAC+4\n\nLangue(s) exigée(s) :\n\nFrançais\n\nL’offre a été publiée il y a 1 mois avant sur le site.\n\n**Salaire:**\n\nde 6000 dh à 8000 dh\n\n- Informatique\n\n- CDI\n- 2 ans avant\n- Tanger\n- Ads glory\n\nIs my resume a good match?\n\n## Conversations @Ads glory\n\nKick off the conversation by asking about salaries, interviews or anything else @Ads glory.\n\n[Explore more Bowls](https://www.glassdoor.com/Community/search/bowls)\n\n### Find your happy place\n\nRead authentic reviews with a Glassdoor account. Only apply to jobs you love.\n\nSign in",
+  "skills_required": [
+    "Python",
+    "Java",
+    "Scala",
+    "Spark",
+    "Hadoop",
+    "Machine Learning",
+    "Azure",
+    "AWS",
+    "GCP",
+    "Docker",
+    "Kubernetes",
+    "Kafka",
+    "Big Data",
+    "Transformers",
+    "ETL",
+    "ELT",
+    "Agile"
+  ],
+  "skills_optional": [],
+  "responsibilities": [],
+  "tools_mentioned": [
+    "Azure",
+    "AWS",
+    "GCP",
+    "Docker",
+    "Kubernetes",
+    "Kafka"
+  ],
+  "frameworks_mentioned": [
+    "Transformers"
+  ],
+  "languages_programming": [
+    "Python",
+    "Java",
+    "Scala"
+  ],
+  "domains_iaml": [
+    "BIG_DATA",
+    "CLOUD_DATA",
+    "DATA_ENGINEERING",
+    "DEEP_LEARNING",
+    "MLOPS",
+    "ML_CLASSIC",
+    "NLP"
+  ],
+  "job_family": "DATA_ENGINEER",
+  "languages_spoken": [
+    "Français"
+  ],
+  "scraped_at": "2026-05-14T22:00:00Z",
+  "scraper": "skillnav-firecrawl-v1.0",
+  "rgpd_compliant": true,
+  "personal_data_stripped": true,
+  "extraction_confidence": 0.85
+}
