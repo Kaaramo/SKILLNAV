@@ -1,0 +1,117 @@
+# ═══════════════════════════════════════════════════════════════════════════
+# SKILLNAV — .gitignore
+# ═══════════════════════════════════════════════════════════════════════════
+
+# ─── Secrets ────────────────────────────────────────────────────────────────
+.env
+.env.local
+.env.*.local
+!.env.example
+*.pem
+*.key
+secrets/
+
+# ─── Python ─────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual envs
+.venv/
+venv/
+ENV/
+env/
+
+# Tooling caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+*.cover
+.hypothesis/
+.tox/
+.nox/
+
+# Jupyter
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+.jupyter/
+
+# ─── Node / Next.js ─────────────────────────────────────────────────────────
+node_modules/
+.next/
+out/
+.turbo/
+*.tsbuildinfo
+next-env.d.ts
+.pnpm-debug.log*
+.npm/
+.yarn/
+
+# ─── Données (PRD §16.2 — gitignored par défaut) ────────────────────────────
+data/raw/
+data/exports/
+data/audit/
+# gold_set/ reste committé (fixtures pour tests)
+!data/gold_set/
+data/gold_set/*.bak
+
+# Dumps DBs
+*.dump
+*.bson
+*.cypher.dump
+
+# Models téléchargés (HuggingFace cache)
+.cache/huggingface/
+models/
+
+# ─── IDE ────────────────────────────────────────────────────────────────────
+.idea/
+.vscode/*
+!.vscode/settings.json.example
+*.iml
+*.swp
+*.swo
+
+# ─── OS ─────────────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+$RECYCLE.BIN/
+
+# ─── Logs ───────────────────────────────────────────────────────────────────
+*.log
+logs/
+
+# ─── Claude Code local ──────────────────────────────────────────────────────
+.claude/local/
+.claude/cache/
+.claude/settings.local.json
+
+# ─── Misc ───────────────────────────────────────────────────────────────────
+*.tmp
+*.bak
+~$*
+.charte_tmp.html
+_preview/
+_ref/

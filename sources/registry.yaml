@@ -1,0 +1,194 @@
+# SKILLNAV — Registre des sources de données
+#
+# Voir PRD §8 (Sources) et §N4 (RGPD + robots.txt).
+# Chaque source DOIT être inscrite ici avant tout scraping.
+#
+# Champs obligatoires :
+#   - id, name, base_url, country, geography, scraper_type
+#   - robots_txt_compliant, tos_reviewed_at, tos_reviewed_by
+#   - rate_limit_seconds, user_agent
+#
+# Vérifier robots.txt + TOS À LA MAIN avant de passer is_active: true.
+
+defaults:
+  user_agent: "SkillnavBot/1.0 (Academic; M242 ENSA-Tetouan)"
+  rate_limit_seconds: 5
+
+sources:
+  # ═════════════════════════════════════════════════════════════════════════
+  # MAROC — National (PRD §8.2)
+  # ═════════════════════════════════════════════════════════════════════════
+
+  - id: rekrute_ma
+    name: Rekrute
+    base_url: https://www.rekrute.com
+    country: MA
+    geography: national
+    scraper_type: scrapy
+    robots_txt_url: https://www.rekrute.com/robots.txt
+    robots_txt_compliant: null  # à vérifier avant first run
+    tos_url: https://www.rekrute.com/conditions
+    tos_reviewed_at: null
+    tos_reviewed_by: null
+    rate_limit_seconds: 5
+    is_active: false
+    notes: "Premier portail emploi MA. Sitemap accessible. Ciblage : offres IA/DS."
+
+  - id: emploitic_ma
+    name: EmploiTIC
+    base_url: https://www.emploitic.com
+    country: MA
+    geography: national
+    scraper_type: scrapy_playwright
+    robots_txt_url: https://www.emploitic.com/robots.txt
+    robots_txt_compliant: null
+    tos_url: null
+    tos_reviewed_at: null
+    tos_reviewed_by: null
+    rate_limit_seconds: 5
+    is_active: false
+    notes: "Spécialisé IT. Pagination JS — Playwright requis."
+
+  - id: linkedin_ma
+    name: LinkedIn Maroc
+    base_url: https://www.linkedin.com
+    country: MA
+    geography: linkedin_country
+    scraper_type: apify_mcp
+    actor: apify/linkedin-jobs-scraper
+    filter: "geo=MA"
+    robots_txt_compliant: true  # Apify gère
+    tos_reviewed_at: null
+    tos_reviewed_by: null
+    rate_limit_seconds: 0
+    is_active: false
+    quota_per_session: 200
+    notes: "Plafond 200 offres / session pour respecter les quotas Apify et LinkedIn TOS."
+
+  - id: ocp_careers
+    name: OCP Group Careers
+    base_url: https://www.ocpgroup.ma/careers
+    country: MA
+    geography: company_careers
+    scraper_type: firecrawl_mcp
+    robots_txt_compliant: null
+    tos_reviewed_at: null
+    is_active: false
+    notes: "Top employeur IA Maroc — pages carrières."
+
+  # ═════════════════════════════════════════════════════════════════════════
+  # INTERNATIONAL (PRD §8.3)
+  # ═════════════════════════════════════════════════════════════════════════
+
+  - id: linkedin_international
+    name: LinkedIn International
+    base_url: https://www.linkedin.com
+    country: INT
+    geography: international
+    scraper_type: apify_mcp
+    actor: apify/linkedin-jobs-scraper
+    filter: "geo=FR,EU,US"
+    robots_txt_compliant: true
+    tos_reviewed_at: null
+    rate_limit_seconds: 0
+    is_active: false
+    quota_per_session: 500
+
+  - id: indeed_fr
+    name: Indeed France
+    base_url: https://fr.indeed.com
+    country: FR
+    geography: national
+    scraper_type: scrapy_playwright
+    robots_txt_url: https://fr.indeed.com/robots.txt
+    robots_txt_compliant: null
+    tos_reviewed_at: null
+    rate_limit_seconds: 5
+    is_active: false
+
+  - id: indeed_us
+    name: Indeed US
+    base_url: https://www.indeed.com
+    country: US
+    geography: international
+    scraper_type: scrapy_playwright
+    robots_txt_url: https://www.indeed.com/robots.txt
+    robots_txt_compliant: null
+    tos_reviewed_at: null
+    rate_limit_seconds: 5
+    is_active: false
+
+  - id: builtin_us
+    name: Built In
+    base_url: https://builtin.com
+    country: US
+    geography: international
+    scraper_type: scrapy
+    robots_txt_url: https://builtin.com/robots.txt
+    robots_txt_compliant: null
+    tos_reviewed_at: null
+    rate_limit_seconds: 5
+    is_active: false
+    notes: "Tech-only US. Riche en compétences IA pointues."
+
+  - id: wttj_fr
+    name: Welcome to the Jungle
+    base_url: https://www.welcometothejungle.com
+    country: FR
+    geography: international
+    scraper_type: scrapy_playwright
+    robots_txt_url: https://www.welcometothejungle.com/robots.txt
+    robots_txt_compliant: null
+    tos_reviewed_at: null
+    rate_limit_seconds: 5
+    is_active: false
+    notes: "SPA — Playwright requis. Descriptions très détaillées."
+
+  # ═════════════════════════════════════════════════════════════════════════
+  # SIGNAUX FAIBLES (PRD §8.4) — validateurs externes Usage Mining
+  # ═════════════════════════════════════════════════════════════════════════
+
+  - id: google_trends
+    name: Google Trends
+    base_url: https://trends.google.com
+    country: GLOBAL
+    geography: weak_signal
+    scraper_type: pytrends
+    robots_txt_compliant: true
+    tos_reviewed_at: null
+    rate_limit_seconds: 10  # pytrends recommande backoff long
+    is_active: false
+
+  - id: github_trending
+    name: GitHub Trending
+    base_url: https://github.com/trending
+    country: GLOBAL
+    geography: weak_signal
+    scraper_type: github_api
+    robots_txt_compliant: true
+    tos_reviewed_at: null
+    rate_limit_seconds: 1
+    is_active: false
+
+  - id: huggingface_trending
+    name: HuggingFace Trending
+    base_url: https://huggingface.co
+    country: GLOBAL
+    geography: weak_signal
+    scraper_type: hf_hub_api
+    robots_txt_compliant: true
+    tos_reviewed_at: null
+    rate_limit_seconds: 1
+    is_active: false
+
+  - id: paperswithcode_trending
+    name: Papers With Code Trending
+    base_url: https://paperswithcode.com
+    country: GLOBAL
+    geography: weak_signal
+    scraper_type: scrapy
+    robots_txt_url: https://paperswithcode.com/robots.txt
+    robots_txt_compliant: null
+    tos_reviewed_at: null
+    rate_limit_seconds: 5
+    is_active: false

@@ -1,0 +1,212 @@
+[tool.poetry]
+name = "skillnav"
+version = "0.1.0"
+description = "Skills Navigator — observatoire des compétences IA & Data Science par Web Mining (M242 ENSA-Tétouan)"
+authors = [
+    "Karamo Sylla <contactkaramo@gmail.com>",
+    "Bachirou Konaté <bachirou@example.com>",
+]
+license = "MIT"
+readme = "README.md"
+packages = [{ include = "skillnav" }]
+keywords = ["web-mining", "data-science", "ai-skills", "academic", "m242", "ensa-tetouan"]
+classifiers = [
+    "Development Status :: 2 - Pre-Alpha",
+    "Intended Audience :: Education",
+    "Intended Audience :: Science/Research",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
+
+# ─── Runtime dependencies ─────────────────────────────────────────────────────
+[tool.poetry.dependencies]
+python = "^3.12"
+
+# Core data validation — Pydantic v2 = source de vérité unique (PRD §7.5)
+pydantic = "^2.7"
+pydantic-settings = "^2.3"
+
+# Extraction IA structurée (PRD §9.3)
+pydantic-ai = "^0.0.30"
+anthropic = "^0.30"
+
+# NLP — NER comparatif 3 modèles HuggingFace (PRD §9.4bis)
+transformers = "^4.40"
+sentence-transformers = "^2.7"
+torch = "^2.3"
+spacy = "^3.7"
+fasttext-langdetect = "^1.0.5"
+
+# Web scraping (PRD §8.1–8.4)
+scrapy = "^2.11"
+playwright = "^1.40"
+beautifulsoup4 = "^4.12"
+lxml = "^5.2"
+
+# Storage drivers — NoSQL polyglotte (PRD §7)
+motor = "^3.4"
+neo4j = "^5.20"
+elasticsearch = "^8.13"
+
+# Graph algos — Web Structure Mining (PRD §6.3, §N2.2)
+networkx = "^3.3"
+python-louvain = "^0.16"
+igraph = "^0.11"
+
+# Time series — Web Usage Mining (PRD §6.4, §N2.3)
+statsmodels = "^0.14"
+prophet = "^1.1"
+neuralforecast = "^1.6"
+pytrends = "^4.9"
+
+# API
+fastapi = "^0.110"
+uvicorn = { extras = ["standard"], version = "^0.27" }
+
+# CLI / utilities
+typer = "^0.12"
+rich = "^13.7"
+python-dotenv = "^1.0"
+pyyaml = "^6.0"
+httpx = "^0.27"
+
+# ─── Dev dependencies ─────────────────────────────────────────────────────────
+[tool.poetry.group.dev.dependencies]
+ruff = "^0.4"
+mypy = "^1.10"
+black = "^24.4"
+pytest = "^8.2"
+pytest-asyncio = "^0.23"
+pytest-cov = "^5.0"
+pre-commit = "^3.7"
+
+# Notebooks
+jupyter = "^1.0"
+ipykernel = "^6.29"
+plotly = "^5.20"
+
+# Type stubs
+types-pyyaml = "^6.0"
+
+# ─── Entry points ─────────────────────────────────────────────────────────────
+[tool.poetry.scripts]
+skillnav = "skillnav.cli:app"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+# ═══════════════════════════════════════════════════════════════════════════
+# QUALITY TOOLS
+# ═══════════════════════════════════════════════════════════════════════════
+
+# ─── Ruff (linter ultra-rapide, remplace flake8 + isort + pyupgrade) ─────────
+[tool.ruff]
+target-version = "py312"
+line-length = 100
+extend-exclude = ["notebooks", "data", "docs/archive", ".venv", "build", "dist"]
+
+[tool.ruff.lint]
+select = [
+    "E",   # pycodestyle errors
+    "F",   # pyflakes
+    "W",   # pycodestyle warnings
+    "I",   # isort
+    "B",   # flake8-bugbear
+    "C4",  # flake8-comprehensions
+    "UP",  # pyupgrade
+    "N",   # pep8-naming
+    "SIM", # flake8-simplify
+    "RET", # flake8-return
+    "ARG", # flake8-unused-arguments
+    "PTH", # flake8-use-pathlib
+]
+ignore = [
+    "E501", # line length handled by black
+    "B008", # function call in argument defaults (FastAPI Depends)
+]
+
+[tool.ruff.lint.per-file-ignores]
+"tests/**/*.py" = ["ARG001"] # unused-argument is fine in fixtures
+
+[tool.ruff.format]
+quote-style = "double"
+indent-style = "space"
+
+# ─── Black (formatter) ───────────────────────────────────────────────────────
+[tool.black]
+line-length = 100
+target-version = ["py312"]
+extend-exclude = '''
+/(
+    notebooks
+  | data
+  | docs/archive
+  | \.venv
+  | build
+  | dist
+)/
+'''
+
+# ─── Mypy (strict typing — PRD §16.3) ────────────────────────────────────────
+[tool.mypy]
+python_version = "3.12"
+strict = true
+warn_unreachable = true
+warn_unused_ignores = true
+warn_redundant_casts = true
+disallow_untyped_defs = true
+disallow_incomplete_defs = true
+check_untyped_defs = true
+disallow_untyped_decorators = true
+no_implicit_optional = true
+plugins = ["pydantic.mypy"]
+exclude = ["notebooks", "data", "docs/archive", "build", "dist", "\\.venv"]
+
+[[tool.mypy.overrides]]
+module = [
+    "pytrends.*",
+    "louvain.*",
+    "neuralforecast.*",
+    "prophet.*",
+    "fasttext.*",
+    "igraph.*",
+    "scrapy.*",
+    "sentence_transformers.*",
+]
+ignore_missing_imports = true
+
+# ─── Pytest (PRD §16.3 + couverture cible ≥ 70%) ─────────────────────────────
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+asyncio_mode = "auto"
+addopts = [
+    "-ra",
+    "--strict-markers",
+    "--strict-config",
+    "--cov=skillnav",
+    "--cov-report=term-missing",
+    "--cov-report=xml",
+]
+markers = [
+    "slow: tests lents (deselect avec '-m \"not slow\"')",
+    "integration: nécessite services externes (MongoDB, Neo4j, ES)",
+]
+
+# ─── Coverage ────────────────────────────────────────────────────────────────
+[tool.coverage.run]
+source = ["skillnav"]
+omit = [
+    "*/tests/*",
+    "*/__init__.py",
+    "skillnav/cli.py",
+]
+
+[tool.coverage.report]
+exclude_lines = [
+    "pragma: no cover",
+    "raise NotImplementedError",
+    "if TYPE_CHECKING:",
+    "if __name__ == .__main__.:",
+]
+fail_under = 70
