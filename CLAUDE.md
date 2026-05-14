@@ -159,9 +159,7 @@ Configurés dans `.claude/settings.json` (gitignored, à créer localement) :
 
 - ❌ Committer `.env`, dumps de prod, données candidates identifiantes
 - ❌ Scraper en ignorant robots.txt — refuser et signaler
-- ❌ Modifier `docs/archive/*` (PRD OCTAO historique préservé)
-- ❌ Régénérer `docs/CHARTE_GRAPHIQUE_SKILLNAV.pdf` à la main — toujours via `node scripts/build_charte_docx.mjs` puis Word COM
-- ❌ Régénérer `docs/PRD_CONDENSE_SKILLNAV.pdf` à la main — toujours via `node scripts/build_prd_docx.mjs` puis Word COM
+- ❌ Modifier les PDFs livrables à la main — éditer le DOCX (Word) puis re-exporter en PDF
 - ❌ Inventer des chiffres, métriques ou résultats sans notebook source — toute valeur publiée doit être traçable
 - ❌ Ajouter des dépendances Python sans `poetry add` (jamais éditer `poetry.lock` à la main)
 

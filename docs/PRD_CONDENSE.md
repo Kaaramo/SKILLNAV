@@ -505,8 +505,7 @@ skillnav/
 │   ├── CHARTE_GRAPHIQUE_SKILLNAV.{md,docx,pdf}
 │   ├── RAPPORT_METHODOLOGIQUE.md  # L5 (Bachirou Konaté)
 │   ├── PLAN_SOUTENANCE.md         # L6
-│   ├── RGPD_DPIA.md
-│   └── archive/                   # versions anciennes
+│   └── RGPD_DPIA.md
 │
 ├── skillnav/                      # package Python
 │   ├── schemas/                   # Pydantic v2 — source de vérité
@@ -556,7 +555,6 @@ skillnav/
 │   └── audit/                     # logs RGPD
 │
 └── scripts/
-    ├── build_charte_docx.mjs
     └── seed_taxonomy.py
 ```
 

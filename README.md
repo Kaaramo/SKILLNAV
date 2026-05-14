@@ -102,8 +102,6 @@ make test          # pytest avec couverture
 make quality       # lint + typecheck + test (CI gate)
 make api           # uvicorn FastAPI dev server
 make web-dev       # Next.js dev server
-make charte        # régénère charte graphique DOCX
-make prd-condense  # régénère PRD condensé DOCX
 ```
 
 ---
@@ -127,7 +125,7 @@ make prd-condense  # régénère PRD condensé DOCX
 ├── data/                    # raw/ exports/ audit/ gitignored ; gold_set/ commit
 ├── sources/registry.yaml    # Registre conformité robots.txt + TOS (PRD §8.5)
 ├── docs/                    # PRD, charte, rapport L5, plan soutenance
-├── scripts/                 # Build PDFs (charte + PRD condensé)
+├── scripts/                 # Scripts utilitaires (seed taxonomy, etc.)
 ├── .github/workflows/       # CI : python (lint+typecheck+test) + web (lint+build)
 ├── pyproject.toml           # Poetry + ruff + mypy + black + pytest configs
 ├── Makefile                 # Commandes courantes

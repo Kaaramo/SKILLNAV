@@ -104,7 +104,7 @@ build-backend = "poetry.core.masonry.api"
 [tool.ruff]
 target-version = "py312"
 line-length = 100
-extend-exclude = ["notebooks", "data", "docs/archive", ".venv", "build", "dist"]
+extend-exclude = ["notebooks", "data", ".venv", "build", "dist"]
 
 [tool.ruff.lint]
 select = [
@@ -141,7 +141,6 @@ extend-exclude = '''
 /(
     notebooks
   | data
-  | docs/archive
   | \.venv
   | build
   | dist
@@ -161,7 +160,7 @@ check_untyped_defs = true
 disallow_untyped_decorators = true
 no_implicit_optional = true
 plugins = ["pydantic.mypy"]
-exclude = ["notebooks", "data", "docs/archive", "build", "dist", "\\.venv"]
+exclude = ["notebooks", "data", "build", "dist", "\\.venv"]
 
 [[tool.mypy.overrides]]
 module = [

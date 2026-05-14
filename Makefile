@@ -1,7 +1,7 @@
 # SKILLNAV — commandes courantes
 # Usage : `make help`
 
-.PHONY: help install install-web setup lint format typecheck test test-fast quality clean charte prd-condense pdf-all
+.PHONY: help install install-web setup lint format typecheck test test-fast quality clean api web-dev cli
 
 # ─── Installation ───────────────────────────────────────────────────────────
 install: ## Installe les dépendances Python via Poetry
@@ -33,15 +33,6 @@ test-fast: ## Tests rapides (skip integration + slow)
 
 quality: lint typecheck test ## Pipeline qualité complet (lint + typecheck + test)
 	@echo "✅ Quality gate passé."
-
-# ─── Documents (régénération PDF) ───────────────────────────────────────────
-charte: ## Régénère la charte graphique (DOCX puis PDF)
-	node scripts/build_charte_docx.mjs
-	@echo "DOCX OK. Conversion PDF → exécuter manuellement via Word COM (PowerShell)."
-
-prd-condense: ## Régénère le PRD condensé premium (DOCX puis PDF)
-	node scripts/build_prd_docx.mjs
-	@echo "DOCX OK. Conversion PDF → exécuter manuellement via Word COM (PowerShell)."
 
 # ─── Maintenance ────────────────────────────────────────────────────────────
 clean: ## Nettoie caches + builds

@@ -2099,8 +2099,7 @@ skillnav/
 │   ├── CHARTE_GRAPHIQUE_SKILLNAV.pdf
 │   ├── RAPPORT_METHODOLOGIQUE.md   # L5
 │   ├── PLAN_SOUTENANCE.md          # L6
-│   ├── RGPD_DPIA.md
-│   └── archive/                    # versions anciennes préservées
+│   └── RGPD_DPIA.md
 ├── skillnav/
 │   ├── schemas/                    # Pydantic models (source de vérité)
 │   ├── db/
@@ -2148,7 +2147,6 @@ skillnav/
 │   ├── exports/                    # datasets publics
 │   └── audit/                      # logs RGPD, optout
 └── scripts/
-    ├── build_charte_pdf.ps1
     └── seed_taxonomy.py
 ```
 
