@@ -501,7 +501,64 @@ contenu.push(
 );
 
 // --- Section 5 : Décisions à valider ---
-contenu.push(h1("5. Décisions à valider avant Phase A"));
+// --- Section 5 : Détail du notebook starter ---
+contenu.push(h1("5. Détail du notebook 02_graph_starter.ipynb"));
+
+contenu.push(
+  p(
+    "Le notebook livré en Phase A est un starter kit dont le rôle est de préparer l'environnement Neo4j et de servir de patron pour le travail algorithmique. Sa structure est volontairement dichotomique : la moitié technique (connexion, chargement bulk, exemple Louvain commenté) est livrée prête à l'emploi ; l'autre moitié (trois algorithmes restants, interprétation, synthèse §N2.2) constitue le périmètre d'évaluation du volet Structure Mining."
+  )
+);
+
+contenu.push(h2("5.1 Cellules livrées clés en main (Phase A)"));
+
+contenu.push(
+  tab(
+    ["§", "Section du notebook", "État"],
+    [
+      ["0", "Setup : connexion Neo4j AuraDB via .env", "Prête à exécuter"],
+      ["1", "Vérification des artefacts CSV générés par build_dataset.py", "Prête à exécuter"],
+      ["2", "Contraintes d'unicité et index Cypher", "Prête à exécuter"],
+      ["3", "Chargement bulk des 13 071 nœuds (UNWIND par batches de 500)", "Prête à exécuter"],
+      ["4", "Chargement bulk des 62 341 arêtes (REQUIRES et POSTED_BY)", "Prête à exécuter"],
+      ["5", "Validation par comptages côté Neo4j", "Prête à exécuter"],
+      ["6", "Exemple complet : algorithme Louvain (commenté)", "Prête à exécuter, sert de patron"],
+      ["9", "Fermeture propre du driver Neo4j", "Prête à exécuter"],
+    ],
+    [600, 6000, 2426]
+  )
+);
+
+contenu.push(h2("5.2 Cellules à compléter en Phase B"));
+
+contenu.push(
+  tab(
+    ["§", "Section du notebook", "Action attendue"],
+    [
+      ["7", "Leiden", "Adapter la requête Cypher (gds.leiden.stream) sur le patron Louvain, mesurer durée et nombre de communautés"],
+      ["7", "Label Propagation", "Adapter (gds.labelPropagation.stream), même méthode"],
+      ["7", "PageRank", "Calculer les centralités, extraire le top 20 compétences"],
+      ["8", "Tableau comparatif §N2.2", "Reporter les métriques des quatre algorithmes (communautés, modularité, temps, notes)"],
+    ],
+    [600, 2800, 5626]
+  )
+);
+
+contenu.push(h2("5.3 Logique du découpage"));
+
+contenu.push(
+  p(
+    "Le travail livré clés en main couvre la plomberie technique : driver Neo4j, gestion des batches, optimisation des transactions, contraintes d'unicité. Cette partie est universelle et ne contribue pas à l'évaluation académique du volet."
+  )
+);
+
+contenu.push(
+  p(
+    "Le travail à compléter couvre en revanche le contenu scientifique : choix des paramètres, exécution comparative des trois algorithmes restants, interprétation des résultats et rédaction de la synthèse. C'est ce périmètre qui porte la note §N2.2 du PRD et qui nourrit la section correspondante du rapport méthodologique L5."
+  )
+);
+
+contenu.push(h1("6. Décisions à valider avant Phase A"));
 
 contenu.push(h2("Choix 1 — Profondeur du graphe"));
 
