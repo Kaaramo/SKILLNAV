@@ -87,8 +87,8 @@ SKILLNAV est porté par un **binôme** :
 
 | Membre | Spécialisation | Responsabilités principales |
 |---|---|---|
-| **Karamo Sylla** | Backend, IA, dashboard Next.js | Web Content Mining (NER + Pydantic AI), Web Usage Mining (forecasting), pipeline FastAPI, modélisation MongoDB, **dashboard Next.js** + visualisations |
-| **Bachirou Konaté** | Structure, qualité de la donnée, rédaction | Web Structure Mining (Neo4j, PageRank, Louvain), **Data Quality Framework**, **rédaction du rapport méthodologique L5**, charte graphique, deck soutenance |
+| **Karamo Sylla** | Backend, IA, dashboard Next.js | Web Content Mining (NER + Pydantic AI), modélisation NoSQL polyglotte (MongoDB + Neo4j + Elasticsearch), pipeline FastAPI, **dashboard Next.js** + visualisations |
+| **Bachirou Konaté** | Structure & Usage Mining, qualité, rédaction | Web Structure Mining (Neo4j, PageRank, Louvain), **Web Usage Mining (forecasting ARIMA / Prophet / LSTM)**, **Data Quality Framework**, **rédaction du rapport méthodologique L5**, charte graphique, deck soutenance |
 
 La matrice **RACI** détaillée par section et par livrable est en [Annexe RACI](#annexe-raci--répartition-karamo--bachirou).
 
@@ -366,7 +366,7 @@ C'est le parcours optimisé en priorité, exécuté à chaque sprint. **Tout tou
 └─────────────────────────────────────────────────────────────────┘
                               ▼
 ┌─────────────────────────────────────────────────────────────────┐
-│  ÉTAPE 4 — Indexation Elasticsearch + Forecasting (Karamo lead) │
+│  ÉTAPE 4 — Indexation Elasticsearch (Karamo) + Forecasting (Bachirou Konaté) │
 │  $ poetry run skillnav index push                               │
 │  $ poetry run skillnav forecast run                             │
 │                                                                 │
@@ -1810,7 +1810,7 @@ Les notebooks Jupyter sont l'**outil d'exploration et de validation** avant tout
 | `01_data_quality.ipynb` | Métriques complétude, bruit, biais (cf. §N3) | Bachirou Konaté |
 | `02_ner_comparison.ipynb` | Étude comparative NER + tableaux F1 (cf. §N2.1) | Karamo |
 | `03_graph_analysis.ipynb` | PageRank, Louvain, Label Propag., Leiden + tableau (cf. §N2.2) | Bachirou Konaté |
-| `04_forecasting_comparison.ipynb` | ARIMA / Prophet / LSTM + tableau (cf. §N2.3) | Karamo |
+| `04_forecasting_comparison.ipynb` | ARIMA / Prophet / LSTM + tableau (cf. §N2.3) | Bachirou Konaté |
 | `05_dashboard_data_prep.ipynb` | Préparation JSON pré-calculés pour le dashboard | Karamo |
 
 **Conventions** :
@@ -1828,7 +1828,7 @@ Le dashboard SKILLNAV est une application Next.js 15 déployée sur Vercel. Il c
 | `/` | Overview | KPIs marché IA Maroc + International, top compétences, derniers signaux | Karamo |
 | `/skills` | Skills explorer | Tableau filtrable, score émergence, family, growth | Karamo |
 | `/graph` | Skill graph | Graphe interactif Neo4j (react-force-graph-2d), filtres communautés Louvain | Karamo (data Neo4j : Bachirou Konaté) |
-| `/forecasting` | Forecasting | ARIMA + Prophet + LSTM superposés par skill, MAPE chiffré | Karamo |
+| `/forecasting` | Forecasting | ARIMA + Prophet + LSTM superposés par skill, MAPE chiffré | Karamo (modèles : Bachirou Konaté) |
 | `/ner-explorer` | NER comparison | Texte annoté side-by-side 3 modèles, badges confidence | Karamo |
 | `/methodology` | Méthodologie | Texte structuré : 3 axes, sources, RGPD, glossaire | Karamo (contenu : Bachirou Konaté) |
 | `/comparative-study` | Comparative study | Tableaux N2.1–N2.4 chiffrés, choix justifiés | Karamo |
@@ -2227,8 +2227,8 @@ Sprint 3 — Forecasting + Finition J13 → J18 (23-28 mai 2026)
 
 | Jour | Karamo | Bachirou Konaté |
 |---|---|---|
-| J13 | Séries temporelles + ARIMA + Prophet, page `/forecasting` skeleton | Rédaction §N2.3 Forecasting (rapport L5) |
-| J14 | LSTM (neuralforecast), page `/forecasting` graphiques superposés | Rédaction §N2.4 Détection émergence + chapitre Résultats (rapport L5) |
+| J13 | Page `/forecasting` skeleton, intégration des sorties de modèles produites par Bachirou Konaté | Séries temporelles + ARIMA + Prophet (§N2.3) |
+| J14 | Page `/forecasting` graphiques superposés, branchement API | LSTM (neuralforecast) + rédaction §N2.3 Forecasting (rapport L5) |
 | J15 | Notebook `04_forecasting_comparison` + tableau MAPE, page `/comparative-study` (synthèse) | Rédaction Discussion + Conclusion (rapport L5) + deck PPTX 20 slides |
 | J16 | Détection émergence (3 méthodes), polish final dashboard + revue accessibilité | Rédaction Annexes + Bibliographie + relecture rapport intégrale |
 | J17 | Plans B testés, démo locale `pnpm dev` | Rapport L5 final + génération PDF + répétition 1 |
@@ -2646,7 +2646,7 @@ Chaque ADR suit le format : Contexte / Décision / Conséquences.
 |---|---|---|
 | S1 (J1–J6) | DBs, scrapers, schémas Pydantic, pipeline ingestion + extraction, **dashboard skeleton + Vercel** | Charte PDF, **notebook `01_data_quality`**, plan + chapitres 1–2 du rapport L5 |
 | S2 (J7–J12) | NER + tableau F1, normalisation, **pages `/ner-explorer` + `/graph` + `/skills`**, dark mode | Graph builder, PageRank, Louvain, Leiden, **rédaction §N1 + §N2.1 + §N2.2 + §N3 + §N4** du rapport L5 |
-| S3 (J13–J18) | Forecasting (ARIMA + Prophet + LSTM), **pages `/forecasting` + `/comparative-study`**, polish, démo | **Rapport L5 final (PDF)** + deck PPTX + répétitions |
+| S3 (J13–J18) | **Pages `/forecasting` + `/comparative-study`**, intégration API forecasting, polish, démo | **Forecasting (ARIMA + Prophet + LSTM, §N2.3)**, **Rapport L5 final (PDF)** + deck PPTX + répétitions |
 
 ---
 

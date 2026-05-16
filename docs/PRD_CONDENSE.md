@@ -84,7 +84,7 @@
 └─────────────────────────────────────────────────────────────────┘
                               ▼
 ┌─────────────────────────────────────────────────────────────────┐
-│  ÉTAPE 4 — INDEX + FORECASTING              (Karamo lead)       │
+│  ÉTAPE 4 — INDEX (Karamo) + FORECASTING (Bachirou Konaté)       │
 │  $ poetry run skillnav index push                               │
 │  $ poetry run skillnav forecast run                             │
 │   • Elasticsearch : jobs_search + skills_timeseries             │
@@ -97,7 +97,7 @@
 │   01_data_quality          (Bachirou Konaté)                    │
 │   02_ner_comparison        (Karamo)                             │
 │   03_graph_analysis        (Bachirou Konaté)                    │
-│   04_forecasting_comparison(Karamo)                             │
+│   04_forecasting_comparison(Bachirou Konaté)                    │
 │   05_dashboard_data_prep   (Karamo)                             │
 └─────────────────────────────────────────────────────────────────┘
                               ▼
@@ -483,7 +483,7 @@ TOTAL MVP            < $50
 | `/` | KPIs marché IA (Maroc + International) · top compétences | Karamo |
 | `/skills` | Tableau filtrable · score émergence · family · growth | Karamo |
 | `/graph` | Graphe Neo4j interactif (react-force-graph-2d) · Louvain | Karamo *(data : Bachirou Konaté)* |
-| `/forecasting` | ARIMA + Prophet + LSTM superposés · MAPE chiffré | Karamo |
+| `/forecasting` | ARIMA + Prophet + LSTM superposés · MAPE chiffré | Karamo *(modèles : Bachirou Konaté)* |
 | `/ner-explorer` | Texte annoté side-by-side 3 modèles · badges confidence | Karamo |
 | `/methodology` | 3 axes · sources · RGPD · glossaire | Karamo *(contenu : Bachirou Konaté)* |
 | `/comparative-study` | 4 tableaux N2.1–N2.4 chiffrés · choix justifiés | Karamo |
@@ -536,7 +536,7 @@ skillnav/
 │   ├── 01_data_quality.ipynb           (Bachirou Konaté)
 │   ├── 02_ner_comparison.ipynb         (Karamo)
 │   ├── 03_graph_analysis.ipynb         (Bachirou Konaté)
-│   ├── 04_forecasting_comparison.ipynb (Karamo)
+│   ├── 04_forecasting_comparison.ipynb (Bachirou Konaté)
 │   └── 05_dashboard_data_prep.ipynb    (Karamo)
 │
 ├── web/                           # Next.js 15 (Karamo)
