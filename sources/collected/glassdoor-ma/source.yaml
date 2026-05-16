@@ -1,0 +1,76 @@
+source_id: glassdoor-ma
+source_name: Glassdoor Maroc
+source_url: https://www.glassdoor.com/Job/morocco-jobs-SRCH_IL.0,7_IN162.htm
+country: MA
+language: multi  # FR + EN
+
+tier: T1
+priority: true
+category: job_board_international
+mcp_tool: firecrawl
+fallback_tool: apify
+collection_frequency: monthly
+
+robots_txt_compliant: yes
+tos_reviewed_at: 2026-05-14
+rate_limit_seconds: 5
+user_agent: "SkillnavBot/1.0 (Academic; M242 ENSA-Tetouan)"
+personal_data_policy: stripped
+entity_focus: morale_only
+
+# ─── Méthode de collecte ────────────────────────────────────────────────────
+collection_methodology:
+  phase_1_initial:
+    tool: Firecrawl
+    keywords: [data-scientist, data-engineer, machine-learning, data-analyst]
+    output: 72 fiches markdown brutes dans raw/<jobkey>.md
+  phase_2_recovery_2026_05_16:
+    rationale: 55/72 fiches avaient descriptions vides ou < 200 chars apres parse initial
+    method_a: Apify actor memo23/glassdoor-scraper-ppr (smoke 5 URLs)
+    method_b: Firecrawl direct re-scrape des 55 URLs avec parser ameliore
+    result: 72/72 fiches a 100% exploitables (>= 200 chars)
+
+# ─── Volume ─────────────────────────────────────────────────────────────────
+sample_collected_at: 2026-05-14T22:35:00Z
+last_recovery_at: 2026-05-16T02:24:00Z
+total_postings_count: 72
+postings_id_range: "001-072"
+
+phase_1_status: completed_2026-05-14  # parse initial markdown
+phase_2_status: completed_2026-05-16  # recovery descriptions
+production_status: phase_complete_72_fiches_100pct_exploitable
+
+# ─── Resultats ──────────────────────────────────────────────────────────────
+results:
+  total_unique_jobs: 72
+  by_job_family:
+    DATA_ANALYST: 23
+    DATA_SCIENTIST: 17
+    DATA_ENGINEER: 13
+    OTHER: 12
+    ML_ENGINEER: 3
+    AI_ENGINEER: 2
+    MLOPS_ENGINEER: 1
+    DATA_ARCHITECT: 1
+  by_publication_month:
+    "2024-11": 1
+    "2026-02": 4
+    "2026-04": 45
+    "2026-05": 22
+  by_ai_classification:
+    ai-first: 9
+    ml-first: 29
+    non-ai: 34
+  invariants_observed:
+    rgpd_compliant_pct: 100
+    personal_data_stripped_pct: 100
+    description_non_empty_pct: 100
+
+# ─── Scripts de collecte presents ──────────────────────────────────────────
+scripts:
+  _parse_glassdoor_to_postings.py: Parse markdown Glassdoor (raw/) vers postings/
+  _list_incomplete_urls.py:        Liste URLs des fiches avec description < 200 chars
+  _firecrawl_recover.py:           Recovery descriptions via Firecrawl CLI (gratuit)
+  _apify_recover.py:               Recovery alternative via Apify (memo23/glassdoor-ppr)
+
+estimated_quality_score: 0.92

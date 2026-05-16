@@ -185,7 +185,7 @@ SKILLNAV est structuré en **trois paliers**. Le palier MVP est celui qui sera d
 │  Élargissements modérés :                                        │
 │   - Volume cible 5 000–10 000 offres                             │
 │   - Fine-tuning CamemBERT sur dataset annoté SKILLNAV            │
-│   - Article Medium / blog DataTalks                              │
+│   - Article Medium / publication académique                      │
 │   - Déploiement public skillnav.ma                               │
 └──────────────────────────────────────────────────────────────────┘
                               ▼
@@ -528,7 +528,7 @@ class JobExtraction(BaseModel):
     experience_years_max: Optional[int] = None
     education_required: Optional[str] = None
 
-    # Triade Skills / Responsibilities / UseCases (méthodo Grigorev)
+    # Triade Skills / Responsibilities / UseCases (méthodologie SKILLNAV)
     skills_required: List[str] = Field(..., min_length=3, max_length=25)
     responsibilities: List[str] = Field(..., min_length=2, max_length=12)
     use_cases: List[str] = Field(default_factory=list, max_length=8)
@@ -660,7 +660,7 @@ Comparaison sur précision, rappel, F1 vs un jeu de validation (cf. §N2 et §10
 
 - **F25 Fine-tuning CamemBERT** sur dataset SKILLNAV annoté (30–50 offres avec entités validées manuellement) — gain F1 attendu de +3–5 points sur entités techniques
 - **F26 Déploiement public skillnav.ma** — domaine personnalisé, mise à jour mensuelle
-- **Article Medium / DataTalks** — exposition de la méthodologie au public francophone
+- **Article Medium / publication académique** — exposition de la méthodologie au public francophone
 
 ### 5.4 V2 — Vision long terme
 
@@ -2298,7 +2298,7 @@ Sprint 3 — Forecasting + Finition J13 → J18 (23-28 mai 2026)
 
 | Initiative | Effort | Valeur |
 |---|---|---|
-| Article Medium / DataTalks (méthodologie + résultats) | 1 semaine | Visibilité académique + portfolio |
+| Article Medium / publication académique (méthodologie + résultats) | 1 semaine | Visibilité académique + portfolio |
 | Fine-tuning CamemBERT sur dataset SKILLNAV (30–50 offres gold annotées) | 2 semaines | Gain F1 attendu +3–5 pts |
 | Déploiement public skillnav.ma | 1 semaine | Démonstration permanente |
 | Mise à jour mensuelle automatique | 1 semaine | Vivacité de la donnée |
@@ -2398,7 +2398,7 @@ Sprint 3 — Forecasting + Finition J13 → J18 (23-28 mai 2026)
 - **Devlin et al. (2018)** — *BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding* (NAACL 2019)
 - **Blondel, Guillaume, Lambiotte, Lefebvre (2008)** — *Fast unfolding of communities in large networks* (J. Stat. Mech.)
 - **Taylor, S. J., Letham, B. (2018)** — *Forecasting at scale* (Prophet) — *American Statistician*
-- **Grigorev, A.** — *DataTalks.Club* — méthodologie *Skills/Responsibilities/Use Cases* (transposée ici à l'IA)
+- **Méthodologie *Skills / Responsibilities / Use Cases*** — pattern de structuration multi-couches adopté par SKILLNAV
 
 ### 21.3 Références institutionnelles
 

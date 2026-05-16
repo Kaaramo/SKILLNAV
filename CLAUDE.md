@@ -14,6 +14,52 @@ Lire dans cet ordre, à la première interaction d'une session :
 2. **PRD exhaustif** — [`docs/PRD.md`](docs/PRD.md) (référence détaillée)
 3. **Charte graphique** — [`docs/CHARTE_GRAPHIQUE_SKILLNAV.pdf`](docs/CHARTE_GRAPHIQUE_SKILLNAV.pdf)
 4. **Sujet imposé** — [`docs/Projet Final Analyse de Web_Sujet 1.pdf`](docs/) — **intangible**, ne jamais modifier
+5. **Registre curricula ENSA** — [`sources/curricula/REGISTRY.md`](sources/curricula/REGISTRY.md) (volet écoles ↔ marché)
+
+---
+
+## Périmètre projet — verrouillé
+
+### Période d'observation : 2023 → 2026 (36 mois)
+
+Point d'ancrage = **sortie de ChatGPT en novembre 2022**, qui démocratise l'IA générative grand public. C'est le déclencheur structurel de l'évolution observée du marché des compétences IA.
+
+### Périmètre métiers — *tout Data Science + Intelligence Artificielle*
+
+Inclus sans exception : Data Analyst, Business Analyst, Data Scientist, Data Engineer, ML Engineer, MLOps Engineer, AI Engineer, NLP Engineer, CV Engineer, Research Scientist, Generative AI / LLM Engineer, et tout titre proche.
+
+### Géographie
+
+Maroc en priorité (Rekrute, EmploiTIC, LinkedIn MA, pages carrières) — International en complément (LinkedIn, Indeed, builtin.com, WTTJ).
+
+### Stratégie de collecte historique (validée)
+
+Triplet **Wayback Machine + scraping live + Google Trends** :
+
+| Source | Couverture | Outil |
+|---|---|---|
+| Wayback Machine (archive.org) | 2023-2025 (offres expirées sinon perdues) | Crawl4AI / Playwright sur snapshots datés |
+| Scraping live (mai 2026) | État actuel du marché | Crawl4AI · Playwright · Firecrawl · Apify |
+| Google Trends + GitHub Trending + HF Hub | Signaux faibles continus 2023-2026 | pytrends + API HF + scraping |
+
+**Raison** : LinkedIn / Indeed / Rekrute ne conservent pas les offres expirées. Sans Wayback, l'axe Usage Mining (forecasting ARIMA / Prophet / LSTM) ne tient pas. La stratégie est documentée dans le rapport L5 §3.1.
+
+### Volet parallèle — Curricula ENSA Maroc (gap analysis)
+
+SKILLNAV a un **deuxième axe analytique** : mesurer le désalignement entre les compétences **demandées** par le marché et les compétences **enseignées** par le réseau ENSA Maroc.
+
+Recensement à jour dans [`sources/curricula/`](sources/curricula/REGISTRY.md) :
+
+- 12 ENSA dans le réseau public marocain
+- **8 ENSA** dispensent une filière Data Science / Big Data / IA en cycle ingénieur (3 ans, S1-S6)
+- Programmes complets extraits pour **2/8** (ENSA Berrechid - ISIBD et ENSA Safi - IDIA)
+- Programmes placeholder + TODOs pour les 6 autres (Tétouan SDBIA, Khouribga IID, Oujda IDSCC, Agadir SDBIA, Fès ILIA, El Jadida 2ITE)
+
+Pipeline associé (à créer en Sprint 2) :
+- `skillnav/pipelines/curriculum_mining/` — parse `filiere.md` → schéma Pydantic
+- `skillnav/schemas/curriculum.py` — `CurriculumExtraction(school, filiere, semester, modules[], skills_taught[])`
+- `notebooks/06_gap_analysis_market_vs_curriculum.ipynb` — chiffrer le recouvrement marché ↔ formation
+- Page dashboard `/gap-analysis` — top compétences marché vs top enseignées
 
 ---
 
@@ -43,6 +89,7 @@ skillnav/schemas/
 ├── ner.py          # NerAnnotation, Entity
 ├── graph.py        # SkillNode, JobNode, Edge
 ├── timeseries.py   # SkillTimeSeries, Forecast
+├── curriculum.py   # CurriculumExtraction (volet écoles ENSA — sprint 2)
 └── converters/
     ├── to_mongo.py # Pydantic → BSON
     ├── to_neo4j.py # Pydantic → Cypher params
@@ -125,10 +172,14 @@ poetry run skillnav index push
 │   └── cli.py               # Typer CLI
 │
 ├── web/                     # Next.js 15 (Karamo lead — voir PRD §11)
-├── notebooks/               # 5 notebooks numérotés (PRD §11.1)
+├── notebooks/               # 6 notebooks numérotés (00-05 + 06_gap_analysis)
 ├── tests/                   # pytest + 30 fixtures gold
 ├── data/                    # raw/ exports/ audit/ gitignored ; gold_set/ commit
 ├── sources/registry.yaml    # Registre conformité robots.txt + TOS (PRD §8.5)
+├── sources/curricula/       # Curricula ENSA Maroc — volet gap analysis (8 écoles)
+│   ├── REGISTRY.md          # Index humain + statut extraction par école
+│   ├── registry.yaml        # Index machine-lisible (pipeline curriculum_mining/)
+│   └── ensa-<slug>/         # 1 dossier par école : source.yaml + filiere.md
 ├── docs/                    # PRD, charte, rapport L5, plan soutenance
 └── scripts/                 # Scripts utilitaires (seed taxonomy, etc.)
 ```

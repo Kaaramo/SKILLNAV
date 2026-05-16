@@ -9,9 +9,12 @@
 | **Encadrement** | Pr. Imad Sassi |
 | **Auteurs** | Karamo Sylla & Bachirou Konaté |
 | **Soutenance** | 28 mai 2026 (15 min + 4 min démo + 10 min Q&A) |
+| **Période d'observation** | **2023 → 2026** (36 mois) — ancrage : sortie de ChatGPT nov. 2022 (démocratisation IA générative) |
+| **Périmètre métiers** | Tout Data Science + Intelligence Artificielle (Data Analyst → AI Engineer → LLM Engineer) |
 | **Volume cible MVP** | 500–2 000 offres · Maroc + International |
 | **Architecture** | NoSQL polyglotte — MongoDB + Neo4j + Elasticsearch |
 | **Coût total MVP** | < $50 (free tiers + Anthropic + Apify) |
+| **Volet parallèle** | Recensement curricula ENSA Maroc → gap analysis marché ↔ formation |
 
 ---
 
@@ -654,6 +657,128 @@ R = Responsible · A = Accountable · C = Consulted · I = Informed
 | Deck soutenance | R | A R |
 | RGPD + DPIA (§N4) | R | A R |
 | Étude comparative (§N2) | A R | R |
+
+---
+
+---
+
+## 18. PÉRIODE 2023–2026 — STRATÉGIE DE COLLECTE HISTORIQUE
+
+```
+┌─────────────────────────────────────────────────────────────────┐
+│  ANCRAGE : sortie ChatGPT (novembre 2022)                       │
+│  → Démocratisation IA générative grand public                   │
+│  → Choc structurel sur le marché des compétences IA observable  │
+└─────────────────────────────────────────────────────────────────┘
+                              │
+                              ▼
+         ┌────────────────────┴────────────────────┐
+         │   Fenêtre d'observation : 2023 → 2026   │
+         └────────────────────┬────────────────────┘
+                              │
+       ┌──────────────────────┼──────────────────────┐
+       ▼                      ▼                      ▼
+┌──────────────┐    ┌──────────────────┐    ┌────────────────┐
+│ WAYBACK      │    │ SCRAPING LIVE    │    │ SIGNAUX FAIBLES│
+│ archive.org  │    │ Crawl4AI + Apify │    │ Google Trends  │
+│ Snapshots    │    │ Playwright +     │    │ GitHub Trending│
+│ 2023, 24, 25 │    │ Firecrawl        │    │ HF Hub trending│
+│ ~300-1500    │    │ ~500-2000 offres │    │ pytrends ·     │
+│ offres histo │    │ mai 2026         │    │ continu 36 mois│
+└──────┬───────┘    └────────┬─────────┘    └────────┬───────┘
+       │                     │                       │
+       └─────────────────────┼───────────────────────┘
+                             ▼
+                  MongoDB raw_jobs + skills_timeseries
+                       (period_anchor: 2022-11-30)
+```
+
+**Pourquoi cette stratégie** : LinkedIn / Indeed / Rekrute ne conservent pas les offres expirées. Sans Wayback, l'axe Usage Mining (forecasting §N2.3) repose uniquement sur des proxies — affaiblit la rigueur scientifique.
+
+**Justifiée dans** : rapport L5 §3.1 (sources et collecte) + DPIA §4 (légitimité archives publiques).
+
+---
+
+## 19. VOLET PARALLÈLE — CURRICULA ENSA MAROC
+
+### 19.1 Objectif analytique
+
+Mesurer le **désalignement** entre :
+
+```
+   Compétences DEMANDÉES (offres)        Compétences ENSEIGNÉES (curricula)
+   ────────────────────────────         ─────────────────────────────────
+   - extraites par NER + Pydantic AI    - extraites des plaquettes ENSA
+   - 500-2000 offres marché Maroc       - 8 ENSA réseau public
+   - 2023-2026                          - cycle ingénieur 3 ans (S1-S6)
+                       │                              │
+                       └──────────────┬───────────────┘
+                                      ▼
+                         GAP ANALYSIS (notebook 06)
+                         ↓
+                         Page dashboard /gap-analysis
+```
+
+**Valeur** : transforme SKILLNAV d'observatoire descriptif en **outil d'aide à la décision pédagogique** — réponse directe à la question implicite *« la formation Data/IA au Maroc prépare-t-elle au marché ? »*
+
+### 19.2 Recensement réseau ENSA (2026-05-14)
+
+**12 ENSA recensées** dans le réseau public marocain. **8 dispensent une filière Data/IA/Big Data en cycle ingénieur** :
+
+| École | Filière | Acronyme | Programme extrait |
+|---|---|---|---|
+| ENSA Tétouan | Sciences Données, Big Data et IA | SDBIA | 🟡 TODO (récup manuelle Karamo) |
+| ENSA Berrechid | Ingénierie SI et Big Data | ISIBD | ✅ Complet (S5-S10) |
+| ENSA Khouribga | Ingénierie de l'Intelligence des Données | IID | 🟡 TODO |
+| ENSA Oujda | Ingénierie Data Sciences & Cloud Computing | IDSCC | 🟡 TODO |
+| ENSA Agadir | Sciences Données, Big Data et IA | SDBIA-A | 🟡 TODO |
+| ENSA Fès | Ingénierie Logicielle et IA | ILIA | 🟡 TODO |
+| ENSA El Jadida | Ingénierie Informatique et Tech. Émergentes | 2ITE | 🟡 TODO |
+| ENSA Safi | Ingénierie des Données et IA | IDIA | ✅ Complet (S1-S6) |
+
+**ENSA exclues** (pas de filière Data/IA dédiée cycle ingénieur) : Tanger, Al Hoceima, Kénitra, Marrakech.
+
+### 19.3 Disposition des données
+
+```
+sources/curricula/
+├── REGISTRY.md                  # Index humain — statut par école
+├── registry.yaml                # Index machine-lisible
+└── ensa-<slug>/
+    ├── source.yaml              # Métadonnées (URL, date fetch, statut)
+    ├── filiere.md               # Programme S1-S6 structuré
+    └── raw/                     # HTML/PDF brut (gitignored)
+```
+
+### 19.4 Pipeline curriculum_mining/ (Sprint 2)
+
+```python
+# skillnav/schemas/curriculum.py
+class CurriculumExtraction(BaseModel):
+    school_id: str                    # "ensa-safi-idia"
+    school_name: str
+    filiere_name: str
+    filiere_acronym: str
+    semesters: list[Semester]         # 6 entries
+    skills_taught: list[str]          # normalisées via sentence-transformers
+
+class Semester(BaseModel):
+    label: Literal["S1","S2","S3","S4","S5","S6"]
+    modules: list[Module]
+
+class Module(BaseModel):
+    name: str
+    skills: list[str]                 # extraites par Pydantic AI
+```
+
+### 19.5 Livrables associés
+
+| Livrable | Forme | Statut |
+|---|---|---|
+| Notebook `06_gap_analysis_market_vs_curriculum` | Jupyter — top-30 marché vs top-30 enseignées | À créer Sprint 2 |
+| Page dashboard `/gap-analysis` | Next.js — matrice de recouvrement + top sous-enseignées | À créer Sprint 3 |
+| Section rapport L5 §3.X | Méthodologie + résultats du gap | Inclure dans rédaction L5 |
+| Étude comparative §N2.5 (optionnelle) | Comparaison normalisation taxonomique 3 méthodes | Si bande passante restante |
 
 ---
 

@@ -76,6 +76,13 @@ data/audit/
 !data/gold_set/
 data/gold_set/*.bak
 
+# Repos externes clonés pour analyse / import secondaire (NE PAS commiter)
+sources/external/
+# raw/ par source = HTML/JSON brut re-dérivable, gitignored, sauf recap
+sources/collected/*/raw/*
+!sources/collected/*/raw/_*.json
+!sources/collected/*/raw/.gitkeep
+
 # Dumps DBs
 *.dump
 *.bson
@@ -103,10 +110,10 @@ $RECYCLE.BIN/
 *.log
 logs/
 
-# ─── Claude Code local ──────────────────────────────────────────────────────
-.claude/local/
-.claude/cache/
-.claude/settings.local.json
+# ─── Caches IDE / MCP (entièrement gitignorés) ──────────────────────────────
+.claude/
+.firecrawl/
+.playwright-mcp/
 
 # ─── Misc ───────────────────────────────────────────────────────────────────
 *.tmp
