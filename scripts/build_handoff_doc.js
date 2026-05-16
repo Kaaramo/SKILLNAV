@@ -345,14 +345,14 @@ contenu.push(
   tab(
     ["Tâche de modélisation", "Karamo Sylla", "Bachirou Konaté"],
     [
-      ["Schémas Pydantic (skillnav/schemas/)", "A R", "C"],
-      ["Insertion MongoDB Atlas", "A R", "I"],
-      ["Construction du graphe Neo4j", "C", "A R"],
-      ["Algorithmes de communautés (Louvain, Leiden, ...)", "I", "A R"],
-      ["Tableau comparatif §N2.2", "I", "A R"],
-      ["NER comparatif (§N2.1)", "A R", "C"],
-      ["Forecasting Usage Mining (§N2.3)", "I", "A R"],
-      ["Indexation Elasticsearch", "A R", "I"],
+      ["Schémas Pydantic (skillnav/schemas/)", "Responsable", "Consulté"],
+      ["Insertion MongoDB Atlas", "Responsable", "Informé"],
+      ["Construction du graphe Neo4j", "Consulté", "Responsable"],
+      ["Algorithmes de communautés (Louvain, Leiden, ...)", "Informé", "Responsable"],
+      ["Tableau comparatif §N2.2", "Informé", "Responsable"],
+      ["NER comparatif (§N2.1)", "Responsable", "Consulté"],
+      ["Forecasting Usage Mining (§N2.3)", "Informé", "Responsable"],
+      ["Indexation Elasticsearch", "Responsable", "Informé"],
     ],
     [5026, 2000, 2000]
   )
