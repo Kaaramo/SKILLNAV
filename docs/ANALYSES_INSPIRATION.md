@@ -416,7 +416,7 @@ Ces 2 scripts donnent immédiatement des résultats publiables. C'est le point d
 | `01_data_quality` | 1 j | Karamo |
 | `02_ner_comparison` | 2 j | Bachirou (étude comparative §N2 : partie HF Transformers) |
 | `03_graph_analysis` | 2 j | Bachirou (axe Structure Mining + ingestion Neo4j) |
-| `04_forecasting` | 2 j | Karamo (axe Usage Mining + 3 modèles) |
+| `04_forecasting` | 2 j | Bachirou (axe Usage Mining + 3 modèles) |
 | `05_dashboard_prep` | 1 j | Karamo (alimentation API FastAPI + dashboard) |
 | `06_gap_ma_vs_intl` | 1 j | Bachirou (angle scientifique du rapport L5) |
 
