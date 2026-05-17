@@ -91,6 +91,7 @@ sources/collected/*/raw/*
 # Models téléchargés (HuggingFace cache)
 .cache/huggingface/
 models/
+!api/models/
 
 # ─── IDE ────────────────────────────────────────────────────────────────────
 .idea/
