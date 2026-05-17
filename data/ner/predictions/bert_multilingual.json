@@ -1,0 +1,531 @@
+{
+  "modele": "bert_multilingual",
+  "modele_nom": "BERT multilingue",
+  "modele_hf_id": "Davlan/bert-base-multilingual-cased-ner-hrl",
+  "duree_chargement_s": 37.23,
+  "duree_inference_totale_s": 8.8,
+  "duree_inference_moyenne_s": 0.2933,
+  "n_fiches": 30,
+  "predictions": [
+    {
+      "job_id": "4407185679",
+      "entites": [
+        {
+          "text": "AI",
+          "label": "ORG",
+          "score": 0.9309325218200684,
+          "start": 11,
+          "end": 13
+        },
+        {
+          "text": "Mirage Metrics",
+          "label": "ORG",
+          "score": 0.999237060546875,
+          "start": 33,
+          "end": 47
+        }
+      ],
+      "duree_inference_s": 0.2662
+    },
+    {
+      "job_id": "4301694732",
+      "entites": [
+        {
+          "text": "Deloitte",
+          "label": "ORG",
+          "score": 0.9886621832847595,
+          "start": 66,
+          "end": 74
+        }
+      ],
+      "duree_inference_s": 0.108
+    },
+    {
+      "job_id": "4380359789",
+      "entites": [
+        {
+          "text": "LLM",
+          "label": "ORG",
+          "score": 0.7522426247596741,
+          "start": 11,
+          "end": 14
+        },
+        {
+          "text": "Odixcity Consulting",
+          "label": "ORG",
+          "score": 0.999817430973053,
+          "start": 60,
+          "end": 79
+        }
+      ],
+      "duree_inference_s": 0.1036
+    },
+    {
+      "job_id": "4414670156",
+      "entites": [],
+      "duree_inference_s": 0.0909
+    },
+    {
+      "job_id": "9096418",
+      "entites": [
+        {
+          "text": "Europe",
+          "label": "LOC",
+          "score": 0.99983811378479,
+          "start": 152,
+          "end": 158
+        }
+      ],
+      "duree_inference_s": 0.3086
+    },
+    {
+      "job_id": "8057267",
+      "entites": [
+        {
+          "text": "Zscaler",
+          "label": "ORG",
+          "score": 0.999396800994873,
+          "start": 73,
+          "end": 80
+        }
+      ],
+      "duree_inference_s": 0.3317
+    },
+    {
+      "job_id": "8400294",
+      "entites": [
+        {
+          "text": "Zillion Technologies, Inc.",
+          "label": "ORG",
+          "score": 0.9966407418251038,
+          "start": 88,
+          "end": 114
+        }
+      ],
+      "duree_inference_s": 0.3271
+    },
+    {
+      "job_id": "8972129",
+      "entites": [
+        {
+          "text": "Dentsu Creative",
+          "label": "ORG",
+          "score": 0.9998161792755127,
+          "start": 53,
+          "end": 68
+        }
+      ],
+      "duree_inference_s": 0.4653
+    },
+    {
+      "job_id": "8848631",
+      "entites": [
+        {
+          "text": "TechBiz Global",
+          "label": "ORG",
+          "score": 0.9998360276222229,
+          "start": 39,
+          "end": 53
+        }
+      ],
+      "duree_inference_s": 0.3261
+    },
+    {
+      "job_id": "8690797",
+      "entites": [
+        {
+          "text": "SageM",
+          "label": "ORG",
+          "score": 0.6184419393539429,
+          "start": 356,
+          "end": 361
+        },
+        {
+          "text": "Bedrock",
+          "label": "ORG",
+          "score": 0.8447051048278809,
+          "start": 367,
+          "end": 374
+        },
+        {
+          "text": "Lambda",
+          "label": "ORG",
+          "score": 0.8927978277206421,
+          "start": 376,
+          "end": 382
+        },
+        {
+          "text": "Lang",
+          "label": "ORG",
+          "score": 0.7464344501495361,
+          "start": 437,
+          "end": 441
+        },
+        {
+          "text": "Stream",
+          "label": "ORG",
+          "score": 0.6346578598022461,
+          "start": 452,
+          "end": 458
+        },
+        {
+          "text": "Snow",
+          "label": "ORG",
+          "score": 0.7049558162689209,
+          "start": 956,
+          "end": 960
+        },
+        {
+          "text": "##lake",
+          "label": "ORG",
+          "score": 0.6754339933395386,
+          "start": 961,
+          "end": 965
+        }
+      ],
+      "duree_inference_s": 0.3885
+    },
+    {
+      "job_id": "8102843",
+      "entites": [
+        {
+          "text": "Prompt Therapy Solutions Inc",
+          "label": "ORG",
+          "score": 0.9996381998062134,
+          "start": 73,
+          "end": 101
+        }
+      ],
+      "duree_inference_s": 0.4323
+    },
+    {
+      "job_id": "8360323",
+      "entites": [
+        {
+          "text": "Porch Group",
+          "label": "ORG",
+          "score": 0.9990324378013611,
+          "start": 43,
+          "end": 54
+        }
+      ],
+      "duree_inference_s": 0.4396
+    },
+    {
+      "job_id": "6840091",
+      "entites": [
+        {
+          "text": "SentinelOne",
+          "label": "ORG",
+          "score": 0.9975738525390625,
+          "start": 43,
+          "end": 54
+        },
+        {
+          "text": "Dev",
+          "label": "ORG",
+          "score": 0.5268970131874084,
+          "start": 674,
+          "end": 677
+        }
+      ],
+      "duree_inference_s": 0.3755
+    },
+    {
+      "job_id": "8316092",
+      "entites": [
+        {
+          "text": "Rubrik",
+          "label": "ORG",
+          "score": 0.9988958835601807,
+          "start": 39,
+          "end": 45
+        },
+        {
+          "text": "Rubrik",
+          "label": "ORG",
+          "score": 0.9995319247245789,
+          "start": 213,
+          "end": 219
+        },
+        {
+          "text": "Rubrik",
+          "label": "ORG",
+          "score": 0.9995149970054626,
+          "start": 839,
+          "end": 845
+        }
+      ],
+      "duree_inference_s": 0.4042
+    },
+    {
+      "job_id": "8681691",
+      "entites": [
+        {
+          "text": "Filevine",
+          "label": "ORG",
+          "score": 0.9873872399330139,
+          "start": 67,
+          "end": 75
+        }
+      ],
+      "duree_inference_s": 0.2917
+    },
+    {
+      "job_id": "9012551",
+      "entites": [],
+      "duree_inference_s": 0.2718
+    },
+    {
+      "job_id": "4380772643",
+      "entites": [
+        {
+          "text": "Big Data Engineer",
+          "label": "ORG",
+          "score": 0.8480213284492493,
+          "start": 11,
+          "end": 28
+        },
+        {
+          "text": "Müller ' s Solutions",
+          "label": "ORG",
+          "score": 0.998444676399231,
+          "start": 39,
+          "end": 57
+        }
+      ],
+      "duree_inference_s": 0.0947
+    },
+    {
+      "job_id": "4314994258",
+      "entites": [
+        {
+          "text": "Google Cloud Platform",
+          "label": "ORG",
+          "score": 0.9833279252052307,
+          "start": 31,
+          "end": 52
+        },
+        {
+          "text": "SQLI",
+          "label": "ORG",
+          "score": 0.9991400241851807,
+          "start": 70,
+          "end": 74
+        }
+      ],
+      "duree_inference_s": 0.0992
+    },
+    {
+      "job_id": "8708837",
+      "entites": [
+        {
+          "text": "Delos",
+          "label": "ORG",
+          "score": 0.9670014381408691,
+          "start": 51,
+          "end": 56
+        }
+      ],
+      "duree_inference_s": 0.2715
+    },
+    {
+      "job_id": "8244638",
+      "entites": [
+        {
+          "text": "Microchip Technology Inc",
+          "label": "ORG",
+          "score": 0.9997919201850891,
+          "start": 55,
+          "end": 79
+        }
+      ],
+      "duree_inference_s": 0.3082
+    },
+    {
+      "job_id": "8139259",
+      "entites": [
+        {
+          "text": "AI / ML",
+          "label": "ORG",
+          "score": 0.9969001412391663,
+          "start": 11,
+          "end": 16
+        },
+        {
+          "text": "A. P. Moller - Maersk",
+          "label": "ORG",
+          "score": 0.9973376393318176,
+          "start": 36,
+          "end": 56
+        }
+      ],
+      "duree_inference_s": 0.3124
+    },
+    {
+      "job_id": "8925497",
+      "entites": [
+        {
+          "text": "A. P. Moller",
+          "label": "ORG",
+          "score": 0.712660014629364,
+          "start": 56,
+          "end": 67
+        },
+        {
+          "text": "Maersk",
+          "label": "ORG",
+          "score": 0.8691052198410034,
+          "start": 70,
+          "end": 76
+        }
+      ],
+      "duree_inference_s": 0.3266
+    },
+    {
+      "job_id": "4333193580",
+      "entites": [
+        {
+          "text": "BROME Consulting & Technology",
+          "label": "ORG",
+          "score": 0.9998698234558105,
+          "start": 41,
+          "end": 70
+        }
+      ],
+      "duree_inference_s": 0.0958
+    },
+    {
+      "job_id": "4357657978",
+      "entites": [
+        {
+          "text": "Data Analyst",
+          "label": "ORG",
+          "score": 0.6874446272850037,
+          "start": 11,
+          "end": 23
+        },
+        {
+          "text": "Del",
+          "label": "ORG",
+          "score": 0.5163615942001343,
+          "start": 28,
+          "end": 31
+        },
+        {
+          "text": "##y",
+          "label": "ORG",
+          "score": 0.7062355875968933,
+          "start": 35,
+          "end": 36
+        },
+        {
+          "text": "Boston Consulting Group",
+          "label": "ORG",
+          "score": 0.9997040033340454,
+          "start": 47,
+          "end": 70
+        },
+        {
+          "text": "BCG",
+          "label": "ORG",
+          "score": 0.9997560381889343,
+          "start": 72,
+          "end": 75
+        }
+      ],
+      "duree_inference_s": 0.1099
+    },
+    {
+      "job_id": "7946353",
+      "entites": [
+        {
+          "text": "DevOps",
+          "label": "ORG",
+          "score": 0.9992311596870422,
+          "start": 627,
+          "end": 633
+        }
+      ],
+      "duree_inference_s": 0.3563
+    },
+    {
+      "job_id": "7569470",
+      "entites": [
+        {
+          "text": "London",
+          "label": "LOC",
+          "score": 0.9638599157333374,
+          "start": 24,
+          "end": 30
+        }
+      ],
+      "duree_inference_s": 0.3941
+    },
+    {
+      "job_id": "7208603",
+      "entites": [],
+      "duree_inference_s": 0.3521
+    },
+    {
+      "job_id": "7703876",
+      "entites": [
+        {
+          "text": "GE Vernova",
+          "label": "ORG",
+          "score": 0.996833324432373,
+          "start": 44,
+          "end": 54
+        },
+        {
+          "text": "DevOps",
+          "label": "ORG",
+          "score": 0.9922543168067932,
+          "start": 427,
+          "end": 433
+        }
+      ],
+      "duree_inference_s": 0.3933
+    },
+    {
+      "job_id": "9008937",
+      "entites": [
+        {
+          "text": "Niagara Bottling",
+          "label": "ORG",
+          "score": 0.9995913505554199,
+          "start": 85,
+          "end": 101
+        }
+      ],
+      "duree_inference_s": 0.4805
+    },
+    {
+      "job_id": "7521302",
+      "entites": [
+        {
+          "text": "Agentic AI Platform",
+          "label": "ORG",
+          "score": 0.8745253086090088,
+          "start": 34,
+          "end": 53
+        },
+        {
+          "text": "Agentic AI Platform",
+          "label": "ORG",
+          "score": 0.9987397789955139,
+          "start": 190,
+          "end": 209
+        },
+        {
+          "text": "Agentic AI Platform",
+          "label": "ORG",
+          "score": 0.9958236813545227,
+          "start": 386,
+          "end": 405
+        }
+      ],
+      "duree_inference_s": 0.2747
+    }
+  ]
+}

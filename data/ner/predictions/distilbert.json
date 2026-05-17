@@ -1,0 +1,3915 @@
+{
+  "modele": "distilbert",
+  "modele_nom": "DistilBERT-NER",
+  "modele_hf_id": "dslim/distilbert-NER",
+  "duree_chargement_s": 18.24,
+  "duree_inference_totale_s": 4.59,
+  "duree_inference_moyenne_s": 0.1529,
+  "n_fiches": 30,
+  "predictions": [
+    {
+      "job_id": "4407185679",
+      "entites": [
+        {
+          "text": "Mirage Metrics",
+          "label": "ORG",
+          "score": 0.9706206321716309,
+          "start": 33,
+          "end": 47
+        }
+      ],
+      "duree_inference_s": 0.077
+    },
+    {
+      "job_id": "4301694732",
+      "entites": [
+        {
+          "text": "##p",
+          "label": "ORG",
+          "score": 0.4788028597831726,
+          "start": 42,
+          "end": 43
+        },
+        {
+          "text": "##é",
+          "label": "ORG",
+          "score": 0.4622287154197693,
+          "start": 43,
+          "end": 44
+        },
+        {
+          "text": "##rim",
+          "label": "ORG",
+          "score": 0.4010884165763855,
+          "start": 44,
+          "end": 47
+        },
+        {
+          "text": "##ent",
+          "label": "ORG",
+          "score": 0.5728069543838501,
+          "start": 47,
+          "end": 50
+        },
+        {
+          "text": "##é F / H",
+          "label": "ORG",
+          "score": 0.6047569513320923,
+          "start": 50,
+          "end": 55
+        },
+        {
+          "text": "Company",
+          "label": "ORG",
+          "score": 0.38487377762794495,
+          "start": 57,
+          "end": 64
+        },
+        {
+          "text": "Del",
+          "label": "ORG",
+          "score": 0.983714759349823,
+          "start": 66,
+          "end": 69
+        },
+        {
+          "text": "##oit",
+          "label": "ORG",
+          "score": 0.9579280018806458,
+          "start": 69,
+          "end": 72
+        },
+        {
+          "text": "##te",
+          "label": "ORG",
+          "score": 0.9843512773513794,
+          "start": 72,
+          "end": 74
+        }
+      ],
+      "duree_inference_s": 0.0555
+    },
+    {
+      "job_id": "4380359789",
+      "entites": [
+        {
+          "text": "LL",
+          "label": "ORG",
+          "score": 0.6215050220489502,
+          "start": 11,
+          "end": 13
+        },
+        {
+          "text": "##M",
+          "label": "ORG",
+          "score": 0.6072647571563721,
+          "start": 13,
+          "end": 14
+        },
+        {
+          "text": "O",
+          "label": "ORG",
+          "score": 0.9888190627098083,
+          "start": 60,
+          "end": 61
+        },
+        {
+          "text": "##di",
+          "label": "ORG",
+          "score": 0.9900738000869751,
+          "start": 61,
+          "end": 63
+        },
+        {
+          "text": "##x",
+          "label": "ORG",
+          "score": 0.9956532716751099,
+          "start": 63,
+          "end": 64
+        },
+        {
+          "text": "##city Consulting",
+          "label": "ORG",
+          "score": 0.9699203968048096,
+          "start": 64,
+          "end": 79
+        }
+      ],
+      "duree_inference_s": 0.0384
+    },
+    {
+      "job_id": "4414670156",
+      "entites": [
+        {
+          "text": "T",
+          "label": "ORG",
+          "score": 0.9858710169792175,
+          "start": 52,
+          "end": 53
+        },
+        {
+          "text": "##AL",
+          "label": "ORG",
+          "score": 0.9927218556404114,
+          "start": 53,
+          "end": 55
+        },
+        {
+          "text": "##IO Talent",
+          "label": "ORG",
+          "score": 0.92522132396698,
+          "start": 55,
+          "end": 64
+        }
+      ],
+      "duree_inference_s": 0.0467
+    },
+    {
+      "job_id": "9096418",
+      "entites": [
+        {
+          "text": "AI Software Engineer",
+          "label": "MISC",
+          "score": 0.547848641872406,
+          "start": 11,
+          "end": 31
+        },
+        {
+          "text": "Sc",
+          "label": "ORG",
+          "score": 0.9882974028587341,
+          "start": 59,
+          "end": 61
+        },
+        {
+          "text": "##ala",
+          "label": "ORG",
+          "score": 0.9954270124435425,
+          "start": 61,
+          "end": 64
+        },
+        {
+          "text": "##ble Capital",
+          "label": "ORG",
+          "score": 0.9938297271728516,
+          "start": 64,
+          "end": 75
+        },
+        {
+          "text": "Digital",
+          "label": "MISC",
+          "score": 0.5191621780395508,
+          "start": 84,
+          "end": 91
+        },
+        {
+          "text": "Europe",
+          "label": "LOC",
+          "score": 0.9968382120132446,
+          "start": 152,
+          "end": 158
+        },
+        {
+          "text": "AI",
+          "label": "MISC",
+          "score": 0.9695595502853394,
+          "start": 199,
+          "end": 201
+        },
+        {
+          "text": "/",
+          "label": "MISC",
+          "score": 0.8455457091331482,
+          "start": 201,
+          "end": 202
+        },
+        {
+          "text": "LL",
+          "label": "MISC",
+          "score": 0.80971759557724,
+          "start": 202,
+          "end": 204
+        },
+        {
+          "text": "##M",
+          "label": "MISC",
+          "score": 0.5442656874656677,
+          "start": 204,
+          "end": 205
+        },
+        {
+          "text": "AI",
+          "label": "MISC",
+          "score": 0.8592848181724548,
+          "start": 385,
+          "end": 387
+        },
+        {
+          "text": "-",
+          "label": "MISC",
+          "score": 0.7629913687705994,
+          "start": 387,
+          "end": 388
+        },
+        {
+          "text": "enabled",
+          "label": "MISC",
+          "score": 0.716654360294342,
+          "start": 388,
+          "end": 395
+        },
+        {
+          "text": "A",
+          "label": "MISC",
+          "score": 0.6589416861534119,
+          "start": 409,
+          "end": 410
+        },
+        {
+          "text": "##WS",
+          "label": "MISC",
+          "score": 0.5176651477813721,
+          "start": 410,
+          "end": 412
+        },
+        {
+          "text": "Terraform",
+          "label": "MISC",
+          "score": 0.7152565717697144,
+          "start": 422,
+          "end": 431
+        },
+        {
+          "text": "C",
+          "label": "MISC",
+          "score": 0.9298931360244751,
+          "start": 451,
+          "end": 452
+        },
+        {
+          "text": "##I",
+          "label": "MISC",
+          "score": 0.881242036819458,
+          "start": 452,
+          "end": 453
+        },
+        {
+          "text": "/ CD",
+          "label": "MISC",
+          "score": 0.453643798828125,
+          "start": 453,
+          "end": 456
+        },
+        {
+          "text": "AI",
+          "label": "MISC",
+          "score": 0.9055359363555908,
+          "start": 478,
+          "end": 480
+        },
+        {
+          "text": "AI",
+          "label": "MISC",
+          "score": 0.9804496765136719,
+          "start": 599,
+          "end": 601
+        },
+        {
+          "text": "-",
+          "label": "MISC",
+          "score": 0.9676772356033325,
+          "start": 601,
+          "end": 602
+        },
+        {
+          "text": "integrated",
+          "label": "MISC",
+          "score": 0.894927442073822,
+          "start": 602,
+          "end": 612
+        },
+        {
+          "text": "Lang",
+          "label": "MISC",
+          "score": 0.9219309091567993,
+          "start": 695,
+          "end": 699
+        },
+        {
+          "text": "##G",
+          "label": "MISC",
+          "score": 0.6103748679161072,
+          "start": 699,
+          "end": 700
+        },
+        {
+          "text": "##rap",
+          "label": "MISC",
+          "score": 0.7941904664039612,
+          "start": 700,
+          "end": 703
+        },
+        {
+          "text": "##h",
+          "label": "MISC",
+          "score": 0.7462477684020996,
+          "start": 703,
+          "end": 704
+        },
+        {
+          "text": "AI",
+          "label": "MISC",
+          "score": 0.9441142678260803,
+          "start": 760,
+          "end": 762
+        },
+        {
+          "text": "-",
+          "label": "MISC",
+          "score": 0.9325305223464966,
+          "start": 762,
+          "end": 763
+        },
+        {
+          "text": "driven",
+          "label": "MISC",
+          "score": 0.9181153774261475,
+          "start": 763,
+          "end": 769
+        },
+        {
+          "text": "AI",
+          "label": "MISC",
+          "score": 0.627241849899292,
+          "start": 839,
+          "end": 841
+        },
+        {
+          "text": "AI",
+          "label": "MISC",
+          "score": 0.6790392398834229,
+          "start": 916,
+          "end": 918
+        },
+        {
+          "text": "Sc",
+          "label": "MISC",
+          "score": 0.8683398365974426,
+          "start": 1139,
+          "end": 1141
+        },
+        {
+          "text": "##ala",
+          "label": "ORG",
+          "score": 0.5887287259101868,
+          "start": 1141,
+          "end": 1144
+        },
+        {
+          "text": "##ble Capital",
+          "label": "ORG",
+          "score": 0.6731411814689636,
+          "start": 1144,
+          "end": 1155
+        }
+      ],
+      "duree_inference_s": 0.1923
+    },
+    {
+      "job_id": "8057267",
+      "entites": [
+        {
+          "text": "Machine Learning",
+          "label": "ORG",
+          "score": 0.44332635402679443,
+          "start": 17,
+          "end": 33
+        },
+        {
+          "text": "Agent",
+          "label": "ORG",
+          "score": 0.7988215684890747,
+          "start": 44,
+          "end": 49
+        },
+        {
+          "text": "##ic AI",
+          "label": "ORG",
+          "score": 0.7443164587020874,
+          "start": 49,
+          "end": 54
+        },
+        {
+          "text": "Gen AI",
+          "label": "ORG",
+          "score": 0.5902758240699768,
+          "start": 55,
+          "end": 61
+        },
+        {
+          "text": "Z",
+          "label": "ORG",
+          "score": 0.8054887652397156,
+          "start": 73,
+          "end": 74
+        },
+        {
+          "text": "##sca",
+          "label": "ORG",
+          "score": 0.8077982068061829,
+          "start": 74,
+          "end": 77
+        },
+        {
+          "text": "##ler",
+          "label": "ORG",
+          "score": 0.9298545122146606,
+          "start": 77,
+          "end": 80
+        },
+        {
+          "text": "Zero",
+          "label": "MISC",
+          "score": 0.7912842631340027,
+          "start": 89,
+          "end": 93
+        },
+        {
+          "text": "AI",
+          "label": "MISC",
+          "score": 0.9941340088844299,
+          "start": 129,
+          "end": 131
+        },
+        {
+          "text": "-",
+          "label": "MISC",
+          "score": 0.992238461971283,
+          "start": 131,
+          "end": 132
+        },
+        {
+          "text": "powered",
+          "label": "MISC",
+          "score": 0.989867091178894,
+          "start": 132,
+          "end": 139
+        },
+        {
+          "text": "Gen AI / ML",
+          "label": "MISC",
+          "score": 0.9412800669670105,
+          "start": 217,
+          "end": 226
+        },
+        {
+          "text": "AI",
+          "label": "MISC",
+          "score": 0.9889475107192993,
+          "start": 327,
+          "end": 329
+        },
+        {
+          "text": "/",
+          "label": "MISC",
+          "score": 0.9306389093399048,
+          "start": 329,
+          "end": 330
+        },
+        {
+          "text": "ML",
+          "label": "MISC",
+          "score": 0.8076246976852417,
+          "start": 330,
+          "end": 332
+        },
+        {
+          "text": "M",
+          "label": "MISC",
+          "score": 0.8066630363464355,
+          "start": 408,
+          "end": 409
+        },
+        {
+          "text": "##L",
+          "label": "MISC",
+          "score": 0.7701802849769592,
+          "start": 409,
+          "end": 410
+        },
+        {
+          "text": "##O",
+          "label": "MISC",
+          "score": 0.6851015686988831,
+          "start": 410,
+          "end": 411
+        },
+        {
+          "text": "##ps",
+          "label": "MISC",
+          "score": 0.7443481683731079,
+          "start": 411,
+          "end": 413
+        },
+        {
+          "text": "C",
+          "label": "MISC",
+          "score": 0.48960235714912415,
+          "start": 459,
+          "end": 460
+        },
+        {
+          "text": "##I",
+          "label": "MISC",
+          "score": 0.6895512342453003,
+          "start": 460,
+          "end": 461
+        },
+        {
+          "text": "CD",
+          "label": "MISC",
+          "score": 0.39699843525886536,
+          "start": 462,
+          "end": 464
+        },
+        {
+          "text": "M",
+          "label": "MISC",
+          "score": 0.8478035926818848,
+          "start": 491,
+          "end": 492
+        },
+        {
+          "text": "##L",
+          "label": "MISC",
+          "score": 0.47141602635383606,
+          "start": 492,
+          "end": 493
+        },
+        {
+          "text": "AI",
+          "label": "MISC",
+          "score": 0.9780711531639099,
+          "start": 774,
+          "end": 776
+        },
+        {
+          "text": "/",
+          "label": "MISC",
+          "score": 0.9184533357620239,
+          "start": 776,
+          "end": 777
+        },
+        {
+          "text": "ML",
+          "label": "MISC",
+          "score": 0.7782360315322876,
+          "start": 777,
+          "end": 779
+        },
+        {
+          "text": "Zero",
+          "label": "MISC",
+          "score": 0.4900141954421997,
+          "start": 944,
+          "end": 948
+        },
+        {
+          "text": "AI",
+          "label": "ORG",
+          "score": 0.46276620030403137,
+          "start": 1074,
+          "end": 1076
+        }
+      ],
+      "duree_inference_s": 0.1645
+    },
+    {
+      "job_id": "8400294",
+      "entites": [
+        {
+          "text": "Gene",
+          "label": "MISC",
+          "score": 0.6798554062843323,
+          "start": 40,
+          "end": 44
+        },
+        {
+          "text": "##rative",
+          "label": "MISC",
+          "score": 0.6243565082550049,
+          "start": 44,
+          "end": 50
+        },
+        {
+          "text": "AI",
+          "label": "ORG",
+          "score": 0.618919312953949,
+          "start": 51,
+          "end": 53
+        },
+        {
+          "text": "Agent",
+          "label": "ORG",
+          "score": 0.8409038782119751,
+          "start": 55,
+          "end": 60
+        },
+        {
+          "text": "##ic AI",
+          "label": "ORG",
+          "score": 0.783109724521637,
+          "start": 60,
+          "end": 65
+        },
+        {
+          "text": "M",
+          "label": "MISC",
+          "score": 0.7093506455421448,
+          "start": 67,
+          "end": 68
+        },
+        {
+          "text": "##L",
+          "label": "MISC",
+          "score": 0.5123619437217712,
+          "start": 68,
+          "end": 69
+        },
+        {
+          "text": "Z",
+          "label": "ORG",
+          "score": 0.9962047934532166,
+          "start": 88,
+          "end": 89
+        },
+        {
+          "text": "##ill",
+          "label": "ORG",
+          "score": 0.9971478581428528,
+          "start": 89,
+          "end": 92
+        },
+        {
+          "text": "##ion Technologies, Inc..",
+          "label": "ORG",
+          "score": 0.8271780014038086,
+          "start": 92,
+          "end": 115
+        },
+        {
+          "text": "Global",
+          "label": "ORG",
+          "score": 0.9079385995864868,
+          "start": 123,
+          "end": 129
+        },
+        {
+          "text": "AI",
+          "label": "MISC",
+          "score": 0.5027478337287903,
+          "start": 315,
+          "end": 317
+        },
+        {
+          "text": "Agents",
+          "label": "MISC",
+          "score": 0.796722412109375,
+          "start": 332,
+          "end": 338
+        },
+        {
+          "text": "M",
+          "label": "MISC",
+          "score": 0.8551272749900818,
+          "start": 344,
+          "end": 345
+        },
+        {
+          "text": "##L",
+          "label": "MISC",
+          "score": 0.5955794453620911,
+          "start": 345,
+          "end": 346
+        },
+        {
+          "text": "S",
+          "label": "MISC",
+          "score": 0.958149254322052,
+          "start": 570,
+          "end": 571
+        },
+        {
+          "text": "##QL",
+          "label": "MISC",
+          "score": 0.8391513824462891,
+          "start": 571,
+          "end": 573
+        },
+        {
+          "text": "No",
+          "label": "MISC",
+          "score": 0.9130533337593079,
+          "start": 578,
+          "end": 580
+        },
+        {
+          "text": "##SQL",
+          "label": "MISC",
+          "score": 0.871985137462616,
+          "start": 580,
+          "end": 583
+        },
+        {
+          "text": "Men",
+          "label": "ORG",
+          "score": 0.9312883019447327,
+          "start": 596,
+          "end": 599
+        },
+        {
+          "text": "##tor",
+          "label": "ORG",
+          "score": 0.9311056137084961,
+          "start": 599,
+          "end": 602
+        },
+        {
+          "text": "AI Agent",
+          "label": "MISC",
+          "score": 0.7485374212265015,
+          "start": 886,
+          "end": 894
+        },
+        {
+          "text": "Cloud",
+          "label": "MISC",
+          "score": 0.9878266453742981,
+          "start": 984,
+          "end": 989
+        },
+        {
+          "text": "-",
+          "label": "MISC",
+          "score": 0.9640241265296936,
+          "start": 989,
+          "end": 990
+        },
+        {
+          "text": "native",
+          "label": "MISC",
+          "score": 0.9563562273979187,
+          "start": 990,
+          "end": 996
+        }
+      ],
+      "duree_inference_s": 0.1728
+    },
+    {
+      "job_id": "8972129",
+      "entites": [
+        {
+          "text": "Den",
+          "label": "ORG",
+          "score": 0.982150137424469,
+          "start": 53,
+          "end": 56
+        },
+        {
+          "text": "##tsu Creative",
+          "label": "ORG",
+          "score": 0.9931487441062927,
+          "start": 56,
+          "end": 68
+        },
+        {
+          "text": "Global",
+          "label": "ORG",
+          "score": 0.4593765437602997,
+          "start": 77,
+          "end": 83
+        },
+        {
+          "text": "LL",
+          "label": "MISC",
+          "score": 0.9642958045005798,
+          "start": 223,
+          "end": 225
+        },
+        {
+          "text": "##M",
+          "label": "MISC",
+          "score": 0.9554977416992188,
+          "start": 225,
+          "end": 226
+        },
+        {
+          "text": "AI",
+          "label": "MISC",
+          "score": 0.7424758672714233,
+          "start": 270,
+          "end": 272
+        },
+        {
+          "text": "Dev",
+          "label": "MISC",
+          "score": 0.4319083094596863,
+          "start": 613,
+          "end": 616
+        },
+        {
+          "text": "##elo",
+          "label": "ORG",
+          "score": 0.45885810256004333,
+          "start": 616,
+          "end": 619
+        },
+        {
+          "text": "##p",
+          "label": "MISC",
+          "score": 0.6256209015846252,
+          "start": 619,
+          "end": 620
+        },
+        {
+          "text": "LL",
+          "label": "ORG",
+          "score": 0.8361298441886902,
+          "start": 733,
+          "end": 735
+        },
+        {
+          "text": "##M",
+          "label": "ORG",
+          "score": 0.8812219500541687,
+          "start": 735,
+          "end": 736
+        },
+        {
+          "text": "Python",
+          "label": "MISC",
+          "score": 0.7397274971008301,
+          "start": 859,
+          "end": 865
+        },
+        {
+          "text": "-",
+          "label": "MISC",
+          "score": 0.5583356618881226,
+          "start": 1409,
+          "end": 1410
+        },
+        {
+          "text": "driven",
+          "label": "MISC",
+          "score": 0.5325106382369995,
+          "start": 1410,
+          "end": 1416
+        }
+      ],
+      "duree_inference_s": 0.2761
+    },
+    {
+      "job_id": "8848631",
+      "entites": [
+        {
+          "text": "Engineer",
+          "label": "MISC",
+          "score": 0.5086881518363953,
+          "start": 14,
+          "end": 22
+        },
+        {
+          "text": "Tech",
+          "label": "ORG",
+          "score": 0.976966917514801,
+          "start": 39,
+          "end": 43
+        },
+        {
+          "text": "##B",
+          "label": "ORG",
+          "score": 0.9823242425918579,
+          "start": 43,
+          "end": 44
+        },
+        {
+          "text": "##iz Global",
+          "label": "ORG",
+          "score": 0.9927411079406738,
+          "start": 44,
+          "end": 53
+        },
+        {
+          "text": "AI",
+          "label": "MISC",
+          "score": 0.6175833344459534,
+          "start": 189,
+          "end": 191
+        },
+        {
+          "text": "M",
+          "label": "MISC",
+          "score": 0.559560239315033,
+          "start": 323,
+          "end": 324
+        },
+        {
+          "text": "RA",
+          "label": "MISC",
+          "score": 0.6184060573577881,
+          "start": 394,
+          "end": 396
+        },
+        {
+          "text": "##G",
+          "label": "MISC",
+          "score": 0.4606696367263794,
+          "start": 396,
+          "end": 397
+        },
+        {
+          "text": "Agent",
+          "label": "MISC",
+          "score": 0.6475594639778137,
+          "start": 412,
+          "end": 417
+        },
+        {
+          "text": "##ic RAG",
+          "label": "MISC",
+          "score": 0.858212947845459,
+          "start": 417,
+          "end": 423
+        },
+        {
+          "text": "AI",
+          "label": "MISC",
+          "score": 0.5634326934814453,
+          "start": 812,
+          "end": 814
+        },
+        {
+          "text": "Agent",
+          "label": "MISC",
+          "score": 0.6922596096992493,
+          "start": 941,
+          "end": 946
+        },
+        {
+          "text": "##ic AI",
+          "label": "MISC",
+          "score": 0.8376935720443726,
+          "start": 946,
+          "end": 951
+        }
+      ],
+      "duree_inference_s": 0.178
+    },
+    {
+      "job_id": "8690797",
+      "entites": [
+        {
+          "text": "AI",
+          "label": "ORG",
+          "score": 0.42955273389816284,
+          "start": 18,
+          "end": 20
+        },
+        {
+          "text": "##ent",
+          "label": "ORG",
+          "score": 0.5197030305862427,
+          "start": 45,
+          "end": 48
+        },
+        {
+          "text": "AI",
+          "label": "MISC",
+          "score": 0.9134206771850586,
+          "start": 176,
+          "end": 178
+        },
+        {
+          "text": "Snow",
+          "label": "MISC",
+          "score": 0.7937748432159424,
+          "start": 325,
+          "end": 329
+        },
+        {
+          "text": "##f",
+          "label": "ORG",
+          "score": 0.6971447467803955,
+          "start": 329,
+          "end": 330
+        },
+        {
+          "text": "##lake ML",
+          "label": "MISC",
+          "score": 0.6005861759185791,
+          "start": 330,
+          "end": 337
+        },
+        {
+          "text": "##WS",
+          "label": "MISC",
+          "score": 0.44800859689712524,
+          "start": 343,
+          "end": 345
+        },
+        {
+          "text": "Sage",
+          "label": "ORG",
+          "score": 0.9864726066589355,
+          "start": 356,
+          "end": 360
+        },
+        {
+          "text": "##M",
+          "label": "ORG",
+          "score": 0.9283714890480042,
+          "start": 360,
+          "end": 361
+        },
+        {
+          "text": "##aker",
+          "label": "ORG",
+          "score": 0.9888906478881836,
+          "start": 361,
+          "end": 365
+        },
+        {
+          "text": "Bed",
+          "label": "ORG",
+          "score": 0.7747960686683655,
+          "start": 367,
+          "end": 370
+        },
+        {
+          "text": "##rock",
+          "label": "ORG",
+          "score": 0.744088351726532,
+          "start": 370,
+          "end": 374
+        },
+        {
+          "text": "Lamb",
+          "label": "ORG",
+          "score": 0.35417675971984863,
+          "start": 376,
+          "end": 380
+        },
+        {
+          "text": "##da",
+          "label": "ORG",
+          "score": 0.6130763292312622,
+          "start": 380,
+          "end": 382
+        },
+        {
+          "text": "LL",
+          "label": "ORG",
+          "score": 0.7936037182807922,
+          "start": 431,
+          "end": 433
+        },
+        {
+          "text": "##Ms",
+          "label": "ORG",
+          "score": 0.9093112349510193,
+          "start": 433,
+          "end": 435
+        },
+        {
+          "text": "Lang",
+          "label": "ORG",
+          "score": 0.9016501903533936,
+          "start": 437,
+          "end": 441
+        },
+        {
+          "text": "##C",
+          "label": "ORG",
+          "score": 0.9273150563240051,
+          "start": 441,
+          "end": 442
+        },
+        {
+          "text": "##hai",
+          "label": "ORG",
+          "score": 0.7674829363822937,
+          "start": 442,
+          "end": 445
+        },
+        {
+          "text": "##n",
+          "label": "ORG",
+          "score": 0.9275586009025574,
+          "start": 445,
+          "end": 446
+        },
+        {
+          "text": "Stream",
+          "label": "ORG",
+          "score": 0.6435173749923706,
+          "start": 452,
+          "end": 458
+        },
+        {
+          "text": "##lit",
+          "label": "ORG",
+          "score": 0.5639482140541077,
+          "start": 458,
+          "end": 461
+        },
+        {
+          "text": "Dev",
+          "label": "MISC",
+          "score": 0.5100945234298706,
+          "start": 531,
+          "end": 534
+        },
+        {
+          "text": "##elo",
+          "label": "MISC",
+          "score": 0.5024829506874084,
+          "start": 534,
+          "end": 537
+        },
+        {
+          "text": "##p",
+          "label": "ORG",
+          "score": 0.459028959274292,
+          "start": 537,
+          "end": 538
+        },
+        {
+          "text": "##P",
+          "label": "ORG",
+          "score": 0.4650493860244751,
+          "start": 541,
+          "end": 542
+        },
+        {
+          "text": "C",
+          "label": "MISC",
+          "score": 0.714951753616333,
+          "start": 643,
+          "end": 644
+        },
+        {
+          "text": "M",
+          "label": "MISC",
+          "score": 0.6843063831329346,
+          "start": 761,
+          "end": 762
+        },
+        {
+          "text": "##L",
+          "label": "MISC",
+          "score": 0.4234158396720886,
+          "start": 762,
+          "end": 763
+        },
+        {
+          "text": "##O",
+          "label": "MISC",
+          "score": 0.4602543115615845,
+          "start": 763,
+          "end": 764
+        },
+        {
+          "text": "##ps",
+          "label": "MISC",
+          "score": 0.5615666508674622,
+          "start": 764,
+          "end": 766
+        },
+        {
+          "text": "MC",
+          "label": "MISC",
+          "score": 0.47992658615112305,
+          "start": 887,
+          "end": 889
+        },
+        {
+          "text": "##P",
+          "label": "ORG",
+          "score": 0.42773011326789856,
+          "start": 889,
+          "end": 890
+        },
+        {
+          "text": "AI",
+          "label": "MISC",
+          "score": 0.47693607211112976,
+          "start": 932,
+          "end": 934
+        },
+        {
+          "text": "Snow",
+          "label": "ORG",
+          "score": 0.7888612747192383,
+          "start": 956,
+          "end": 960
+        },
+        {
+          "text": "##f",
+          "label": "ORG",
+          "score": 0.8145726919174194,
+          "start": 960,
+          "end": 961
+        },
+        {
+          "text": "##lake",
+          "label": "ORG",
+          "score": 0.874813973903656,
+          "start": 961,
+          "end": 965
+        },
+        {
+          "text": "Enterprise agentic AI",
+          "label": "MISC",
+          "score": 0.8708875775337219,
+          "start": 1366,
+          "end": 1387
+        }
+      ],
+      "duree_inference_s": 0.2378
+    },
+    {
+      "job_id": "8102843",
+      "entites": [
+        {
+          "text": "Rapid Prototyping & Analytics",
+          "label": "ORG",
+          "score": 0.9127991199493408,
+          "start": 31,
+          "end": 60
+        },
+        {
+          "text": "Pro",
+          "label": "ORG",
+          "score": 0.8233804106712341,
+          "start": 73,
+          "end": 76
+        },
+        {
+          "text": "##mpt Therapy Solutions Inc",
+          "label": "ORG",
+          "score": 0.9613006711006165,
+          "start": 76,
+          "end": 101
+        },
+        {
+          "text": "M",
+          "label": "MISC",
+          "score": 0.967989981174469,
+          "start": 243,
+          "end": 244
+        },
+        {
+          "text": "##L",
+          "label": "MISC",
+          "score": 0.9550061821937561,
+          "start": 244,
+          "end": 245
+        },
+        {
+          "text": "LL",
+          "label": "MISC",
+          "score": 0.9703924655914307,
+          "start": 250,
+          "end": 252
+        },
+        {
+          "text": "##M",
+          "label": "MISC",
+          "score": 0.9062215089797974,
+          "start": 252,
+          "end": 253
+        },
+        {
+          "text": "-",
+          "label": "MISC",
+          "score": 0.8965590596199036,
+          "start": 253,
+          "end": 254
+        },
+        {
+          "text": "LL",
+          "label": "MISC",
+          "score": 0.6871429085731506,
+          "start": 500,
+          "end": 502
+        },
+        {
+          "text": "##M",
+          "label": "MISC",
+          "score": 0.4726891815662384,
+          "start": 502,
+          "end": 503
+        },
+        {
+          "text": "Engineering, Design, Sales, Marketing, Support, Finance",
+          "label": "ORG",
+          "score": 0.855451762676239,
+          "start": 602,
+          "end": 657
+        },
+        {
+          "text": "and Operations",
+          "label": "ORG",
+          "score": 0.8069138526916504,
+          "start": 659,
+          "end": 673
+        },
+        {
+          "text": "AI",
+          "label": "MISC",
+          "score": 0.6128148436546326,
+          "start": 1080,
+          "end": 1082
+        },
+        {
+          "text": "Engineering",
+          "label": "ORG",
+          "score": 0.7906767129898071,
+          "start": 1138,
+          "end": 1149
+        },
+        {
+          "text": "Design",
+          "label": "ORG",
+          "score": 0.5500836968421936,
+          "start": 1151,
+          "end": 1157
+        },
+        {
+          "text": "Sales",
+          "label": "ORG",
+          "score": 0.8533517122268677,
+          "start": 1159,
+          "end": 1164
+        },
+        {
+          "text": "Marketing, Support",
+          "label": "ORG",
+          "score": 0.7524588704109192,
+          "start": 1166,
+          "end": 1184
+        },
+        {
+          "text": "Finance",
+          "label": "ORG",
+          "score": 0.9159398674964905,
+          "start": 1186,
+          "end": 1193
+        },
+        {
+          "text": "Operations",
+          "label": "ORG",
+          "score": 0.9289152026176453,
+          "start": 1199,
+          "end": 1209
+        },
+        {
+          "text": "AI",
+          "label": "MISC",
+          "score": 0.8551468253135681,
+          "start": 1356,
+          "end": 1358
+        }
+      ],
+      "duree_inference_s": 0.2229
+    },
+    {
+      "job_id": "8360323",
+      "entites": [
+        {
+          "text": "Po",
+          "label": "ORG",
+          "score": 0.9682846069335938,
+          "start": 43,
+          "end": 45
+        },
+        {
+          "text": "##rch Group",
+          "label": "ORG",
+          "score": 0.9628610610961914,
+          "start": 45,
+          "end": 54
+        },
+        {
+          "text": "Computer Vision",
+          "label": "MISC",
+          "score": 0.9465209245681763,
+          "start": 233,
+          "end": 248
+        },
+        {
+          "text": "NLP",
+          "label": "MISC",
+          "score": 0.712646484375,
+          "start": 253,
+          "end": 256
+        },
+        {
+          "text": "M",
+          "label": "ORG",
+          "score": 0.6306689381599426,
+          "start": 727,
+          "end": 728
+        },
+        {
+          "text": "##LE",
+          "label": "ORG",
+          "score": 0.6971307396888733,
+          "start": 728,
+          "end": 730
+        },
+        {
+          "text": "##s",
+          "label": "ORG",
+          "score": 0.5289810299873352,
+          "start": 730,
+          "end": 731
+        },
+        {
+          "text": "M",
+          "label": "ORG",
+          "score": 0.6580466032028198,
+          "start": 800,
+          "end": 801
+        },
+        {
+          "text": "##L",
+          "label": "ORG",
+          "score": 0.733773946762085,
+          "start": 801,
+          "end": 802
+        },
+        {
+          "text": "##O",
+          "label": "ORG",
+          "score": 0.8015363812446594,
+          "start": 802,
+          "end": 803
+        },
+        {
+          "text": "##ps",
+          "label": "ORG",
+          "score": 0.77994304895401,
+          "start": 803,
+          "end": 805
+        },
+        {
+          "text": "Python",
+          "label": "MISC",
+          "score": 0.9105775952339172,
+          "start": 909,
+          "end": 915
+        },
+        {
+          "text": "##P",
+          "label": "MISC",
+          "score": 0.5423661470413208,
+          "start": 1238,
+          "end": 1239
+        },
+        {
+          "text": "Vision",
+          "label": "MISC",
+          "score": 0.9005750417709351,
+          "start": 1316,
+          "end": 1322
+        },
+        {
+          "text": "-",
+          "label": "MISC",
+          "score": 0.739958643913269,
+          "start": 1322,
+          "end": 1323
+        },
+        {
+          "text": "language",
+          "label": "MISC",
+          "score": 0.7307307720184326,
+          "start": 1323,
+          "end": 1331
+        }
+      ],
+      "duree_inference_s": 0.2335
+    },
+    {
+      "job_id": "6840091",
+      "entites": [
+        {
+          "text": "Sentinel",
+          "label": "ORG",
+          "score": 0.9480273723602295,
+          "start": 43,
+          "end": 51
+        },
+        {
+          "text": "##O",
+          "label": "ORG",
+          "score": 0.9441559910774231,
+          "start": 51,
+          "end": 52
+        },
+        {
+          "text": "##ne",
+          "label": "ORG",
+          "score": 0.9499182105064392,
+          "start": 52,
+          "end": 54
+        },
+        {
+          "text": "AI",
+          "label": "MISC",
+          "score": 0.9865322709083557,
+          "start": 63,
+          "end": 65
+        },
+        {
+          "text": "-",
+          "label": "MISC",
+          "score": 0.9734137654304504,
+          "start": 65,
+          "end": 66
+        },
+        {
+          "text": "powered",
+          "label": "MISC",
+          "score": 0.9599139094352722,
+          "start": 66,
+          "end": 73
+        },
+        {
+          "text": "Python",
+          "label": "MISC",
+          "score": 0.9327815771102905,
+          "start": 166,
+          "end": 172
+        },
+        {
+          "text": "-",
+          "label": "MISC",
+          "score": 0.9168904423713684,
+          "start": 172,
+          "end": 173
+        },
+        {
+          "text": "based",
+          "label": "MISC",
+          "score": 0.884587824344635,
+          "start": 173,
+          "end": 178
+        },
+        {
+          "text": "as",
+          "label": "MISC",
+          "score": 0.4541836678981781,
+          "start": 320,
+          "end": 322
+        },
+        {
+          "text": "##ync",
+          "label": "ORG",
+          "score": 0.49721047282218933,
+          "start": 322,
+          "end": 325
+        },
+        {
+          "text": "##io",
+          "label": "MISC",
+          "score": 0.5780884027481079,
+          "start": 325,
+          "end": 327
+        },
+        {
+          "text": "Fast",
+          "label": "ORG",
+          "score": 0.9487147331237793,
+          "start": 329,
+          "end": 333
+        },
+        {
+          "text": "##AP",
+          "label": "ORG",
+          "score": 0.9806247353553772,
+          "start": 333,
+          "end": 335
+        },
+        {
+          "text": "##I",
+          "label": "ORG",
+          "score": 0.9804959893226624,
+          "start": 335,
+          "end": 336
+        },
+        {
+          "text": "g",
+          "label": "ORG",
+          "score": 0.6655002236366272,
+          "start": 338,
+          "end": 339
+        },
+        {
+          "text": "##RP",
+          "label": "ORG",
+          "score": 0.9573984146118164,
+          "start": 339,
+          "end": 341
+        },
+        {
+          "text": "##C",
+          "label": "ORG",
+          "score": 0.9762389063835144,
+          "start": 341,
+          "end": 342
+        },
+        {
+          "text": "Ka",
+          "label": "ORG",
+          "score": 0.5068124532699585,
+          "start": 344,
+          "end": 346
+        },
+        {
+          "text": "##f",
+          "label": "ORG",
+          "score": 0.4943141043186188,
+          "start": 346,
+          "end": 347
+        },
+        {
+          "text": "##ka",
+          "label": "ORG",
+          "score": 0.7227482795715332,
+          "start": 347,
+          "end": 349
+        },
+        {
+          "text": "G",
+          "label": "MISC",
+          "score": 0.7512564063072205,
+          "start": 355,
+          "end": 356
+        },
+        {
+          "text": "##rap",
+          "label": "MISC",
+          "score": 0.7036720514297485,
+          "start": 356,
+          "end": 359
+        },
+        {
+          "text": "##h",
+          "label": "ORG",
+          "score": 0.6382369995117188,
+          "start": 359,
+          "end": 360
+        },
+        {
+          "text": "##QL",
+          "label": "ORG",
+          "score": 0.5453133583068848,
+          "start": 360,
+          "end": 362
+        },
+        {
+          "text": "No",
+          "label": "MISC",
+          "score": 0.8342393040657043,
+          "start": 415,
+          "end": 417
+        },
+        {
+          "text": "##SQL",
+          "label": "MISC",
+          "score": 0.7255805134773254,
+          "start": 417,
+          "end": 420
+        },
+        {
+          "text": "AI",
+          "label": "ORG",
+          "score": 0.7589247226715088,
+          "start": 636,
+          "end": 638
+        },
+        {
+          "text": "Dev",
+          "label": "ORG",
+          "score": 0.9795088768005371,
+          "start": 674,
+          "end": 677
+        },
+        {
+          "text": "##O",
+          "label": "ORG",
+          "score": 0.9814969301223755,
+          "start": 677,
+          "end": 678
+        },
+        {
+          "text": "##ps",
+          "label": "ORG",
+          "score": 0.9835922718048096,
+          "start": 678,
+          "end": 680
+        },
+        {
+          "text": "##ic AI",
+          "label": "MISC",
+          "score": 0.7934680581092834,
+          "start": 925,
+          "end": 930
+        },
+        {
+          "text": "AI",
+          "label": "MISC",
+          "score": 0.973909854888916,
+          "start": 996,
+          "end": 998
+        },
+        {
+          "text": "-",
+          "label": "MISC",
+          "score": 0.964958131313324,
+          "start": 998,
+          "end": 999
+        },
+        {
+          "text": "powered",
+          "label": "MISC",
+          "score": 0.9617340564727783,
+          "start": 999,
+          "end": 1006
+        },
+        {
+          "text": "Open",
+          "label": "ORG",
+          "score": 0.9805809259414673,
+          "start": 1169,
+          "end": 1173
+        },
+        {
+          "text": "##A",
+          "label": "ORG",
+          "score": 0.9933377504348755,
+          "start": 1173,
+          "end": 1174
+        },
+        {
+          "text": "##I",
+          "label": "ORG",
+          "score": 0.9923966526985168,
+          "start": 1174,
+          "end": 1175
+        },
+        {
+          "text": "An",
+          "label": "ORG",
+          "score": 0.9944993257522583,
+          "start": 1177,
+          "end": 1179
+        },
+        {
+          "text": "##throp",
+          "label": "ORG",
+          "score": 0.9933017492294312,
+          "start": 1179,
+          "end": 1184
+        },
+        {
+          "text": "##ic",
+          "label": "ORG",
+          "score": 0.9895018935203552,
+          "start": 1184,
+          "end": 1186
+        },
+        {
+          "text": "Google Gemini",
+          "label": "ORG",
+          "score": 0.9930263161659241,
+          "start": 1188,
+          "end": 1201
+        },
+        {
+          "text": "Met",
+          "label": "ORG",
+          "score": 0.9548522233963013,
+          "start": 1203,
+          "end": 1206
+        },
+        {
+          "text": "##a LLaMA",
+          "label": "ORG",
+          "score": 0.9683404564857483,
+          "start": 1206,
+          "end": 1213
+        }
+      ],
+      "duree_inference_s": 0.2085
+    },
+    {
+      "job_id": "8316092",
+      "entites": [
+        {
+          "text": "AI",
+          "label": "ORG",
+          "score": 0.44997042417526245,
+          "start": 11,
+          "end": 13
+        },
+        {
+          "text": "Sales Engineer",
+          "label": "MISC",
+          "score": 0.479464590549469,
+          "start": 14,
+          "end": 28
+        },
+        {
+          "text": "R",
+          "label": "ORG",
+          "score": 0.7837015986442566,
+          "start": 39,
+          "end": 40
+        },
+        {
+          "text": "##ub",
+          "label": "ORG",
+          "score": 0.6573465466499329,
+          "start": 40,
+          "end": 42
+        },
+        {
+          "text": "##rik",
+          "label": "ORG",
+          "score": 0.9007611870765686,
+          "start": 42,
+          "end": 45
+        },
+        {
+          "text": "R",
+          "label": "ORG",
+          "score": 0.9892147183418274,
+          "start": 213,
+          "end": 214
+        },
+        {
+          "text": "##ub",
+          "label": "ORG",
+          "score": 0.9869493842124939,
+          "start": 214,
+          "end": 216
+        },
+        {
+          "text": "##rik",
+          "label": "ORG",
+          "score": 0.9953527450561523,
+          "start": 216,
+          "end": 219
+        },
+        {
+          "text": "AI Agentic Cloud",
+          "label": "MISC",
+          "score": 0.7891635894775391,
+          "start": 222,
+          "end": 238
+        },
+        {
+          "text": "Dev",
+          "label": "ORG",
+          "score": 0.9793235063552856,
+          "start": 667,
+          "end": 670
+        },
+        {
+          "text": "##elo",
+          "label": "ORG",
+          "score": 0.9773504734039307,
+          "start": 670,
+          "end": 673
+        },
+        {
+          "text": "##ps",
+          "label": "ORG",
+          "score": 0.9576456546783447,
+          "start": 673,
+          "end": 675
+        },
+        {
+          "text": "R",
+          "label": "ORG",
+          "score": 0.8967623114585876,
+          "start": 839,
+          "end": 840
+        },
+        {
+          "text": "##ub",
+          "label": "ORG",
+          "score": 0.8887132406234741,
+          "start": 840,
+          "end": 842
+        },
+        {
+          "text": "##rik",
+          "label": "ORG",
+          "score": 0.8584342002868652,
+          "start": 842,
+          "end": 845
+        },
+        {
+          "text": "Agent",
+          "label": "MISC",
+          "score": 0.5434262752532959,
+          "start": 1278,
+          "end": 1283
+        },
+        {
+          "text": "##ic AI",
+          "label": "MISC",
+          "score": 0.8462423086166382,
+          "start": 1283,
+          "end": 1288
+        }
+      ],
+      "duree_inference_s": 0.1836
+    },
+    {
+      "job_id": "8681691",
+      "entites": [
+        {
+          "text": "AI Forms Platform",
+          "label": "ORG",
+          "score": 0.6601059436798096,
+          "start": 38,
+          "end": 55
+        },
+        {
+          "text": "File",
+          "label": "ORG",
+          "score": 0.9262674450874329,
+          "start": 67,
+          "end": 71
+        },
+        {
+          "text": "##vin",
+          "label": "ORG",
+          "score": 0.9152734279632568,
+          "start": 71,
+          "end": 74
+        },
+        {
+          "text": "##e",
+          "label": "ORG",
+          "score": 0.9578608274459839,
+          "start": 74,
+          "end": 75
+        },
+        {
+          "text": "AI",
+          "label": "MISC",
+          "score": 0.6479063630104065,
+          "start": 90,
+          "end": 92
+        },
+        {
+          "text": "Java",
+          "label": "MISC",
+          "score": 0.9902873039245605,
+          "start": 284,
+          "end": 288
+        },
+        {
+          "text": "##Script",
+          "label": "MISC",
+          "score": 0.6868249773979187,
+          "start": 288,
+          "end": 294
+        },
+        {
+          "text": "AI",
+          "label": "ORG",
+          "score": 0.6149151921272278,
+          "start": 468,
+          "end": 470
+        },
+        {
+          "text": "U",
+          "label": "ORG",
+          "score": 0.9346926808357239,
+          "start": 583,
+          "end": 584
+        },
+        {
+          "text": "##I",
+          "label": "ORG",
+          "score": 0.9680805802345276,
+          "start": 584,
+          "end": 585
+        },
+        {
+          "text": "AI",
+          "label": "MISC",
+          "score": 0.7681052684783936,
+          "start": 717,
+          "end": 719
+        },
+        {
+          "text": "-",
+          "label": "MISC",
+          "score": 0.8568544983863831,
+          "start": 719,
+          "end": 720
+        },
+        {
+          "text": "driven",
+          "label": "MISC",
+          "score": 0.8458074927330017,
+          "start": 720,
+          "end": 726
+        },
+        {
+          "text": "AI",
+          "label": "MISC",
+          "score": 0.7239060997962952,
+          "start": 977,
+          "end": 979
+        },
+        {
+          "text": "-",
+          "label": "MISC",
+          "score": 0.6572898626327515,
+          "start": 979,
+          "end": 980
+        },
+        {
+          "text": "first",
+          "label": "MISC",
+          "score": 0.6330310702323914,
+          "start": 980,
+          "end": 985
+        }
+      ],
+      "duree_inference_s": 0.159
+    },
+    {
+      "job_id": "9012551",
+      "entites": [
+        {
+          "text": "AI Platform",
+          "label": "ORG",
+          "score": 0.8700540065765381,
+          "start": 26,
+          "end": 37
+        },
+        {
+          "text": "VP",
+          "label": "MISC",
+          "score": 0.6058250665664673,
+          "start": 488,
+          "end": 490
+        },
+        {
+          "text": "##C",
+          "label": "ORG",
+          "score": 0.4491286277770996,
+          "start": 490,
+          "end": 491
+        },
+        {
+          "text": "AI",
+          "label": "ORG",
+          "score": 0.6079090237617493,
+          "start": 638,
+          "end": 640
+        },
+        {
+          "text": "##A",
+          "label": "MISC",
+          "score": 0.5156599283218384,
+          "start": 777,
+          "end": 778
+        },
+        {
+          "text": "AI",
+          "label": "MISC",
+          "score": 0.7038865089416504,
+          "start": 844,
+          "end": 846
+        },
+        {
+          "text": "-",
+          "label": "MISC",
+          "score": 0.7995707988739014,
+          "start": 846,
+          "end": 847
+        },
+        {
+          "text": "driven",
+          "label": "MISC",
+          "score": 0.7834843397140503,
+          "start": 847,
+          "end": 853
+        }
+      ],
+      "duree_inference_s": 0.1913
+    },
+    {
+      "job_id": "4380772643",
+      "entites": [
+        {
+          "text": "Big Data Engineer",
+          "label": "ORG",
+          "score": 0.7991251945495605,
+          "start": 11,
+          "end": 28
+        },
+        {
+          "text": "Müller ' s Solutions",
+          "label": "ORG",
+          "score": 0.9765750169754028,
+          "start": 39,
+          "end": 57
+        }
+      ],
+      "duree_inference_s": 0.0453
+    },
+    {
+      "job_id": "4314994258",
+      "entites": [
+        {
+          "text": "In",
+          "label": "MISC",
+          "score": 0.47800731658935547,
+          "start": 11,
+          "end": 13
+        },
+        {
+          "text": "##gé",
+          "label": "ORG",
+          "score": 0.7024127244949341,
+          "start": 13,
+          "end": 15
+        },
+        {
+          "text": "##nie",
+          "label": "ORG",
+          "score": 0.5950230956077576,
+          "start": 15,
+          "end": 18
+        },
+        {
+          "text": "##ur Data GCP",
+          "label": "ORG",
+          "score": 0.5305166244506836,
+          "start": 18,
+          "end": 29
+        },
+        {
+          "text": "Google Cloud Platform",
+          "label": "ORG",
+          "score": 0.9229490160942078,
+          "start": 31,
+          "end": 52
+        },
+        {
+          "text": "S",
+          "label": "ORG",
+          "score": 0.9836026430130005,
+          "start": 70,
+          "end": 71
+        },
+        {
+          "text": "##QL",
+          "label": "ORG",
+          "score": 0.9805975556373596,
+          "start": 71,
+          "end": 73
+        },
+        {
+          "text": "##I",
+          "label": "ORG",
+          "score": 0.986967146396637,
+          "start": 73,
+          "end": 74
+        }
+      ],
+      "duree_inference_s": 0.0578
+    },
+    {
+      "job_id": "8708837",
+      "entites": [
+        {
+          "text": "Del",
+          "label": "ORG",
+          "score": 0.9582371115684509,
+          "start": 51,
+          "end": 54
+        },
+        {
+          "text": "##os Data",
+          "label": "ORG",
+          "score": 0.9504642486572266,
+          "start": 54,
+          "end": 61
+        },
+        {
+          "text": "AI",
+          "label": "MISC",
+          "score": 0.8135997653007507,
+          "start": 253,
+          "end": 255
+        },
+        {
+          "text": "AI",
+          "label": "MISC",
+          "score": 0.6855870485305786,
+          "start": 643,
+          "end": 645
+        },
+        {
+          "text": "AI",
+          "label": "MISC",
+          "score": 0.45427870750427246,
+          "start": 851,
+          "end": 853
+        }
+      ],
+      "duree_inference_s": 0.1594
+    },
+    {
+      "job_id": "8244638",
+      "entites": [
+        {
+          "text": "Micro",
+          "label": "ORG",
+          "score": 0.9935072660446167,
+          "start": 55,
+          "end": 60
+        },
+        {
+          "text": "##chi",
+          "label": "ORG",
+          "score": 0.9806538224220276,
+          "start": 60,
+          "end": 63
+        },
+        {
+          "text": "##p Technology Inc.",
+          "label": "ORG",
+          "score": 0.9663635492324829,
+          "start": 63,
+          "end": 80
+        },
+        {
+          "text": "Semi",
+          "label": "MISC",
+          "score": 0.8262929916381836,
+          "start": 89,
+          "end": 93
+        },
+        {
+          "text": "##conductor",
+          "label": "MISC",
+          "score": 0.8106563091278076,
+          "start": 93,
+          "end": 102
+        },
+        {
+          "text": "AI",
+          "label": "MISC",
+          "score": 0.43489667773246765,
+          "start": 112,
+          "end": 114
+        },
+        {
+          "text": "Dev",
+          "label": "MISC",
+          "score": 0.6319847702980042,
+          "start": 154,
+          "end": 157
+        },
+        {
+          "text": "##elo",
+          "label": "MISC",
+          "score": 0.5734711289405823,
+          "start": 157,
+          "end": 160
+        },
+        {
+          "text": "AI",
+          "label": "MISC",
+          "score": 0.6920506954193115,
+          "start": 162,
+          "end": 164
+        },
+        {
+          "text": "AI",
+          "label": "MISC",
+          "score": 0.6608155965805054,
+          "start": 276,
+          "end": 278
+        },
+        {
+          "text": "T",
+          "label": "ORG",
+          "score": 0.5387636423110962,
+          "start": 292,
+          "end": 293
+        },
+        {
+          "text": "##FL",
+          "label": "ORG",
+          "score": 0.7159285545349121,
+          "start": 293,
+          "end": 295
+        },
+        {
+          "text": "##ite",
+          "label": "ORG",
+          "score": 0.6383058428764343,
+          "start": 295,
+          "end": 298
+        },
+        {
+          "text": "Ten",
+          "label": "ORG",
+          "score": 0.724281370639801,
+          "start": 300,
+          "end": 303
+        },
+        {
+          "text": "##sor",
+          "label": "ORG",
+          "score": 0.806353747844696,
+          "start": 303,
+          "end": 306
+        },
+        {
+          "text": "##F",
+          "label": "ORG",
+          "score": 0.8778303265571594,
+          "start": 306,
+          "end": 307
+        },
+        {
+          "text": "##low",
+          "label": "ORG",
+          "score": 0.5907444953918457,
+          "start": 307,
+          "end": 310
+        },
+        {
+          "text": "ON",
+          "label": "ORG",
+          "score": 0.8227145075798035,
+          "start": 312,
+          "end": 314
+        },
+        {
+          "text": "##N",
+          "label": "ORG",
+          "score": 0.8360855579376221,
+          "start": 314,
+          "end": 315
+        },
+        {
+          "text": "##X",
+          "label": "ORG",
+          "score": 0.942656934261322,
+          "start": 315,
+          "end": 316
+        },
+        {
+          "text": "P",
+          "label": "ORG",
+          "score": 0.8751352429389954,
+          "start": 318,
+          "end": 319
+        },
+        {
+          "text": "##y",
+          "label": "ORG",
+          "score": 0.9391140341758728,
+          "start": 319,
+          "end": 320
+        },
+        {
+          "text": "##T",
+          "label": "ORG",
+          "score": 0.9596638679504395,
+          "start": 320,
+          "end": 321
+        },
+        {
+          "text": "##or",
+          "label": "ORG",
+          "score": 0.9165146350860596,
+          "start": 321,
+          "end": 323
+        },
+        {
+          "text": "##ch",
+          "label": "ORG",
+          "score": 0.794352650642395,
+          "start": 323,
+          "end": 325
+        },
+        {
+          "text": "C",
+          "label": "MISC",
+          "score": 0.9823601245880127,
+          "start": 331,
+          "end": 332
+        },
+        {
+          "text": "/",
+          "label": "MISC",
+          "score": 0.9627270698547363,
+          "start": 332,
+          "end": 333
+        },
+        {
+          "text": "C",
+          "label": "MISC",
+          "score": 0.9422144889831543,
+          "start": 333,
+          "end": 334
+        },
+        {
+          "text": "+",
+          "label": "MISC",
+          "score": 0.7180154323577881,
+          "start": 334,
+          "end": 335
+        },
+        {
+          "text": "+ based",
+          "label": "MISC",
+          "score": 0.5509861707687378,
+          "start": 335,
+          "end": 342
+        },
+        {
+          "text": "AI",
+          "label": "MISC",
+          "score": 0.9890295267105103,
+          "start": 379,
+          "end": 381
+        },
+        {
+          "text": "/",
+          "label": "MISC",
+          "score": 0.8328823447227478,
+          "start": 381,
+          "end": 382
+        },
+        {
+          "text": "M",
+          "label": "MISC",
+          "score": 0.8838666081428528,
+          "start": 382,
+          "end": 383
+        },
+        {
+          "text": "##L",
+          "label": "MISC",
+          "score": 0.6367515325546265,
+          "start": 383,
+          "end": 384
+        },
+        {
+          "text": "AI",
+          "label": "MISC",
+          "score": 0.6788536310195923,
+          "start": 498,
+          "end": 500
+        },
+        {
+          "text": "AI",
+          "label": "MISC",
+          "score": 0.7780036926269531,
+          "start": 617,
+          "end": 619
+        },
+        {
+          "text": "AI",
+          "label": "MISC",
+          "score": 0.8588845729827881,
+          "start": 738,
+          "end": 740
+        },
+        {
+          "text": "Edge AI",
+          "label": "MISC",
+          "score": 0.9555676579475403,
+          "start": 751,
+          "end": 758
+        },
+        {
+          "text": "AI",
+          "label": "MISC",
+          "score": 0.9339219927787781,
+          "start": 785,
+          "end": 787
+        },
+        {
+          "text": "Cloud",
+          "label": "MISC",
+          "score": 0.590289831161499,
+          "start": 929,
+          "end": 934
+        },
+        {
+          "text": "-",
+          "label": "MISC",
+          "score": 0.5216670036315918,
+          "start": 934,
+          "end": 935
+        },
+        {
+          "text": "to",
+          "label": "MISC",
+          "score": 0.5399906039237976,
+          "start": 985,
+          "end": 987
+        }
+      ],
+      "duree_inference_s": 0.1619
+    },
+    {
+      "job_id": "8139259",
+      "entites": [
+        {
+          "text": "AI",
+          "label": "MISC",
+          "score": 0.6366408467292786,
+          "start": 11,
+          "end": 13
+        },
+        {
+          "text": "/",
+          "label": "ORG",
+          "score": 0.4330293834209442,
+          "start": 13,
+          "end": 14
+        },
+        {
+          "text": "M",
+          "label": "MISC",
+          "score": 0.5287293195724487,
+          "start": 14,
+          "end": 15
+        },
+        {
+          "text": "A",
+          "label": "ORG",
+          "score": 0.5111951231956482,
+          "start": 36,
+          "end": 37
+        },
+        {
+          "text": ".",
+          "label": "PER",
+          "score": 0.5672048926353455,
+          "start": 37,
+          "end": 38
+        },
+        {
+          "text": "P",
+          "label": "ORG",
+          "score": 0.5922180414199829,
+          "start": 38,
+          "end": 39
+        },
+        {
+          "text": ". Moller - Maersk",
+          "label": "ORG",
+          "score": 0.6266810297966003,
+          "start": 39,
+          "end": 56
+        },
+        {
+          "text": "Global",
+          "label": "ORG",
+          "score": 0.9738380908966064,
+          "start": 65,
+          "end": 71
+        },
+        {
+          "text": "B",
+          "label": "MISC",
+          "score": 0.45483720302581787,
+          "start": 528,
+          "end": 529
+        },
+        {
+          "text": "AI",
+          "label": "MISC",
+          "score": 0.9676327705383301,
+          "start": 693,
+          "end": 695
+        },
+        {
+          "text": "/",
+          "label": "MISC",
+          "score": 0.9147661924362183,
+          "start": 695,
+          "end": 696
+        },
+        {
+          "text": "M",
+          "label": "MISC",
+          "score": 0.9123694896697998,
+          "start": 696,
+          "end": 697
+        },
+        {
+          "text": "##L",
+          "label": "MISC",
+          "score": 0.4940420091152191,
+          "start": 697,
+          "end": 698
+        },
+        {
+          "text": "AI",
+          "label": "MISC",
+          "score": 0.9695390462875366,
+          "start": 785,
+          "end": 787
+        },
+        {
+          "text": "/",
+          "label": "MISC",
+          "score": 0.575305700302124,
+          "start": 787,
+          "end": 788
+        },
+        {
+          "text": "ML",
+          "label": "MISC",
+          "score": 0.8474531173706055,
+          "start": 788,
+          "end": 790
+        }
+      ],
+      "duree_inference_s": 0.1436
+    },
+    {
+      "job_id": "8925497",
+      "entites": [
+        {
+          "text": "A",
+          "label": "ORG",
+          "score": 0.7438968420028687,
+          "start": 56,
+          "end": 57
+        },
+        {
+          "text": ".",
+          "label": "ORG",
+          "score": 0.6543693542480469,
+          "start": 57,
+          "end": 58
+        },
+        {
+          "text": "P",
+          "label": "ORG",
+          "score": 0.8314933776855469,
+          "start": 58,
+          "end": 59
+        },
+        {
+          "text": ". Moller - Maersk",
+          "label": "ORG",
+          "score": 0.8158385157585144,
+          "start": 59,
+          "end": 76
+        },
+        {
+          "text": "Global",
+          "label": "ORG",
+          "score": 0.954375147819519,
+          "start": 85,
+          "end": 91
+        }
+      ],
+      "duree_inference_s": 0.1731
+    },
+    {
+      "job_id": "4333193580",
+      "entites": [
+        {
+          "text": "BR",
+          "label": "ORG",
+          "score": 0.975597620010376,
+          "start": 41,
+          "end": 43
+        },
+        {
+          "text": "##OM",
+          "label": "ORG",
+          "score": 0.9697848558425903,
+          "start": 43,
+          "end": 45
+        },
+        {
+          "text": "##E Consulting & Technology",
+          "label": "ORG",
+          "score": 0.9848103523254395,
+          "start": 45,
+          "end": 70
+        }
+      ],
+      "duree_inference_s": 0.0489
+    },
+    {
+      "job_id": "4357657978",
+      "entites": [
+        {
+          "text": "Boston Consulting Group",
+          "label": "ORG",
+          "score": 0.9965541362762451,
+          "start": 47,
+          "end": 70
+        },
+        {
+          "text": "BC",
+          "label": "ORG",
+          "score": 0.993235170841217,
+          "start": 72,
+          "end": 74
+        },
+        {
+          "text": "##G",
+          "label": "ORG",
+          "score": 0.9952303171157837,
+          "start": 74,
+          "end": 75
+        }
+      ],
+      "duree_inference_s": 0.048
+    },
+    {
+      "job_id": "7946353",
+      "entites": [
+        {
+          "text": "Global",
+          "label": "ORG",
+          "score": 0.6528365015983582,
+          "start": 66,
+          "end": 72
+        },
+        {
+          "text": "Python",
+          "label": "MISC",
+          "score": 0.9574301838874817,
+          "start": 198,
+          "end": 204
+        },
+        {
+          "text": "-",
+          "label": "MISC",
+          "score": 0.9396041035652161,
+          "start": 204,
+          "end": 205
+        },
+        {
+          "text": "based",
+          "label": "MISC",
+          "score": 0.8988628387451172,
+          "start": 205,
+          "end": 210
+        },
+        {
+          "text": "AI",
+          "label": "MISC",
+          "score": 0.9328963756561279,
+          "start": 289,
+          "end": 291
+        },
+        {
+          "text": "-",
+          "label": "MISC",
+          "score": 0.9021152257919312,
+          "start": 291,
+          "end": 292
+        },
+        {
+          "text": "enabled",
+          "label": "MISC",
+          "score": 0.8204794526100159,
+          "start": 292,
+          "end": 299
+        },
+        {
+          "text": "LL",
+          "label": "MISC",
+          "score": 0.9372549653053284,
+          "start": 304,
+          "end": 306
+        },
+        {
+          "text": "##M",
+          "label": "MISC",
+          "score": 0.9324100613594055,
+          "start": 306,
+          "end": 307
+        },
+        {
+          "text": "-",
+          "label": "MISC",
+          "score": 0.8475022912025452,
+          "start": 307,
+          "end": 308
+        },
+        {
+          "text": "powered",
+          "label": "MISC",
+          "score": 0.5499809980392456,
+          "start": 308,
+          "end": 315
+        },
+        {
+          "text": "LL",
+          "label": "MISC",
+          "score": 0.8197301030158997,
+          "start": 372,
+          "end": 374
+        },
+        {
+          "text": "##M",
+          "label": "MISC",
+          "score": 0.5434167385101318,
+          "start": 374,
+          "end": 375
+        },
+        {
+          "text": "Open",
+          "label": "ORG",
+          "score": 0.8793469667434692,
+          "start": 399,
+          "end": 403
+        },
+        {
+          "text": "##A",
+          "label": "ORG",
+          "score": 0.987781286239624,
+          "start": 403,
+          "end": 404
+        },
+        {
+          "text": "##I",
+          "label": "ORG",
+          "score": 0.9884783625602722,
+          "start": 404,
+          "end": 405
+        },
+        {
+          "text": "L",
+          "label": "ORG",
+          "score": 0.9863888621330261,
+          "start": 407,
+          "end": 408
+        },
+        {
+          "text": "##lam",
+          "label": "ORG",
+          "score": 0.9767289161682129,
+          "start": 408,
+          "end": 411
+        },
+        {
+          "text": "##a",
+          "label": "ORG",
+          "score": 0.9912791848182678,
+          "start": 411,
+          "end": 412
+        },
+        {
+          "text": "Gemini",
+          "label": "ORG",
+          "score": 0.9206993579864502,
+          "start": 418,
+          "end": 424
+        },
+        {
+          "text": "Be",
+          "label": "ORG",
+          "score": 0.5283271074295044,
+          "start": 427,
+          "end": 429
+        },
+        {
+          "text": "LL",
+          "label": "MISC",
+          "score": 0.9661591053009033,
+          "start": 452,
+          "end": 454
+        },
+        {
+          "text": "##M",
+          "label": "MISC",
+          "score": 0.9565020203590393,
+          "start": 454,
+          "end": 455
+        },
+        {
+          "text": "Generative AI",
+          "label": "MISC",
+          "score": 0.7081810832023621,
+          "start": 460,
+          "end": 473
+        },
+        {
+          "text": "Open Weights",
+          "label": "MISC",
+          "score": 0.9799198508262634,
+          "start": 490,
+          "end": 502
+        },
+        {
+          "text": "Dev",
+          "label": "ORG",
+          "score": 0.9938774704933167,
+          "start": 627,
+          "end": 630
+        },
+        {
+          "text": "##O",
+          "label": "ORG",
+          "score": 0.9872065782546997,
+          "start": 630,
+          "end": 631
+        },
+        {
+          "text": "##ps",
+          "label": "ORG",
+          "score": 0.9917004704475403,
+          "start": 631,
+          "end": 633
+        },
+        {
+          "text": "LL",
+          "label": "MISC",
+          "score": 0.9066745042800903,
+          "start": 830,
+          "end": 832
+        },
+        {
+          "text": "##M",
+          "label": "MISC",
+          "score": 0.9116888046264648,
+          "start": 832,
+          "end": 833
+        },
+        {
+          "text": "-",
+          "label": "MISC",
+          "score": 0.8422062397003174,
+          "start": 833,
+          "end": 834
+        },
+        {
+          "text": "AI",
+          "label": "MISC",
+          "score": 0.695992648601532,
+          "start": 891,
+          "end": 893
+        },
+        {
+          "text": "AI",
+          "label": "MISC",
+          "score": 0.705146849155426,
+          "start": 953,
+          "end": 955
+        }
+      ],
+      "duree_inference_s": 0.1524
+    },
+    {
+      "job_id": "7569470",
+      "entites": [
+        {
+          "text": "AI Engineer",
+          "label": "ORG",
+          "score": 0.5703626871109009,
+          "start": 11,
+          "end": 22
+        },
+        {
+          "text": "London",
+          "label": "LOC",
+          "score": 0.9790425896644592,
+          "start": 24,
+          "end": 30
+        },
+        {
+          "text": "AI",
+          "label": "MISC",
+          "score": 0.9678568840026855,
+          "start": 182,
+          "end": 184
+        },
+        {
+          "text": "-",
+          "label": "MISC",
+          "score": 0.9716914892196655,
+          "start": 184,
+          "end": 185
+        },
+        {
+          "text": "driven",
+          "label": "MISC",
+          "score": 0.9690040349960327,
+          "start": 185,
+          "end": 191
+        },
+        {
+          "text": "AI",
+          "label": "MISC",
+          "score": 0.8943217992782593,
+          "start": 275,
+          "end": 277
+        },
+        {
+          "text": "AI",
+          "label": "MISC",
+          "score": 0.9902313351631165,
+          "start": 444,
+          "end": 446
+        },
+        {
+          "text": "-",
+          "label": "MISC",
+          "score": 0.9835508465766907,
+          "start": 446,
+          "end": 447
+        },
+        {
+          "text": "powered",
+          "label": "MISC",
+          "score": 0.9750721454620361,
+          "start": 447,
+          "end": 454
+        },
+        {
+          "text": "##I",
+          "label": "MISC",
+          "score": 0.47388386726379395,
+          "start": 456,
+          "end": 457
+        },
+        {
+          "text": "AI",
+          "label": "ORG",
+          "score": 0.6079426407814026,
+          "start": 529,
+          "end": 531
+        },
+        {
+          "text": "M",
+          "label": "ORG",
+          "score": 0.7800491452217102,
+          "start": 548,
+          "end": 549
+        },
+        {
+          "text": "##L",
+          "label": "ORG",
+          "score": 0.9410097599029541,
+          "start": 549,
+          "end": 550
+        },
+        {
+          "text": "LL",
+          "label": "MISC",
+          "score": 0.8446247577667236,
+          "start": 574,
+          "end": 576
+        },
+        {
+          "text": "##Ms",
+          "label": "MISC",
+          "score": 0.9215696454048157,
+          "start": 576,
+          "end": 578
+        },
+        {
+          "text": "RA",
+          "label": "MISC",
+          "score": 0.4896627962589264,
+          "start": 580,
+          "end": 582
+        },
+        {
+          "text": "##G",
+          "label": "MISC",
+          "score": 0.7836169600486755,
+          "start": 582,
+          "end": 583
+        },
+        {
+          "text": "AI",
+          "label": "MISC",
+          "score": 0.9668002724647522,
+          "start": 761,
+          "end": 763
+        },
+        {
+          "text": "-",
+          "label": "MISC",
+          "score": 0.9675849080085754,
+          "start": 763,
+          "end": 764
+        },
+        {
+          "text": "driven",
+          "label": "MISC",
+          "score": 0.9605327248573303,
+          "start": 764,
+          "end": 770
+        },
+        {
+          "text": "AI",
+          "label": "MISC",
+          "score": 0.9835383892059326,
+          "start": 1022,
+          "end": 1024
+        },
+        {
+          "text": "-",
+          "label": "MISC",
+          "score": 0.976593017578125,
+          "start": 1024,
+          "end": 1025
+        },
+        {
+          "text": "powered",
+          "label": "MISC",
+          "score": 0.9739406108856201,
+          "start": 1025,
+          "end": 1032
+        },
+        {
+          "text": "AI",
+          "label": "MISC",
+          "score": 0.9315682053565979,
+          "start": 1219,
+          "end": 1221
+        },
+        {
+          "text": "-",
+          "label": "MISC",
+          "score": 0.9165748953819275,
+          "start": 1221,
+          "end": 1222
+        },
+        {
+          "text": "driven",
+          "label": "MISC",
+          "score": 0.888537585735321,
+          "start": 1222,
+          "end": 1228
+        }
+      ],
+      "duree_inference_s": 0.2012
+    },
+    {
+      "job_id": "7208603",
+      "entites": [
+        {
+          "text": "AI",
+          "label": "ORG",
+          "score": 0.630962073802948,
+          "start": 11,
+          "end": 13
+        },
+        {
+          "text": "Data Engineer",
+          "label": "MISC",
+          "score": 0.6865240335464478,
+          "start": 14,
+          "end": 27
+        },
+        {
+          "text": "Healthcare AI",
+          "label": "MISC",
+          "score": 0.5101494789123535,
+          "start": 58,
+          "end": 71
+        },
+        {
+          "text": "M",
+          "label": "ORG",
+          "score": 0.9019310474395752,
+          "start": 149,
+          "end": 150
+        },
+        {
+          "text": "##L",
+          "label": "ORG",
+          "score": 0.9524732232093811,
+          "start": 150,
+          "end": 151
+        },
+        {
+          "text": "LL",
+          "label": "MISC",
+          "score": 0.8820653557777405,
+          "start": 198,
+          "end": 200
+        },
+        {
+          "text": "##M",
+          "label": "MISC",
+          "score": 0.9012664556503296,
+          "start": 200,
+          "end": 201
+        },
+        {
+          "text": "LL",
+          "label": "MISC",
+          "score": 0.6846150159835815,
+          "start": 590,
+          "end": 592
+        },
+        {
+          "text": "##Ms",
+          "label": "MISC",
+          "score": 0.6210732460021973,
+          "start": 592,
+          "end": 594
+        },
+        {
+          "text": "H",
+          "label": "MISC",
+          "score": 0.7380188703536987,
+          "start": 739,
+          "end": 740
+        },
+        {
+          "text": "##IP",
+          "label": "ORG",
+          "score": 0.5018269419670105,
+          "start": 740,
+          "end": 742
+        },
+        {
+          "text": "##AA",
+          "label": "ORG",
+          "score": 0.48863551020622253,
+          "start": 742,
+          "end": 744
+        },
+        {
+          "text": "LL",
+          "label": "MISC",
+          "score": 0.5946074724197388,
+          "start": 912,
+          "end": 914
+        },
+        {
+          "text": "##M",
+          "label": "MISC",
+          "score": 0.45674046874046326,
+          "start": 914,
+          "end": 915
+        },
+        {
+          "text": "AI",
+          "label": "MISC",
+          "score": 0.6285539865493774,
+          "start": 954,
+          "end": 956
+        }
+      ],
+      "duree_inference_s": 0.195
+    },
+    {
+      "job_id": "7703876",
+      "entites": [
+        {
+          "text": "GE Vernova",
+          "label": "ORG",
+          "score": 0.9886901378631592,
+          "start": 44,
+          "end": 54
+        },
+        {
+          "text": "Energy",
+          "label": "ORG",
+          "score": 0.6009421348571777,
+          "start": 63,
+          "end": 69
+        },
+        {
+          "text": "AI",
+          "label": "MISC",
+          "score": 0.9913474917411804,
+          "start": 192,
+          "end": 194
+        },
+        {
+          "text": "/",
+          "label": "MISC",
+          "score": 0.8753569722175598,
+          "start": 194,
+          "end": 195
+        },
+        {
+          "text": "ML",
+          "label": "MISC",
+          "score": 0.7521460652351379,
+          "start": 195,
+          "end": 197
+        },
+        {
+          "text": "IT",
+          "label": "MISC",
+          "score": 0.8092610239982605,
+          "start": 242,
+          "end": 244
+        },
+        {
+          "text": "AI",
+          "label": "MISC",
+          "score": 0.5821346044540405,
+          "start": 367,
+          "end": 369
+        },
+        {
+          "text": "/",
+          "label": "MISC",
+          "score": 0.5965570211410522,
+          "start": 369,
+          "end": 370
+        },
+        {
+          "text": "M",
+          "label": "MISC",
+          "score": 0.5738242268562317,
+          "start": 370,
+          "end": 371
+        },
+        {
+          "text": "##L",
+          "label": "ORG",
+          "score": 0.5621356964111328,
+          "start": 371,
+          "end": 372
+        },
+        {
+          "text": "Gen",
+          "label": "MISC",
+          "score": 0.697185218334198,
+          "start": 377,
+          "end": 380
+        },
+        {
+          "text": "##A",
+          "label": "MISC",
+          "score": 0.6902149319648743,
+          "start": 380,
+          "end": 381
+        },
+        {
+          "text": "##I",
+          "label": "ORG",
+          "score": 0.47244590520858765,
+          "start": 381,
+          "end": 382
+        },
+        {
+          "text": "IT",
+          "label": "ORG",
+          "score": 0.9651597738265991,
+          "start": 420,
+          "end": 422
+        },
+        {
+          "text": "Dev",
+          "label": "ORG",
+          "score": 0.9829014539718628,
+          "start": 427,
+          "end": 430
+        },
+        {
+          "text": "##O",
+          "label": "ORG",
+          "score": 0.7587515115737915,
+          "start": 430,
+          "end": 431
+        },
+        {
+          "text": "##ps",
+          "label": "ORG",
+          "score": 0.9056180715560913,
+          "start": 431,
+          "end": 433
+        },
+        {
+          "text": "AI",
+          "label": "MISC",
+          "score": 0.8301247954368591,
+          "start": 453,
+          "end": 455
+        },
+        {
+          "text": "AI",
+          "label": "MISC",
+          "score": 0.9826303124427795,
+          "start": 562,
+          "end": 564
+        },
+        {
+          "text": "Gen",
+          "label": "MISC",
+          "score": 0.9596642851829529,
+          "start": 569,
+          "end": 572
+        },
+        {
+          "text": "##A",
+          "label": "MISC",
+          "score": 0.8827716112136841,
+          "start": 572,
+          "end": 573
+        },
+        {
+          "text": "##I",
+          "label": "MISC",
+          "score": 0.5113443732261658,
+          "start": 573,
+          "end": 574
+        },
+        {
+          "text": "AI",
+          "label": "MISC",
+          "score": 0.9883037805557251,
+          "start": 638,
+          "end": 640
+        },
+        {
+          "text": "/",
+          "label": "MISC",
+          "score": 0.9087249636650085,
+          "start": 640,
+          "end": 641
+        },
+        {
+          "text": "M",
+          "label": "MISC",
+          "score": 0.9394800662994385,
+          "start": 641,
+          "end": 642
+        },
+        {
+          "text": "##L",
+          "label": "MISC",
+          "score": 0.7571213245391846,
+          "start": 642,
+          "end": 643
+        },
+        {
+          "text": "LL",
+          "label": "MISC",
+          "score": 0.889503538608551,
+          "start": 667,
+          "end": 669
+        },
+        {
+          "text": "##Ms",
+          "label": "MISC",
+          "score": 0.8331497311592102,
+          "start": 669,
+          "end": 671
+        },
+        {
+          "text": "LL",
+          "label": "MISC",
+          "score": 0.9082053899765015,
+          "start": 732,
+          "end": 734
+        },
+        {
+          "text": "##M",
+          "label": "MISC",
+          "score": 0.933125913143158,
+          "start": 734,
+          "end": 735
+        },
+        {
+          "text": "AI",
+          "label": "MISC",
+          "score": 0.90692538022995,
+          "start": 1016,
+          "end": 1018
+        },
+        {
+          "text": "/",
+          "label": "MISC",
+          "score": 0.8630985021591187,
+          "start": 1018,
+          "end": 1019
+        },
+        {
+          "text": "M",
+          "label": "MISC",
+          "score": 0.8880388140678406,
+          "start": 1019,
+          "end": 1020
+        },
+        {
+          "text": "##L",
+          "label": "MISC",
+          "score": 0.579500138759613,
+          "start": 1020,
+          "end": 1021
+        },
+        {
+          "text": "Enterprise",
+          "label": "MISC",
+          "score": 0.5192331075668335,
+          "start": 1336,
+          "end": 1346
+        },
+        {
+          "text": "-",
+          "label": "MISC",
+          "score": 0.7340466976165771,
+          "start": 1346,
+          "end": 1347
+        },
+        {
+          "text": "scale",
+          "label": "MISC",
+          "score": 0.7720127701759338,
+          "start": 1347,
+          "end": 1352
+        }
+      ],
+      "duree_inference_s": 0.2001
+    },
+    {
+      "job_id": "9008937",
+      "entites": [
+        {
+          "text": "Systems",
+          "label": "ORG",
+          "score": 0.5657154321670532,
+          "start": 11,
+          "end": 18
+        },
+        {
+          "text": "Advanced Robotics & AI Systems",
+          "label": "ORG",
+          "score": 0.9912773966789246,
+          "start": 43,
+          "end": 73
+        },
+        {
+          "text": "Niagara Bottling",
+          "label": "ORG",
+          "score": 0.9662636518478394,
+          "start": 85,
+          "end": 101
+        },
+        {
+          "text": "AI",
+          "label": "MISC",
+          "score": 0.8660081624984741,
+          "start": 191,
+          "end": 193
+        },
+        {
+          "text": "-",
+          "label": "MISC",
+          "score": 0.9052602648735046,
+          "start": 193,
+          "end": 194
+        },
+        {
+          "text": "driven",
+          "label": "MISC",
+          "score": 0.9378705620765686,
+          "start": 194,
+          "end": 200
+        },
+        {
+          "text": "R",
+          "label": "ORG",
+          "score": 0.7069523930549622,
+          "start": 353,
+          "end": 354
+        },
+        {
+          "text": "##OS",
+          "label": "ORG",
+          "score": 0.6540951132774353,
+          "start": 354,
+          "end": 356
+        },
+        {
+          "text": "R",
+          "label": "ORG",
+          "score": 0.45336195826530457,
+          "start": 357,
+          "end": 358
+        },
+        {
+          "text": "Li",
+          "label": "ORG",
+          "score": 0.7927476167678833,
+          "start": 399,
+          "end": 401
+        },
+        {
+          "text": "##DA",
+          "label": "ORG",
+          "score": 0.755364716053009,
+          "start": 401,
+          "end": 403
+        },
+        {
+          "text": "##R",
+          "label": "ORG",
+          "score": 0.8742263913154602,
+          "start": 403,
+          "end": 404
+        },
+        {
+          "text": "I",
+          "label": "ORG",
+          "score": 0.7166391611099243,
+          "start": 414,
+          "end": 415
+        },
+        {
+          "text": "##MU",
+          "label": "ORG",
+          "score": 0.7070254683494568,
+          "start": 415,
+          "end": 417
+        },
+        {
+          "text": "Dev",
+          "label": "MISC",
+          "score": 0.45918217301368713,
+          "start": 716,
+          "end": 719
+        },
+        {
+          "text": "##elo",
+          "label": "ORG",
+          "score": 0.5969799160957336,
+          "start": 719,
+          "end": 722
+        },
+        {
+          "text": "##p",
+          "label": "ORG",
+          "score": 0.5077527761459351,
+          "start": 722,
+          "end": 723
+        },
+        {
+          "text": "M",
+          "label": "MISC",
+          "score": 0.4393567144870758,
+          "start": 916,
+          "end": 917
+        },
+        {
+          "text": "M",
+          "label": "MISC",
+          "score": 0.9038460850715637,
+          "start": 1223,
+          "end": 1224
+        },
+        {
+          "text": "##L",
+          "label": "MISC",
+          "score": 0.8472251892089844,
+          "start": 1224,
+          "end": 1225
+        },
+        {
+          "text": "-",
+          "label": "MISC",
+          "score": 0.7532374858856201,
+          "start": 1225,
+          "end": 1226
+        },
+        {
+          "text": "driven",
+          "label": "MISC",
+          "score": 0.7129423022270203,
+          "start": 1226,
+          "end": 1232
+        },
+        {
+          "text": "##ic",
+          "label": "MISC",
+          "score": 0.5427893400192261,
+          "start": 1323,
+          "end": 1325
+        },
+        {
+          "text": "##R",
+          "label": "MISC",
+          "score": 0.583014190196991,
+          "start": 1554,
+          "end": 1555
+        },
+        {
+          "text": "##eal",
+          "label": "MISC",
+          "score": 0.6113250851631165,
+          "start": 1555,
+          "end": 1558
+        }
+      ],
+      "duree_inference_s": 0.2307
+    },
+    {
+      "job_id": "7521302",
+      "entites": [
+        {
+          "text": "Agent",
+          "label": "MISC",
+          "score": 0.468951553106308,
+          "start": 34,
+          "end": 39
+        },
+        {
+          "text": "##ic",
+          "label": "ORG",
+          "score": 0.5005961656570435,
+          "start": 39,
+          "end": 41
+        },
+        {
+          "text": "AI",
+          "label": "MISC",
+          "score": 0.6736283898353577,
+          "start": 42,
+          "end": 44
+        },
+        {
+          "text": "Platform",
+          "label": "ORG",
+          "score": 0.49886104464530945,
+          "start": 45,
+          "end": 53
+        },
+        {
+          "text": "Agent",
+          "label": "MISC",
+          "score": 0.915378749370575,
+          "start": 190,
+          "end": 195
+        },
+        {
+          "text": "##ic AI Platform",
+          "label": "MISC",
+          "score": 0.9810078740119934,
+          "start": 195,
+          "end": 209
+        },
+        {
+          "text": "Agent",
+          "label": "MISC",
+          "score": 0.9264675974845886,
+          "start": 258,
+          "end": 263
+        },
+        {
+          "text": "##ic AI",
+          "label": "MISC",
+          "score": 0.9786979556083679,
+          "start": 263,
+          "end": 268
+        },
+        {
+          "text": "Agent",
+          "label": "MISC",
+          "score": 0.7086679339408875,
+          "start": 386,
+          "end": 391
+        },
+        {
+          "text": "##ic AI Platform",
+          "label": "MISC",
+          "score": 0.8463010787963867,
+          "start": 391,
+          "end": 405
+        },
+        {
+          "text": "Enterprise AI",
+          "label": "MISC",
+          "score": 0.8053613901138306,
+          "start": 771,
+          "end": 784
+        },
+        {
+          "text": "##er",
+          "label": "MISC",
+          "score": 0.5454738140106201,
+          "start": 826,
+          "end": 828
+        },
+        {
+          "text": "Cross",
+          "label": "MISC",
+          "score": 0.8853079676628113,
+          "start": 866,
+          "end": 871
+        },
+        {
+          "text": "-",
+          "label": "MISC",
+          "score": 0.8616544008255005,
+          "start": 871,
+          "end": 872
+        },
+        {
+          "text": "functional",
+          "label": "MISC",
+          "score": 0.8641183972358704,
+          "start": 872,
+          "end": 882
+        },
+        {
+          "text": "AI",
+          "label": "MISC",
+          "score": 0.9680518507957458,
+          "start": 906,
+          "end": 908
+        },
+        {
+          "text": "-",
+          "label": "MISC",
+          "score": 0.9532398581504822,
+          "start": 908,
+          "end": 909
+        },
+        {
+          "text": "powered",
+          "label": "MISC",
+          "score": 0.9461442828178406,
+          "start": 909,
+          "end": 916
+        }
+      ],
+      "duree_inference_s": 0.1308
+    }
+  ]
+}
