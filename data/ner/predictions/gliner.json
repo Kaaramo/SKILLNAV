@@ -1,0 +1,1297 @@
+{
+  "modele": "gliner",
+  "modele_nom": "GLiNER multi v2.1",
+  "modele_hf_id": "urchade/gliner_multi-v2.1",
+  "duree_inference_moyenne_s": 0.9093,
+  "labels": [
+    "skill",
+    "framework",
+    "programming language",
+    "database",
+    "cloud platform",
+    "company",
+    "location",
+    "job title"
+  ],
+  "predictions": [
+    {
+      "job_id": "4407185679",
+      "entites": [
+        {
+          "text": "Job title",
+          "label": "SKILL",
+          "score": 0.42861509323120117,
+          "start": 0,
+          "end": 9
+        },
+        {
+          "text": "AI Engineer",
+          "label": "JOB TITLE",
+          "score": 0.7945820093154907,
+          "start": 11,
+          "end": 22
+        },
+        {
+          "text": "Mirage Metrics",
+          "label": "COMPANY",
+          "score": 0.9759519696235657,
+          "start": 33,
+          "end": 47
+        }
+      ],
+      "duree_inference_s": 0
+    },
+    {
+      "job_id": "4301694732",
+      "entites": [
+        {
+          "text": "AI Engineer",
+          "label": "JOB TITLE",
+          "score": 0.8264313340187073,
+          "start": 11,
+          "end": 22
+        },
+        {
+          "text": "Data Scientist",
+          "label": "JOB TITLE",
+          "score": 0.5684731602668762,
+          "start": 25,
+          "end": 39
+        },
+        {
+          "text": "Deloitte",
+          "label": "COMPANY",
+          "score": 0.9678807854652405,
+          "start": 66,
+          "end": 74
+        }
+      ],
+      "duree_inference_s": 0
+    },
+    {
+      "job_id": "4380359789",
+      "entites": [
+        {
+          "text": "LLM Evaluator",
+          "label": "JOB TITLE",
+          "score": 0.784670352935791,
+          "start": 11,
+          "end": 24
+        },
+        {
+          "text": "Model Response Analyst",
+          "label": "JOB TITLE",
+          "score": 0.7486587762832642,
+          "start": 26,
+          "end": 48
+        },
+        {
+          "text": "Odixcity Consulting",
+          "label": "COMPANY",
+          "score": 0.9798558950424194,
+          "start": 60,
+          "end": 79
+        }
+      ],
+      "duree_inference_s": 0
+    },
+    {
+      "job_id": "4414670156",
+      "entites": [
+        {
+          "text": "AI Engineer",
+          "label": "JOB TITLE",
+          "score": 0.6527509093284607,
+          "start": 16,
+          "end": 27
+        },
+        {
+          "text": "TALIO Talent",
+          "label": "COMPANY",
+          "score": 0.9690579175949097,
+          "start": 52,
+          "end": 64
+        },
+        {
+          "text": "Computer vision",
+          "label": "SKILL",
+          "score": 0.5166036486625671,
+          "start": 77,
+          "end": 92
+        }
+      ],
+      "duree_inference_s": 0
+    },
+    {
+      "job_id": "9096418",
+      "entites": [
+        {
+          "text": "Job title",
+          "label": "JOB TITLE",
+          "score": 0.41386789083480835,
+          "start": 0,
+          "end": 9
+        },
+        {
+          "text": "AI Software Engineer",
+          "label": "JOB TITLE",
+          "score": 0.791084349155426,
+          "start": 11,
+          "end": 31
+        },
+        {
+          "text": "Python",
+          "label": "PROGRAMMING LANGUAGE",
+          "score": 0.9324577450752258,
+          "start": 34,
+          "end": 40
+        },
+        {
+          "text": "m/f/x",
+          "label": "JOB TITLE",
+          "score": 0.4901799261569977,
+          "start": 42,
+          "end": 47
+        },
+        {
+          "text": "Scalable Capital",
+          "label": "COMPANY",
+          "score": 0.984024703502655,
+          "start": 59,
+          "end": 75
+        },
+        {
+          "text": "Europe",
+          "label": "LOCATION",
+          "score": 0.46588489413261414,
+          "start": 152,
+          "end": 158
+        },
+        {
+          "text": "AWS",
+          "label": "CLOUD PLATFORM",
+          "score": 0.9368298649787903,
+          "start": 409,
+          "end": 412
+        },
+        {
+          "text": "LangGraph",
+          "label": "CLOUD PLATFORM",
+          "score": 0.676186740398407,
+          "start": 695,
+          "end": 704
+        },
+        {
+          "text": "Scalable Capital",
+          "label": "COMPANY",
+          "score": 0.9677953124046326,
+          "start": 1139,
+          "end": 1155
+        }
+      ],
+      "duree_inference_s": 0
+    },
+    {
+      "job_id": "8057267",
+      "entites": [
+        {
+          "text": "Staff Machine Learning Engineer",
+          "label": "JOB TITLE",
+          "score": 0.8623868823051453,
+          "start": 11,
+          "end": 42
+        },
+        {
+          "text": "Zscaler",
+          "label": "COMPANY",
+          "score": 0.9022055268287659,
+          "start": 73,
+          "end": 80
+        },
+        {
+          "text": "Zero trust cloud security platform",
+          "label": "CLOUD PLATFORM",
+          "score": 0.7541458010673523,
+          "start": 89,
+          "end": 123
+        },
+        {
+          "text": "emerging AI/ML frameworks",
+          "label": "FRAMEWORK",
+          "score": 0.5810152292251587,
+          "start": 318,
+          "end": 343
+        }
+      ],
+      "duree_inference_s": 0
+    },
+    {
+      "job_id": "8400294",
+      "entites": [
+        {
+          "text": "Principal Software Engineer",
+          "label": "JOB TITLE",
+          "score": 0.8518509268760681,
+          "start": 11,
+          "end": 38
+        },
+        {
+          "text": "Zillion Technologies, Inc.",
+          "label": "COMPANY",
+          "score": 0.9694733023643494,
+          "start": 88,
+          "end": 114
+        },
+        {
+          "text": "cloud environments",
+          "label": "CLOUD PLATFORM",
+          "score": 0.49896490573883057,
+          "start": 259,
+          "end": 277
+        },
+        {
+          "text": "ML models",
+          "label": "FRAMEWORK",
+          "score": 0.4220077693462372,
+          "start": 344,
+          "end": 353
+        },
+        {
+          "text": "SQL",
+          "label": "DATABASE",
+          "score": 0.8383821845054626,
+          "start": 570,
+          "end": 573
+        },
+        {
+          "text": "NoSQL databases",
+          "label": "DATABASE",
+          "score": 0.7591037154197693,
+          "start": 578,
+          "end": 593
+        }
+      ],
+      "duree_inference_s": 0
+    },
+    {
+      "job_id": "8972129",
+      "entites": [
+        {
+          "text": "Associate Director",
+          "label": "JOB TITLE",
+          "score": 0.8664324879646301,
+          "start": 11,
+          "end": 29
+        },
+        {
+          "text": "AI Engineer",
+          "label": "JOB TITLE",
+          "score": 0.7207615375518799,
+          "start": 31,
+          "end": 42
+        },
+        {
+          "text": "Dentsu Creative",
+          "label": "COMPANY",
+          "score": 0.9318562150001526,
+          "start": 53,
+          "end": 68
+        },
+        {
+          "text": "Global advertising and media conglomerate",
+          "label": "COMPANY",
+          "score": 0.4722202718257904,
+          "start": 77,
+          "end": 118
+        },
+        {
+          "text": "LLM",
+          "label": "FRAMEWORK",
+          "score": 0.7091511487960815,
+          "start": 223,
+          "end": 226
+        },
+        {
+          "text": "MMM",
+          "label": "DATABASE",
+          "score": 0.5313220620155334,
+          "start": 465,
+          "end": 468
+        },
+        {
+          "text": "Genie spaces",
+          "label": "FRAMEWORK",
+          "score": 0.8322240710258484,
+          "start": 537,
+          "end": 549
+        },
+        {
+          "text": "Python",
+          "label": "PROGRAMMING LANGUAGE",
+          "score": 0.9171319603919983,
+          "start": 859,
+          "end": 865
+        },
+        {
+          "text": "MMM",
+          "label": "DATABASE",
+          "score": 0.5088110566139221,
+          "start": 1272,
+          "end": 1275
+        },
+        {
+          "text": "Genie spaces",
+          "label": "FRAMEWORK",
+          "score": 0.8026649355888367,
+          "start": 1354,
+          "end": 1366
+        }
+      ],
+      "duree_inference_s": 0
+    },
+    {
+      "job_id": "8848631",
+      "entites": [
+        {
+          "text": "AI Engineer",
+          "label": "JOB TITLE",
+          "score": 0.7472223043441772,
+          "start": 11,
+          "end": 22
+        },
+        {
+          "text": "n8n",
+          "label": "COMPANY",
+          "score": 0.4207489490509033,
+          "start": 24,
+          "end": 27
+        },
+        {
+          "text": "TechBiz Global",
+          "label": "COMPANY",
+          "score": 0.9393728375434875,
+          "start": 39,
+          "end": 53
+        },
+        {
+          "text": "n8n",
+          "label": "CLOUD PLATFORM",
+          "score": 0.7902539968490601,
+          "start": 235,
+          "end": 238
+        },
+        {
+          "text": "n8n",
+          "label": "CLOUD PLATFORM",
+          "score": 0.6181365251541138,
+          "start": 305,
+          "end": 308
+        },
+        {
+          "text": "LLMs",
+          "label": "DATABASE",
+          "score": 0.499512255191803,
+          "start": 310,
+          "end": 314
+        },
+        {
+          "text": "vector databases",
+          "label": "DATABASE",
+          "score": 0.827815592288971,
+          "start": 336,
+          "end": 352
+        },
+        {
+          "text": "Python scripts",
+          "label": "PROGRAMMING LANGUAGE",
+          "score": 0.8726596236228943,
+          "start": 358,
+          "end": 372
+        }
+      ],
+      "duree_inference_s": 0
+    },
+    {
+      "job_id": "8690797",
+      "entites": [
+        {
+          "text": "Lead - AI/ML Engineer",
+          "label": "JOB TITLE",
+          "score": 0.7816718220710754,
+          "start": 11,
+          "end": 32
+        },
+        {
+          "text": "nVent",
+          "label": "COMPANY",
+          "score": 0.9095079302787781,
+          "start": 43,
+          "end": 48
+        },
+        {
+          "text": "enterprise agentic AI framework",
+          "label": "FRAMEWORK",
+          "score": 0.423260360956192,
+          "start": 157,
+          "end": 188
+        },
+        {
+          "text": "Snowflake ML",
+          "label": "FRAMEWORK",
+          "score": 0.6776896715164185,
+          "start": 325,
+          "end": 337
+        },
+        {
+          "text": "AWS",
+          "label": "CLOUD PLATFORM",
+          "score": 0.7685946226119995,
+          "start": 342,
+          "end": 345
+        },
+        {
+          "text": "SageMaker",
+          "label": "FRAMEWORK",
+          "score": 0.8129481673240662,
+          "start": 356,
+          "end": 365
+        },
+        {
+          "text": "Bedrock",
+          "label": "FRAMEWORK",
+          "score": 0.7492033243179321,
+          "start": 367,
+          "end": 374
+        },
+        {
+          "text": "Lambda",
+          "label": "FRAMEWORK",
+          "score": 0.7322378754615784,
+          "start": 376,
+          "end": 382
+        },
+        {
+          "text": "LangChain",
+          "label": "PROGRAMMING LANGUAGE",
+          "score": 0.4408840835094452,
+          "start": 437,
+          "end": 446
+        },
+        {
+          "text": "Streamlit",
+          "label": "PROGRAMMING LANGUAGE",
+          "score": 0.4065709710121155,
+          "start": 452,
+          "end": 461
+        },
+        {
+          "text": "Snowflake",
+          "label": "CLOUD PLATFORM",
+          "score": 0.41385695338249207,
+          "start": 956,
+          "end": 965
+        },
+        {
+          "text": "vector databases",
+          "label": "DATABASE",
+          "score": 0.6839154958724976,
+          "start": 990,
+          "end": 1006
+        }
+      ],
+      "duree_inference_s": 0
+    },
+    {
+      "job_id": "8102843",
+      "entites": [
+        {
+          "text": "Senior AI Engineer",
+          "label": "JOB TITLE",
+          "score": 0.7937368750572205,
+          "start": 11,
+          "end": 29
+        },
+        {
+          "text": "Prompt Therapy Solutions Inc.",
+          "label": "COMPANY",
+          "score": 0.9640437364578247,
+          "start": 73,
+          "end": 102
+        },
+        {
+          "text": "ML",
+          "label": "PROGRAMMING LANGUAGE",
+          "score": 0.5205730199813843,
+          "start": 243,
+          "end": 245
+        }
+      ],
+      "duree_inference_s": 0
+    },
+    {
+      "job_id": "8360323",
+      "entites": [
+        {
+          "text": "Senior AI Engineer II",
+          "label": "JOB TITLE",
+          "score": 0.8580074310302734,
+          "start": 11,
+          "end": 32
+        },
+        {
+          "text": "Porch Group",
+          "label": "COMPANY",
+          "score": 0.9732577800750732,
+          "start": 43,
+          "end": 54
+        },
+        {
+          "text": "Python code",
+          "label": "PROGRAMMING LANGUAGE",
+          "score": 0.7171323299407959,
+          "start": 909,
+          "end": 920
+        }
+      ],
+      "duree_inference_s": 0
+    },
+    {
+      "job_id": "6840091",
+      "entites": [
+        {
+          "text": "Staff AI API Engineer",
+          "label": "JOB TITLE",
+          "score": 0.8262649774551392,
+          "start": 11,
+          "end": 32
+        },
+        {
+          "text": "SentinelOne",
+          "label": "COMPANY",
+          "score": 0.9550610780715942,
+          "start": 43,
+          "end": 54
+        },
+        {
+          "text": "Python-based",
+          "label": "PROGRAMMING LANGUAGE",
+          "score": 0.8374358415603638,
+          "start": 166,
+          "end": 178
+        },
+        {
+          "text": "asyncio",
+          "label": "DATABASE",
+          "score": 0.689180314540863,
+          "start": 320,
+          "end": 327
+        },
+        {
+          "text": "FastAPI",
+          "label": "DATABASE",
+          "score": 0.6364210844039917,
+          "start": 329,
+          "end": 336
+        },
+        {
+          "text": "gRPC",
+          "label": "DATABASE",
+          "score": 0.6997703909873962,
+          "start": 338,
+          "end": 342
+        },
+        {
+          "text": "Kafka",
+          "label": "PROGRAMMING LANGUAGE",
+          "score": 0.8155854344367981,
+          "start": 344,
+          "end": 349
+        },
+        {
+          "text": "GraphQL",
+          "label": "DATABASE",
+          "score": 0.6311659812927246,
+          "start": 355,
+          "end": 362
+        },
+        {
+          "text": "relational and NoSQL databases",
+          "label": "DATABASE",
+          "score": 0.6627264022827148,
+          "start": 400,
+          "end": 430
+        },
+        {
+          "text": "Redis",
+          "label": "DATABASE",
+          "score": 0.5242799520492554,
+          "start": 432,
+          "end": 437
+        }
+      ],
+      "duree_inference_s": 0
+    },
+    {
+      "job_id": "8316092",
+      "entites": [
+        {
+          "text": "AI Sales Engineer",
+          "label": "JOB TITLE",
+          "score": 0.8049781918525696,
+          "start": 11,
+          "end": 28
+        },
+        {
+          "text": "Rubrik",
+          "label": "COMPANY",
+          "score": 0.9696992039680481,
+          "start": 39,
+          "end": 45
+        },
+        {
+          "text": "Rubrik",
+          "label": "COMPANY",
+          "score": 0.9687027335166931,
+          "start": 213,
+          "end": 219
+        },
+        {
+          "text": "public cloud",
+          "label": "CLOUD PLATFORM",
+          "score": 0.47972777485847473,
+          "start": 294,
+          "end": 306
+        },
+        {
+          "text": "Rubrik",
+          "label": "COMPANY",
+          "score": 0.9546830654144287,
+          "start": 839,
+          "end": 845
+        },
+        {
+          "text": "public cloud",
+          "label": "CLOUD PLATFORM",
+          "score": 0.5716155767440796,
+          "start": 854,
+          "end": 866
+        }
+      ],
+      "duree_inference_s": 0
+    },
+    {
+      "job_id": "8681691",
+      "entites": [
+        {
+          "text": "Senior Front-End Engineer",
+          "label": "JOB TITLE",
+          "score": 0.8273994326591492,
+          "start": 11,
+          "end": 36
+        },
+        {
+          "text": "Filevine",
+          "label": "COMPANY",
+          "score": 0.8968409299850464,
+          "start": 67,
+          "end": 75
+        },
+        {
+          "text": "modern JavaScript frameworks",
+          "label": "FRAMEWORK",
+          "score": 0.6702303290367126,
+          "start": 277,
+          "end": 305
+        }
+      ],
+      "duree_inference_s": 0
+    },
+    {
+      "job_id": "9012551",
+      "entites": [
+        {
+          "text": "Job title",
+          "label": "SKILL",
+          "score": 0.4038509726524353,
+          "start": 0,
+          "end": 9
+        },
+        {
+          "text": "Data Engineer",
+          "label": "JOB TITLE",
+          "score": 0.7905805706977844,
+          "start": 11,
+          "end": 24
+        },
+        {
+          "text": "AI Platform",
+          "label": "CLOUD PLATFORM",
+          "score": 0.7815390229225159,
+          "start": 26,
+          "end": 37
+        },
+        {
+          "text": "TaskUs",
+          "label": "COMPANY",
+          "score": 0.8866453766822815,
+          "start": 49,
+          "end": 55
+        },
+        {
+          "text": "data lakes",
+          "label": "DATABASE",
+          "score": 0.45293161273002625,
+          "start": 400,
+          "end": 410
+        },
+        {
+          "text": "VPC environments",
+          "label": "LOCATION",
+          "score": 0.45063942670822144,
+          "start": 488,
+          "end": 504
+        },
+        {
+          "text": "AI platform",
+          "label": "CLOUD PLATFORM",
+          "score": 0.7902588248252869,
+          "start": 638,
+          "end": 649
+        }
+      ],
+      "duree_inference_s": 0
+    },
+    {
+      "job_id": "4380772643",
+      "entites": [
+        {
+          "text": "Job title",
+          "label": "SKILL",
+          "score": 0.4556322395801544,
+          "start": 0,
+          "end": 9
+        },
+        {
+          "text": "Big Data Engineer",
+          "label": "JOB TITLE",
+          "score": 0.8209165334701538,
+          "start": 11,
+          "end": 28
+        },
+        {
+          "text": "Müller's Solutions",
+          "label": "COMPANY",
+          "score": 0.9418439865112305,
+          "start": 39,
+          "end": 57
+        }
+      ],
+      "duree_inference_s": 0
+    },
+    {
+      "job_id": "4314994258",
+      "entites": [
+        {
+          "text": "Ingénieur Data",
+          "label": "JOB TITLE",
+          "score": 0.765536904335022,
+          "start": 11,
+          "end": 25
+        },
+        {
+          "text": "GCP",
+          "label": "CLOUD PLATFORM",
+          "score": 0.8330346941947937,
+          "start": 26,
+          "end": 29
+        },
+        {
+          "text": "Google Cloud Platform",
+          "label": "CLOUD PLATFORM",
+          "score": 0.9581760168075562,
+          "start": 31,
+          "end": 52
+        },
+        {
+          "text": "SQLI",
+          "label": "PROGRAMMING LANGUAGE",
+          "score": 0.6393719911575317,
+          "start": 70,
+          "end": 74
+        }
+      ],
+      "duree_inference_s": 0
+    },
+    {
+      "job_id": "8708837",
+      "entites": [
+        {
+          "text": "System Software Engineer",
+          "label": "JOB TITLE",
+          "score": 0.7466574311256409,
+          "start": 11,
+          "end": 35
+        },
+        {
+          "text": "Delos Data",
+          "label": "COMPANY",
+          "score": 0.9771835803985596,
+          "start": 51,
+          "end": 61
+        },
+        {
+          "text": "high-level AI frameworks",
+          "label": "FRAMEWORK",
+          "score": 0.4815249741077423,
+          "start": 632,
+          "end": 656
+        }
+      ],
+      "duree_inference_s": 0
+    },
+    {
+      "job_id": "8244638",
+      "entites": [
+        {
+          "text": "Senior Engineer II-Software",
+          "label": "JOB TITLE",
+          "score": 0.5713470578193665,
+          "start": 11,
+          "end": 38
+        },
+        {
+          "text": "Microchip Technology Inc.",
+          "label": "COMPANY",
+          "score": 0.9619970917701721,
+          "start": 55,
+          "end": 80
+        },
+        {
+          "text": "edge computing environments",
+          "label": "CLOUD PLATFORM",
+          "score": 0.4856945872306824,
+          "start": 176,
+          "end": 203
+        },
+        {
+          "text": "TFLite",
+          "label": "FRAMEWORK",
+          "score": 0.7690975069999695,
+          "start": 292,
+          "end": 298
+        },
+        {
+          "text": "TensorFlow",
+          "label": "FRAMEWORK",
+          "score": 0.7681939005851746,
+          "start": 300,
+          "end": 310
+        },
+        {
+          "text": "ONNX",
+          "label": "PROGRAMMING LANGUAGE",
+          "score": 0.7602527141571045,
+          "start": 312,
+          "end": 316
+        },
+        {
+          "text": "PyTorch",
+          "label": "FRAMEWORK",
+          "score": 0.7967407703399658,
+          "start": 318,
+          "end": 325
+        },
+        {
+          "text": "hardware platforms",
+          "label": "CLOUD PLATFORM",
+          "score": 0.44819942116737366,
+          "start": 535,
+          "end": 553
+        },
+        {
+          "text": "hardware platforms",
+          "label": "CLOUD PLATFORM",
+          "score": 0.638419508934021,
+          "start": 808,
+          "end": 826
+        },
+        {
+          "text": "edge computing environments",
+          "label": "CLOUD PLATFORM",
+          "score": 0.4464495778083801,
+          "start": 859,
+          "end": 886
+        }
+      ],
+      "duree_inference_s": 0
+    },
+    {
+      "job_id": "8139259",
+      "entites": [
+        {
+          "text": "AI/ML Engineer",
+          "label": "JOB TITLE",
+          "score": 0.6769123077392578,
+          "start": 11,
+          "end": 25
+        },
+        {
+          "text": "A.P. Moller - Maersk",
+          "label": "COMPANY",
+          "score": 0.9113374352455139,
+          "start": 36,
+          "end": 56
+        },
+        {
+          "text": "Global container shipping and logistics company",
+          "label": "COMPANY",
+          "score": 0.5339151620864868,
+          "start": 65,
+          "end": 112
+        }
+      ],
+      "duree_inference_s": 0
+    },
+    {
+      "job_id": "8925497",
+      "entites": [
+        {
+          "text": "Senior AI/ML Engineer",
+          "label": "JOB TITLE",
+          "score": 0.7351279258728027,
+          "start": 11,
+          "end": 32
+        },
+        {
+          "text": "A.P. Moller - Maersk",
+          "label": "COMPANY",
+          "score": 0.8844556212425232,
+          "start": 56,
+          "end": 76
+        },
+        {
+          "text": "Global shipping and logistics conglomerate",
+          "label": "COMPANY",
+          "score": 0.6760165691375732,
+          "start": 85,
+          "end": 127
+        }
+      ],
+      "duree_inference_s": 0
+    },
+    {
+      "job_id": "4333193580",
+      "entites": [
+        {
+          "text": "Job title",
+          "label": "SKILL",
+          "score": 0.49267488718032837,
+          "start": 0,
+          "end": 9
+        },
+        {
+          "text": "Expert Data analyst",
+          "label": "JOB TITLE",
+          "score": 0.8682669997215271,
+          "start": 11,
+          "end": 30
+        },
+        {
+          "text": "BROME Consulting & Technology",
+          "label": "COMPANY",
+          "score": 0.9767565727233887,
+          "start": 41,
+          "end": 70
+        },
+        {
+          "text": "Dashboarding & reporting",
+          "label": "SKILL",
+          "score": 0.6842973828315735,
+          "start": 83,
+          "end": 107
+        }
+      ],
+      "duree_inference_s": 0
+    },
+    {
+      "job_id": "4357657978",
+      "entites": [
+        {
+          "text": "Job title",
+          "label": "SKILL",
+          "score": 0.401888370513916,
+          "start": 0,
+          "end": 9
+        },
+        {
+          "text": "Data Analyst",
+          "label": "JOB TITLE",
+          "score": 0.8343678116798401,
+          "start": 11,
+          "end": 23
+        },
+        {
+          "text": "Boston Consulting Group",
+          "label": "COMPANY",
+          "score": 0.9843667149543762,
+          "start": 47,
+          "end": 70
+        },
+        {
+          "text": "Dashboarding & reporting",
+          "label": "SKILL",
+          "score": 0.4978475570678711,
+          "start": 89,
+          "end": 113
+        }
+      ],
+      "duree_inference_s": 0
+    },
+    {
+      "job_id": "7946353",
+      "entites": [
+        {
+          "text": "Lead AI Microservices Developer",
+          "label": "JOB TITLE",
+          "score": 0.7752007246017456,
+          "start": 11,
+          "end": 42
+        },
+        {
+          "text": "Company",
+          "label": "COMPANY",
+          "score": 0.42401963472366333,
+          "start": 44,
+          "end": 51
+        },
+        {
+          "text": "Side",
+          "label": "COMPANY",
+          "score": 0.4493359625339508,
+          "start": 53,
+          "end": 57
+        },
+        {
+          "text": "Global games services company",
+          "label": "COMPANY",
+          "score": 0.8510636687278748,
+          "start": 66,
+          "end": 95
+        },
+        {
+          "text": "Python-based",
+          "label": "PROGRAMMING LANGUAGE",
+          "score": 0.8797057271003723,
+          "start": 198,
+          "end": 210
+        },
+        {
+          "text": "OpenAI",
+          "label": "FRAMEWORK",
+          "score": 0.6088542938232422,
+          "start": 399,
+          "end": 405
+        },
+        {
+          "text": "Llama",
+          "label": "FRAMEWORK",
+          "score": 0.595251739025116,
+          "start": 407,
+          "end": 412
+        },
+        {
+          "text": "Gemini",
+          "label": "FRAMEWORK",
+          "score": 0.627701997756958,
+          "start": 418,
+          "end": 424
+        },
+        {
+          "text": "game services company",
+          "label": "COMPANY",
+          "score": 0.4047551453113556,
+          "start": 806,
+          "end": 827
+        }
+      ],
+      "duree_inference_s": 0
+    },
+    {
+      "job_id": "7569470",
+      "entites": [
+        {
+          "text": "Job title",
+          "label": "SKILL",
+          "score": 0.41982200741767883,
+          "start": 0,
+          "end": 9
+        },
+        {
+          "text": "AI Engineer",
+          "label": "JOB TITLE",
+          "score": 0.7443236112594604,
+          "start": 11,
+          "end": 22
+        },
+        {
+          "text": "London",
+          "label": "LOCATION",
+          "score": 0.9568732976913452,
+          "start": 24,
+          "end": 30
+        },
+        {
+          "text": "Eloquent AI",
+          "label": "COMPANY",
+          "score": 0.9751695990562439,
+          "start": 41,
+          "end": 52
+        }
+      ],
+      "duree_inference_s": 0
+    },
+    {
+      "job_id": "7208603",
+      "entites": [
+        {
+          "text": "AI Data Engineer",
+          "label": "JOB TITLE",
+          "score": 0.7243613004684448,
+          "start": 11,
+          "end": 27
+        },
+        {
+          "text": "C the Signs",
+          "label": "COMPANY",
+          "score": 0.9343706965446472,
+          "start": 38,
+          "end": 49
+        }
+      ],
+      "duree_inference_s": 0
+    },
+    {
+      "job_id": "7703876",
+      "entites": [
+        {
+          "text": "Senior AI Ops Engineer",
+          "label": "JOB TITLE",
+          "score": 0.8429782390594482,
+          "start": 11,
+          "end": 33
+        },
+        {
+          "text": "GE Vernova",
+          "label": "COMPANY",
+          "score": 0.9738104939460754,
+          "start": 44,
+          "end": 54
+        },
+        {
+          "text": "cloud",
+          "label": "CLOUD PLATFORM",
+          "score": 0.7906535267829895,
+          "start": 467,
+          "end": 472
+        },
+        {
+          "text": "LLMs",
+          "label": "FRAMEWORK",
+          "score": 0.5382835268974304,
+          "start": 667,
+          "end": 671
+        },
+        {
+          "text": "agentic frameworks",
+          "label": "FRAMEWORK",
+          "score": 0.7580307126045227,
+          "start": 673,
+          "end": 691
+        }
+      ],
+      "duree_inference_s": 0
+    },
+    {
+      "job_id": "9008937",
+      "entites": [
+        {
+          "text": "Systems Development Engineer I",
+          "label": "JOB TITLE",
+          "score": 0.8586738109588623,
+          "start": 11,
+          "end": 41
+        },
+        {
+          "text": "Advanced Robotics & AI Systems",
+          "label": "COMPANY",
+          "score": 0.5081433057785034,
+          "start": 43,
+          "end": 73
+        },
+        {
+          "text": "Niagara Bottling",
+          "label": "COMPANY",
+          "score": 0.9588149785995483,
+          "start": 85,
+          "end": 101
+        },
+        {
+          "text": "automation frameworks",
+          "label": "FRAMEWORK",
+          "score": 0.49985793232917786,
+          "start": 724,
+          "end": 745
+        }
+      ],
+      "duree_inference_s": 0
+    },
+    {
+      "job_id": "7521302",
+      "entites": [
+        {
+          "text": "Integrations Engineer",
+          "label": "JOB TITLE",
+          "score": 0.7970445156097412,
+          "start": 11,
+          "end": 32
+        },
+        {
+          "text": "Agentic AI Platform",
+          "label": "CLOUD PLATFORM",
+          "score": 0.7467674016952515,
+          "start": 34,
+          "end": 53
+        },
+        {
+          "text": "Trimble",
+          "label": "COMPANY",
+          "score": 0.9528286457061768,
+          "start": 64,
+          "end": 71
+        },
+        {
+          "text": "technical subject matter expert",
+          "label": "JOB TITLE",
+          "score": 0.5384329557418823,
+          "start": 151,
+          "end": 182
+        },
+        {
+          "text": "Agentic AI Platform",
+          "label": "CLOUD PLATFORM",
+          "score": 0.8678932189941406,
+          "start": 190,
+          "end": 209
+        },
+        {
+          "text": "Agentic AI Platform",
+          "label": "CLOUD PLATFORM",
+          "score": 0.8359435200691223,
+          "start": 386,
+          "end": 405
+        }
+      ],
+      "duree_inference_s": 0
+    }
+  ]
+}
