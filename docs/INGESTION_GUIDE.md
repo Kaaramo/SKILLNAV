@@ -143,11 +143,101 @@ partie relève de la responsabilité de Bachirou Konaté (cf. matrice RACI du PR
 
 ---
 
-## 5. Elasticsearch : ingestion (à venir)
+## 5. Elasticsearch / OpenSearch : ingestion
 
-À implémenter. Provider recommandé : Bonsai Free Tier (125 Mo, sans limite de durée). Deux indexes à produire :
+### 5.1 Choix de provider et de moteur
 
-- `jobs_search` : full-text sur title + responsibilities + use_cases
-- `skills_timeseries` : agrégations temporelles (compétence × mois)
+Le cluster est hébergé chez **Bonsai** (plan Sandbox, gratuit permanent, sans carte bancaire). Bonsai Sandbox provisionne **OpenSearch 2.x**, le fork open source d'Elasticsearch lancé par AWS en 2021. L'API REST est compatible à 99 % avec Elasticsearch 7.x, ce qui rend le code portable. La justification académique du choix d'OpenSearch plutôt qu'Elasticsearch Enterprise tient en deux points :
 
-Script cible : `scripts/ingestion/ingest_elasticsearch.py` (non encore créé).
+- **Pérennité** : Elasticsearch Cloud Free est limité à 14 jours, ce qui ferait expirer la démonstration avant la soutenance ;
+- **Licence** : OpenSearch est sous Apache 2.0, alors qu'Elasticsearch est désormais en licence AGPL + Elastic License v2. Pour un projet académique, OpenSearch est plus simple à justifier juridiquement.
+
+### 5.2 Prérequis
+
+- Compte Bonsai et cluster Sandbox créé (région `us-east-1`)
+- Variable `ELASTIC_URL` renseignée dans `.env` avec l'URL **Full Access** (incluant les credentials)
+- Package Python `opensearch-py`
+
+```bash
+pip install --user opensearch-py
+```
+
+### 5.3 Format de la connection URL
+
+L'URL Bonsai inclut les credentials directement :
+
+```
+ELASTIC_URL=https://USERNAME:PASSWORD@hash-cluster.us-east-1.bonsaisearch.net
+ELASTIC_INDEX=skillnav_jobs
+```
+
+### 5.4 Lancement
+
+```bash
+python scripts/ingestion/ingest_elasticsearch.py
+```
+
+Sortie attendue (résumée) :
+
+```
+Connexion au cluster Bonsai (OpenSearch)...
+  Distribution  : opensearch
+  Version       : 2.19.5
+  Index cible   : skillnav_jobs
+
+Préparation de l'index skillnav_jobs...
+  Index skillnav_jobs créé avec mapping multilingue (FR + EN)
+
+Lecture et bulk indexation depuis data/jobs.jsonl...
+
+3467 documents indexés en 4.5 s (772 docs/s)
+
+=== Résumé final ===
+  Total documents indexés : 3467
+  Distribution origine :
+    International    3086
+    Maroc             381
+  Top 10 compétences globales :
+    Python  AWS  Prompt Engineering  Docker  CI/CD  RAG  Azure  SQL  GCP  Kubernetes
+
+  Test full-text : 'data scientist' au Maroc
+    23 matches trouvés (top 3 affichés)
+```
+
+### 5.5 Mapping de l'index `skillnav_jobs`
+
+L'index utilise un analyzer personnalisé `fr_en_mixed` (tokenizer standard + lowercase + asciifolding) qui couvre correctement le français et l'anglais sans dictionnaire externe. Champs principaux :
+
+| Champ                                  | Type                | Utilité                                                    |
+|----------------------------------------|---------------------|------------------------------------------------------------|
+| `title`, `responsibilities`, `use_cases` | text (`fr_en_mixed`) | Recherche plein texte avec scoring BM25                   |
+| `title_canonical`, `company` (keyword) | keyword             | Filtres exacts, agrégations                                |
+| `ai_type`, `job_family`, `origine`     | keyword             | Facettes du dashboard                                       |
+| `posted_month`                         | keyword             | Time-series via `date_histogram` (format `YYYY-MM`)        |
+| `skills.genai`, `skills.ml`, ...       | keyword             | Recherche par famille de compétences                       |
+| `skills_all`                           | keyword (dérivé)    | Agrégations top-skills toutes familles confondues          |
+
+### 5.6 Issue corrigée : `_id` en metadata field
+
+OpenSearch refuse l'inclusion du champ `_id` à l'intérieur du `_source` d'un document. Le script retire automatiquement `_id` du document via `doc.pop('_id')` avant l'envoi et le passe séparément dans l'action bulk. Sans cette correction, les 3 467 documents échouent avec `mapper_parsing_exception`.
+
+### 5.7 Vérification post-ingestion
+
+Depuis le dashboard Bonsai (onglet **Console**) :
+
+```json
+GET skillnav_jobs/_count
+```
+
+Doit renvoyer `{ "count": 3467, ... }`.
+
+Test de recherche full-text :
+
+```json
+POST skillnav_jobs/_search
+{
+  "size": 5,
+  "query": { "match": { "responsibilities": "data scientist" } },
+  "highlight": { "fields": { "responsibilities": {} } }
+}
+```
