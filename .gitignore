@@ -122,3 +122,6 @@ logs/
 .charte_tmp.html
 _preview/
 _ref/
+
+# Fichier personnel de configuration de l'utilisateur (ex: pour les chemins locaux)
+bachirou.md
