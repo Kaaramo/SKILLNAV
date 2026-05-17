@@ -1,0 +1,2361 @@
+{
+  "modele": "camembert",
+  "modele_nom": "CamemBERT-NER",
+  "modele_hf_id": "Jean-Baptiste/camembert-ner",
+  "duree_chargement_s": 22.54,
+  "duree_inference_totale_s": 11.48,
+  "duree_inference_moyenne_s": 0.3828,
+  "n_fiches": 30,
+  "predictions": [
+    {
+      "job_id": "4407185679",
+      "entites": [
+        {
+          "text": "Job",
+          "label": "MISC",
+          "score": 0.7052794694900513,
+          "start": 0,
+          "end": 3
+        },
+        {
+          "text": "AI Engineer",
+          "label": "MISC",
+          "score": 0.6848109364509583,
+          "start": 10,
+          "end": 22
+        },
+        {
+          "text": "Mirage Metrics",
+          "label": "ORG",
+          "score": 0.961736798286438,
+          "start": 32,
+          "end": 47
+        }
+      ],
+      "duree_inference_s": 0.171
+    },
+    {
+      "job_id": "4301694732",
+      "entites": [
+        {
+          "text": "Job",
+          "label": "MISC",
+          "score": 0.6311871409416199,
+          "start": 0,
+          "end": 3
+        },
+        {
+          "text": "er",
+          "label": "MISC",
+          "score": 0.5528504252433777,
+          "start": 20,
+          "end": 22
+        },
+        {
+          "text": "Deloitte",
+          "label": "ORG",
+          "score": 0.9949062466621399,
+          "start": 65,
+          "end": 74
+        },
+        {
+          "text": "Computer vision",
+          "label": "MISC",
+          "score": 0.9818432927131653,
+          "start": 86,
+          "end": 102
+        }
+      ],
+      "duree_inference_s": 0.1073
+    },
+    {
+      "job_id": "4380359789",
+      "entites": [
+        {
+          "text": "Job",
+          "label": "MISC",
+          "score": 0.6197680234909058,
+          "start": 0,
+          "end": 3
+        },
+        {
+          "text": "LLM Evaluator",
+          "label": "MISC",
+          "score": 0.918775737285614,
+          "start": 10,
+          "end": 24
+        },
+        {
+          "text": "Model Response Analyst",
+          "label": "MISC",
+          "score": 0.9830666184425354,
+          "start": 26,
+          "end": 48
+        },
+        {
+          "text": "Odixcity Consulting",
+          "label": "ORG",
+          "score": 0.9838496446609497,
+          "start": 59,
+          "end": 79
+        }
+      ],
+      "duree_inference_s": 0.1093
+    },
+    {
+      "job_id": "4414670156",
+      "entites": [
+        {
+          "text": "Job",
+          "label": "MISC",
+          "score": 0.5765650868415833,
+          "start": 0,
+          "end": 3
+        },
+        {
+          "text": "er",
+          "label": "MISC",
+          "score": 0.5990464687347412,
+          "start": 25,
+          "end": 27
+        },
+        {
+          "text": "Rem",
+          "label": "MISC",
+          "score": 0.5102889537811279,
+          "start": 34,
+          "end": 38
+        },
+        {
+          "text": "TALIO Talent",
+          "label": "MISC",
+          "score": 0.6359677314758301,
+          "start": 51,
+          "end": 64
+        },
+        {
+          "text": "Computer vision",
+          "label": "MISC",
+          "score": 0.9806206822395325,
+          "start": 76,
+          "end": 92
+        }
+      ],
+      "duree_inference_s": 0.1079
+    },
+    {
+      "job_id": "9096418",
+      "entites": [
+        {
+          "text": "AI Software Engineer",
+          "label": "MISC",
+          "score": 0.823104202747345,
+          "start": 10,
+          "end": 31
+        },
+        {
+          "text": "Python",
+          "label": "MISC",
+          "score": 0.9413388967514038,
+          "start": 33,
+          "end": 40
+        },
+        {
+          "text": "Scalable Capital",
+          "label": "ORG",
+          "score": 0.9892541170120239,
+          "start": 58,
+          "end": 75
+        },
+        {
+          "text": "Europe",
+          "label": "LOC",
+          "score": 0.9666267037391663,
+          "start": 151,
+          "end": 158
+        },
+        {
+          "text": "AWS",
+          "label": "MISC",
+          "score": 0.9938158392906189,
+          "start": 408,
+          "end": 412
+        },
+        {
+          "text": "Terraform infrastructure",
+          "label": "MISC",
+          "score": 0.868619441986084,
+          "start": 421,
+          "end": 446
+        },
+        {
+          "text": "LangGraph",
+          "label": "MISC",
+          "score": 0.9915318489074707,
+          "start": 694,
+          "end": 704
+        },
+        {
+          "text": "Scalable Capital",
+          "label": "MISC",
+          "score": 0.9634861350059509,
+          "start": 1138,
+          "end": 1155
+        }
+      ],
+      "duree_inference_s": 0.5
+    },
+    {
+      "job_id": "8057267",
+      "entites": [
+        {
+          "text": "Staff Machine Learning Engineer",
+          "label": "MISC",
+          "score": 0.9167251586914062,
+          "start": 10,
+          "end": 42
+        },
+        {
+          "text": "AI/Gen AI",
+          "label": "MISC",
+          "score": 0.9863551259040833,
+          "start": 51,
+          "end": 61
+        },
+        {
+          "text": "Zscaler",
+          "label": "LOC",
+          "score": 0.5624213814735413,
+          "start": 72,
+          "end": 80
+        },
+        {
+          "text": "Gen AI/ML",
+          "label": "MISC",
+          "score": 0.9870346188545227,
+          "start": 216,
+          "end": 226
+        },
+        {
+          "text": "AI/ML",
+          "label": "MISC",
+          "score": 0.987230122089386,
+          "start": 326,
+          "end": 332
+        },
+        {
+          "text": "MLOps",
+          "label": "MISC",
+          "score": 0.7629382610321045,
+          "start": 407,
+          "end": 413
+        },
+        {
+          "text": "ML",
+          "label": "MISC",
+          "score": 0.9912453889846802,
+          "start": 490,
+          "end": 493
+        },
+        {
+          "text": "AI/ML",
+          "label": "MISC",
+          "score": 0.9587990045547485,
+          "start": 773,
+          "end": 779
+        },
+        {
+          "text": "AI",
+          "label": "ORG",
+          "score": 0.8082618713378906,
+          "start": 1073,
+          "end": 1076
+        }
+      ],
+      "duree_inference_s": 0.4393
+    },
+    {
+      "job_id": "8400294",
+      "entites": [
+        {
+          "text": "Principal",
+          "label": "ORG",
+          "score": 0.5838626623153687,
+          "start": 10,
+          "end": 20
+        },
+        {
+          "text": "Software Engineer",
+          "label": "MISC",
+          "score": 0.5554079413414001,
+          "start": 20,
+          "end": 38
+        },
+        {
+          "text": "Generative AI",
+          "label": "MISC",
+          "score": 0.9839393496513367,
+          "start": 40,
+          "end": 53
+        },
+        {
+          "text": "Agentic AI",
+          "label": "MISC",
+          "score": 0.9939231872558594,
+          "start": 54,
+          "end": 65
+        },
+        {
+          "text": "ML models",
+          "label": "MISC",
+          "score": 0.808322548866272,
+          "start": 66,
+          "end": 76
+        },
+        {
+          "text": "Zillion Technologies",
+          "label": "ORG",
+          "score": 0.9950108528137207,
+          "start": 87,
+          "end": 108
+        },
+        {
+          "text": "Inc.",
+          "label": "ORG",
+          "score": 0.9704150557518005,
+          "start": 109,
+          "end": 114
+        },
+        {
+          "text": "Generative AI solutions",
+          "label": "MISC",
+          "score": 0.9710848331451416,
+          "start": 303,
+          "end": 327
+        },
+        {
+          "text": "AI Agents",
+          "label": "MISC",
+          "score": 0.9931050539016724,
+          "start": 328,
+          "end": 338
+        },
+        {
+          "text": "ML model",
+          "label": "MISC",
+          "score": 0.9172930121421814,
+          "start": 343,
+          "end": 352
+        },
+        {
+          "text": "SQL",
+          "label": "MISC",
+          "score": 0.9935212731361389,
+          "start": 569,
+          "end": 573
+        },
+        {
+          "text": "NoSQL",
+          "label": "MISC",
+          "score": 0.993878185749054,
+          "start": 577,
+          "end": 583
+        },
+        {
+          "text": "Generative AI",
+          "label": "MISC",
+          "score": 0.9936246871948242,
+          "start": 835,
+          "end": 849
+        },
+        {
+          "text": "AI Agent",
+          "label": "MISC",
+          "score": 0.9953036308288574,
+          "start": 885,
+          "end": 894
+        },
+        {
+          "text": "Machine learning",
+          "label": "MISC",
+          "score": 0.6797439455986023,
+          "start": 922,
+          "end": 939
+        },
+        {
+          "text": "Cloud-native scalable",
+          "label": "MISC",
+          "score": 0.8446358442306519,
+          "start": 983,
+          "end": 1005
+        }
+      ],
+      "duree_inference_s": 0.4435
+    },
+    {
+      "job_id": "8972129",
+      "entites": [
+        {
+          "text": "Associate Director",
+          "label": "ORG",
+          "score": 0.797033965587616,
+          "start": 10,
+          "end": 29
+        },
+        {
+          "text": "Dentsu Creative",
+          "label": "ORG",
+          "score": 0.9936696290969849,
+          "start": 52,
+          "end": 68
+        },
+        {
+          "text": "LLM",
+          "label": "MISC",
+          "score": 0.989622950553894,
+          "start": 222,
+          "end": 226
+        },
+        {
+          "text": "",
+          "label": "MISC",
+          "score": 0.6997119784355164,
+          "start": 269,
+          "end": 270
+        },
+        {
+          "text": "AI",
+          "label": "MISC",
+          "score": 0.9799108505249023,
+          "start": 304,
+          "end": 307
+        },
+        {
+          "text": "figure Genie spaces",
+          "label": "MISC",
+          "score": 0.8108477592468262,
+          "start": 530,
+          "end": 549
+        },
+        {
+          "text": "LLM",
+          "label": "MISC",
+          "score": 0.9740660786628723,
+          "start": 732,
+          "end": 736
+        },
+        {
+          "text": "Python",
+          "label": "MISC",
+          "score": 0.9954784512519836,
+          "start": 858,
+          "end": 865
+        },
+        {
+          "text": "AI",
+          "label": "MISC",
+          "score": 0.9643433094024658,
+          "start": 1097,
+          "end": 1100
+        },
+        {
+          "text": "Genie spaces",
+          "label": "MISC",
+          "score": 0.9072846174240112,
+          "start": 1353,
+          "end": 1366
+        },
+        {
+          "text": "AI-",
+          "label": "MISC",
+          "score": 0.8884146809577942,
+          "start": 1406,
+          "end": 1410
+        }
+      ],
+      "duree_inference_s": 0.5846
+    },
+    {
+      "job_id": "8848631",
+      "entites": [
+        {
+          "text": "TechBiz Global",
+          "label": "ORG",
+          "score": 0.9838218092918396,
+          "start": 38,
+          "end": 53
+        },
+        {
+          "text": "AI",
+          "label": "MISC",
+          "score": 0.9337797164916992,
+          "start": 188,
+          "end": 191
+        },
+        {
+          "text": "n8n",
+          "label": "MISC",
+          "score": 0.956390917301178,
+          "start": 234,
+          "end": 238
+        },
+        {
+          "text": "n8n",
+          "label": "MISC",
+          "score": 0.9661988615989685,
+          "start": 304,
+          "end": 308
+        },
+        {
+          "text": "ML",
+          "label": "MISC",
+          "score": 0.9922043085098267,
+          "start": 322,
+          "end": 325
+        },
+        {
+          "text": "Python",
+          "label": "MISC",
+          "score": 0.9923770427703857,
+          "start": 357,
+          "end": 364
+        },
+        {
+          "text": "RAG",
+          "label": "MISC",
+          "score": 0.9707186222076416,
+          "start": 393,
+          "end": 397
+        },
+        {
+          "text": "Agentic RAG",
+          "label": "MISC",
+          "score": 0.9905705451965332,
+          "start": 411,
+          "end": 423
+        },
+        {
+          "text": "AI",
+          "label": "MISC",
+          "score": 0.9347501397132874,
+          "start": 811,
+          "end": 814
+        },
+        {
+          "text": "RAG-based information",
+          "label": "MISC",
+          "score": 0.8580634593963623,
+          "start": 875,
+          "end": 897
+        },
+        {
+          "text": "Agentic AI systems",
+          "label": "MISC",
+          "score": 0.9474029541015625,
+          "start": 940,
+          "end": 959
+        },
+        {
+          "text": "Custom ML model",
+          "label": "MISC",
+          "score": 0.9178673624992371,
+          "start": 987,
+          "end": 1003
+        }
+      ],
+      "duree_inference_s": 0.3887
+    },
+    {
+      "job_id": "8690797",
+      "entites": [
+        {
+          "text": "AI/ML",
+          "label": "MISC",
+          "score": 0.9510699510574341,
+          "start": 17,
+          "end": 23
+        },
+        {
+          "text": "AI",
+          "label": "MISC",
+          "score": 0.6732521057128906,
+          "start": 175,
+          "end": 178
+        },
+        {
+          "text": "Snowflake ML",
+          "label": "MISC",
+          "score": 0.9942970275878906,
+          "start": 324,
+          "end": 337
+        },
+        {
+          "text": "AWS",
+          "label": "MISC",
+          "score": 0.9749813675880432,
+          "start": 341,
+          "end": 345
+        },
+        {
+          "text": "SageMaker",
+          "label": "MISC",
+          "score": 0.986495316028595,
+          "start": 356,
+          "end": 365
+        },
+        {
+          "text": "Bedrock",
+          "label": "MISC",
+          "score": 0.946738600730896,
+          "start": 366,
+          "end": 374
+        },
+        {
+          "text": "Lambda",
+          "label": "MISC",
+          "score": 0.9769850969314575,
+          "start": 375,
+          "end": 382
+        },
+        {
+          "text": "AI",
+          "label": "MISC",
+          "score": 0.6346002817153931,
+          "start": 406,
+          "end": 409
+        },
+        {
+          "text": "LLMs",
+          "label": "MISC",
+          "score": 0.9585864543914795,
+          "start": 430,
+          "end": 435
+        },
+        {
+          "text": "LangChain",
+          "label": "MISC",
+          "score": 0.9943071007728577,
+          "start": 436,
+          "end": 446
+        },
+        {
+          "text": "Streamlit",
+          "label": "MISC",
+          "score": 0.9947069883346558,
+          "start": 451,
+          "end": 461
+        },
+        {
+          "text": "NLP",
+          "label": "MISC",
+          "score": 0.6866772174835205,
+          "start": 538,
+          "end": 542
+        },
+        {
+          "text": "MLOps",
+          "label": "MISC",
+          "score": 0.7985628247261047,
+          "start": 760,
+          "end": 766
+        },
+        {
+          "text": "MCP",
+          "label": "MISC",
+          "score": 0.9523155689239502,
+          "start": 886,
+          "end": 890
+        },
+        {
+          "text": "Snowflake data",
+          "label": "MISC",
+          "score": 0.8770704865455627,
+          "start": 955,
+          "end": 970
+        },
+        {
+          "text": "AI",
+          "label": "MISC",
+          "score": 0.5566855669021606,
+          "start": 1146,
+          "end": 1149
+        },
+        {
+          "text": "Enterprise agentic AI framework",
+          "label": "MISC",
+          "score": 0.9107155203819275,
+          "start": 1365,
+          "end": 1397
+        }
+      ],
+      "duree_inference_s": 0.5366
+    },
+    {
+      "job_id": "8102843",
+      "entites": [
+        {
+          "text": "AI",
+          "label": "MISC",
+          "score": 0.5465583801269531,
+          "start": 17,
+          "end": 20
+        },
+        {
+          "text": "Rapid Prototyping & Analytics",
+          "label": "MISC",
+          "score": 0.9712262153625488,
+          "start": 31,
+          "end": 60
+        },
+        {
+          "text": "Prompt Therapy Solutions Inc",
+          "label": "ORG",
+          "score": 0.978861391544342,
+          "start": 72,
+          "end": 101
+        },
+        {
+          "text": "LLM",
+          "label": "MISC",
+          "score": 0.5689254999160767,
+          "start": 499,
+          "end": 503
+        },
+        {
+          "text": "Engineering",
+          "label": "MISC",
+          "score": 0.9929234981536865,
+          "start": 601,
+          "end": 613
+        },
+        {
+          "text": "Design",
+          "label": "MISC",
+          "score": 0.992366373538971,
+          "start": 614,
+          "end": 621
+        },
+        {
+          "text": "Sales",
+          "label": "MISC",
+          "score": 0.992164134979248,
+          "start": 622,
+          "end": 628
+        },
+        {
+          "text": "Marketing",
+          "label": "MISC",
+          "score": 0.9922499656677246,
+          "start": 629,
+          "end": 639
+        },
+        {
+          "text": "Support",
+          "label": "MISC",
+          "score": 0.9919998645782471,
+          "start": 640,
+          "end": 648
+        },
+        {
+          "text": "Finance",
+          "label": "MISC",
+          "score": 0.9829744696617126,
+          "start": 649,
+          "end": 657
+        },
+        {
+          "text": "Operations",
+          "label": "MISC",
+          "score": 0.9626918435096741,
+          "start": 662,
+          "end": 673
+        },
+        {
+          "text": "AI",
+          "label": "MISC",
+          "score": 0.9391125440597534,
+          "start": 853,
+          "end": 856
+        },
+        {
+          "text": "AI",
+          "label": "MISC",
+          "score": 0.5934542417526245,
+          "start": 881,
+          "end": 884
+        },
+        {
+          "text": "AI",
+          "label": "ORG",
+          "score": 0.8495028614997864,
+          "start": 931,
+          "end": 934
+        },
+        {
+          "text": "Internal AI",
+          "label": "MISC",
+          "score": 0.9320375919342041,
+          "start": 1070,
+          "end": 1082
+        },
+        {
+          "text": "Engineering",
+          "label": "MISC",
+          "score": 0.9911448955535889,
+          "start": 1137,
+          "end": 1149
+        },
+        {
+          "text": "Design",
+          "label": "MISC",
+          "score": 0.9914518594741821,
+          "start": 1150,
+          "end": 1157
+        },
+        {
+          "text": "Sales",
+          "label": "MISC",
+          "score": 0.9909918308258057,
+          "start": 1158,
+          "end": 1164
+        },
+        {
+          "text": "Marketing",
+          "label": "MISC",
+          "score": 0.9904544949531555,
+          "start": 1165,
+          "end": 1175
+        },
+        {
+          "text": "Support",
+          "label": "MISC",
+          "score": 0.9911942481994629,
+          "start": 1176,
+          "end": 1184
+        },
+        {
+          "text": "Finance",
+          "label": "MISC",
+          "score": 0.9863891005516052,
+          "start": 1185,
+          "end": 1193
+        },
+        {
+          "text": "Operations",
+          "label": "MISC",
+          "score": 0.980888307094574,
+          "start": 1198,
+          "end": 1209
+        },
+        {
+          "text": "AI",
+          "label": "MISC",
+          "score": 0.7435336709022522,
+          "start": 1226,
+          "end": 1229
+        },
+        {
+          "text": "AI",
+          "label": "MISC",
+          "score": 0.8692657947540283,
+          "start": 1355,
+          "end": 1358
+        },
+        {
+          "text": "AI",
+          "label": "MISC",
+          "score": 0.5725904703140259,
+          "start": 1492,
+          "end": 1495
+        }
+      ],
+      "duree_inference_s": 0.6959
+    },
+    {
+      "job_id": "8360323",
+      "entites": [
+        {
+          "text": "Job",
+          "label": "MISC",
+          "score": 0.5888704657554626,
+          "start": 0,
+          "end": 3
+        },
+        {
+          "text": "Senior AI Engineer",
+          "label": "MISC",
+          "score": 0.9583751559257507,
+          "start": 10,
+          "end": 29
+        },
+        {
+          "text": "Porch Group",
+          "label": "ORG",
+          "score": 0.8324149250984192,
+          "start": 42,
+          "end": 54
+        },
+        {
+          "text": "Computer Vision",
+          "label": "MISC",
+          "score": 0.9961423277854919,
+          "start": 232,
+          "end": 248
+        },
+        {
+          "text": "AI",
+          "label": "MISC",
+          "score": 0.9221422672271729,
+          "start": 342,
+          "end": 345
+        },
+        {
+          "text": "MLEs",
+          "label": "MISC",
+          "score": 0.9782001376152039,
+          "start": 726,
+          "end": 731
+        },
+        {
+          "text": "MLOps",
+          "label": "MISC",
+          "score": 0.9830964207649231,
+          "start": 799,
+          "end": 805
+        },
+        {
+          "text": "Python",
+          "label": "MISC",
+          "score": 0.9945874214172363,
+          "start": 908,
+          "end": 915
+        },
+        {
+          "text": "Computer vision",
+          "label": "MISC",
+          "score": 0.9945204854011536,
+          "start": 1166,
+          "end": 1182
+        },
+        {
+          "text": "N",
+          "label": "MISC",
+          "score": 0.554774284362793,
+          "start": 1235,
+          "end": 1237
+        },
+        {
+          "text": "Vision-language",
+          "label": "MISC",
+          "score": 0.9604339599609375,
+          "start": 1315,
+          "end": 1331
+        }
+      ],
+      "duree_inference_s": 0.5472
+    },
+    {
+      "job_id": "6840091",
+      "entites": [
+        {
+          "text": "AI API Engineer",
+          "label": "MISC",
+          "score": 0.7161074280738831,
+          "start": 16,
+          "end": 32
+        },
+        {
+          "text": "SentinelOne",
+          "label": "MISC",
+          "score": 0.7805434465408325,
+          "start": 42,
+          "end": 54
+        },
+        {
+          "text": "Python-bas",
+          "label": "MISC",
+          "score": 0.7254348397254944,
+          "start": 165,
+          "end": 176
+        },
+        {
+          "text": "FastAPI",
+          "label": "MISC",
+          "score": 0.993746280670166,
+          "start": 328,
+          "end": 336
+        },
+        {
+          "text": "gRPC",
+          "label": "MISC",
+          "score": 0.9821949601173401,
+          "start": 337,
+          "end": 342
+        },
+        {
+          "text": "Kafka",
+          "label": "MISC",
+          "score": 0.99488765001297,
+          "start": 343,
+          "end": 349
+        },
+        {
+          "text": "GraphQL",
+          "label": "MISC",
+          "score": 0.9956846237182617,
+          "start": 354,
+          "end": 362
+        },
+        {
+          "text": "NoSQL",
+          "label": "MISC",
+          "score": 0.9921637177467346,
+          "start": 414,
+          "end": 420
+        },
+        {
+          "text": "Redis",
+          "label": "MISC",
+          "score": 0.9808298349380493,
+          "start": 431,
+          "end": 437
+        },
+        {
+          "text": "DevOps",
+          "label": "MISC",
+          "score": 0.7942214608192444,
+          "start": 673,
+          "end": 680
+        },
+        {
+          "text": "OpenAI",
+          "label": "MISC",
+          "score": 0.9899195432662964,
+          "start": 1169,
+          "end": 1175
+        },
+        {
+          "text": "Anthropic",
+          "label": "MISC",
+          "score": 0.9924125671386719,
+          "start": 1176,
+          "end": 1186
+        },
+        {
+          "text": "Google Gemini",
+          "label": "MISC",
+          "score": 0.9924570918083191,
+          "start": 1187,
+          "end": 1201
+        },
+        {
+          "text": "Meta LLaMA",
+          "label": "MISC",
+          "score": 0.9939292669296265,
+          "start": 1202,
+          "end": 1213
+        }
+      ],
+      "duree_inference_s": 0.5294
+    },
+    {
+      "job_id": "8316092",
+      "entites": [
+        {
+          "text": "Job",
+          "label": "MISC",
+          "score": 0.5210003852844238,
+          "start": 0,
+          "end": 3
+        },
+        {
+          "text": "AI Sales Engineer",
+          "label": "MISC",
+          "score": 0.5811957716941833,
+          "start": 11,
+          "end": 28
+        },
+        {
+          "text": "Rubrik",
+          "label": "MISC",
+          "score": 0.6496533155441284,
+          "start": 38,
+          "end": 45
+        },
+        {
+          "text": "Cyber",
+          "label": "MISC",
+          "score": 0.6031587719917297,
+          "start": 53,
+          "end": 59
+        },
+        {
+          "text": "Rubrik'",
+          "label": "MISC",
+          "score": 0.904634952545166,
+          "start": 212,
+          "end": 220
+        },
+        {
+          "text": "AI Agentic Cloud",
+          "label": "MISC",
+          "score": 0.9932032823562622,
+          "start": 221,
+          "end": 238
+        },
+        {
+          "text": "Rubrik",
+          "label": "MISC",
+          "score": 0.9856593608856201,
+          "start": 838,
+          "end": 845
+        },
+        {
+          "text": "AI",
+          "label": "MISC",
+          "score": 0.8785861730575562,
+          "start": 997,
+          "end": 1000
+        },
+        {
+          "text": "Cloud",
+          "label": "MISC",
+          "score": 0.945409893989563,
+          "start": 1096,
+          "end": 1102
+        },
+        {
+          "text": "Agentic AI",
+          "label": "MISC",
+          "score": 0.9827572107315063,
+          "start": 1277,
+          "end": 1288
+        }
+      ],
+      "duree_inference_s": 0.5113
+    },
+    {
+      "job_id": "8681691",
+      "entites": [
+        {
+          "text": "Senior Front-End Engineer",
+          "label": "MISC",
+          "score": 0.7054579854011536,
+          "start": 10,
+          "end": 36
+        },
+        {
+          "text": "AI Forms Platform",
+          "label": "MISC",
+          "score": 0.9931348562240601,
+          "start": 38,
+          "end": 55
+        },
+        {
+          "text": "Filevine",
+          "label": "LOC",
+          "score": 0.9748179316520691,
+          "start": 66,
+          "end": 75
+        },
+        {
+          "text": "AI plat",
+          "label": "MISC",
+          "score": 0.8140484690666199,
+          "start": 89,
+          "end": 97
+        },
+        {
+          "text": "JavaScript",
+          "label": "MISC",
+          "score": 0.9945433139801025,
+          "start": 283,
+          "end": 294
+        },
+        {
+          "text": "AI",
+          "label": "MISC",
+          "score": 0.8701307773590088,
+          "start": 467,
+          "end": 470
+        },
+        {
+          "text": "AI-driven de",
+          "label": "MISC",
+          "score": 0.9178104400634766,
+          "start": 716,
+          "end": 729
+        },
+        {
+          "text": "AI-first le",
+          "label": "MISC",
+          "score": 0.9653519988059998,
+          "start": 976,
+          "end": 988
+        }
+      ],
+      "duree_inference_s": 0.4138
+    },
+    {
+      "job_id": "9012551",
+      "entites": [
+        {
+          "text": "Engine",
+          "label": "ORG",
+          "score": 0.3601907193660736,
+          "start": 15,
+          "end": 22
+        },
+        {
+          "text": "er",
+          "label": "MISC",
+          "score": 0.38505205512046814,
+          "start": 22,
+          "end": 24
+        },
+        {
+          "text": "AI Platform",
+          "label": "MISC",
+          "score": 0.9854651093482971,
+          "start": 26,
+          "end": 37
+        },
+        {
+          "text": "TaskUs",
+          "label": "MISC",
+          "score": 0.8865149021148682,
+          "start": 48,
+          "end": 55
+        },
+        {
+          "text": "S",
+          "label": "MISC",
+          "score": 0.9951045513153076,
+          "start": 395,
+          "end": 397
+        },
+        {
+          "text": "AI",
+          "label": "MISC",
+          "score": 0.9771201014518738,
+          "start": 637,
+          "end": 640
+        },
+        {
+          "text": "AI",
+          "label": "MISC",
+          "score": 0.9790310859680176,
+          "start": 716,
+          "end": 719
+        },
+        {
+          "text": "GenAI",
+          "label": "MISC",
+          "score": 0.9948001503944397,
+          "start": 773,
+          "end": 779
+        },
+        {
+          "text": "AI-driven",
+          "label": "MISC",
+          "score": 0.9608844518661499,
+          "start": 843,
+          "end": 853
+        }
+      ],
+      "duree_inference_s": 0.3794
+    },
+    {
+      "job_id": "4380772643",
+      "entites": [
+        {
+          "text": "Job",
+          "label": "MISC",
+          "score": 0.5079095363616943,
+          "start": 0,
+          "end": 3
+        },
+        {
+          "text": "Big Data Engineer",
+          "label": "MISC",
+          "score": 0.9577746391296387,
+          "start": 10,
+          "end": 28
+        },
+        {
+          "text": "Müller's Solutions",
+          "label": "ORG",
+          "score": 0.9876673817634583,
+          "start": 38,
+          "end": 57
+        }
+      ],
+      "duree_inference_s": 0.0913
+    },
+    {
+      "job_id": "4314994258",
+      "entites": [
+        {
+          "text": "Data GCP",
+          "label": "MISC",
+          "score": 0.9515944123268127,
+          "start": 20,
+          "end": 29
+        },
+        {
+          "text": "Google Cloud Platform",
+          "label": "MISC",
+          "score": 0.9576378464698792,
+          "start": 31,
+          "end": 52
+        },
+        {
+          "text": "SQLI",
+          "label": "MISC",
+          "score": 0.8587646484375,
+          "start": 69,
+          "end": 74
+        }
+      ],
+      "duree_inference_s": 0.1138
+    },
+    {
+      "job_id": "8708837",
+      "entites": [
+        {
+          "text": "Job",
+          "label": "MISC",
+          "score": 0.5656190514564514,
+          "start": 0,
+          "end": 3
+        },
+        {
+          "text": "System Software Engine",
+          "label": "ORG",
+          "score": 0.5956745147705078,
+          "start": 10,
+          "end": 33
+        },
+        {
+          "text": "er",
+          "label": "MISC",
+          "score": 0.5271053910255432,
+          "start": 33,
+          "end": 35
+        },
+        {
+          "text": "AI",
+          "label": "ORG",
+          "score": 0.5739505290985107,
+          "start": 37,
+          "end": 40
+        },
+        {
+          "text": "Delos",
+          "label": "ORG",
+          "score": 0.36115679144859314,
+          "start": 50,
+          "end": 56
+        },
+        {
+          "text": "Data",
+          "label": "MISC",
+          "score": 0.4526416063308716,
+          "start": 56,
+          "end": 61
+        },
+        {
+          "text": "AI",
+          "label": "MISC",
+          "score": 0.9093019962310791,
+          "start": 109,
+          "end": 112
+        },
+        {
+          "text": "AI",
+          "label": "MISC",
+          "score": 0.7721193432807922,
+          "start": 252,
+          "end": 255
+        },
+        {
+          "text": "AI",
+          "label": "MISC",
+          "score": 0.7101057767868042,
+          "start": 571,
+          "end": 574
+        },
+        {
+          "text": "AI",
+          "label": "MISC",
+          "score": 0.9304510951042175,
+          "start": 642,
+          "end": 645
+        },
+        {
+          "text": "AI",
+          "label": "MISC",
+          "score": 0.7721849679946899,
+          "start": 809,
+          "end": 812
+        },
+        {
+          "text": "AI",
+          "label": "MISC",
+          "score": 0.9637346267700195,
+          "start": 850,
+          "end": 853
+        },
+        {
+          "text": "AI",
+          "label": "MISC",
+          "score": 0.9370208978652954,
+          "start": 923,
+          "end": 926
+        },
+        {
+          "text": "GPU",
+          "label": "MISC",
+          "score": 0.8250806331634521,
+          "start": 938,
+          "end": 942
+        }
+      ],
+      "duree_inference_s": 0.3742
+    },
+    {
+      "job_id": "8244638",
+      "entites": [
+        {
+          "text": "ware AI/ML",
+          "label": "MISC",
+          "score": 0.9325156211853027,
+          "start": 34,
+          "end": 44
+        },
+        {
+          "text": "Microchip Technology Inc.",
+          "label": "ORG",
+          "score": 0.9888112545013428,
+          "start": 54,
+          "end": 80
+        },
+        {
+          "text": "",
+          "label": "MISC",
+          "score": 0.639075517654419,
+          "start": 111,
+          "end": 112
+        },
+        {
+          "text": "AI",
+          "label": "MISC",
+          "score": 0.853344202041626,
+          "start": 161,
+          "end": 164
+        },
+        {
+          "text": "AI",
+          "label": "MISC",
+          "score": 0.7564191818237305,
+          "start": 275,
+          "end": 278
+        },
+        {
+          "text": "TFLite",
+          "label": "MISC",
+          "score": 0.9944164752960205,
+          "start": 291,
+          "end": 298
+        },
+        {
+          "text": "TensorFlow",
+          "label": "MISC",
+          "score": 0.9943622350692749,
+          "start": 299,
+          "end": 310
+        },
+        {
+          "text": "ONNX",
+          "label": "MISC",
+          "score": 0.9939742088317871,
+          "start": 311,
+          "end": 316
+        },
+        {
+          "text": "PyTorch",
+          "label": "MISC",
+          "score": 0.9942945241928101,
+          "start": 317,
+          "end": 325
+        },
+        {
+          "text": "C/C++",
+          "label": "MISC",
+          "score": 0.9954026341438293,
+          "start": 330,
+          "end": 336
+        },
+        {
+          "text": "AI/ML",
+          "label": "MISC",
+          "score": 0.9950583577156067,
+          "start": 378,
+          "end": 384
+        },
+        {
+          "text": "AI",
+          "label": "MISC",
+          "score": 0.8370633125305176,
+          "start": 497,
+          "end": 500
+        },
+        {
+          "text": "AI",
+          "label": "MISC",
+          "score": 0.9894223213195801,
+          "start": 616,
+          "end": 619
+        },
+        {
+          "text": "Edge AI",
+          "label": "MISC",
+          "score": 0.9937453269958496,
+          "start": 750,
+          "end": 758
+        },
+        {
+          "text": "ware",
+          "label": "MISC",
+          "score": 0.6137247085571289,
+          "start": 763,
+          "end": 767
+        },
+        {
+          "text": "Edge AI",
+          "label": "MISC",
+          "score": 0.9925119280815125,
+          "start": 779,
+          "end": 787
+        },
+        {
+          "text": "AI",
+          "label": "MISC",
+          "score": 0.8589162826538086,
+          "start": 828,
+          "end": 831
+        },
+        {
+          "text": "Re",
+          "label": "MISC",
+          "score": 0.5968894362449646,
+          "start": 888,
+          "end": 891
+        },
+        {
+          "text": "Cloud-based AI",
+          "label": "MISC",
+          "score": 0.8843181729316711,
+          "start": 928,
+          "end": 943
+        },
+        {
+          "text": "Edge-to-cloud",
+          "label": "MISC",
+          "score": 0.7914384007453918,
+          "start": 979,
+          "end": 993
+        },
+        {
+          "text": "AI",
+          "label": "MISC",
+          "score": 0.9131540060043335,
+          "start": 1009,
+          "end": 1012
+        }
+      ],
+      "duree_inference_s": 0.442
+    },
+    {
+      "job_id": "8139259",
+      "entites": [
+        {
+          "text": "AI/ML Engineer",
+          "label": "MISC",
+          "score": 0.9351629614830017,
+          "start": 10,
+          "end": 25
+        },
+        {
+          "text": "A.P. Moller",
+          "label": "PER",
+          "score": 0.982607364654541,
+          "start": 35,
+          "end": 47
+        },
+        {
+          "text": "Maersk",
+          "label": "LOC",
+          "score": 0.7388043403625488,
+          "start": 49,
+          "end": 56
+        },
+        {
+          "text": "A/B",
+          "label": "MISC",
+          "score": 0.8278302550315857,
+          "start": 525,
+          "end": 529
+        },
+        {
+          "text": "AI/ML",
+          "label": "MISC",
+          "score": 0.9883729219436646,
+          "start": 692,
+          "end": 698
+        },
+        {
+          "text": "AI/ML",
+          "label": "MISC",
+          "score": 0.9907013177871704,
+          "start": 784,
+          "end": 790
+        }
+      ],
+      "duree_inference_s": 0.4732
+    },
+    {
+      "job_id": "8925497",
+      "entites": [
+        {
+          "text": "AI/ML",
+          "label": "MISC",
+          "score": 0.9026677012443542,
+          "start": 17,
+          "end": 23
+        },
+        {
+          "text": "er",
+          "label": "MISC",
+          "score": 0.5477303266525269,
+          "start": 30,
+          "end": 32
+        },
+        {
+          "text": "A.P. Moller",
+          "label": "PER",
+          "score": 0.9804012179374695,
+          "start": 55,
+          "end": 67
+        },
+        {
+          "text": "Maersk",
+          "label": "LOC",
+          "score": 0.9859616756439209,
+          "start": 69,
+          "end": 76
+        },
+        {
+          "text": "ML",
+          "label": "MISC",
+          "score": 0.981464147567749,
+          "start": 1072,
+          "end": 1075
+        }
+      ],
+      "duree_inference_s": 0.4017
+    },
+    {
+      "job_id": "4333193580",
+      "entites": [
+        {
+          "text": "Data",
+          "label": "MISC",
+          "score": 0.5526593923568726,
+          "start": 17,
+          "end": 22
+        },
+        {
+          "text": "BROME Consulting & Technology",
+          "label": "ORG",
+          "score": 0.9704696536064148,
+          "start": 40,
+          "end": 70
+        }
+      ],
+      "duree_inference_s": 0.0994
+    },
+    {
+      "job_id": "4357657978",
+      "entites": [
+        {
+          "text": "Data Analyst",
+          "label": "MISC",
+          "score": 0.7581309080123901,
+          "start": 10,
+          "end": 23
+        },
+        {
+          "text": "X Delivery",
+          "label": "MISC",
+          "score": 0.9698295593261719,
+          "start": 25,
+          "end": 36
+        },
+        {
+          "text": "Boston Consulting Group",
+          "label": "ORG",
+          "score": 0.9936462044715881,
+          "start": 46,
+          "end": 70
+        },
+        {
+          "text": "BCG",
+          "label": "ORG",
+          "score": 0.9891893863677979,
+          "start": 72,
+          "end": 75
+        }
+      ],
+      "duree_inference_s": 0.0977
+    },
+    {
+      "job_id": "7946353",
+      "entites": [
+        {
+          "text": "Lead AI Microservices Developer",
+          "label": "MISC",
+          "score": 0.9620468616485596,
+          "start": 10,
+          "end": 42
+        },
+        {
+          "text": "Python-bas",
+          "label": "MISC",
+          "score": 0.8804981112480164,
+          "start": 197,
+          "end": 208
+        },
+        {
+          "text": "",
+          "label": "MISC",
+          "score": 0.574672281742096,
+          "start": 210,
+          "end": 211
+        },
+        {
+          "text": "AI-enable",
+          "label": "MISC",
+          "score": 0.8220198750495911,
+          "start": 288,
+          "end": 298
+        },
+        {
+          "text": "LLM",
+          "label": "MISC",
+          "score": 0.7663000822067261,
+          "start": 303,
+          "end": 307
+        },
+        {
+          "text": "LLM",
+          "label": "MISC",
+          "score": 0.7138266563415527,
+          "start": 371,
+          "end": 375
+        },
+        {
+          "text": "OpenAI",
+          "label": "MISC",
+          "score": 0.9438076019287109,
+          "start": 398,
+          "end": 405
+        },
+        {
+          "text": "Llama",
+          "label": "MISC",
+          "score": 0.897773027420044,
+          "start": 406,
+          "end": 412
+        },
+        {
+          "text": "Gemini",
+          "label": "MISC",
+          "score": 0.8989495038986206,
+          "start": 417,
+          "end": 424
+        },
+        {
+          "text": "LLM",
+          "label": "MISC",
+          "score": 0.822547435760498,
+          "start": 451,
+          "end": 455
+        },
+        {
+          "text": "Generative AI API",
+          "label": "MISC",
+          "score": 0.9655488729476929,
+          "start": 459,
+          "end": 477
+        },
+        {
+          "text": "Open Weights",
+          "label": "MISC",
+          "score": 0.9950090050697327,
+          "start": 489,
+          "end": 502
+        },
+        {
+          "text": "DevOps",
+          "label": "MISC",
+          "score": 0.9122228026390076,
+          "start": 626,
+          "end": 633
+        },
+        {
+          "text": "Business",
+          "label": "MISC",
+          "score": 0.5832899212837219,
+          "start": 773,
+          "end": 782
+        },
+        {
+          "text": "LLM-",
+          "label": "MISC",
+          "score": 0.7834410667419434,
+          "start": 829,
+          "end": 834
+        },
+        {
+          "text": "AI-enable",
+          "label": "MISC",
+          "score": 0.8197182416915894,
+          "start": 890,
+          "end": 900
+        },
+        {
+          "text": "Generative AI",
+          "label": "MISC",
+          "score": 0.9937136769294739,
+          "start": 941,
+          "end": 955
+        }
+      ],
+      "duree_inference_s": 0.3584
+    },
+    {
+      "job_id": "7569470",
+      "entites": [
+        {
+          "text": "Job",
+          "label": "MISC",
+          "score": 0.5470944046974182,
+          "start": 0,
+          "end": 3
+        },
+        {
+          "text": "",
+          "label": "ORG",
+          "score": 0.36507946252822876,
+          "start": 10,
+          "end": 11
+        },
+        {
+          "text": "AI",
+          "label": "MISC",
+          "score": 0.44824618101119995,
+          "start": 11,
+          "end": 13
+        },
+        {
+          "text": "Engineer",
+          "label": "ORG",
+          "score": 0.47614043951034546,
+          "start": 13,
+          "end": 22
+        },
+        {
+          "text": "London",
+          "label": "LOC",
+          "score": 0.9897264838218689,
+          "start": 23,
+          "end": 30
+        },
+        {
+          "text": "Eloquent AI",
+          "label": "MISC",
+          "score": 0.8193861842155457,
+          "start": 40,
+          "end": 52
+        },
+        {
+          "text": "AI",
+          "label": "MISC",
+          "score": 0.8379313945770264,
+          "start": 71,
+          "end": 74
+        },
+        {
+          "text": "AI-driven",
+          "label": "MISC",
+          "score": 0.8096805810928345,
+          "start": 181,
+          "end": 191
+        },
+        {
+          "text": "AI",
+          "label": "MISC",
+          "score": 0.9342886209487915,
+          "start": 274,
+          "end": 277
+        },
+        {
+          "text": "AI",
+          "label": "MISC",
+          "score": 0.9749218821525574,
+          "start": 379,
+          "end": 382
+        },
+        {
+          "text": "AI-powered UIs",
+          "label": "MISC",
+          "score": 0.9102543592453003,
+          "start": 443,
+          "end": 458
+        },
+        {
+          "text": "AI",
+          "label": "MISC",
+          "score": 0.5302743911743164,
+          "start": 528,
+          "end": 531
+        },
+        {
+          "text": "ML",
+          "label": "MISC",
+          "score": 0.59810870885849,
+          "start": 547,
+          "end": 550
+        },
+        {
+          "text": "AI-dri",
+          "label": "MISC",
+          "score": 0.9540122747421265,
+          "start": 760,
+          "end": 767
+        },
+        {
+          "text": "AI-powered",
+          "label": "MISC",
+          "score": 0.9649015665054321,
+          "start": 1021,
+          "end": 1032
+        },
+        {
+          "text": "AI-driven",
+          "label": "MISC",
+          "score": 0.9190677404403687,
+          "start": 1218,
+          "end": 1228
+        }
+      ],
+      "duree_inference_s": 0.4824
+    },
+    {
+      "job_id": "7208603",
+      "entites": [
+        {
+          "text": "Job",
+          "label": "MISC",
+          "score": 0.5386078953742981,
+          "start": 0,
+          "end": 3
+        },
+        {
+          "text": "AI Data Engineer",
+          "label": "MISC",
+          "score": 0.9428874850273132,
+          "start": 10,
+          "end": 27
+        },
+        {
+          "text": "C the Signs",
+          "label": "LOC",
+          "score": 0.6190913915634155,
+          "start": 37,
+          "end": 49
+        },
+        {
+          "text": "Healthcare AI",
+          "label": "MISC",
+          "score": 0.8149333000183105,
+          "start": 57,
+          "end": 71
+        },
+        {
+          "text": "HIP",
+          "label": "MISC",
+          "score": 0.5539842844009399,
+          "start": 738,
+          "end": 742
+        },
+        {
+          "text": "Healthcare AI",
+          "label": "MISC",
+          "score": 0.9089628458023071,
+          "start": 942,
+          "end": 956
+        },
+        {
+          "text": "Data",
+          "label": "MISC",
+          "score": 0.7553607225418091,
+          "start": 1057,
+          "end": 1062
+        },
+        {
+          "text": "Compliant",
+          "label": "MISC",
+          "score": 0.7569710612297058,
+          "start": 1119,
+          "end": 1129
+        }
+      ],
+      "duree_inference_s": 0.4472
+    },
+    {
+      "job_id": "7703876",
+      "entites": [
+        {
+          "text": "AI Ops",
+          "label": "ORG",
+          "score": 0.4620200991630554,
+          "start": 17,
+          "end": 24
+        },
+        {
+          "text": "GE Vernova",
+          "label": "ORG",
+          "score": 0.9878520965576172,
+          "start": 43,
+          "end": 54
+        },
+        {
+          "text": "AI/ML",
+          "label": "MISC",
+          "score": 0.8945749402046204,
+          "start": 191,
+          "end": 197
+        },
+        {
+          "text": "AI/ML",
+          "label": "MISC",
+          "score": 0.9627038240432739,
+          "start": 366,
+          "end": 372
+        },
+        {
+          "text": "GenAI",
+          "label": "MISC",
+          "score": 0.9319980144500732,
+          "start": 376,
+          "end": 382
+        },
+        {
+          "text": "IT",
+          "label": "ORG",
+          "score": 0.49314188957214355,
+          "start": 419,
+          "end": 422
+        },
+        {
+          "text": "DevOp",
+          "label": "MISC",
+          "score": 0.5076665282249451,
+          "start": 426,
+          "end": 432
+        },
+        {
+          "text": "s",
+          "label": "ORG",
+          "score": 0.6234837770462036,
+          "start": 432,
+          "end": 433
+        },
+        {
+          "text": "AI",
+          "label": "MISC",
+          "score": 0.8855329751968384,
+          "start": 561,
+          "end": 564
+        },
+        {
+          "text": "GenAI",
+          "label": "MISC",
+          "score": 0.974532961845398,
+          "start": 568,
+          "end": 574
+        },
+        {
+          "text": "AI/ML",
+          "label": "MISC",
+          "score": 0.9831795692443848,
+          "start": 637,
+          "end": 643
+        },
+        {
+          "text": "LLM",
+          "label": "MISC",
+          "score": 0.9023407697677612,
+          "start": 731,
+          "end": 735
+        },
+        {
+          "text": "AI/ML",
+          "label": "MISC",
+          "score": 0.9872303009033203,
+          "start": 1015,
+          "end": 1021
+        },
+        {
+          "text": "IAM",
+          "label": "MISC",
+          "score": 0.5323693156242371,
+          "start": 1058,
+          "end": 1062
+        },
+        {
+          "text": "IT",
+          "label": "MISC",
+          "score": 0.6004692316055298,
+          "start": 1282,
+          "end": 1285
+        },
+        {
+          "text": "AI",
+          "label": "MISC",
+          "score": 0.9288532733917236,
+          "start": 1352,
+          "end": 1355
+        }
+      ],
+      "duree_inference_s": 0.5635
+    },
+    {
+      "job_id": "9008937",
+      "entites": [
+        {
+          "text": "Job",
+          "label": "MISC",
+          "score": 0.7604184746742249,
+          "start": 0,
+          "end": 3
+        },
+        {
+          "text": "Systems Development Engineer I",
+          "label": "MISC",
+          "score": 0.9180269241333008,
+          "start": 10,
+          "end": 41
+        },
+        {
+          "text": "anced",
+          "label": "ORG",
+          "score": 0.4080716371536255,
+          "start": 46,
+          "end": 51
+        },
+        {
+          "text": "Robot",
+          "label": "MISC",
+          "score": 0.49001020193099976,
+          "start": 51,
+          "end": 57
+        },
+        {
+          "text": "ics",
+          "label": "ORG",
+          "score": 0.505638599395752,
+          "start": 57,
+          "end": 60
+        },
+        {
+          "text": "AI System",
+          "label": "MISC",
+          "score": 0.416939377784729,
+          "start": 63,
+          "end": 72
+        },
+        {
+          "text": "s",
+          "label": "ORG",
+          "score": 0.39103081822395325,
+          "start": 72,
+          "end": 73
+        },
+        {
+          "text": "Niagara Bottling",
+          "label": "LOC",
+          "score": 0.996910035610199,
+          "start": 84,
+          "end": 101
+        },
+        {
+          "text": "ROS/ROS2)",
+          "label": "MISC",
+          "score": 0.8935465812683105,
+          "start": 353,
+          "end": 362
+        },
+        {
+          "text": "ML",
+          "label": "MISC",
+          "score": 0.9749873876571655,
+          "start": 915,
+          "end": 918
+        },
+        {
+          "text": "ML-driven",
+          "label": "MISC",
+          "score": 0.9199607968330383,
+          "start": 1222,
+          "end": 1232
+        },
+        {
+          "text": "Sim2Real",
+          "label": "MISC",
+          "score": 0.9956207275390625,
+          "start": 1549,
+          "end": 1558
+        }
+      ],
+      "duree_inference_s": 0.6451
+    },
+    {
+      "job_id": "7521302",
+      "entites": [
+        {
+          "text": "Job",
+          "label": "MISC",
+          "score": 0.6049444675445557,
+          "start": 0,
+          "end": 3
+        },
+        {
+          "text": "Integrations Engineer",
+          "label": "MISC",
+          "score": 0.8650259375572205,
+          "start": 10,
+          "end": 32
+        },
+        {
+          "text": "Agentic AI Platform",
+          "label": "MISC",
+          "score": 0.9947137832641602,
+          "start": 33,
+          "end": 53
+        },
+        {
+          "text": "Company",
+          "label": "MISC",
+          "score": 0.5497691035270691,
+          "start": 54,
+          "end": 62
+        },
+        {
+          "text": "Trimble",
+          "label": "PER",
+          "score": 0.7398619055747986,
+          "start": 63,
+          "end": 71
+        },
+        {
+          "text": "AI",
+          "label": "MISC",
+          "score": 0.7302985787391663,
+          "start": 107,
+          "end": 110
+        },
+        {
+          "text": "Agentic AI Platform",
+          "label": "MISC",
+          "score": 0.9950859546661377,
+          "start": 189,
+          "end": 209
+        },
+        {
+          "text": "Agentic AI",
+          "label": "MISC",
+          "score": 0.9935091733932495,
+          "start": 257,
+          "end": 268
+        },
+        {
+          "text": "Agentic AI Platform",
+          "label": "MISC",
+          "score": 0.9946885108947754,
+          "start": 385,
+          "end": 405
+        },
+        {
+          "text": "Enterprise AI agent",
+          "label": "MISC",
+          "score": 0.9656851291656494,
+          "start": 770,
+          "end": 790
+        },
+        {
+          "text": "Custom",
+          "label": "MISC",
+          "score": 0.5760239362716675,
+          "start": 819,
+          "end": 826
+        },
+        {
+          "text": "fic AI solution",
+          "label": "MISC",
+          "score": 0.8833664059638977,
+          "start": 834,
+          "end": 849
+        },
+        {
+          "text": "Cross-functional AI platform",
+          "label": "MISC",
+          "score": 0.792145311832428,
+          "start": 865,
+          "end": 894
+        },
+        {
+          "text": "AI",
+          "label": "MISC",
+          "score": 0.7176313400268555,
+          "start": 905,
+          "end": 908
+        },
+        {
+          "text": "Technical",
+          "label": "MISC",
+          "score": 0.5072263479232788,
+          "start": 938,
+          "end": 948
+        },
+        {
+          "text": "End",
+          "label": "MISC",
+          "score": 0.6029750108718872,
+          "start": 988,
+          "end": 992
+        },
+        {
+          "text": "-end customer",
+          "label": "MISC",
+          "score": 0.6103048920631409,
+          "start": 995,
+          "end": 1008
+        }
+      ],
+      "duree_inference_s": 0.4296
+    }
+  ]
+}
