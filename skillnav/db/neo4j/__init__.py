@@ -1,9 +1,5 @@
-"""Neo4j AuraDB — graphe Skill ↔ Job ↔ Family (PRD §7.3).
+"""Neo4j AuraDB — graphe Skill ↔ Job ↔ Family (PRD §7.3)."""
 
-Modèle :
+from skillnav.db.neo4j.client import Neo4jClient, make_neo4j_client
 
-- (:Skill)-[:CO_OCCURS_WITH {weight}]->(:Skill)
-- (:Job)-[:REQUIRES {confidence}]->(:Skill)
-- (:Skill)-[:BELONGS_TO]->(:SkillFamily)
-- (:Job)-[:FROM_SOURCE]->(:Source)
-"""
+__all__ = ["Neo4jClient", "make_neo4j_client"]
