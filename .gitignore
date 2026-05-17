@@ -109,6 +109,8 @@ $RECYCLE.BIN/
 # ─── Logs ───────────────────────────────────────────────────────────────────
 *.log
 logs/
+lightning_logs/
+notebooks/lightning_logs/
 
 # ─── Caches IDE / MCP (entièrement gitignorés) ──────────────────────────────
 .claude/
