@@ -1,0 +1,190 @@
+/*
+ * SKILLNAV - Design Tokens (light + dark)
+ * Source de verite : docs/CHARTE_GRAPHIQUE_SKILLNAV.pdf (sections 02-08)
+ * Karamo Sylla & Bachirou Konate - Mai 2026
+ *
+ * Bascule via attribut sur <html> :
+ *   <html data-theme="dark">  - defaut analytique
+ *   <html data-theme="light"> - exports impression, rapports
+ *
+ * Preference systeme respectee si data-theme est absent.
+ */
+
+:root {
+  /* ============================================================
+   *  TOKENS COMMUNS AUX 2 MODES - Charte sections 02, 03, 04
+   * ============================================================ */
+
+  /* Brand - Royal Blue (accent McKinsey) */
+  --skn-royal:           #2251FF;
+  --skn-royal-light:     #4F73FF;
+  --skn-royal-dark:      #1A3FCC;
+  --skn-royal-soft:      #E5EBFF;
+
+  /* Navy McKinsey - palette primaire dark */
+  --skn-navy:            #051C2C;
+  --skn-navy-900:        #0A2540;
+  --skn-navy-800:        #133553;
+  --skn-navy-700:        #1F4868;
+
+  /* Surfaces et neutres */
+  --skn-white:           #FFFFFF;
+  --skn-cream:           #FAF8F3;
+  --skn-bone:            #F5F1EB;
+  --skn-border:          #E5E7EB;
+  --skn-ink:             #1A1A1A;
+  --skn-ink-soft:        #4A4A4A;
+  --skn-muted:           #6B7280;
+
+  /* Semantiques - identiques dark & light */
+  --skn-success:         #0F8F65;
+  --skn-warning:         #C77700;
+  --skn-error:           #B42318;
+  --skn-info:            #2251FF;
+
+  /* Familles IA / DS - identiques dark & light (charte section 04) */
+  --skn-fam-ml-classique:   #2251FF;
+  --skn-fam-deep-learning:  #7C3AED;
+  --skn-fam-nlp:            #0891B2;
+  --skn-fam-cv:             #C77700;
+  --skn-fam-data-eng:       #1F4868;
+  --skn-fam-mlops:          #0F8F65;
+  --skn-fam-cloud-bigdata:  #1A3FCC;
+  --skn-fam-ai-ethics:      #4A1D6E;
+  --skn-fam-stats:          #5C7E2A;
+  --skn-fam-tools:          #6B7280;
+
+  /* Typographie - charte section 05 */
+  --font-display:  "Fraunces", Georgia, "Times New Roman", serif;
+  --font-body:     "Inter", -apple-system, "Segoe UI", "Helvetica Neue", sans-serif;
+  --font-mono:     "JetBrains Mono", "Fira Code", Consolas, monospace;
+
+  /* Spacing - base 4 px (charte section 06) */
+  --space-1: 0.25rem;   /*  4 px */
+  --space-2: 0.5rem;    /*  8 px */
+  --space-3: 0.75rem;   /* 12 px */
+  --space-4: 1rem;      /* 16 px */
+  --space-5: 1.5rem;    /* 24 px */
+  --space-6: 2rem;      /* 32 px */
+  --space-7: 3rem;      /* 48 px */
+  --space-8: 4rem;      /* 64 px */
+
+  /* Radius - charte section 07 */
+  --radius:        6px;
+  --radius-sm:     4px;
+  --radius-pill:   9999px;
+
+  /* Layout */
+  --sidebar-width: 264px;
+  --header-height: 64px;
+  --content-max:   1440px;
+
+  /* Hauteurs de controle */
+  --control-height-sm: 32px;
+  --control-height:    40px;
+  --control-height-lg: 48px;
+
+  /* Focus ring */
+  --focus-ring-width:  2px;
+  --focus-ring-offset: 2px;
+  --focus-ring-color:  var(--skn-royal);
+
+  /* Transitions (sobre - pas d'animation decorative) */
+  --transition-fast: 120ms ease-out;
+  --transition-base: 150ms ease-out;
+}
+
+/* ============================================================
+ *  MODE DARK - primaire dashboard analytique (charte section 02)
+ * ============================================================ */
+
+:root,
+[data-theme="dark"] {
+  --bg:               var(--skn-navy);          /* #051C2C */
+  --surface:          var(--skn-navy-900);      /* #0A2540 */
+  --surface-elevated: var(--skn-navy-800);      /* #133553 */
+  --surface-muted:    var(--skn-navy-900);
+
+  --border:           var(--skn-navy-700);      /* #1F4868 */
+  --border-strong:    #2A5980;
+
+  --text-primary:     var(--skn-bone);          /* #F5F1EB */
+  --text-secondary:   #C2CCD6;
+  --text-muted:       #8896A6;
+  --text-on-accent:   var(--skn-white);
+
+  --accent:           var(--skn-royal-light);   /* #4F73FF - plus clair sur dark */
+  --accent-hover:     var(--skn-royal);         /* #2251FF */
+  --accent-soft:      #1A2A5C;
+
+  color-scheme: dark;
+}
+
+/* ============================================================
+ *  MODE LIGHT - exports impression, rapports, deck
+ * ============================================================ */
+
+[data-theme="light"] {
+  --bg:               var(--skn-cream);         /* #FAF8F3 */
+  --surface:          var(--skn-white);         /* #FFFFFF */
+  --surface-elevated: var(--skn-white);
+  --surface-muted:    var(--skn-bone);          /* #F5F1EB */
+
+  --border:           var(--skn-border);        /* #E5E7EB */
+  --border-strong:    #D1D5DB;
+
+  --text-primary:     var(--skn-ink);           /* #1A1A1A */
+  --text-secondary:   var(--skn-ink-soft);      /* #4A4A4A */
+  --text-muted:       var(--skn-muted);         /* #6B7280 */
+  --text-on-accent:   var(--skn-white);
+
+  --accent:           var(--skn-royal);         /* #2251FF */
+  --accent-hover:     var(--skn-royal-dark);    /* #1A3FCC */
+  --accent-soft:      var(--skn-royal-soft);    /* #E5EBFF */
+
+  color-scheme: light;
+}
+
+/* ============================================================
+ *  Preference systeme - bascule automatique si data-theme absent
+ * ============================================================ */
+
+@media (prefers-color-scheme: light) {
+  :root:not([data-theme]) {
+    --bg:               var(--skn-cream);
+    --surface:          var(--skn-white);
+    --surface-elevated: var(--skn-white);
+    --surface-muted:    var(--skn-bone);
+    --border:           var(--skn-border);
+    --border-strong:    #D1D5DB;
+    --text-primary:     var(--skn-ink);
+    --text-secondary:   var(--skn-ink-soft);
+    --text-muted:       var(--skn-muted);
+    --accent:           var(--skn-royal);
+    --accent-hover:     var(--skn-royal-dark);
+    --accent-soft:      var(--skn-royal-soft);
+    color-scheme: light;
+  }
+}
+
+/* ============================================================
+ *  Sample utilitaires globaux (optionnel - Claude Design peut les regenerer)
+ * ============================================================ */
+
+body {
+  background-color: var(--bg);
+  color: var(--text-primary);
+  font-family: var(--font-body);
+  font-size: 0.875rem;
+  line-height: 1.6;
+}
+
+::selection {
+  background-color: var(--accent);
+  color: var(--text-on-accent);
+}
+
+:focus-visible {
+  outline: var(--focus-ring-width) solid var(--focus-ring-color);
+  outline-offset: var(--focus-ring-offset);
+}

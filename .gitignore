@@ -64,6 +64,10 @@ out/
 .turbo/
 *.tsbuildinfo
 next-env.d.ts
+
+# ─── Design bundles (extractions temporaires depuis claude.ai/design) ───────
+.design-bundle/
+design-system-input/
 .pnpm-debug.log*
 .npm/
 .yarn/
@@ -91,7 +95,6 @@ sources/collected/*/raw/*
 # Models téléchargés (HuggingFace cache)
 .cache/huggingface/
 models/
-!api/models/
 
 # ─── IDE ────────────────────────────────────────────────────────────────────
 .idea/

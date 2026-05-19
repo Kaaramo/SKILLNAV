@@ -1,0 +1,212 @@
+{
+  "meta": {
+    "n_maroc": 381,
+    "n_international": 3086,
+    "top_n": 20,
+    "source": "data/jobs.jsonl"
+  },
+  "Maroc": [
+    {
+      "skill": "SQL",
+      "count": 218,
+      "pct": 57.2
+    },
+    {
+      "skill": "Python",
+      "count": 201,
+      "pct": 52.8
+    },
+    {
+      "skill": "Machine Learning",
+      "count": 147,
+      "pct": 38.6
+    },
+    {
+      "skill": "Power BI",
+      "count": 105,
+      "pct": 27.6
+    },
+    {
+      "skill": "GCP",
+      "count": 85,
+      "pct": 22.3
+    },
+    {
+      "skill": "Statistics",
+      "count": 81,
+      "pct": 21.3
+    },
+    {
+      "skill": "Azure",
+      "count": 80,
+      "pct": 21.0
+    },
+    {
+      "skill": "R",
+      "count": 69,
+      "pct": 18.1
+    },
+    {
+      "skill": "Spark",
+      "count": 64,
+      "pct": 16.8
+    },
+    {
+      "skill": "Agile",
+      "count": 63,
+      "pct": 16.5
+    },
+    {
+      "skill": "Tableau",
+      "count": 60,
+      "pct": 15.7
+    },
+    {
+      "skill": "ETL",
+      "count": 59,
+      "pct": 15.5
+    },
+    {
+      "skill": "Docker",
+      "count": 58,
+      "pct": 15.2
+    },
+    {
+      "skill": "CI/CD",
+      "count": 58,
+      "pct": 15.2
+    },
+    {
+      "skill": "AWS",
+      "count": 56,
+      "pct": 14.7
+    },
+    {
+      "skill": "consulting",
+      "count": 51,
+      "pct": 13.4
+    },
+    {
+      "skill": "Java",
+      "count": 49,
+      "pct": 12.9
+    },
+    {
+      "skill": "bigquery",
+      "count": 41,
+      "pct": 10.8
+    },
+    {
+      "skill": "Excel",
+      "count": 41,
+      "pct": 10.8
+    },
+    {
+      "skill": "next",
+      "count": 39,
+      "pct": 10.2
+    }
+  ],
+  "International": [
+    {
+      "skill": "Python",
+      "count": 2573,
+      "pct": 83.4
+    },
+    {
+      "skill": "AWS",
+      "count": 1254,
+      "pct": 40.6
+    },
+    {
+      "skill": "Prompt Engineering",
+      "count": 1149,
+      "pct": 37.2
+    },
+    {
+      "skill": "Docker",
+      "count": 1079,
+      "pct": 35.0
+    },
+    {
+      "skill": "RAG",
+      "count": 1053,
+      "pct": 34.1
+    },
+    {
+      "skill": "CI/CD",
+      "count": 1039,
+      "pct": 33.7
+    },
+    {
+      "skill": "Kubernetes",
+      "count": 889,
+      "pct": 28.8
+    },
+    {
+      "skill": "Azure",
+      "count": 863,
+      "pct": 28.0
+    },
+    {
+      "skill": "GCP",
+      "count": 846,
+      "pct": 27.4
+    },
+    {
+      "skill": "REST APIs",
+      "count": 762,
+      "pct": 24.7
+    },
+    {
+      "skill": "LangChain",
+      "count": 722,
+      "pct": 23.4
+    },
+    {
+      "skill": "SQL",
+      "count": 722,
+      "pct": 23.4
+    },
+    {
+      "skill": "LLM",
+      "count": 700,
+      "pct": 22.7
+    },
+    {
+      "skill": "Agents",
+      "count": 697,
+      "pct": 22.6
+    },
+    {
+      "skill": "PyTorch",
+      "count": 679,
+      "pct": 22.0
+    },
+    {
+      "skill": "TypeScript",
+      "count": 636,
+      "pct": 20.6
+    },
+    {
+      "skill": "Java",
+      "count": 562,
+      "pct": 18.2
+    },
+    {
+      "skill": "Vector Databases",
+      "count": 554,
+      "pct": 18.0
+    },
+    {
+      "skill": "React",
+      "count": 472,
+      "pct": 15.3
+    },
+    {
+      "skill": "TensorFlow",
+      "count": 471,
+      "pct": 15.3
+    }
+  ]
+}

@@ -1,0 +1,855 @@
+{
+  "meta": {
+    "school": "ENSA Tétouan",
+    "school_code": "ensa-tetouan",
+    "filiere": "Sciences des Données, Big Data & Intelligence Artificielle",
+    "filiere_code": "SDBIA",
+    "n_modules": 31,
+    "volume_total_h": 3185,
+    "n_skills_taught": 210,
+    "n_skills_demanded_ma": 249,
+    "n_skills_demanded_intl": 6743,
+    "generated_at": "2026-05-18"
+  },
+  "couverture": {
+    "Maroc": {
+      "n_demanded": 249,
+      "n_couvertes": 94,
+      "pct_skills": 37.8,
+      "pct_offres_couvertes": 92.9
+    },
+    "International": {
+      "n_demanded": 6743,
+      "n_couvertes": 614,
+      "pct_skills": 9.1,
+      "pct_offres_couvertes": 97.0
+    }
+  },
+  "top_gaps": {
+    "Maroc": [
+      {
+        "skill": "Gcp",
+        "demand_count": 85
+      },
+      {
+        "skill": "Azure",
+        "demand_count": 80
+      },
+      {
+        "skill": "R",
+        "demand_count": 69
+      },
+      {
+        "skill": "Ci/Cd",
+        "demand_count": 58
+      },
+      {
+        "skill": "Aws",
+        "demand_count": 56
+      },
+      {
+        "skill": "Consulting",
+        "demand_count": 51
+      },
+      {
+        "skill": "Java",
+        "demand_count": 49
+      },
+      {
+        "skill": "Bigquery",
+        "demand_count": 41
+      },
+      {
+        "skill": "Next.js",
+        "demand_count": 39
+      },
+      {
+        "skill": "Airflow",
+        "demand_count": 38
+      },
+      {
+        "skill": "Finance",
+        "demand_count": 34
+      },
+      {
+        "skill": "Scala",
+        "demand_count": 32
+      },
+      {
+        "skill": "Databricks",
+        "demand_count": 29
+      },
+      {
+        "skill": "Data Lake",
+        "demand_count": 27
+      },
+      {
+        "skill": "Dbt",
+        "demand_count": 26
+      },
+      {
+        "skill": "Snowflake",
+        "demand_count": 21
+      },
+      {
+        "skill": "Retail",
+        "demand_count": 20
+      },
+      {
+        "skill": "Genai",
+        "demand_count": 19
+      },
+      {
+        "skill": "Mlops",
+        "demand_count": 19
+      },
+      {
+        "skill": "Sas",
+        "demand_count": 16
+      },
+      {
+        "skill": "Mlflow",
+        "demand_count": 16
+      },
+      {
+        "skill": "Forecasting",
+        "demand_count": 14
+      },
+      {
+        "skill": "Terraform",
+        "demand_count": 14
+      },
+      {
+        "skill": "Agents IA",
+        "demand_count": 13
+      },
+      {
+        "skill": "Automotive",
+        "demand_count": 12
+      }
+    ],
+    "International": [
+      {
+        "skill": "Aws",
+        "demand_count": 1254
+      },
+      {
+        "skill": "Prompt Engineering",
+        "demand_count": 1149
+      },
+      {
+        "skill": "Rag",
+        "demand_count": 1053
+      },
+      {
+        "skill": "Ci/Cd",
+        "demand_count": 1039
+      },
+      {
+        "skill": "Azure",
+        "demand_count": 863
+      },
+      {
+        "skill": "Gcp",
+        "demand_count": 846
+      },
+      {
+        "skill": "Langchain",
+        "demand_count": 722
+      },
+      {
+        "skill": "Agents IA",
+        "demand_count": 697
+      },
+      {
+        "skill": "Typescript",
+        "demand_count": 636
+      },
+      {
+        "skill": "Java",
+        "demand_count": 562
+      },
+      {
+        "skill": "Vector Databases",
+        "demand_count": 554
+      },
+      {
+        "skill": "React",
+        "demand_count": 472
+      },
+      {
+        "skill": "Mlops",
+        "demand_count": 391
+      },
+      {
+        "skill": "Langgraph",
+        "demand_count": 390
+      },
+      {
+        "skill": "Go",
+        "demand_count": 366
+      },
+      {
+        "skill": "Javascript",
+        "demand_count": 358
+      },
+      {
+        "skill": "Fastapi",
+        "demand_count": 347
+      },
+      {
+        "skill": "Terraform",
+        "demand_count": 334
+      },
+      {
+        "skill": "Openai Api",
+        "demand_count": 287
+      },
+      {
+        "skill": "Distributed Systems",
+        "demand_count": 281
+      },
+      {
+        "skill": "Data Pipelines",
+        "demand_count": 272
+      },
+      {
+        "skill": "Microservices",
+        "demand_count": 250
+      },
+      {
+        "skill": "Node.Js",
+        "demand_count": 246
+      },
+      {
+        "skill": "Mlflow",
+        "demand_count": 235
+      },
+      {
+        "skill": "Llamaindex",
+        "demand_count": 234
+      }
+    ]
+  },
+  "mismatch": [
+    "algorithmes de recherche",
+    "algorithmique",
+    "algèbre relationnelle",
+    "analyse économique",
+    "anova",
+    "architecture distribuée",
+    "authentification",
+    "backpropagation",
+    "bases de données relationnelles",
+    "beautifulsoup",
+    "biais algorithmiques",
+    "business model canvas",
+    "calcul matriciel",
+    "codage de huffman",
+    "communication interpersonnelle",
+    "complexité",
+    "conduite du changement",
+    "conteneurisation",
+    "crawl4ai",
+    "cycle en v",
+    "dapps",
+    "droit numérique",
+    "décomposition svd",
+    "détection d'objets",
+    "entrepreneuriat"
+  ],
+  "couverture_par_famille": {
+    "Maroc": {
+      "Machine Learning": {
+        "demanded": 17,
+        "couvertes": 15,
+        "pct": 88.2
+      },
+      "Data Engineering": {
+        "demanded": 27,
+        "couvertes": 13,
+        "pct": 48.1
+      },
+      "Soft skills & autres": {
+        "demanded": 113,
+        "couvertes": 45,
+        "pct": 39.8
+      },
+      "Web & APIs": {
+        "demanded": 13,
+        "couvertes": 2,
+        "pct": 15.4
+      },
+      "Langages de programmation": {
+        "demanded": 10,
+        "couvertes": 3,
+        "pct": 30.0
+      },
+      "Cloud": {
+        "demanded": 10,
+        "couvertes": 0,
+        "pct": 0.0
+      },
+      "DevOps / MLOps": {
+        "demanded": 15,
+        "couvertes": 3,
+        "pct": 20.0
+      },
+      "Bases de données": {
+        "demanded": 13,
+        "couvertes": 8,
+        "pct": 61.5
+      },
+      "Domaines métier": {
+        "demanded": 14,
+        "couvertes": 4,
+        "pct": 28.6
+      },
+      "IA Générative": {
+        "demanded": 20,
+        "couvertes": 3,
+        "pct": 15.0
+      }
+    },
+    "International": {
+      "IA Générative": {
+        "demanded": 1629,
+        "couvertes": 118,
+        "pct": 7.2
+      },
+      "Web & APIs": {
+        "demanded": 594,
+        "couvertes": 34,
+        "pct": 5.7
+      },
+      "Cloud": {
+        "demanded": 607,
+        "couvertes": 29,
+        "pct": 4.8
+      },
+      "DevOps / MLOps": {
+        "demanded": 1382,
+        "couvertes": 107,
+        "pct": 7.7
+      },
+      "Soft skills & autres": {
+        "demanded": 1376,
+        "couvertes": 134,
+        "pct": 9.7
+      },
+      "Machine Learning": {
+        "demanded": 1025,
+        "couvertes": 188,
+        "pct": 18.3
+      },
+      "Bases de données": {
+        "demanded": 314,
+        "couvertes": 44,
+        "pct": 14.0
+      },
+      "Data Engineering": {
+        "demanded": 578,
+        "couvertes": 59,
+        "pct": 10.2
+      },
+      "Langages de programmation": {
+        "demanded": 146,
+        "couvertes": 22,
+        "pct": 15.1
+      },
+      "Domaines métier": {
+        "demanded": 517,
+        "couvertes": 47,
+        "pct": 9.1
+      }
+    }
+  },
+  "curriculum": {
+    "semesters": [
+      {
+        "code": "S1",
+        "annee": 1,
+        "n_modules": 7,
+        "volume_total": 699,
+        "modules": [
+          {
+            "code": "M111",
+            "title": "Microéconomie et Macroéconomie",
+            "volume_horaire": 74,
+            "skills_taught": [
+              "Économie",
+              "Microéconomie",
+              "Macroéconomie",
+              "Analyse économique"
+            ]
+          },
+          {
+            "code": "M112",
+            "title": "Fondamentaux des bases de données",
+            "volume_horaire": 109,
+            "skills_taught": [
+              "SQL",
+              "Bases de données relationnelles",
+              "MySQL",
+              "PostgreSQL",
+              "MCD",
+              "MLD",
+              "Modélisation"
+            ]
+          },
+          {
+            "code": "M113",
+            "title": "Génie logiciel",
+            "volume_horaire": 114,
+            "skills_taught": [
+              "Génie logiciel",
+              "UML",
+              "Cycle en V",
+              "Agile",
+              "Scrum",
+              "Tests logiciels",
+              "Git",
+              "GitHub",
+              "Versionning"
+            ]
+          },
+          {
+            "code": "M114",
+            "title": "Analyse et fouille de données",
+            "volume_horaire": 114,
+            "skills_taught": [
+              "Data Mining",
+              "Python",
+              "Pandas",
+              "NumPy",
+              "Analyse exploratoire",
+              "Statistiques descriptives",
+              "Clustering",
+              "KMeans"
+            ]
+          },
+          {
+            "code": "M115",
+            "title": "Management 1",
+            "volume_horaire": 64,
+            "skills_taught": [
+              "Management",
+              "Gestion de projet",
+              "PMI",
+              "Scrum",
+              "Kanban"
+            ]
+          },
+          {
+            "code": "M116",
+            "title": "Langues, Communication et TIC 1",
+            "volume_horaire": 94,
+            "skills_taught": [
+              "Communication",
+              "Anglais",
+              "Espagnol"
+            ]
+          },
+          {
+            "code": "M117",
+            "title": "Modélisations statistiques et mathématiques",
+            "volume_horaire": 130,
+            "skills_taught": [
+              "Statistics",
+              "Statistiques inférentielles",
+              "Probabilités",
+              "Tests d'hypothèses",
+              "Modélisation mathématique",
+              "Régression linéaire"
+            ]
+          }
+        ]
+      },
+      {
+        "code": "S2",
+        "annee": 1,
+        "n_modules": 6,
+        "volume_total": 628,
+        "modules": [
+          {
+            "code": "M121",
+            "title": "Algorithmique avancée et programmation",
+            "volume_horaire": 104,
+            "skills_taught": [
+              "Algorithmique",
+              "Structures de données",
+              "Data Structures",
+              "C++",
+              "Complexité",
+              "POO"
+            ]
+          },
+          {
+            "code": "M122",
+            "title": "Algèbre linéaire numérique pour l'analyse de données",
+            "volume_horaire": 104,
+            "skills_taught": [
+              "Algèbre linéaire",
+              "NumPy",
+              "Calcul matriciel",
+              "Décomposition SVD",
+              "PCA",
+              "Méthodes numériques"
+            ]
+          },
+          {
+            "code": "M123",
+            "title": "Apprentissage automatique",
+            "volume_horaire": 108,
+            "skills_taught": [
+              "Machine Learning",
+              "Scikit-learn",
+              "Python",
+              "Régression",
+              "Classification",
+              "SVM",
+              "Random Forest",
+              "XGBoost",
+              "Cross-validation",
+              "Feature engineering"
+            ]
+          },
+          {
+            "code": "M124",
+            "title": "Visualisation de Données",
+            "volume_horaire": 104,
+            "skills_taught": [
+              "Data Visualization",
+              "Tableau",
+              "Power BI",
+              "Dashboards",
+              "Reporting",
+              "KPIs"
+            ]
+          },
+          {
+            "code": "M125",
+            "title": "Langues, Communication et TIC 2",
+            "volume_horaire": 94,
+            "skills_taught": [
+              "Communication",
+              "Anglais",
+              "Français",
+              "Soft skills",
+              "Présentation orale"
+            ]
+          },
+          {
+            "code": "M126",
+            "title": "Fondamentaux du Big Data",
+            "volume_horaire": 114,
+            "skills_taught": [
+              "Big Data",
+              "Hadoop",
+              "Spark",
+              "PySpark",
+              "MapReduce",
+              "HDFS",
+              "Hive",
+              "Kafka",
+              "NoSQL",
+              "Architecture distribuée"
+            ]
+          }
+        ]
+      },
+      {
+        "code": "S3",
+        "annee": 2,
+        "n_modules": 6,
+        "volume_total": 681,
+        "modules": [
+          {
+            "code": "M231",
+            "title": "Informatique décisionnelle",
+            "volume_horaire": 124,
+            "skills_taught": [
+              "Business Intelligence",
+              "ETL",
+              "Data Warehouse",
+              "Data Lake",
+              "Data Lakehouse",
+              "OLAP",
+              "SQL",
+              "KPIs",
+              "Reporting",
+              "Talend",
+              "SSIS"
+            ]
+          },
+          {
+            "code": "M232",
+            "title": "Sécurité",
+            "volume_horaire": 124,
+            "skills_taught": [
+              "Cybersécurité",
+              "Cryptographie",
+              "Sécurité réseau",
+              "HTTPS",
+              "Authentification",
+              "RGPD",
+              "OWASP"
+            ]
+          },
+          {
+            "code": "M233",
+            "title": "Ingénierie des bases de données",
+            "volume_horaire": 100,
+            "skills_taught": [
+              "NoSQL",
+              "MongoDB",
+              "Cassandra",
+              "Redis",
+              "Elasticsearch",
+              "Indexation",
+              "Optimisation",
+              "Tuning",
+              "Sharding",
+              "Réplication"
+            ]
+          },
+          {
+            "code": "M234",
+            "title": "Apprentissage profond",
+            "volume_horaire": 115,
+            "skills_taught": [
+              "Deep Learning",
+              "TensorFlow",
+              "PyTorch",
+              "Keras",
+              "Réseaux de neurones",
+              "CNN",
+              "RNN",
+              "LSTM",
+              "Transformer",
+              "Backpropagation",
+              "GPU"
+            ]
+          },
+          {
+            "code": "M235",
+            "title": "Systèmes d'exploitation avancés",
+            "volume_horaire": 124,
+            "skills_taught": [
+              "Linux",
+              "Bash",
+              "Shell scripting",
+              "Docker",
+              "Kubernetes",
+              "Conteneurisation",
+              "Systèmes distribués",
+              "Multithreading",
+              "Concurrence",
+              "Processus"
+            ]
+          },
+          {
+            "code": "M236",
+            "title": "Management 2",
+            "volume_horaire": 94,
+            "skills_taught": [
+              "Management",
+              "Leadership",
+              "Conduite du changement",
+              "Stratégie",
+              "Communication interpersonnelle"
+            ]
+          }
+        ]
+      },
+      {
+        "code": "S4",
+        "annee": 2,
+        "n_modules": 6,
+        "volume_total": 579,
+        "modules": [
+          {
+            "code": "M241",
+            "title": "Fondamentaux de l'intelligence artificielle",
+            "volume_horaire": 94,
+            "skills_taught": [
+              "Intelligence Artificielle",
+              "IA symbolique",
+              "Logique floue",
+              "Systèmes experts",
+              "Raisonnement",
+              "Prolog",
+              "Algorithmes de recherche"
+            ]
+          },
+          {
+            "code": "M242",
+            "title": "Applications de l'intelligence artificielle",
+            "volume_horaire": 94,
+            "skills_taught": [
+              "IA appliquée",
+              "NLP",
+              "Computer Vision",
+              "Reinforcement Learning",
+              "Q-Learning"
+            ]
+          },
+          {
+            "code": "M243",
+            "title": "Analyse du web",
+            "volume_horaire": 94,
+            "skills_taught": [
+              "Web Mining",
+              "Web Scraping",
+              "BeautifulSoup",
+              "Selenium",
+              "Crawl4AI",
+              "Playwright",
+              "NLP",
+              "REST API",
+              "Pydantic",
+              "Pandas",
+              "Pipelines ETL"
+            ]
+          },
+          {
+            "code": "M244",
+            "title": "Les techniques de veille",
+            "volume_horaire": 94,
+            "skills_taught": [
+              "Veille technologique",
+              "Veille stratégique",
+              "Curation",
+              "OSINT",
+              "Outils de monitoring"
+            ]
+          },
+          {
+            "code": "M245",
+            "title": "Ethique et droit",
+            "volume_horaire": 94,
+            "skills_taught": [
+              "Éthique IA",
+              "RGPD",
+              "Droit numérique",
+              "Propriété intellectuelle",
+              "Biais algorithmiques"
+            ]
+          },
+          {
+            "code": "M246",
+            "title": "Théorie de l'information",
+            "volume_horaire": 109,
+            "skills_taught": [
+              "Théorie de l'information",
+              "Entropie",
+              "Compression",
+              "Codage de Huffman",
+              "Théorèmes de Shannon"
+            ]
+          }
+        ]
+      },
+      {
+        "code": "S5",
+        "annee": 3,
+        "n_modules": 6,
+        "volume_total": 598,
+        "modules": [
+          {
+            "code": "M351",
+            "title": "Ingénierie des connaissances et Web sémantique",
+            "volume_horaire": 124,
+            "skills_taught": [
+              "Ontologies",
+              "RDF",
+              "SPARQL",
+              "Knowledge Graph",
+              "Neo4j",
+              "OWL",
+              "Linked Data",
+              "Web sémantique"
+            ]
+          },
+          {
+            "code": "M352",
+            "title": "Entrepreneuriat et Innovation",
+            "volume_horaire": 104,
+            "skills_taught": [
+              "Entrepreneuriat",
+              "Business Model Canvas",
+              "Lean Startup",
+              "Innovation",
+              "MVP",
+              "Pitch"
+            ]
+          },
+          {
+            "code": "M353",
+            "title": "Traitement automatique des langues naturelles",
+            "volume_horaire": 94,
+            "skills_taught": [
+              "NLP",
+              "Tokenization",
+              "NER",
+              "Word Embeddings",
+              "Word2Vec",
+              "Transformers",
+              "BERT",
+              "GPT",
+              "spaCy",
+              "NLTK",
+              "HuggingFace",
+              "LLM"
+            ]
+          },
+          {
+            "code": "M354",
+            "title": "Réseaux et protocoles de communication",
+            "volume_horaire": 64,
+            "skills_taught": [
+              "Réseaux",
+              "TCP/IP",
+              "HTTP",
+              "REST",
+              "gRPC",
+              "WebSocket",
+              "DNS",
+              "Protocoles"
+            ]
+          },
+          {
+            "code": "M355",
+            "title": "Vision par ordinateur",
+            "volume_horaire": 106,
+            "skills_taught": [
+              "Computer Vision",
+              "OpenCV",
+              "YOLO",
+              "Détection d'objets",
+              "Segmentation",
+              "OCR",
+              "CNN",
+              "ResNet",
+              "VGG"
+            ]
+          },
+          {
+            "code": "M356",
+            "title": "Fondamentaux de la Blockchain",
+            "volume_horaire": 106,
+            "skills_taught": [
+              "Blockchain",
+              "Smart contracts",
+              "Ethereum",
+              "Solidity",
+              "Bitcoin",
+              "Cryptographie distribuée",
+              "DApps"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

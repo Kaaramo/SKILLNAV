@@ -1,0 +1,33 @@
+# Curriculum SKILLNAV — Carte d'identite source
+
+school: "ENSA Tétouan"
+school_code: "ensa-tetouan"
+university: "Université Abdelmalek Essaâdi (UAE)"
+filiere: "Sciences des Données, Big Data & Intelligence Artificielle"
+filiere_code: "SDBIA"
+diplome: "Ingénieur d'État"
+cycle:
+  type: "ingenieur"
+  annees: 3
+  semestres_cours: 5  # S1..S5
+  pfe: true           # S6 = Projet Fin d'Etudes
+
+prerequis:
+  niveau: "2 années préparatoires"
+  specialites: ["MP", "MIPC", "SMA", "SMP", "SMI", "DEUST MIP", "DEUST MIPC", "EST informatique"]
+  selection: ["dossier", "test écrit", "entretien"]
+
+contact:
+  telephone: "05396-88027"
+  email: "ensate@uae.ac.ma"
+  adresse: "Avenue de la Palestine, Mhanech I, TÉTOUAN"
+
+extraction:
+  source_file: "docs/Big data et IA de ENSATE.pdf"
+  source_pages: 5
+  pdf_modified: "2024-02-01"
+  extraction_date: "2026-05-18"
+  extraction_method: "pymupdf 1.x + parsing manuel"
+  qualite: "officielle"  # vs "scrapee" ou "approximation"
+
+statut: "extraction-complete"  # placeholder | extraction-complete | obsolete

@@ -1,0 +1,1022 @@
+[
+  {
+    "skill_name": "Prompt engineering",
+    "family": "GenAI",
+    "best_method": "ARIMA",
+    "history": [
+      {
+        "period": "2026-01-05",
+        "count": 22
+      },
+      {
+        "period": "2026-01-12",
+        "count": 67
+      },
+      {
+        "period": "2026-01-19",
+        "count": 63
+      },
+      {
+        "period": "2026-01-26",
+        "count": 96
+      },
+      {
+        "period": "2026-02-02",
+        "count": 84
+      },
+      {
+        "period": "2026-02-09",
+        "count": 54
+      },
+      {
+        "period": "2026-02-16",
+        "count": 85
+      },
+      {
+        "period": "2026-02-23",
+        "count": 98
+      },
+      {
+        "period": "2026-03-02",
+        "count": 37
+      },
+      {
+        "period": "2026-03-09",
+        "count": 44
+      },
+      {
+        "period": "2026-03-16",
+        "count": 75
+      },
+      {
+        "period": "2026-03-23",
+        "count": 110
+      },
+      {
+        "period": "2026-03-30",
+        "count": 59
+      },
+      {
+        "period": "2026-04-06",
+        "count": 86
+      },
+      {
+        "period": "2026-04-13",
+        "count": 98
+      },
+      {
+        "period": "2026-04-20",
+        "count": 70
+      }
+    ],
+    "forecast": [
+      {
+        "period": "2026-04-27",
+        "value": 72.95,
+        "lower": 23.15,
+        "upper": 122.74
+      },
+      {
+        "period": "2026-05-04",
+        "value": 72.95,
+        "lower": 23.03,
+        "upper": 122.86
+      },
+      {
+        "period": "2026-05-11",
+        "value": 72.95,
+        "lower": 22.91,
+        "upper": 122.98
+      },
+      {
+        "period": "2026-05-18",
+        "value": 72.95,
+        "lower": 22.79,
+        "upper": 123.11
+      }
+    ],
+    "metrics": {
+      "arima_rmse": 17.24,
+      "prophet_rmse": 17.6,
+      "lstm_rmse": 50.74
+    }
+  },
+  {
+    "skill_name": "RAG",
+    "family": "Agents AI",
+    "best_method": "ARIMA",
+    "history": [
+      {
+        "period": "2026-01-05",
+        "count": 19
+      },
+      {
+        "period": "2026-01-12",
+        "count": 84
+      },
+      {
+        "period": "2026-01-19",
+        "count": 72
+      },
+      {
+        "period": "2026-01-26",
+        "count": 106
+      },
+      {
+        "period": "2026-02-02",
+        "count": 91
+      },
+      {
+        "period": "2026-02-09",
+        "count": 68
+      },
+      {
+        "period": "2026-02-16",
+        "count": 81
+      },
+      {
+        "period": "2026-02-23",
+        "count": 99
+      },
+      {
+        "period": "2026-03-02",
+        "count": 26
+      },
+      {
+        "period": "2026-03-09",
+        "count": 40
+      },
+      {
+        "period": "2026-03-16",
+        "count": 54
+      },
+      {
+        "period": "2026-03-23",
+        "count": 100
+      },
+      {
+        "period": "2026-03-30",
+        "count": 33
+      },
+      {
+        "period": "2026-04-06",
+        "count": 56
+      },
+      {
+        "period": "2026-04-13",
+        "count": 55
+      },
+      {
+        "period": "2026-04-20",
+        "count": 59
+      }
+    ],
+    "forecast": [
+      {
+        "period": "2026-04-27",
+        "value": 64.93,
+        "lower": 10.06,
+        "upper": 119.8
+      },
+      {
+        "period": "2026-05-04",
+        "value": 64.93,
+        "lower": 10.03,
+        "upper": 119.82
+      },
+      {
+        "period": "2026-05-11",
+        "value": 64.93,
+        "lower": 10.01,
+        "upper": 119.85
+      },
+      {
+        "period": "2026-05-18",
+        "value": 64.93,
+        "lower": 9.98,
+        "upper": 119.87
+      }
+    ],
+    "metrics": {
+      "arima_rmse": 21.85,
+      "prophet_rmse": 22.65,
+      "lstm_rmse": 45.25
+    }
+  },
+  {
+    "skill_name": "LangChain",
+    "family": "GenAI",
+    "best_method": "LSTM",
+    "history": [
+      {
+        "period": "2026-01-05",
+        "count": 12
+      },
+      {
+        "period": "2026-01-12",
+        "count": 38
+      },
+      {
+        "period": "2026-01-19",
+        "count": 34
+      },
+      {
+        "period": "2026-01-26",
+        "count": 65
+      },
+      {
+        "period": "2026-02-02",
+        "count": 46
+      },
+      {
+        "period": "2026-02-09",
+        "count": 45
+      },
+      {
+        "period": "2026-02-16",
+        "count": 71
+      },
+      {
+        "period": "2026-02-23",
+        "count": 79
+      },
+      {
+        "period": "2026-03-02",
+        "count": 25
+      },
+      {
+        "period": "2026-03-09",
+        "count": 30
+      },
+      {
+        "period": "2026-03-16",
+        "count": 50
+      },
+      {
+        "period": "2026-03-23",
+        "count": 74
+      },
+      {
+        "period": "2026-03-30",
+        "count": 26
+      },
+      {
+        "period": "2026-04-06",
+        "count": 25
+      },
+      {
+        "period": "2026-04-13",
+        "count": 57
+      },
+      {
+        "period": "2026-04-20",
+        "count": 47
+      }
+    ],
+    "forecast": [
+      {
+        "period": "2026-04-27",
+        "value": 27.27,
+        "lower": 0.0,
+        "upper": 70.05
+      },
+      {
+        "period": "2026-05-04",
+        "value": 23.3,
+        "lower": 0.0,
+        "upper": 66.08
+      },
+      {
+        "period": "2026-05-11",
+        "value": 42.01,
+        "lower": 0.0,
+        "upper": 84.79
+      },
+      {
+        "period": "2026-05-18",
+        "value": 31.55,
+        "lower": 0.0,
+        "upper": 74.33
+      }
+    ],
+    "metrics": {
+      "arima_rmse": 19.98,
+      "prophet_rmse": 30.18,
+      "lstm_rmse": 18.93
+    }
+  },
+  {
+    "skill_name": "PyTorch",
+    "family": "Deep Learning",
+    "best_method": "ARIMA",
+    "history": [
+      {
+        "period": "2026-01-05",
+        "count": 8
+      },
+      {
+        "period": "2026-01-12",
+        "count": 43
+      },
+      {
+        "period": "2026-01-19",
+        "count": 50
+      },
+      {
+        "period": "2026-01-26",
+        "count": 69
+      },
+      {
+        "period": "2026-02-02",
+        "count": 69
+      },
+      {
+        "period": "2026-02-09",
+        "count": 31
+      },
+      {
+        "period": "2026-02-16",
+        "count": 60
+      },
+      {
+        "period": "2026-02-23",
+        "count": 61
+      },
+      {
+        "period": "2026-03-02",
+        "count": 21
+      },
+      {
+        "period": "2026-03-09",
+        "count": 26
+      },
+      {
+        "period": "2026-03-16",
+        "count": 37
+      },
+      {
+        "period": "2026-03-23",
+        "count": 76
+      },
+      {
+        "period": "2026-03-30",
+        "count": 20
+      },
+      {
+        "period": "2026-04-06",
+        "count": 25
+      },
+      {
+        "period": "2026-04-13",
+        "count": 52
+      },
+      {
+        "period": "2026-04-20",
+        "count": 40
+      }
+    ],
+    "forecast": [
+      {
+        "period": "2026-04-27",
+        "value": 43.0,
+        "lower": 1.85,
+        "upper": 84.15
+      },
+      {
+        "period": "2026-05-04",
+        "value": 43.0,
+        "lower": 1.85,
+        "upper": 84.15
+      },
+      {
+        "period": "2026-05-11",
+        "value": 43.0,
+        "lower": 1.85,
+        "upper": 84.15
+      },
+      {
+        "period": "2026-05-18",
+        "value": 43.0,
+        "lower": 1.85,
+        "upper": 84.15
+      }
+    ],
+    "metrics": {
+      "arima_rmse": 17.18,
+      "prophet_rmse": 23.14,
+      "lstm_rmse": 22.42
+    }
+  },
+  {
+    "skill_name": "LLMs",
+    "family": "GenAI",
+    "best_method": "LSTM",
+    "history": [
+      {
+        "period": "2026-01-05",
+        "count": 5
+      },
+      {
+        "period": "2026-01-12",
+        "count": 68
+      },
+      {
+        "period": "2026-01-19",
+        "count": 51
+      },
+      {
+        "period": "2026-01-26",
+        "count": 72
+      },
+      {
+        "period": "2026-02-02",
+        "count": 55
+      },
+      {
+        "period": "2026-02-09",
+        "count": 26
+      },
+      {
+        "period": "2026-02-16",
+        "count": 59
+      },
+      {
+        "period": "2026-02-23",
+        "count": 52
+      },
+      {
+        "period": "2026-03-02",
+        "count": 18
+      },
+      {
+        "period": "2026-03-09",
+        "count": 18
+      },
+      {
+        "period": "2026-03-16",
+        "count": 35
+      },
+      {
+        "period": "2026-03-23",
+        "count": 54
+      },
+      {
+        "period": "2026-03-30",
+        "count": 10
+      },
+      {
+        "period": "2026-04-06",
+        "count": 22
+      },
+      {
+        "period": "2026-04-13",
+        "count": 33
+      },
+      {
+        "period": "2026-04-20",
+        "count": 17
+      }
+    ],
+    "forecast": [
+      {
+        "period": "2026-04-27",
+        "value": 1.62,
+        "lower": 0.0,
+        "upper": 53.07
+      },
+      {
+        "period": "2026-05-04",
+        "value": 22.86,
+        "lower": 0.0,
+        "upper": 74.3
+      },
+      {
+        "period": "2026-05-11",
+        "value": 23.83,
+        "lower": 0.0,
+        "upper": 75.28
+      },
+      {
+        "period": "2026-05-18",
+        "value": 14.48,
+        "lower": 0.0,
+        "upper": 65.92
+      }
+    ],
+    "metrics": {
+      "arima_rmse": 23.77,
+      "prophet_rmse": 18.31,
+      "lstm_rmse": 17.96
+    }
+  },
+  {
+    "skill_name": "TensorFlow",
+    "family": "Deep Learning",
+    "best_method": "LSTM",
+    "history": [
+      {
+        "period": "2026-01-05",
+        "count": 5
+      },
+      {
+        "period": "2026-01-12",
+        "count": 28
+      },
+      {
+        "period": "2026-01-19",
+        "count": 23
+      },
+      {
+        "period": "2026-01-26",
+        "count": 43
+      },
+      {
+        "period": "2026-02-02",
+        "count": 43
+      },
+      {
+        "period": "2026-02-09",
+        "count": 28
+      },
+      {
+        "period": "2026-02-16",
+        "count": 55
+      },
+      {
+        "period": "2026-02-23",
+        "count": 52
+      },
+      {
+        "period": "2026-03-02",
+        "count": 18
+      },
+      {
+        "period": "2026-03-09",
+        "count": 16
+      },
+      {
+        "period": "2026-03-16",
+        "count": 27
+      },
+      {
+        "period": "2026-03-23",
+        "count": 53
+      },
+      {
+        "period": "2026-03-30",
+        "count": 15
+      },
+      {
+        "period": "2026-04-06",
+        "count": 15
+      },
+      {
+        "period": "2026-04-13",
+        "count": 35
+      },
+      {
+        "period": "2026-04-20",
+        "count": 26
+      }
+    ],
+    "forecast": [
+      {
+        "period": "2026-04-27",
+        "value": 14.51,
+        "lower": 0.0,
+        "upper": 50.23
+      },
+      {
+        "period": "2026-05-04",
+        "value": 14.56,
+        "lower": 0.0,
+        "upper": 50.28
+      },
+      {
+        "period": "2026-05-11",
+        "value": 22.39,
+        "lower": 0.0,
+        "upper": 58.11
+      },
+      {
+        "period": "2026-05-18",
+        "value": 16.12,
+        "lower": 0.0,
+        "upper": 51.84
+      }
+    ],
+    "metrics": {
+      "arima_rmse": 22.52,
+      "prophet_rmse": 22.25,
+      "lstm_rmse": 19.15
+    }
+  },
+  {
+    "skill_name": "LangGraph",
+    "family": "Agents AI",
+    "best_method": "LSTM",
+    "history": [
+      {
+        "period": "2026-01-05",
+        "count": 7
+      },
+      {
+        "period": "2026-01-12",
+        "count": 20
+      },
+      {
+        "period": "2026-01-19",
+        "count": 12
+      },
+      {
+        "period": "2026-01-26",
+        "count": 25
+      },
+      {
+        "period": "2026-02-02",
+        "count": 24
+      },
+      {
+        "period": "2026-02-09",
+        "count": 18
+      },
+      {
+        "period": "2026-02-16",
+        "count": 39
+      },
+      {
+        "period": "2026-02-23",
+        "count": 45
+      },
+      {
+        "period": "2026-03-02",
+        "count": 18
+      },
+      {
+        "period": "2026-03-09",
+        "count": 15
+      },
+      {
+        "period": "2026-03-16",
+        "count": 34
+      },
+      {
+        "period": "2026-03-23",
+        "count": 40
+      },
+      {
+        "period": "2026-03-30",
+        "count": 18
+      },
+      {
+        "period": "2026-04-06",
+        "count": 22
+      },
+      {
+        "period": "2026-04-13",
+        "count": 28
+      },
+      {
+        "period": "2026-04-20",
+        "count": 25
+      }
+    ],
+    "forecast": [
+      {
+        "period": "2026-04-27",
+        "value": 20.77,
+        "lower": 0.15,
+        "upper": 41.38
+      },
+      {
+        "period": "2026-05-04",
+        "value": 24.24,
+        "lower": 3.62,
+        "upper": 44.86
+      },
+      {
+        "period": "2026-05-11",
+        "value": 23.85,
+        "lower": 3.24,
+        "upper": 44.47
+      },
+      {
+        "period": "2026-05-18",
+        "value": 22.22,
+        "lower": 1.6,
+        "upper": 42.83
+      }
+    ],
+    "metrics": {
+      "arima_rmse": 7.0,
+      "prophet_rmse": 17.27,
+      "lstm_rmse": 5.77
+    }
+  },
+  {
+    "skill_name": "Fine-tuning",
+    "family": "GenAI",
+    "best_method": "Prophet",
+    "history": [
+      {
+        "period": "2026-01-05",
+        "count": 8
+      },
+      {
+        "period": "2026-01-12",
+        "count": 28
+      },
+      {
+        "period": "2026-01-19",
+        "count": 24
+      },
+      {
+        "period": "2026-01-26",
+        "count": 47
+      },
+      {
+        "period": "2026-02-02",
+        "count": 32
+      },
+      {
+        "period": "2026-02-09",
+        "count": 14
+      },
+      {
+        "period": "2026-02-16",
+        "count": 13
+      },
+      {
+        "period": "2026-02-23",
+        "count": 26
+      },
+      {
+        "period": "2026-03-02",
+        "count": 9
+      },
+      {
+        "period": "2026-03-09",
+        "count": 16
+      },
+      {
+        "period": "2026-03-16",
+        "count": 9
+      },
+      {
+        "period": "2026-03-23",
+        "count": 25
+      },
+      {
+        "period": "2026-03-30",
+        "count": 8
+      },
+      {
+        "period": "2026-04-06",
+        "count": 7
+      },
+      {
+        "period": "2026-04-13",
+        "count": 11
+      },
+      {
+        "period": "2026-04-20",
+        "count": 10
+      }
+    ],
+    "forecast": [
+      {
+        "period": "2026-04-27",
+        "value": 7.78,
+        "lower": 0.0,
+        "upper": 26.65
+      },
+      {
+        "period": "2026-05-04",
+        "value": 6.58,
+        "lower": 0.0,
+        "upper": 25.3
+      },
+      {
+        "period": "2026-05-11",
+        "value": 5.39,
+        "lower": 0.0,
+        "upper": 24.09
+      },
+      {
+        "period": "2026-05-18",
+        "value": 4.19,
+        "lower": 0.0,
+        "upper": 21.22
+      }
+    ],
+    "metrics": {
+      "arima_rmse": 10.3,
+      "prophet_rmse": 5.45,
+      "lstm_rmse": 8.38
+    }
+  },
+  {
+    "skill_name": "OpenAI API",
+    "family": "GenAI",
+    "best_method": "LSTM",
+    "history": [
+      {
+        "period": "2026-01-05",
+        "count": 6
+      },
+      {
+        "period": "2026-01-12",
+        "count": 15
+      },
+      {
+        "period": "2026-01-19",
+        "count": 15
+      },
+      {
+        "period": "2026-01-26",
+        "count": 26
+      },
+      {
+        "period": "2026-02-02",
+        "count": 25
+      },
+      {
+        "period": "2026-02-09",
+        "count": 17
+      },
+      {
+        "period": "2026-02-16",
+        "count": 21
+      },
+      {
+        "period": "2026-02-23",
+        "count": 22
+      },
+      {
+        "period": "2026-03-02",
+        "count": 13
+      },
+      {
+        "period": "2026-03-09",
+        "count": 13
+      },
+      {
+        "period": "2026-03-16",
+        "count": 19
+      },
+      {
+        "period": "2026-03-23",
+        "count": 28
+      },
+      {
+        "period": "2026-03-30",
+        "count": 12
+      },
+      {
+        "period": "2026-04-06",
+        "count": 9
+      },
+      {
+        "period": "2026-04-13",
+        "count": 21
+      },
+      {
+        "period": "2026-04-20",
+        "count": 24
+      }
+    ],
+    "forecast": [
+      {
+        "period": "2026-04-27",
+        "value": 8.92,
+        "lower": 0.0,
+        "upper": 26.98
+      },
+      {
+        "period": "2026-05-04",
+        "value": 2.25,
+        "lower": 0.0,
+        "upper": 20.31
+      },
+      {
+        "period": "2026-05-11",
+        "value": 23.92,
+        "lower": 5.87,
+        "upper": 41.97
+      },
+      {
+        "period": "2026-05-18",
+        "value": 24.48,
+        "lower": 6.43,
+        "upper": 42.53
+      }
+    ],
+    "metrics": {
+      "arima_rmse": 13.64,
+      "prophet_rmse": 9.12,
+      "lstm_rmse": 3.77
+    }
+  },
+  {
+    "skill_name": "embeddings",
+    "family": "GenAI",
+    "best_method": "ARIMA",
+    "history": [
+      {
+        "period": "2026-01-05",
+        "count": 3
+      },
+      {
+        "period": "2026-01-12",
+        "count": 24
+      },
+      {
+        "period": "2026-01-19",
+        "count": 24
+      },
+      {
+        "period": "2026-01-26",
+        "count": 26
+      },
+      {
+        "period": "2026-02-02",
+        "count": 28
+      },
+      {
+        "period": "2026-02-09",
+        "count": 14
+      },
+      {
+        "period": "2026-02-16",
+        "count": 30
+      },
+      {
+        "period": "2026-02-23",
+        "count": 25
+      },
+      {
+        "period": "2026-03-02",
+        "count": 12
+      },
+      {
+        "period": "2026-03-09",
+        "count": 9
+      },
+      {
+        "period": "2026-03-16",
+        "count": 13
+      },
+      {
+        "period": "2026-03-23",
+        "count": 29
+      },
+      {
+        "period": "2026-03-30",
+        "count": 9
+      },
+      {
+        "period": "2026-04-06",
+        "count": 14
+      },
+      {
+        "period": "2026-04-13",
+        "count": 12
+      },
+      {
+        "period": "2026-04-20",
+        "count": 10
+      }
+    ],
+    "forecast": [
+      {
+        "period": "2026-04-27",
+        "value": 14.63,
+        "lower": 0.0,
+        "upper": 32.45
+      },
+      {
+        "period": "2026-05-04",
+        "value": 14.63,
+        "lower": 0.0,
+        "upper": 32.8
+      },
+      {
+        "period": "2026-05-11",
+        "value": 14.63,
+        "lower": 0.0,
+        "upper": 33.14
+      },
+      {
+        "period": "2026-05-18",
+        "value": 14.63,
+        "lower": 0.0,
+        "upper": 33.48
+      }
+    ],
+    "metrics": {
+      "arima_rmse": 8.71,
+      "prophet_rmse": 9.25,
+      "lstm_rmse": 10.32
+    }
+  }
+]
