@@ -4,12 +4,18 @@ import { useEffect, useState } from "react";
 
 const DURATION_MS = 4500;
 const FADE_MS = 500;
+const STORAGE_KEY = "skn:splash:seen";
 
 export function SplashScreen({ children }: { children: React.ReactNode }) {
-  const [phase, setPhase] = useState<"loading" | "fading" | "done">("loading");
+  const [phase, setPhase] = useState<"idle" | "loading" | "fading" | "done">("idle");
   const [pct, setPct] = useState(0);
 
   useEffect(() => {
+    if (sessionStorage.getItem(STORAGE_KEY)) {
+      setPhase("done");
+      return;
+    }
+    setPhase("loading");
     const start = performance.now();
     let raf = 0;
     const tick = (now: number) => {
@@ -21,7 +27,10 @@ export function SplashScreen({ children }: { children: React.ReactNode }) {
     raf = requestAnimationFrame(tick);
 
     const fadeT = window.setTimeout(() => setPhase("fading"), DURATION_MS);
-    const doneT = window.setTimeout(() => setPhase("done"), DURATION_MS + FADE_MS);
+    const doneT = window.setTimeout(() => {
+      setPhase("done");
+      sessionStorage.setItem(STORAGE_KEY, "1");
+    }, DURATION_MS + FADE_MS);
     return () => {
       cancelAnimationFrame(raf);
       window.clearTimeout(fadeT);
@@ -32,7 +41,7 @@ export function SplashScreen({ children }: { children: React.ReactNode }) {
   return (
     <>
       {children}
-      {phase !== "done" ? (
+      {phase === "loading" || phase === "fading" ? (
         <div
           className="splash-root"
           data-state={phase}

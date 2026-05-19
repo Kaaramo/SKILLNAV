@@ -16,6 +16,7 @@ import {
 } from "lucide-react";
 import type { ReactNode } from "react";
 import { useTheme } from "./ThemeProvider";
+import { RouteTransitionLoader } from "./RouteTransitionLoader";
 
 interface NavItem {
   href: string;
@@ -124,7 +125,9 @@ export function AppShell({ children }: { children: ReactNode }) {
       <Sidebar />
       <div className="main">
         <PageHeader />
-        <main className="content">{children}</main>
+        <main className="content">
+          <RouteTransitionLoader>{children}</RouteTransitionLoader>
+        </main>
       </div>
     </div>
   );
