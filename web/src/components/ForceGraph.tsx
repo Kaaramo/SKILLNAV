@@ -1,10 +1,14 @@
 "use client";
 
 import dynamic from "next/dynamic";
-import { useEffect, useMemo, useRef, useState } from "react";
+import { useEffect, useMemo, useRef, useState, type ComponentType } from "react";
 
 // react-force-graph-2d est canvas pur → client only, dynamic import sans SSR.
-const ForceGraph2D = dynamic(() => import("react-force-graph-2d"), { ssr: false });
+// Les types internes (NodeObject / LinkObject) ne reconnaissent pas nos extensions
+// RawNode / RawLink (champs `pagerank`, `community`, `weight`, etc.), on cast donc
+// le composant en `ComponentType<any>` pour autoriser les accessors typés strict.
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
+const ForceGraph2D = dynamic(() => import("react-force-graph-2d"), { ssr: false }) as ComponentType<any>;
 
 export interface RawNode {
   id: string;
@@ -140,8 +144,8 @@ export function ForceGraph({
       }}
     >
       <ForceGraph2D
-        ref={fgRef as never}
-        graphData={filteredData as never}
+        ref={fgRef}
+        graphData={filteredData}
         width={width}
         height={height}
         backgroundColor="transparent"
@@ -170,19 +174,22 @@ export function ForceGraph({
             : "color-mix(in oklch, var(--fg3) 8%, transparent)";
         }}
         linkWidth={(l: RawLink) => Math.min(3, Math.max(0.3, l.weight * 0.18))}
-        onNodeClick={(n) => {
-          const node = n as RawNode;
-          const newId = selectedId === node.id ? null : node.id;
+        onNodeClick={(n: RawNode) => {
+          const newId = selectedId === n.id ? null : n.id;
           setSelectedId(newId);
-          onSelectNode?.(newId ? node : null);
+          onSelectNode?.(newId ? n : null);
         }}
         onBackgroundClick={() => {
           setSelectedId(null);
           onSelectNode?.(null);
         }}
         nodeCanvasObjectMode={() => "after"}
-        nodeCanvasObject={(rawNode, ctx, globalScale) => {
-          const n = rawNode as unknown as RawNode & { x?: number; y?: number };
+        nodeCanvasObject={(
+          rawNode: RawNode & { x?: number; y?: number },
+          ctx: CanvasRenderingContext2D,
+          globalScale: number,
+        ) => {
+          const n = rawNode;
           if (n.x == null || n.y == null) return;
           // Label visible pour top PageRank (10 % les plus centraux) ou si zoom suffisant
           const shouldDraw = n.pagerank >= maxPagerank * 0.35 || globalScale > 2.5;
