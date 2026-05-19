@@ -1,0 +1,446 @@
+{
+  "school_id": "ensa-safi-idia",
+  "school_name": "ENSA Safi",
+  "filiere_name": "Ingenierie des Donnees et Intelligence Artificielle",
+  "filiere_acronym": "IDIA",
+  "filiere_url": "https://ensas.uca.ma/contenu/filieres/info.pdf",
+  "extracted_at": "2026-05-19T16:39:01.611937Z",
+  "status": "complete",
+  "semesters": [
+    {
+      "label": "S1",
+      "modules": [
+        {
+          "name": "Ingenierie Financiere",
+          "code": null,
+          "hours": null,
+          "credits": null,
+          "description": null,
+          "skills": []
+        },
+        {
+          "name": "Mathematiques pour l'Ingenieur",
+          "code": null,
+          "hours": null,
+          "credits": null,
+          "description": null,
+          "skills": []
+        },
+        {
+          "name": "Python pour la Data Science et le Machine Learning",
+          "code": null,
+          "hours": null,
+          "credits": null,
+          "description": null,
+          "skills": [
+            "Machine Learning",
+            "NumPy",
+            "Python",
+            "pandas",
+            "scikit-learn"
+          ]
+        },
+        {
+          "name": "Systemes d'Information",
+          "code": null,
+          "hours": null,
+          "credits": null,
+          "description": null,
+          "skills": [
+            "information systems"
+          ]
+        },
+        {
+          "name": "Modelisation Stochastique",
+          "code": null,
+          "hours": null,
+          "credits": null,
+          "description": null,
+          "skills": [
+            "stochastic processes"
+          ]
+        },
+        {
+          "name": "Systemes de Gestion de Contenu",
+          "code": null,
+          "hours": null,
+          "credits": null,
+          "description": null,
+          "skills": [
+            "CMS"
+          ]
+        },
+        {
+          "name": "Langues et Communication 1",
+          "code": "LC 1",
+          "hours": null,
+          "credits": null,
+          "description": null,
+          "skills": []
+        }
+      ]
+    },
+    {
+      "label": "S2",
+      "modules": [
+        {
+          "name": "Transition Ecologique et Dynamiques Culturelles",
+          "code": null,
+          "hours": null,
+          "credits": null,
+          "description": null,
+          "skills": []
+        },
+        {
+          "name": "Techniques d'Optimisation Avancees",
+          "code": null,
+          "hours": null,
+          "credits": null,
+          "description": null,
+          "skills": [
+            "optimization"
+          ]
+        },
+        {
+          "name": "Systemes d'Exploitation et Environnements de Developpement",
+          "code": null,
+          "hours": null,
+          "credits": null,
+          "description": null,
+          "skills": [
+            "Linux",
+            "operating systems"
+          ]
+        },
+        {
+          "name": "Modelisation UML",
+          "code": null,
+          "hours": null,
+          "credits": null,
+          "description": null,
+          "skills": [
+            "UML"
+          ]
+        },
+        {
+          "name": "Architecture des Systemes",
+          "code": null,
+          "hours": null,
+          "credits": null,
+          "description": null,
+          "skills": [
+            "computer architecture"
+          ]
+        },
+        {
+          "name": "Machine Learning",
+          "code": null,
+          "hours": null,
+          "credits": null,
+          "description": null,
+          "skills": [
+            "Machine Learning",
+            "Python",
+            "scikit-learn"
+          ]
+        },
+        {
+          "name": "Langues et Communication 2",
+          "code": "LC 2",
+          "hours": null,
+          "credits": null,
+          "description": null,
+          "skills": []
+        }
+      ]
+    },
+    {
+      "label": "S3",
+      "modules": [
+        {
+          "name": "Developpement Backend en JS",
+          "code": null,
+          "hours": null,
+          "credits": null,
+          "description": null,
+          "skills": [
+            "JavaScript",
+            "Node.js"
+          ]
+        },
+        {
+          "name": "Marketing et Developpement Durable",
+          "code": null,
+          "hours": null,
+          "credits": null,
+          "description": null,
+          "skills": []
+        },
+        {
+          "name": "Bases de Donnees Avancees",
+          "code": null,
+          "hours": null,
+          "credits": null,
+          "description": null,
+          "skills": [
+            "NoSQL",
+            "PostgreSQL",
+            "SQL"
+          ]
+        },
+        {
+          "name": "Methodes Heuristiques et Meta-Heuristiques",
+          "code": null,
+          "hours": null,
+          "credits": null,
+          "description": null,
+          "skills": [
+            "heuristics",
+            "optimization"
+          ]
+        },
+        {
+          "name": "Projets Tutores",
+          "code": null,
+          "hours": null,
+          "credits": null,
+          "description": null,
+          "skills": []
+        },
+        {
+          "name": "Analyse des Donnees",
+          "code": null,
+          "hours": null,
+          "credits": null,
+          "description": null,
+          "skills": []
+        },
+        {
+          "name": "Programmation Java Avancee",
+          "code": null,
+          "hours": null,
+          "credits": null,
+          "description": null,
+          "skills": [
+            "Java",
+            "OOP"
+          ]
+        },
+        {
+          "name": "Developpement Web Dynamique",
+          "code": null,
+          "hours": null,
+          "credits": null,
+          "description": null,
+          "skills": [
+            "CSS",
+            "HTML",
+            "JavaScript",
+            "Node.js",
+            "React"
+          ]
+        },
+        {
+          "name": "Langues et Communication 3",
+          "code": "LC 3",
+          "hours": null,
+          "credits": null,
+          "description": null,
+          "skills": []
+        }
+      ]
+    },
+    {
+      "label": "S4",
+      "modules": [
+        {
+          "name": "Systemes Intelligents Flous",
+          "code": null,
+          "hours": null,
+          "credits": null,
+          "description": null,
+          "skills": [
+            "fuzzy logic"
+          ]
+        },
+        {
+          "name": "Traitement d'Image et Vision Artificielle",
+          "code": null,
+          "hours": null,
+          "credits": null,
+          "description": null,
+          "skills": [
+            "OpenCV",
+            "computer vision",
+            "image processing"
+          ]
+        },
+        {
+          "name": "Internet des Objets",
+          "code": null,
+          "hours": null,
+          "credits": null,
+          "description": null,
+          "skills": [
+            "IoT",
+            "MQTT"
+          ]
+        },
+        {
+          "name": "Cloud Computing et Virtualisation",
+          "code": null,
+          "hours": null,
+          "credits": null,
+          "description": null,
+          "skills": [
+            "AWS",
+            "Azure",
+            "Cloud",
+            "GCP"
+          ]
+        },
+        {
+          "name": "Introduction a la Securite des Reseaux et Systemes",
+          "code": null,
+          "hours": null,
+          "credits": null,
+          "description": null,
+          "skills": [
+            "cybersecurity",
+            "networking"
+          ]
+        },
+        {
+          "name": "Management de Projet et Entrepreneuriat",
+          "code": null,
+          "hours": null,
+          "credits": null,
+          "description": null,
+          "skills": []
+        },
+        {
+          "name": "Langues et Communication 4",
+          "code": "LC 4",
+          "hours": null,
+          "credits": null,
+          "description": null,
+          "skills": []
+        }
+      ]
+    },
+    {
+      "label": "S5",
+      "modules": [
+        {
+          "name": "Traitement Automatique du Langage Naturel",
+          "code": null,
+          "hours": null,
+          "credits": null,
+          "description": null,
+          "skills": []
+        },
+        {
+          "name": "Theorie des Jeux et Systemes Multi-Agents",
+          "code": null,
+          "hours": null,
+          "credits": null,
+          "description": null,
+          "skills": [
+            "AI agents",
+            "game theory"
+          ]
+        },
+        {
+          "name": "Web Semantique et Developpement Mobile",
+          "code": null,
+          "hours": null,
+          "credits": null,
+          "description": null,
+          "skills": [
+            "RDF",
+            "semantic web"
+          ]
+        },
+        {
+          "name": "Integration et Solutions Metiers",
+          "code": null,
+          "hours": null,
+          "credits": null,
+          "description": null,
+          "skills": []
+        },
+        {
+          "name": "E-Management et Innovation et Entrepreneuriat",
+          "code": null,
+          "hours": null,
+          "credits": null,
+          "description": null,
+          "skills": []
+        },
+        {
+          "name": "Securite des Systemes d'Information et Technologie Blockchain",
+          "code": null,
+          "hours": null,
+          "credits": null,
+          "description": null,
+          "skills": [
+            "blockchain",
+            "cybersecurity",
+            "information systems"
+          ]
+        },
+        {
+          "name": "Factory Management et Usine de Developpement Logiciel",
+          "code": null,
+          "hours": null,
+          "credits": null,
+          "description": null,
+          "skills": []
+        }
+      ]
+    }
+  ],
+  "skills_taught": [
+    "Machine Learning",
+    "NumPy",
+    "Python",
+    "Pandas",
+    "scikit-learn",
+    "information systems",
+    "stochastic processes",
+    "CMS",
+    "model optimization",
+    "Linux",
+    "operating systems",
+    "UML",
+    "computer architecture",
+    "JavaScript",
+    "Node.js",
+    "NoSQL",
+    "PostgreSQL",
+    "SQL",
+    "heuristics",
+    "Java",
+    "OOP",
+    "CSS",
+    "HTML",
+    "React",
+    "fuzzy logic",
+    "OpenCV",
+    "Computer Vision",
+    "image processing",
+    "IoT",
+    "MQTT",
+    "AWS",
+    "Azure",
+    "Cloud",
+    "GCP",
+    "cybersecurity",
+    "networking",
+    "AI agents",
+    "game theory",
+    "RDF",
+    "semantic web",
+    "blockchain"
+  ]
+}

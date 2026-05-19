@@ -1,0 +1,396 @@
+{
+  "school_id": "ensa-tetouan-sdbia",
+  "school_name": "ENSA Tetouan",
+  "filiere_name": "Sciences des Donnees, Big Data et IA",
+  "filiere_acronym": "SDBIA",
+  "filiere_url": "http://ensa.ac.ma/",
+  "extracted_at": "2026-05-19T16:39:03.693897Z",
+  "status": "complete",
+  "semesters": [
+    {
+      "label": "S1",
+      "modules": [
+        {
+          "name": "Genie logiciel",
+          "code": "M113",
+          "hours": 114,
+          "credits": null,
+          "description": null,
+          "skills": [
+            "software engineering"
+          ]
+        },
+        {
+          "name": "Fondamentaux des bases de donnees",
+          "code": "M112",
+          "hours": 109,
+          "credits": null,
+          "description": null,
+          "skills": [
+            "PostgreSQL",
+            "SQL"
+          ]
+        },
+        {
+          "name": "Microeconomie et Macroeconomie",
+          "code": "M111",
+          "hours": 74,
+          "credits": null,
+          "description": null,
+          "skills": []
+        },
+        {
+          "name": "Analyse et fouille de donnees",
+          "code": "M114",
+          "hours": 114,
+          "credits": null,
+          "description": null,
+          "skills": [
+            "data mining",
+            "pandas"
+          ]
+        },
+        {
+          "name": "Management 1",
+          "code": "M115",
+          "hours": 64,
+          "credits": null,
+          "description": null,
+          "skills": []
+        },
+        {
+          "name": "Langues, Communication et TIC 1",
+          "code": "M116",
+          "hours": 94,
+          "credits": null,
+          "description": null,
+          "skills": []
+        },
+        {
+          "name": "Modelisations statistiques et mathematiques",
+          "code": "M117",
+          "hours": 130,
+          "credits": null,
+          "description": null,
+          "skills": [
+            "linear algebra",
+            "statistics"
+          ]
+        }
+      ]
+    },
+    {
+      "label": "S2",
+      "modules": [
+        {
+          "name": "Fondamentaux du Big Data",
+          "code": "M126",
+          "hours": 114,
+          "credits": null,
+          "description": null,
+          "skills": [
+            "Apache Spark",
+            "Hadoop",
+            "big data"
+          ]
+        },
+        {
+          "name": "Algorithmique avancee et programmation",
+          "code": "M121",
+          "hours": 104,
+          "credits": null,
+          "description": null,
+          "skills": [
+            "algorithms"
+          ]
+        },
+        {
+          "name": "Algebre lineaire numerique pour l'analyse de donnees",
+          "code": "M122",
+          "hours": 104,
+          "credits": null,
+          "description": null,
+          "skills": [
+            "data analysis",
+            "linear algebra",
+            "pandas"
+          ]
+        },
+        {
+          "name": "Apprentissage automatique",
+          "code": "M123",
+          "hours": 108,
+          "credits": null,
+          "description": null,
+          "skills": [
+            "Machine Learning",
+            "Python",
+            "scikit-learn"
+          ]
+        },
+        {
+          "name": "Visualisation de Donnees",
+          "code": "M124",
+          "hours": 104,
+          "credits": null,
+          "description": null,
+          "skills": [
+            "Power BI",
+            "Tableau",
+            "data visualization"
+          ]
+        },
+        {
+          "name": "Langues, Communication et TIC 2",
+          "code": "M125",
+          "hours": 94,
+          "credits": null,
+          "description": null,
+          "skills": []
+        }
+      ]
+    },
+    {
+      "label": "S3",
+      "modules": [
+        {
+          "name": "Ingenierie des bases de donnees",
+          "code": "M233",
+          "hours": 100,
+          "credits": null,
+          "description": null,
+          "skills": [
+            "PostgreSQL",
+            "SQL"
+          ]
+        },
+        {
+          "name": "Systemes d'exploitation avances",
+          "code": "M235",
+          "hours": 124,
+          "credits": null,
+          "description": null,
+          "skills": [
+            "Linux",
+            "operating systems"
+          ]
+        },
+        {
+          "name": "Securite",
+          "code": "M232",
+          "hours": 124,
+          "credits": null,
+          "description": null,
+          "skills": [
+            "cybersecurity"
+          ]
+        },
+        {
+          "name": "Apprentissage profond",
+          "code": "M234",
+          "hours": 115,
+          "credits": null,
+          "description": null,
+          "skills": [
+            "Deep Learning",
+            "PyTorch",
+            "TensorFlow"
+          ]
+        },
+        {
+          "name": "Informatique decisionnelle",
+          "code": "M231",
+          "hours": 124,
+          "credits": null,
+          "description": null,
+          "skills": [
+            "BI",
+            "Power BI"
+          ]
+        },
+        {
+          "name": "Management 2",
+          "code": "M236",
+          "hours": 94,
+          "credits": null,
+          "description": null,
+          "skills": []
+        }
+      ]
+    },
+    {
+      "label": "S4",
+      "modules": [
+        {
+          "name": "Ethique et droit",
+          "code": "M245",
+          "hours": 94,
+          "credits": null,
+          "description": null,
+          "skills": []
+        },
+        {
+          "name": "Les techniques de veille",
+          "code": "M244",
+          "hours": 94,
+          "credits": null,
+          "description": null,
+          "skills": []
+        },
+        {
+          "name": "Theorie de l'information",
+          "code": "M246",
+          "hours": 109,
+          "credits": null,
+          "description": null,
+          "skills": [
+            "information theory"
+          ]
+        },
+        {
+          "name": "Fondamentaux de l'intelligence artificielle",
+          "code": "M241",
+          "hours": 94,
+          "credits": null,
+          "description": null,
+          "skills": [
+            "AI"
+          ]
+        },
+        {
+          "name": "Analyse du web",
+          "code": "M243",
+          "hours": 94,
+          "credits": null,
+          "description": null,
+          "skills": [
+            "scraping",
+            "web mining"
+          ]
+        },
+        {
+          "name": "Applications de l'intelligence artificielle",
+          "code": "M242",
+          "hours": 94,
+          "credits": null,
+          "description": null,
+          "skills": [
+            "AI"
+          ]
+        }
+      ]
+    },
+    {
+      "label": "S5",
+      "modules": [
+        {
+          "name": "Reseaux et protocoles de communication",
+          "code": "M354",
+          "hours": 64,
+          "credits": null,
+          "description": null,
+          "skills": [
+            "TCP/IP",
+            "networking"
+          ]
+        },
+        {
+          "name": "Fondamentaux de la Blockchain",
+          "code": "M356",
+          "hours": 106,
+          "credits": null,
+          "description": null,
+          "skills": [
+            "blockchain"
+          ]
+        },
+        {
+          "name": "Vision par ordinateur",
+          "code": "M355",
+          "hours": 106,
+          "credits": null,
+          "description": null,
+          "skills": [
+            "OpenCV",
+            "PyTorch",
+            "computer vision"
+          ]
+        },
+        {
+          "name": "Entrepreneuriat et Innovation",
+          "code": "M352",
+          "hours": 104,
+          "credits": null,
+          "description": null,
+          "skills": []
+        },
+        {
+          "name": "Ingenierie des connaissances et Web semantique",
+          "code": "M351",
+          "hours": 124,
+          "credits": null,
+          "description": null,
+          "skills": [
+            "RDF",
+            "knowledge graphs",
+            "semantic web"
+          ]
+        },
+        {
+          "name": "Traitement automatique des langues naturelles (TALN)",
+          "code": "M353",
+          "hours": 94,
+          "credits": null,
+          "description": null,
+          "skills": [
+            "NLP",
+            "spaCy",
+            "transformers"
+          ]
+        }
+      ]
+    }
+  ],
+  "skills_taught": [
+    "Software Architecture",
+    "PostgreSQL",
+    "SQL",
+    "data mining",
+    "Pandas",
+    "linear algebra",
+    "Statistics",
+    "Apache Spark",
+    "Hadoop",
+    "Big Data",
+    "algorithms",
+    "Data Science",
+    "Machine Learning",
+    "Python",
+    "scikit-learn",
+    "Power BI",
+    "Tableau",
+    "data visualization",
+    "Linux",
+    "operating systems",
+    "cybersecurity",
+    "Deep Learning",
+    "PyTorch",
+    "TensorFlow",
+    "BI",
+    "information theory",
+    "agentic AI",
+    "scraping",
+    "web mining",
+    "TCP/IP",
+    "networking",
+    "blockchain",
+    "OpenCV",
+    "Computer Vision",
+    "RDF",
+    "knowledge graphs",
+    "semantic web",
+    "NLP",
+    "spaCy",
+    "transformers"
+  ]
+}

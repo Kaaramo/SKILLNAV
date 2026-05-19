@@ -1,0 +1,15 @@
+slug: ensa-fes-isdia
+school_name: "ENSA Fes"
+filiere_name: "Ingenierie des Systemes de Donnees et IA"
+filiere_acronym: "ISDIA"
+filiere_url: "https://ensaf.ac.ma/fil-isdia.php"
+official_source: "Page officielle ENSA Fes - filiere ISDIA"
+fetched_at: "2026-05-19"
+extracted_at: "2026-05-19"
+status: complete
+extraction_method: "web_official"
+cycle: "Cycle Ingenieur, 3 ans (S1 a S5 + PFE)"
+notes: |
+  Page web officielle a fetcher via WebFetch.
+  Acronyme corrige : ISDIA (etait ILIA dans le PRD initial, mais l'URL officielle indique ISDIA).
+  Le S6 = PFE n'est pas modelise dans le schema.

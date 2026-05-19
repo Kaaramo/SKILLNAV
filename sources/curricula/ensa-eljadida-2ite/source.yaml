@@ -1,0 +1,20 @@
+slug: ensa-eljadida-2ite
+school_name: "ENSA El Jadida"
+filiere_name: "Ingenierie Informatique et Technologies Emergentes"
+filiere_acronym: "2ITE"
+filiere_url: "http://www.ensaj.ucd.ac.ma/"
+official_source: "Site institutionnel ENSA El Jadida"
+fetched_at: "2026-05-19"
+extracted_at: null
+status: placeholder
+extraction_method: "web_search_failed"
+cycle: "Cycle Ingenieur, 3 ans (S1 a S5 + PFE)"
+notes: |
+  WebSearch a confirme l'existence de la filiere 2ITE mais aucun programme
+  detaille par semestre n'a ete retrouve publiquement (mai 2026).
+  Sources verifiees : ensaj.ucd.ac.ma, cycle-ingenieur-maroc.com, brain.ma,
+  jamiati.ma, etudiant.ma. La filiere se scinde en 4 options au S5 (Web/Mobile,
+  Big Data, Cybersecurite, Embarque) mais le detail des modules n'est pas public.
+  Cette ENSA est exclue du gap analysis quantitatif. Le notebook 06 indiquera
+  n=6 ENSA exploitables sur 8 dans sa synthese.
+  Le S6 = PFE n'est pas modelise dans le schema.

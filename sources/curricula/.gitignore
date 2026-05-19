@@ -1,0 +1,3 @@
+# Bruts (HTML, PDF) gitignored - seuls les .gitkeep et metadata committes
+ensa-*/raw/*
+!ensa-*/raw/.gitkeep

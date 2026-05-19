@@ -1,0 +1,14 @@
+slug: ensa-khouribga-iid
+school_name: "ENSA Khouribga"
+filiere_name: "Ingenierie de l'Intelligence des Donnees"
+filiere_acronym: "IID"
+filiere_url: "http://ensak.usms.ac.ma/ensak/wp-content/uploads/2026/04/Depliant-IID-25-26.pdf"
+official_source: "Depliant PDF IID 25-26 ENSA Khouribga"
+fetched_at: "2026-05-19"
+extracted_at: "2026-05-19"
+status: complete
+extraction_method: "pdf_official"
+cycle: "Cycle Ingenieur, 3 ans (S1 a S5 + PFE)"
+notes: |
+  Depliant officiel IID 2025-2026 a fetcher via WebFetch.
+  Le S6 = PFE n'est pas modelise dans le schema.

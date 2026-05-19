@@ -1,0 +1,19 @@
+slug: ensa-berrechid-isibd
+school_name: "ENSA Berrechid"
+filiere_name: "Ingenierie des Systemes d'Information et Big Data"
+filiere_acronym: "ISIBD"
+filiere_url: "http://www.ensab.ac.ma/"
+official_source: "Site institutionnel ENSA Berrechid"
+fetched_at: "2026-05-19"
+extracted_at: null
+status: placeholder
+extraction_method: "web_search_failed"
+cycle: "Cycle Ingenieur, 3 ans (S1 a S5 + PFE)"
+notes: |
+  WebSearch et WebFetch ont confirme l'existence de la filiere ISIBD mais aucun
+  programme detaille par semestre n'a ete retrouve publiquement (mai 2026).
+  Sources verifiees : www.ensab.ac.ma (ECONNREFUSED), www-ensab.uh1.ac.ma,
+  etudiant.ma (general), cfc-ensab.uh1.ac.ma (formation continue uniquement).
+  Cette ENSA est exclue du gap analysis quantitatif. Le notebook 06 indiquera
+  n=6 ENSA exploitables sur 8 dans sa synthese.
+  Le S6 = PFE n'est pas modelise dans le schema.

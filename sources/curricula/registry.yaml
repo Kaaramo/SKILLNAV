@@ -1,0 +1,82 @@
+# Registre machine-lisible des curricula ENSA Maroc - filiere Data / IA / Big Data
+# Cible : 8 ENSA sur les 12 du reseau public marocain
+# Ce fichier est consomme par skillnav/pipelines/curriculum_mining/
+# Maj date : 2026-05-19
+
+version: 1
+generated_at: "2026-05-19"
+period_anchor: "2022-11-30"  # sortie publique de ChatGPT, ancrage SKILLNAV
+total_schools: 8
+
+schools:
+  - slug: ensa-tetouan-sdbia
+    school_name: "ENSA Tetouan"
+    filiere_name: "Sciences des Donnees, Big Data et IA"
+    filiere_acronym: "SDBIA"
+    filiere_url: "http://ensa.ac.ma/"
+    cycle: "Cycle Ingenieur, 3 ans (S1 a S5 + PFE)"
+    status: complete          # complete | partial | placeholder | pending
+    extraction_method: "pdf_user_provided"
+
+  - slug: ensa-safi-idia
+    school_name: "ENSA Safi"
+    filiere_name: "Ingenierie des Donnees et Intelligence Artificielle"
+    filiere_acronym: "IDIA"
+    filiere_url: "https://ensas.uca.ma/contenu/filieres/info.pdf"
+    cycle: "Cycle Ingenieur, 3 ans (S1 a S5 + PFE)"
+    status: complete
+    extraction_method: "pdf_user_provided"
+
+  - slug: ensa-khouribga-iid
+    school_name: "ENSA Khouribga"
+    filiere_name: "Ingenierie de l'Intelligence des Donnees"
+    filiere_acronym: "IID"
+    filiere_url: "http://ensak.usms.ac.ma/ensak/wp-content/uploads/2026/04/Depliant-IID-25-26.pdf"
+    cycle: "Cycle Ingenieur, 3 ans (S1 a S5 + PFE)"
+    status: complete
+    extraction_method: "pdf_user_provided"
+
+  - slug: ensa-oujda-idscc
+    school_name: "ENSA Oujda"
+    filiere_name: "Ingenierie Data Sciences et Cloud Computing"
+    filiere_acronym: "IDSCC"
+    filiere_url: "http://ensao.ump.ma/fr/cycle-ingenieur-ingenierie-data-sciences-et-cloud-computing"
+    cycle: "Cycle Ingenieur, 3 ans (S1 a S5 + PFE)"
+    status: complete
+    extraction_method: "web_user_provided"
+
+  - slug: ensa-agadir-sdbia
+    school_name: "ENSA Agadir"
+    filiere_name: "Sciences des Donnees, Big Data et IA (Agadir)"
+    filiere_acronym: "SDBIA-A"
+    filiere_url: "http://www.ensa-agadir.ac.ma/pages/SDBDIA"
+    cycle: "Cycle Ingenieur, 3 ans (S1 a S5 + PFE)"
+    status: complete
+    extraction_method: "web_user_provided"
+
+  - slug: ensa-fes-isdia
+    school_name: "ENSA Fes"
+    filiere_name: "Ingenierie des Systemes de Donnees et IA"
+    filiere_acronym: "ISDIA"
+    filiere_url: "https://ensaf.ac.ma/fil-isdia.php"
+    cycle: "Cycle Ingenieur, 3 ans (S1 a S5 + PFE)"
+    status: complete
+    extraction_method: "web_user_provided"
+
+  - slug: ensa-berrechid-isibd
+    school_name: "ENSA Berrechid"
+    filiere_name: "Ingenierie des Systemes d'Information et Big Data"
+    filiere_acronym: "ISIBD"
+    filiere_url: "http://www.ensab.ac.ma/"
+    cycle: "Cycle Ingenieur, 3 ans (S1 a S5 + PFE)"
+    status: placeholder
+    extraction_method: "web_search_failed"
+
+  - slug: ensa-eljadida-2ite
+    school_name: "ENSA El Jadida"
+    filiere_name: "Ingenierie Informatique et Technologies Emergentes"
+    filiere_acronym: "2ITE"
+    filiere_url: "http://www.ensaj.ucd.ac.ma/"
+    cycle: "Cycle Ingenieur, 3 ans (S1 a S5 + PFE)"
+    status: placeholder
+    extraction_method: "web_search_failed"
