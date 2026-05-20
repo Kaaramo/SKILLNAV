@@ -434,62 +434,69 @@
 ### 5.1 Gap analysis ENSA Maroc vs marché
 
 #### 5.1.1 Périmètre des 8 filières
-- [ ] Présenter les 8 ENSA et leurs filières Data / IA
+- [x] Tableau 5.1 des 8 ENSA avec statut d'extraction (6 complets + 2 placeholders)
 
 #### 5.1.2 Méthodologie d'extraction
-- [ ] Présenter le pipeline curriculum_mining
-- [ ] Justifier l'extraction manuelle vs scraping (sites web hétérogènes)
+- [x] Présenter le pipeline curriculum_mining
+- [x] Justifier l'extraction manuelle (hétérogénéité technique des sites institutionnels)
+- [x] Tableau 5.2 volumes par ENSA exploitable (modules et skills)
 
 #### 5.1.3 Schéma Pydantic CurriculumExtraction
-- [ ] Présenter le schéma
+- [x] Présenter le schéma (renvoi vers Annexe A.5)
 
-#### 5.1.4 Top compétences enseignées vs demandées
-- [ ] Rédiger analyse du Venn
-- [ ] Insérer image `IMAGES_RAPPORT/gap_venn_skills.png`
+#### 5.1.4 Matrice de couverture des top 10 compétences marché
+- [x] Figure 5.1 `gap_skill_coverage_matrix.png`
+- [x] Tableau 5.3 couverture par ENSA (0 à 2 sur 10 selon les écoles)
 
 #### 5.1.5 Matrice de recouvrement par famille
-- [ ] Rédiger analyse de la heatmap
-- [ ] Insérer image `IMAGES_RAPPORT/gap_heatmap_familles.png`
+- [x] Figure 5.2 `gap_heatmap_familles.png`
+- [x] Lecture verticale (profil ENSA) et horizontale (comparaison familles)
+- [x] Écarts structurels chiffrés (GenAI 30 pts, Agents AI 18 pts, etc.)
 
 #### 5.1.6 Compétences sous-enseignées prioritaires
-- [ ] Top 15 compétences fortement demandées mais quasi absentes ENSA
-- [ ] Recommandations d'évolution des maquettes
+- [x] Tableau 5.4 cardinalités des ensembles A, B, A∩B, A\B, B\A
+- [x] Tableau 5.5 top 5 compétences sous-enseignées (Set E : prompt engineering, RAG, LangChain, LLMs, LangGraph)
 
 #### 5.1.7 Discussion et implications pédagogiques
-- [ ] Réponse à la question : la formation prépare-t-elle au marché ?
-- [ ] Limites du gap analysis (snapshot 2026, biais d'extraction, pondération horaire absente)
+- [x] Réponse chiffrée à la question : les filières ne préparent pas à la vague GenAI
+- [x] Trois nuances méthodologiques (représentativité, temps réaction, granularité extraction)
+- [x] Recommandations opérationnelles (module 30-60 H GenAI en S4/S5)
+
+#### Note importante
+- [x] Sous-section 5.1.4 originale (Venn) supprimée à la demande de l'utilisateur (gap_venn_skills.png non utilisée dans le rapport final)
+- [x] Limites du gap analysis traitées en section 5.2.4
 
 ### 5.2 Limites de l'étude
-- [ ] 5.2.1 Volume et représentativité (3 468 fiches, asymétrie MA/INTL)
-- [ ] 5.2.2 Limites du gold set NER (30 fiches, distant supervision)
-- [ ] 5.2.3 Limites du forecasting (séries courtes 22 semaines)
-- [ ] 5.2.4 Limites du gap analysis curricula (extraction manuelle, pondération absente)
+- [x] 5.2.1 Volume et représentativité (asymétrie 381 MA vs 3 086 INTL, concentration temporelle, spécialisation tech industrielle de la source INTL)
+- [x] 5.2.2 Limites du gold set NER (30 fiches, distant supervision, matching sous-chaîne, pas de bootstrap)
+- [x] 5.2.3 Limites du forecasting (16 semaines exploitables, saisonnalité non capturée, généralisation incertaine)
+- [x] 5.2.4 Limites du gap analysis curricula (6 ENSA sur 8, granularité titre de module, pondération horaire absente, catégorie Other, snapshot)
 
 ### 5.3 Synthèse des contributions
-- [ ] Couverture équilibrée des 3 axes Web Mining
-- [ ] 3 études comparatives chiffrées
-- [ ] Architecture polyglotte NoSQL opérationnelle
-- [ ] RGPD intégré dès la conception
-- [ ] Gap analysis ENSA inédit dans l'écosystème francophone
+- [x] 1. Couverture équilibrée des 3 axes Web Mining (Liu 2011)
+- [x] 2. 3 études comparatives chiffrées reproductibles
+- [x] 3. Architecture polyglotte NoSQL opérationnelle (Sadalage & Fowler 2012)
+- [x] 4. RGPD intégré dès la conception (pas de remédiation ex post)
+- [x] 5. Gap analysis ENSA inédit dans l'écosystème francophone
 
 ### 5.4 Perspectives V1.5
-- [ ] Fine-tuning CamemBERT sur gold set étendu
-- [ ] Notebook 01 data quality finalisé
-- [ ] Déploiement skillnav.ma
-- [ ] Ensemble ARIMA + Prophet pour forecasting
-- [ ] Mise à jour mensuelle automatique
+- [x] Fine-tuning CamemBERT sur gold set étendu 100-200 fiches
+- [x] Finalisation notebook 01 data quality
+- [x] Déploiement skillnav.ma avec mise à jour mensuelle
+- [x] Ensemble ARIMA + Prophet pour forecasting
+- [x] Finalisation gap analysis sur les 8 ENSA (récupération Berrechid et El Jadida)
 
 ### 5.5 Perspectives V2
-- [ ] Extension géographique MENA
-- [ ] Pipeline live (Celery + APScheduler)
-- [ ] Agents prospectifs (Claude Agent SDK)
-- [ ] API publique versionnée
-- [ ] Partenariats avec les ENSA pour mise à jour annuelle
+- [x] Extension géographique MENA (Tunisie, Algérie, Égypte, Jordanie, Liban)
+- [x] Pipeline live (Celery + APScheduler)
+- [x] Agents prospectifs (Claude Agent SDK) pour détection automatique d'émergence
+- [x] API publique versionnée
+- [x] Partenariats institutionnels avec les 8 ENSA pour mise à jour annuelle
 
 ### Validation chapitre 5
 - [x] Chantier curriculum mining terminé (6 ENSA exploitables + 2 placeholder + notebook 06)
-- [ ] Cohérence des limites avec les résultats du chapitre 4
-- [x] Figures gap analysis dans `IMAGES_RAPPORT/` (gap_venn_skills.png, gap_heatmap_familles.png)
+- [x] Cohérence des limites avec les résultats du chapitre 4
+- [x] Figures gap analysis dans `IMAGES_RAPPORT/` (gap_skill_coverage_matrix.png et gap_heatmap_familles.png ; gap_venn_skills.png non utilisée)
 
 ---
 
@@ -611,6 +618,8 @@
 | 2026-05-18 | Phase 1 terminée | Chapitre 1 (6 sections, 1 tableau de chiffres clés) rédigé. Contexte M242, problématique 3 axes Q1/Q2/Q3, citation Liu (2011), architecture en 7 étages, tableau 1.1 avec 16 indicateurs clés. Enchaînement sur Phase 2. |
 | 2026-05-18 | Phase 2 terminée | Chapitre 2 (6 sections, 2 tableaux, 2 figures MongoDB) rédigé. Méthodologie complète : collecte (7 sources, 3 couches, RGPD art. 6.1.f), architecture NoSQL polyglotte (Sadalage & Fowler 2012, MongoDB + Neo4j + OpenSearch), 3 pipelines axes (Content/Structure/Usage), Data Quality Framework (5 biais transparents). Toutes les références APA dispatchées (Page 1999, Box & Jenkins 1976, Cetin 2023, Decorte 2022). |
 | 2026-05-18 | Phase 6 terminée | Chapitre 6 (7 annexes + bibliographie) rédigé. Annexe A schémas Pydantic v2 (4 modules), Annexe B captures dashboard (placeholder), Annexe C 4 extraits de code commentés, Annexe D tableau 7 sources avec TOS, Annexe E DPIA simplifié 5 sections, Annexe F 12 ADRs, Annexe G placeholder curricula (Phase 5a en cours). Bibliographie : 25 références APA complètes. |
+| 2026-05-19 | Phase 5a terminée (session parallèle) | 6 ENSA exploitables extraites (Tétouan, Safi, Khouribga, Oujda, Agadir, Fès) + 2 placeholders (Berrechid, El Jadida). Schéma `CurriculumExtraction` créé, pipeline `curriculum_mining/` complet (parser, skill_extractor, normalizer, orchestrator), 40 tests unitaires verts, notebook 06 exécuté avec 3 figures et 2 CSV. |
+| 2026-05-19 | Phase 5b terminée | Chapitre 5 (5 sections, 5 tableaux, 2 figures) rédigé. Section 5.1 gap analysis (7 sous-sections, sans Venn supprimé par l'utilisateur) avec matrice de couverture top 10 et heatmap par famille. Constat empirique : 0 à 2 sur 10 compétences marché couvertes par ENSA. Tableau 1.5 du chapitre 1 mis à jour (période détaillée 53 vs 3 396 fiches, nettoyage 4 lignes peu informatives). |
 
 ---
 
