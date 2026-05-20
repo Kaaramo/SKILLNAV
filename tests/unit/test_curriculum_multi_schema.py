@@ -1,4 +1,4 @@
-"""Tests unitaires du schema Pydantic curriculum.py."""
+"""Tests unitaires du schema Pydantic curriculum_multi_ensa.py."""
 
 from __future__ import annotations
 
@@ -8,7 +8,7 @@ from datetime import datetime, timezone
 import pytest
 from pydantic import ValidationError
 
-from skillnav.schemas.curriculum import (
+from skillnav.schemas.curriculum_multi_ensa import (
     SEMESTER_LABELS,
     CurriculumExtraction,
     ExtractionStatus,

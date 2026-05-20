@@ -35,7 +35,7 @@ from typing import Any
 
 import yaml
 
-from skillnav.schemas.curriculum import (
+from skillnav.schemas.curriculum_multi_ensa import (
     SEMESTER_LABELS,
     CurriculumExtraction,
     ExtractionStatus,

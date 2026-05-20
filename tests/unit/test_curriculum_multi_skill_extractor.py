@@ -7,7 +7,7 @@ integration via tests/integration/.
 
 from __future__ import annotations
 
-from skillnav.pipelines.curriculum_mining.skill_extractor import (
+from skillnav.pipelines.curriculum_mining_multi.skill_extractor import (
     extract_skills_batch_rules,
     extract_skills_rules,
 )

@@ -1,4 +1,4 @@
-"""Tests unitaires de skillnav/pipelines/curriculum_mining/parser.py."""
+"""Tests unitaires de skillnav/pipelines/curriculum_mining_multi/parser.py."""
 
 from __future__ import annotations
 
@@ -7,11 +7,11 @@ from textwrap import dedent
 
 import pytest
 
-from skillnav.pipelines.curriculum_mining.parser import (
+from skillnav.pipelines.curriculum_mining_multi.parser import (
     list_available_schools,
     parse_filiere,
 )
-from skillnav.schemas.curriculum import ExtractionStatus
+from skillnav.schemas.curriculum_multi_ensa import ExtractionStatus
 
 
 def _create_minimal_school(tmp_path: Path, slug: str, filiere_md: str, status: str) -> Path:

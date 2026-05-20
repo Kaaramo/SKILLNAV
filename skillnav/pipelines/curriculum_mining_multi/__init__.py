@@ -15,7 +15,7 @@ Chaine de valeur :
 
 from __future__ import annotations
 
-from skillnav.pipelines.curriculum_mining.orchestrator import run_curriculum_mining
-from skillnav.pipelines.curriculum_mining.parser import parse_filiere
+from skillnav.pipelines.curriculum_mining_multi.orchestrator import run_curriculum_mining
+from skillnav.pipelines.curriculum_mining_multi.parser import parse_filiere
 
 __all__ = ["parse_filiere", "run_curriculum_mining"]

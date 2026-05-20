@@ -1110,7 +1110,7 @@ Six de ces fili\`eres disposent d'un programme curriculaire public exploitable. 
 
 L'extraction des programmes p\'edagogiques s'op\`ere manuellement \`a partir des sites institutionnels des six ENSA exploitables, compl\'et\'ee par les plaquettes officielles de fili\`ere au format PDF lorsqu'elles sont publi\'ees. Cette extraction manuelle est rendue n\'ecessaire par l'h\'et\'erog\'en\'eit\'e technique des sites institutionnels (absence d'API ouverte, formats variables, contenus tant\^ot en HTML tant\^ot en PDF, parfois en images). Pour chaque \'ecole, le programme S1 \`a S5 est transcrit dans un fichier Markdown standardis\'e \texttt{sources/curricula/ensa-<slug>/filiere.md}.
 
-Le pipeline d'extraction structur\'ee des comp\'etences est impl\'ement\'e dans le module \texttt{skillnav/pipelines/curriculum\_mining/} cr\'e\'e sp\'ecifiquement pour cette \'etape. Le module \texttt{parser.py} consomme les fichiers Markdown et produit des objets \texttt{CurriculumExtraction} typ\'es. Le module \texttt{skill\_extractor.py} extrait les comp\'etences techniques mentionn\'ees dans le titre et la description de chaque module, par un dispositif d\'eterministe \`a base d'heuristiques de mots-cl\'es et de la taxonomie \texttt{SkillFamily} d\'ej\`a mobilis\'ee pour le pipeline Structure Mining. Le module \texttt{normalizer.py} projette enfin chaque comp\'etence extraite sur sa forme canonique du march\'e.
+Le pipeline d'extraction structur\'ee des comp\'etences est impl\'ement\'e dans le module \texttt{skillnav/pipelines/curriculum\_mining\_multi/} cr\'e\'e sp\'ecifiquement pour cette \'etape. Le module \texttt{parser.py} consomme les fichiers Markdown et produit des objets \texttt{CurriculumExtraction} typ\'es. Le module \texttt{skill\_extractor.py} extrait les comp\'etences techniques mentionn\'ees dans le titre et la description de chaque module, par un dispositif d\'eterministe \`a base d'heuristiques de mots-cl\'es et de la taxonomie \texttt{SkillFamily} d\'ej\`a mobilis\'ee pour le pipeline Structure Mining. Le module \texttt{normalizer.py} projette enfin chaque comp\'etence extraite sur sa forme canonique du march\'e.
 
 \begin{table}[H]
   \centering
@@ -1132,7 +1132,7 @@ Le pipeline d'extraction structur\'ee des comp\'etences est impl\'ement\'e dans 
 
 \subsection{Sch\'ema Pydantic CurriculumExtraction}
 
-Le sch\'ema de donn\'ees utilis\'e pour persister les programmes extraits est d\'efini dans le module \texttt{skillnav/schemas/curriculum.py} selon la convention Pydantic v2 du projet. Sa structure formelle suit la hi\'erarchie naturelle des programmes p\'edagogiques : une \texttt{CurriculumExtraction} repr\'esente une fili\`ere, compos\'ee d'une liste de \texttt{Semester} (S1 \`a S5), chacun compos\'e d'une liste de \texttt{Module}. Les comp\'etences identifiables par module sont stock\'ees au niveau du module lui-m\^eme, tandis qu'une liste agr\'eg\'ee \texttt{skills\_taught} au niveau de la fili\`ere permet l'analyse comparative sans parcours hi\'erarchique. Le sch\'ema comporte \'egalement l'identifiant institutionnel de l'\'ecole (\texttt{school\_id}), le nom canonique de la fili\`ere (\texttt{filiere\_name}) et son acronyme officiel (\texttt{filiere\_acronym}), ainsi qu'une date d'extraction (\texttt{extracted\_at}).
+Le sch\'ema de donn\'ees utilis\'e pour persister les programmes extraits est d\'efini dans le module \texttt{skillnav/schemas/curriculum\_multi\_ensa.py} selon la convention Pydantic v2 du projet. Sa structure formelle suit la hi\'erarchie naturelle des programmes p\'edagogiques : une \texttt{CurriculumExtraction} repr\'esente une fili\`ere, compos\'ee d'une liste de \texttt{Semester} (S1 \`a S5), chacun compos\'e d'une liste de \texttt{Module}. Les comp\'etences identifiables par module sont stock\'ees au niveau du module lui-m\^eme, tandis qu'une liste agr\'eg\'ee \texttt{skills\_taught} au niveau de la fili\`ere permet l'analyse comparative sans parcours hi\'erarchique. Le sch\'ema comporte \'egalement l'identifiant institutionnel de l'\'ecole (\texttt{school\_id}), le nom canonique de la fili\`ere (\texttt{filiere\_name}) et son acronyme officiel (\texttt{filiere\_acronym}), ainsi qu'une date d'extraction (\texttt{extracted\_at}).
 
 L'avantage m\'ethodologique de ce sch\'ema typ\'e est qu'il permet de mobiliser exactement les m\^emes outils d'analyse en aval que pour les fiches d'offres d'emploi (filtres, comptages, calculs d'occurrences, projection sur la taxonomie \texttt{SkillFamily}), ce qui assure la comparabilit\'e directe entre les ensembles de comp\'etences enseign\'ees et demand\'ees.
 
@@ -1184,7 +1184,7 @@ Les \'ecarts structurels les plus significatifs sont les suivants. La famille Ge
 
 \subsection{Comp\'etences sous-enseign\'ees prioritaires}
 
-L'application formelle des d\'efinitions d'ensembles introduites par le notebook \texttt{06\_gap\_analysis\_market\_vs\_curriculum.ipynb} permet de quantifier pr\'ecis\'ement le d\'ecalage. L'ensemble $A$ regroupe les comp\'etences enseign\'ees par au moins la moiti\'e des six ENSA exploitables. L'ensemble $B$ regroupe les comp\'etences \`a la fois pr\'esentes dans le top 100 du march\'e et repr\'esent\'ees dans au moins 10\,\% des 3\,467 offres collect\'ees. L'intersection $A \cap B$ regroupe les comp\'etences align\'ees entre formation et march\'e, tandis que la diff\'erence $B \setminus A$ regroupe les comp\'etences sous-enseign\'ees prioritaires.
+L'application formelle des d\'efinitions d'ensembles introduites par le notebook \texttt{06b\_gap\_analysis\_multi\_ensa.ipynb} permet de quantifier pr\'ecis\'ement le d\'ecalage. L'ensemble $A$ regroupe les comp\'etences enseign\'ees par au moins la moiti\'e des six ENSA exploitables. L'ensemble $B$ regroupe les comp\'etences \`a la fois pr\'esentes dans le top 100 du march\'e et repr\'esent\'ees dans au moins 10\,\% des 3\,467 offres collect\'ees. L'intersection $A \cap B$ regroupe les comp\'etences align\'ees entre formation et march\'e, tandis que la diff\'erence $B \setminus A$ regroupe les comp\'etences sous-enseign\'ees prioritaires.
 
 \begin{table}[H]
   \centering
@@ -1407,7 +1407,7 @@ class ForecastComparison(BaseModel):
 
 \subsection*{A.5 Sch\'ema \texttt{CurriculumExtraction}}
 
-Le sch\'ema \texttt{CurriculumExtraction} est cr\'e\'e dans le cadre du chantier curriculum mining d\'ecrit en section~5.1 et persist\'e dans le module \texttt{skillnav/schemas/curriculum.py}. Sa structure formelle est document\'ee dans la section~5.1.3 : une \texttt{CurriculumExtraction} repr\'esente une fili\`ere, compos\'ee d'une liste de \texttt{Semester} (S1 \`a S5), chacun compos\'e d'une liste de \texttt{Module} contenant ses \texttt{skills\_taught}.
+Le sch\'ema \texttt{CurriculumExtraction} est cr\'e\'e dans le cadre du chantier curriculum mining d\'ecrit en section~5.1 et persist\'e dans le module \texttt{skillnav/schemas/curriculum\_multi\_ensa.py}. Sa structure formelle est document\'ee dans la section~5.1.3 : une \texttt{CurriculumExtraction} repr\'esente une fili\`ere, compos\'ee d'une liste de \texttt{Semester} (S1 \`a S5), chacun compos\'e d'une liste de \texttt{Module} contenant ses \texttt{skills\_taught}.
 
 \section*{Annexe B - Captures du dashboard \skillnav}
 \addcontentsline{toc}{section}{Annexe B - Captures du dashboard SKILLNAV}
@@ -1595,7 +1595,7 @@ Les enregistrements de d\'ecisions d'architecture documentent les choix structur
 \section*{Annexe G - Liste des curricula ENSA extraits}
 \addcontentsline{toc}{section}{Annexe G - Liste des curricula ENSA extraits}
 
-Le tableau~\ref{tab:annexe-g-curricula} r\'ecapitule les huit curricula extraits dans le cadre du gap analysis pr\'esent\'e au chapitre~5.1. La source primaire de cet inventaire est le fichier \texttt{sources/curricula/REGISTRY.md}.
+Le tableau~\ref{tab:annexe-g-curricula} r\'ecapitule les huit curricula extraits dans le cadre du gap analysis pr\'esent\'e au chapitre~5.1. La source primaire de cet inventaire est le fichier \texttt{sources/curricula/REGISTRY\_MULTI\_ENSA.md}.
 
 \begin{table}[H]
   \centering

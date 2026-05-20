@@ -20,16 +20,16 @@ from pathlib import Path
 from typing import Literal
 
 from skillnav.analysis.loaders import load_postings
-from skillnav.pipelines.curriculum_mining.normalizer import normalize_skills
-from skillnav.pipelines.curriculum_mining.parser import (
+from skillnav.pipelines.curriculum_mining_multi.normalizer import normalize_skills
+from skillnav.pipelines.curriculum_mining_multi.parser import (
     list_available_schools,
     parse_filiere,
 )
-from skillnav.pipelines.curriculum_mining.skill_extractor import (
+from skillnav.pipelines.curriculum_mining_multi.skill_extractor import (
     extract_skills_batch_rules,
     extract_skills_llm_batch,
 )
-from skillnav.schemas.curriculum import CurriculumExtraction
+from skillnav.schemas.curriculum_multi_ensa import CurriculumExtraction
 
 logger = logging.getLogger(__name__)
 

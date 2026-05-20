@@ -8,11 +8,11 @@ la chaine de valeur n'extrait les competences enseignees que sur les semestres
 S1 a S5 (modules academiques avec volume horaire).
 
 Une mutation de ce schema doit casser tous les consommateurs au type-check :
-- skillnav/pipelines/curriculum_mining/parser.py
-- skillnav/pipelines/curriculum_mining/skill_extractor.py
-- skillnav/pipelines/curriculum_mining/normalizer.py
-- skillnav/pipelines/curriculum_mining/orchestrator.py
-- notebooks/06_gap_analysis_market_vs_curriculum.ipynb
+- skillnav/pipelines/curriculum_mining_multi/parser.py
+- skillnav/pipelines/curriculum_mining_multi/skill_extractor.py
+- skillnav/pipelines/curriculum_mining_multi/normalizer.py
+- skillnav/pipelines/curriculum_mining_multi/orchestrator.py
+- notebooks/06b_gap_analysis_multi_ensa.ipynb
 """
 
 from __future__ import annotations
@@ -63,7 +63,7 @@ class CurriculumExtraction(BaseModel):
     """Programme complet d'une filiere ENSA - source de verite gap analysis.
 
     Persiste en JSON dans data/curricula/<school_id>.json apres execution
-    du pipeline curriculum_mining.
+    du pipeline curriculum_mining_multi.
     """
 
     school_id: str
