@@ -1,0 +1,186 @@
+
+
+========== PAGE 1 ==========
+
+05396-88027
+ensate@uae.ac.ma
+Avenue de la Palestine Mhanech I, TÉTOUAN
+Formation
+initiale
+Ecole Nationale des Sciences Appliquées de Tétouan
+Filières : Sciences des Données, Big data & IA
+
+
+========== PAGE 2 ==========
+
+05396-88027
+ensate@uae.ac.ma
+Avenue de la Palestine Mhanech I, TÉTOUAN
+ Sciences des Données, Big data &
+IA
+Diplôme : Ingénieur d'état
+Filière Ingénieur: Sciences des Données, Big data & IA
+Objectif de la filière
+L'objectif principal de la filière Science des Données & Big Data est de former l’élève
+ingénieur à la collecte, au stockage, au traitement de données multiples et variées – y
+compris les données massives et complexes – à des fins de modélisation, d’analyse et de
+valorisation de ces données. Le volet IA offre à l’élève ingénieur la maîtrise des
+techniques, méthodes, outils et langages les plus appropriés dans le domaine de
+l’Intelligence Artificielle. Il est ainsi capable de concevoir des algorithmes et des modèles
+mais également de développer des systèmes et des applications intégrant les dernières
+avancées de l’Intelligence Artificielle. 
+Conditions et Procédures d'admission 
+Diplômes requis : 2 Années Préparatoires au Cycle Ingénieur (Spécialité : MP MIPC ) 
+Pré-requis pédagogiques spécifiques : Deux années de classes préparatoires 
+Procédures de sélection : 
+ Etude du dossier : Accès sur concours à la suite de deux années de classes préparatoires  Test écrit 
+s  Test écrit 
+ Entretien 
+Les conditions d'accès par les passerelles sont les suivantes : il est nécessaire d'avoir
+ réussi deux années d'études après un baccalauréat scientifique dans l'une des faculté
+s de Sciences, plus précisément dans les options SMA, SMP ou SMI. De plus, un diplô
+me des EST en informatique ou un équivalent est requis, ainsi que les DEUSTs des Facul
+tés des Sciences et Techniques MIP ou MIPC. Naturellement, l'accès est conditionné pa
+r la réuséussite d'un concours, comprenant des épreuves écrites et orales.
+
+
+========== PAGE 3 ==========
+
+Science des Données, Big data et IA
+05396-88027
+ensate@uae.ac.ma
+Avenue de la Palestine Mhanech I, TÉTOUAN
+N°
+Intitulé
+Volume Horaire
+M113
+Génie logiciel
+114
+M112
+Fondamentaux des bases de données
+109
+M111
+Microéconomie et Macroéconomie
+74
+M114
+Analyse et fouille de données
+114
+M115
+Management 1
+64
+M116
+Langues, Communication et TIC 1
+94
+M117
+Modélisations statistiques et mathématiques
+130
+S1
+M126
+Fondamentaux du Big Data
+114
+M121
+Algorithmique avancée et programmation
+104
+M122
+Algèbre
+linéaire
+numérique
+pour
+l'analyse
+de
+données
+104
+M12 3
+Apprentissage automatique
+108
+M124
+Visualisation de Données
+104
+M125
+Langues, Communication et TIC 2
+94
+S2
+
+
+========== PAGE 4 ==========
+
+Science des Données, Big data et IA
+05396-88027
+ensate@uae.ac.ma
+Avenue de la Palestine Mhanech I, TÉTOUAN
+N°
+Intitulé
+Volume Horaire
+S3
+S4
+M233
+Ingénierie desbases dedonnées
+100
+M235
+Systèmesd’exploitationavancés
+124
+M232
+Sécurité
+124
+M234
+Apprentissageprofond
+115
+M231
+Informatiquedécisionnelle
+124
+M236
+Management 2
+94
+M245
+Ethique et droit
+94
+M244
+Les techniques de veille
+94
+M246
+Théorie de l'information
+109
+M24 1
+Fondamentaux del'intelligence artificielle
+94
+M243
+Analyse du web
+94
+M24 2
+Applications de l'intelligence artificielle
+94
+
+
+========== PAGE 5 ==========
+
+Science des Données, Big data et IA
+05396-88027
+ensate@uae.ac.ma
+Avenue de la Palestine Mhanech I, TÉTOUAN
+N°
+Intitulé
+Volume Horaire
+S5
+S6
+PFE
+M35 4
+Réseaux
+et protocolesde communication
+64
+M35 6
+Fondamentaux de la Blockchain
+106
+M35 5
+Vision
+par ordinateur
+106
+M35 2
+Entrepreneuriat etInnovation
+104
+M35 1
+Ingénierie desconnaissances et Web sémantique
+124
+M35 3
+Traitement automatique des langues naturelles
+(TALN)
+94

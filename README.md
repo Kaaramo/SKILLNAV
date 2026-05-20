@@ -166,18 +166,21 @@ L'organisation `{YYYY-MM}/` reflète la date de **publication** de l'offre (alig
 
 ---
 
-## 6. Livrables imposés par le prof
+## 6. Livrables imposés par le sujet
 
 Le sujet impose **6 livrables** ([détail dans `docs/SUJET_M242.md`](docs/SUJET_M242.md)) :
 
-| # | Livrable | Statut |
-|:-:|---|:-:|
-| 1 | **Scripts de Collecte** : code documenté pour le scraping et l'appel aux API | ✅ Terminé |
-| 2 | **Base de Données Hybride** : NoSQL consolidée, structurée et prête à l'emploi | 🔄 En cours |
-| 3 | **Pipeline IA** : modèles entraînés, testés, validés par métriques | ⏳ À venir |
-| 4 | **Dashboard Interactif** : déployé, fonctionnel | ⏳ À venir |
-| 5 | **Rapport** : méthodologie, analyse, justifications, recommandations | ⏳ À venir |
-| 6 | **Présentation** : orale synthétique 15 min | ⏳ À venir |
+| # | Livrable | Lien direct |
+|:-:|---|---|
+| 1 | **Scripts de collecte** — code documenté pour le scraping et les appels API | [`Kaaramo/SKILLNAV-COLLECT`](https://github.com/Kaaramo/SKILLNAV-COLLECT) (dépôt séparé, ouvert aux contributeurs externes) |
+| 2 | **Base de données hybride** — MongoDB + Neo4j + Elasticsearch | [`livrables/02-base-de-donnees-hybride/`](livrables/02-base-de-donnees-hybride/) |
+| 3 | **Pipeline IA** — modèles entraînés, testés, validés par métriques | [`livrables/03-pipeline-ia/`](livrables/03-pipeline-ia/) |
+| 4 | **Dashboard interactif** — Next.js 16 / React 19, 6 pages | [`web/`](web/) (code) · `https://skillnav.vercel.app` (live) |
+| 5 | **Rapport** — méthodologie, analyse, justifications, recommandations | [`docs/Rapport.md`](docs/Rapport.md) (export PDF au rendu) |
+| 6 | **Présentation** — orale synthétique | `docs/Soutenance.pdf` (à produire) |
+
+> Cette table est aussi la carte officielle des livrables livrée au correcteur.
+> Une version compacte uniquement-liens est dans [`LIVRABLES.md`](LIVRABLES.md).
 
 ---
 

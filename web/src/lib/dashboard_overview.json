@@ -1,0 +1,619 @@
+{
+  "meta": {
+    "n_total": 3467,
+    "n_maroc": 381,
+    "n_international": 3086,
+    "n_companies": {
+      "Maroc": 147,
+      "International": 1378,
+      "Tous": 1522
+    },
+    "n_sources": {
+      "Maroc": 6,
+      "International": 1,
+      "Tous": 7
+    },
+    "n_skills_unique": {
+      "Maroc": 252,
+      "International": 7951,
+      "Tous": 8082
+    },
+    "n_metiers": {
+      "Maroc": 10,
+      "International": 8,
+      "Tous": 11
+    },
+    "bascule_ai_first_pct": 66.4,
+    "bascule_ai_first_count": 2303,
+    "graph": {
+      "n_nodes": 200,
+      "n_edges": 4603,
+      "n_communities": 11,
+      "modularity_louvain": 0.256,
+      "top_skill": {
+        "name": "Prompt Engineering",
+        "count": 1150,
+        "family": "GenAI",
+        "pagerank": 0.0473
+      }
+    },
+    "periode": {
+      "n_mois": 41,
+      "debut": "Janvier 2023",
+      "fin": "Mai 2026",
+      "ancrage": "Sortie de ChatGPT — Novembre 2022"
+    },
+    "generated_at": "2026-05-18",
+    "source": "data/jobs.jsonl"
+  },
+  "ai_type_distribution": {
+    "Maroc": [
+      {
+        "code": "ai-first",
+        "label": "AI-First",
+        "color": "#2251FF",
+        "count": 46,
+        "pct": 12.1
+      },
+      {
+        "code": "ml-first",
+        "label": "ML-First",
+        "color": "#0F8F65",
+        "count": 129,
+        "pct": 33.9
+      },
+      {
+        "code": "non-ai",
+        "label": "Data Analytics",
+        "color": "#C77700",
+        "count": 206,
+        "pct": 54.1
+      }
+    ],
+    "International": [
+      {
+        "code": "ai-first",
+        "label": "AI-First",
+        "color": "#2251FF",
+        "count": 2257,
+        "pct": 73.1
+      },
+      {
+        "code": "ai-support",
+        "label": "AI-Support",
+        "color": "#7C3AED",
+        "count": 742,
+        "pct": 24.0
+      },
+      {
+        "code": "ml-first",
+        "label": "ML-First",
+        "color": "#0F8F65",
+        "count": 66,
+        "pct": 2.1
+      },
+      {
+        "code": "unknown",
+        "label": "Inconnu",
+        "color": "#6B7280",
+        "count": 21,
+        "pct": 0.7
+      }
+    ],
+    "Tous": [
+      {
+        "code": "ai-first",
+        "label": "AI-First",
+        "color": "#2251FF",
+        "count": 2303,
+        "pct": 66.4
+      },
+      {
+        "code": "ai-support",
+        "label": "AI-Support",
+        "color": "#7C3AED",
+        "count": 742,
+        "pct": 21.4
+      },
+      {
+        "code": "ml-first",
+        "label": "ML-First",
+        "color": "#0F8F65",
+        "count": 195,
+        "pct": 5.6
+      },
+      {
+        "code": "non-ai",
+        "label": "Data Analytics",
+        "color": "#C77700",
+        "count": 206,
+        "pct": 5.9
+      },
+      {
+        "code": "unknown",
+        "label": "Inconnu",
+        "color": "#6B7280",
+        "count": 21,
+        "pct": 0.6
+      }
+    ]
+  },
+  "top_intitules": {
+    "Maroc": [
+      {
+        "title": "Data Analyst",
+        "count": 37
+      },
+      {
+        "title": "Data Scientist",
+        "count": 30
+      },
+      {
+        "title": "Data Engineer",
+        "count": 23
+      },
+      {
+        "title": "AI Engineer",
+        "count": 4
+      },
+      {
+        "title": "BI Analyst",
+        "count": 4
+      },
+      {
+        "title": "Data Manager",
+        "count": 4
+      },
+      {
+        "title": "Senior Data Engineer",
+        "count": 4
+      },
+      {
+        "title": "Data Engineer GCP (Pub/Sub, DBT)",
+        "count": 4
+      }
+    ],
+    "International": [
+      {
+        "title": "AI Engineer",
+        "count": 148
+      },
+      {
+        "title": "Senior AI Engineer",
+        "count": 98
+      },
+      {
+        "title": "Applied AI Engineer",
+        "count": 45
+      },
+      {
+        "title": "AI/ML Engineer",
+        "count": 32
+      },
+      {
+        "title": "Lead AI Engineer",
+        "count": 29
+      },
+      {
+        "title": "Staff AI Engineer",
+        "count": 27
+      },
+      {
+        "title": "Senior AI/ML Engineer",
+        "count": 25
+      },
+      {
+        "title": "Principal AI Engineer",
+        "count": 22
+      }
+    ]
+  },
+  "top_employeurs": {
+    "Maroc": [
+      {
+        "company": "BROME Consulting & Technology",
+        "count": 23
+      },
+      {
+        "company": "Capgemini",
+        "count": 20
+      },
+      {
+        "company": "ALTEN",
+        "count": 18
+      },
+      {
+        "company": "CIH BANK",
+        "count": 14
+      },
+      {
+        "company": "Unknown",
+        "count": 13
+      },
+      {
+        "company": "Agoda",
+        "count": 12
+      },
+      {
+        "company": "ALTEN MAROC",
+        "count": 9
+      },
+      {
+        "company": "Odixcity Consulting",
+        "count": 8
+      },
+      {
+        "company": "BNP Paribas",
+        "count": 7
+      },
+      {
+        "company": "Admiral Digital Consulting",
+        "count": 7
+      },
+      {
+        "company": "SQLI",
+        "count": 7
+      },
+      {
+        "company": "SymphonyAI",
+        "count": 6
+      },
+      {
+        "company": "Devoteam",
+        "count": 6
+      },
+      {
+        "company": "Société Générale",
+        "count": 5
+      },
+      {
+        "company": "Trusted Advisors",
+        "count": 4
+      }
+    ],
+    "International": [
+      {
+        "company": "Capital One",
+        "count": 56
+      },
+      {
+        "company": "Citi",
+        "count": 39
+      },
+      {
+        "company": "Jack & Jill AI",
+        "count": 37
+      },
+      {
+        "company": "Optum",
+        "count": 32
+      },
+      {
+        "company": "Thomson Reuters",
+        "count": 29
+      },
+      {
+        "company": "G2i",
+        "count": 28
+      },
+      {
+        "company": "NVIDIA",
+        "count": 24
+      },
+      {
+        "company": "Wolters Kluwer",
+        "count": 20
+      },
+      {
+        "company": "Wells Fargo",
+        "count": 20
+      },
+      {
+        "company": "Hewlett Packard Enterprise",
+        "count": 19
+      },
+      {
+        "company": "BlackRock",
+        "count": 18
+      },
+      {
+        "company": "Celonis",
+        "count": 18
+      },
+      {
+        "company": "OpenAI",
+        "count": 16
+      },
+      {
+        "company": "Visa Inc,",
+        "count": 16
+      },
+      {
+        "company": "Ecolab",
+        "count": 15
+      },
+      {
+        "company": "Autodesk",
+        "count": 15
+      },
+      {
+        "company": "Scale AI",
+        "count": 14
+      },
+      {
+        "company": "Barclays",
+        "count": 14
+      },
+      {
+        "company": "S&P Global",
+        "count": 13
+      },
+      {
+        "company": "GEICO",
+        "count": 12
+      }
+    ]
+  },
+  "bascule_temporelle": {
+    "months": [
+      "2023-01",
+      "2023-02",
+      "2023-03",
+      "2023-04",
+      "2023-05",
+      "2023-06",
+      "2023-07",
+      "2023-08",
+      "2023-09",
+      "2023-10",
+      "2023-11",
+      "2023-12",
+      "2024-01",
+      "2024-02",
+      "2024-03",
+      "2024-04",
+      "2024-05",
+      "2024-06",
+      "2024-07",
+      "2024-08",
+      "2024-09",
+      "2024-10",
+      "2024-11",
+      "2024-12",
+      "2025-01",
+      "2025-02",
+      "2025-03",
+      "2025-04",
+      "2025-05",
+      "2025-06",
+      "2025-07",
+      "2025-08",
+      "2025-09",
+      "2025-10",
+      "2025-11",
+      "2025-12",
+      "2026-01",
+      "2026-02",
+      "2026-03",
+      "2026-04",
+      "2026-05"
+    ],
+    "series": {
+      "ai-first": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        2,
+        1,
+        0,
+        3,
+        0,
+        494,
+        729,
+        583,
+        469,
+        21
+      ],
+      "ai-support": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        201,
+        294,
+        131,
+        116,
+        0
+      ],
+      "ml-first": [
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        1,
+        3,
+        0,
+        0,
+        0,
+        2,
+        0,
+        0,
+        0,
+        12,
+        36,
+        28,
+        48,
+        58
+      ],
+      "non-ai": [
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        2,
+        2,
+        1,
+        3,
+        4,
+        1,
+        3,
+        4,
+        2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        4,
+        0,
+        0,
+        0,
+        0,
+        0,
+        7,
+        1,
+        1,
+        0,
+        6,
+        2,
+        4,
+        3,
+        1,
+        11,
+        16,
+        57,
+        70
+      ],
+      "unknown": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        3,
+        8,
+        4,
+        6,
+        0
+      ]
+    }
+  }
+}

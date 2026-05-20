@@ -1,0 +1,9 @@
+/* SKILLNAV globals — point d'entrée CSS du dashboard.
+   Charge les 3 fichiers de la charte dans l'ordre attendu :
+   1. tokens.css (variables CSS de design)
+   2. colors_and_type.css (aliases sémantiques + typo de base)
+   3. styles.css (chrome + composants : sidebar, KPI, tables, charts...)
+*/
+@import "../styles/tokens.css";
+@import "../styles/colors_and_type.css";
+@import "../styles/styles.css";
