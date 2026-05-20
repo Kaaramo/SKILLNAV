@@ -1,0 +1,15 @@
+slug: ensa-agadir-sdbia
+school_name: "ENSA Agadir"
+filiere_name: "Sciences des Donnees, Big Data et IA (Agadir)"
+filiere_acronym: "SDBIA-A"
+filiere_url: "http://www.ensa-agadir.ac.ma/pages/SDBDIA"
+official_source: "Page officielle ENSA Agadir - filiere SDBDIA"
+fetched_at: "2026-05-19"
+extracted_at: "2026-05-19"
+status: complete
+extraction_method: "web_official"
+cycle: "Cycle Ingenieur, 3 ans (S1 a S5 + PFE)"
+notes: |
+  Page web officielle a fetcher via WebFetch.
+  Acronyme variant SDBIA-A pour distinguer de Tetouan SDBIA.
+  Le S6 = PFE n'est pas modelise dans le schema.

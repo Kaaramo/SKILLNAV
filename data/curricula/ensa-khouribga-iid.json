@@ -1,0 +1,450 @@
+{
+  "school_id": "ensa-khouribga-iid",
+  "school_name": "ENSA Khouribga",
+  "filiere_name": "Ingenierie de l'Intelligence des Donnees",
+  "filiere_acronym": "IID",
+  "filiere_url": "http://ensak.usms.ac.ma/ensak/wp-content/uploads/2026/04/Depliant-IID-25-26.pdf",
+  "extracted_at": "2026-05-19T16:38:56.906307Z",
+  "status": "complete",
+  "semesters": [
+    {
+      "label": "S1",
+      "modules": [
+        {
+          "name": "Probabilite avancee",
+          "code": null,
+          "hours": null,
+          "credits": null,
+          "description": null,
+          "skills": [
+            "probability",
+            "statistics"
+          ]
+        },
+        {
+          "name": "Algebre pour ingenieur",
+          "code": null,
+          "hours": null,
+          "credits": null,
+          "description": null,
+          "skills": [
+            "linear algebra"
+          ]
+        },
+        {
+          "name": "Optimisation pour sciences des donnees",
+          "code": null,
+          "hours": null,
+          "credits": null,
+          "description": null,
+          "skills": [
+            "optimization"
+          ]
+        },
+        {
+          "name": "Algorithmique avancee",
+          "code": null,
+          "hours": null,
+          "credits": null,
+          "description": null,
+          "skills": [
+            "algorithms"
+          ]
+        },
+        {
+          "name": "Systemes d'informations et Bases de donnees",
+          "code": null,
+          "hours": null,
+          "credits": null,
+          "description": null,
+          "skills": [
+            "SQL",
+            "information systems"
+          ]
+        },
+        {
+          "name": "Ingenierie digitale et donnees",
+          "code": null,
+          "hours": null,
+          "credits": null,
+          "description": null,
+          "skills": [
+            "data engineering"
+          ]
+        },
+        {
+          "name": "Langue et communication 1",
+          "code": null,
+          "hours": null,
+          "credits": null,
+          "description": null,
+          "skills": []
+        }
+      ]
+    },
+    {
+      "label": "S2",
+      "modules": [
+        {
+          "name": "Data analysis",
+          "code": null,
+          "hours": null,
+          "credits": null,
+          "description": null,
+          "skills": [
+            "Python",
+            "data analysis",
+            "pandas"
+          ]
+        },
+        {
+          "name": "Langage de programmation JAVA",
+          "code": null,
+          "hours": null,
+          "credits": null,
+          "description": null,
+          "skills": [
+            "Java",
+            "OOP"
+          ]
+        },
+        {
+          "name": "Programmation mobile et WEB",
+          "code": null,
+          "hours": null,
+          "credits": null,
+          "description": null,
+          "skills": [
+            "Android",
+            "Flutter",
+            "JavaScript"
+          ]
+        },
+        {
+          "name": "Traitement et visualisation des donnees",
+          "code": null,
+          "hours": null,
+          "credits": null,
+          "description": null,
+          "skills": [
+            "Plotly",
+            "data visualization",
+            "matplotlib"
+          ]
+        },
+        {
+          "name": "Administration systeme et reseau",
+          "code": null,
+          "hours": null,
+          "credits": null,
+          "description": null,
+          "skills": [
+            "Linux",
+            "networking"
+          ]
+        },
+        {
+          "name": "Methodologie de projet et veille scientifique",
+          "code": null,
+          "hours": null,
+          "credits": null,
+          "description": null,
+          "skills": []
+        },
+        {
+          "name": "Langues et communication 2",
+          "code": null,
+          "hours": null,
+          "credits": null,
+          "description": null,
+          "skills": []
+        }
+      ]
+    },
+    {
+      "label": "S3",
+      "modules": [
+        {
+          "name": "Machine Learning",
+          "code": null,
+          "hours": null,
+          "credits": null,
+          "description": null,
+          "skills": [
+            "Machine Learning",
+            "Python",
+            "scikit-learn"
+          ]
+        },
+        {
+          "name": "Recherche operationnelle et aide a la decision",
+          "code": null,
+          "hours": null,
+          "credits": null,
+          "description": null,
+          "skills": [
+            "operations research"
+          ]
+        },
+        {
+          "name": "Business intelligence",
+          "code": null,
+          "hours": null,
+          "credits": null,
+          "description": null,
+          "skills": [
+            "BI",
+            "Power BI"
+          ]
+        },
+        {
+          "name": "Gestion de projet et entreprise",
+          "code": null,
+          "hours": null,
+          "credits": null,
+          "description": null,
+          "skills": []
+        },
+        {
+          "name": "JAVA EE",
+          "code": null,
+          "hours": null,
+          "credits": null,
+          "description": null,
+          "skills": [
+            "Java",
+            "Java EE"
+          ]
+        },
+        {
+          "name": "Modelisation orientee objet",
+          "code": null,
+          "hours": null,
+          "credits": null,
+          "description": null,
+          "skills": [
+            "OOP",
+            "UML"
+          ]
+        },
+        {
+          "name": "Langues et communication 3",
+          "code": null,
+          "hours": null,
+          "credits": null,
+          "description": null,
+          "skills": []
+        }
+      ]
+    },
+    {
+      "label": "S4",
+      "modules": [
+        {
+          "name": "Cloud et virtualisation",
+          "code": null,
+          "hours": null,
+          "credits": null,
+          "description": null,
+          "skills": [
+            "Cloud",
+            "Docker",
+            "virtualization"
+          ]
+        },
+        {
+          "name": "Intelligence artificielle",
+          "code": null,
+          "hours": null,
+          "credits": null,
+          "description": null,
+          "skills": [
+            "AI"
+          ]
+        },
+        {
+          "name": "Projet tutoriel",
+          "code": null,
+          "hours": null,
+          "credits": null,
+          "description": null,
+          "skills": []
+        },
+        {
+          "name": "Introduction au Big Data",
+          "code": null,
+          "hours": null,
+          "credits": null,
+          "description": null,
+          "skills": [
+            "Apache Spark",
+            "Hadoop",
+            "big data"
+          ]
+        },
+        {
+          "name": "Data mining (Text et WEB mining)",
+          "code": null,
+          "hours": null,
+          "credits": null,
+          "description": null,
+          "skills": [
+            "data mining"
+          ]
+        },
+        {
+          "name": "Technologies JS",
+          "code": null,
+          "hours": null,
+          "credits": null,
+          "description": null,
+          "skills": [
+            "JavaScript",
+            "Node.js",
+            "React"
+          ]
+        },
+        {
+          "name": "Langues et communication 4",
+          "code": null,
+          "hours": null,
+          "credits": null,
+          "description": null,
+          "skills": []
+        }
+      ]
+    },
+    {
+      "label": "S5",
+      "modules": [
+        {
+          "name": "IA Computer Vision",
+          "code": null,
+          "hours": null,
+          "credits": null,
+          "description": null,
+          "skills": [
+            "AI",
+            "OpenCV",
+            "PyTorch",
+            "computer vision"
+          ]
+        },
+        {
+          "name": "Deep Learning",
+          "code": null,
+          "hours": null,
+          "credits": null,
+          "description": null,
+          "skills": [
+            "Deep Learning",
+            "PyTorch",
+            "TensorFlow"
+          ]
+        },
+        {
+          "name": "Calcul et architecture distribuee en Big Data",
+          "code": null,
+          "hours": null,
+          "credits": null,
+          "description": null,
+          "skills": [
+            "Apache Spark",
+            "Hadoop",
+            "big data"
+          ]
+        },
+        {
+          "name": "Langue et communication 5",
+          "code": null,
+          "hours": null,
+          "credits": null,
+          "description": null,
+          "skills": []
+        },
+        {
+          "name": "Ingenierie des connaissances",
+          "code": null,
+          "hours": null,
+          "credits": null,
+          "description": null,
+          "skills": [
+            "knowledge graphs"
+          ]
+        },
+        {
+          "name": "Devops et MLops",
+          "code": null,
+          "hours": null,
+          "credits": null,
+          "description": null,
+          "skills": [
+            "DevOps",
+            "Docker",
+            "Kubernetes",
+            "MLOps",
+            "MLflow"
+          ]
+        },
+        {
+          "name": "Parrainage en milieu professionnel",
+          "code": null,
+          "hours": null,
+          "credits": null,
+          "description": null,
+          "skills": []
+        }
+      ]
+    }
+  ],
+  "skills_taught": [
+    "probability",
+    "Statistics",
+    "linear algebra",
+    "model optimization",
+    "algorithms",
+    "SQL",
+    "information systems",
+    "data engineering",
+    "Python",
+    "Data Science",
+    "Pandas",
+    "Java",
+    "OOP",
+    "Android",
+    "Flutter",
+    "JavaScript",
+    "Plotly",
+    "data visualization",
+    "Matplotlib",
+    "Linux",
+    "networking",
+    "Machine Learning",
+    "scikit-learn",
+    "operations research",
+    "BI",
+    "Power BI",
+    "Java EE",
+    "UML",
+    "Cloud",
+    "Docker",
+    "virtualization",
+    "agentic AI",
+    "Apache Spark",
+    "Hadoop",
+    "Big Data",
+    "data mining",
+    "Node.js",
+    "React",
+    "OpenCV",
+    "PyTorch",
+    "Computer Vision",
+    "Deep Learning",
+    "TensorFlow",
+    "knowledge graphs",
+    "DevOps",
+    "Kubernetes",
+    "MLOps",
+    "MLflow"
+  ]
+}

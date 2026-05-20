@@ -87,6 +87,8 @@ pip-audit = "^2.7"
 jupyter = "^1.0"
 ipykernel = "^6.29"
 plotly = "^5.20"
+matplotlib-venn = "^1.1"     # Notebook 06 - gap analysis ENSA vs marche
+seaborn = "^0.13"            # Notebook 06 - heatmap par famille
 
 # Type stubs
 types-pyyaml = "^6.0"

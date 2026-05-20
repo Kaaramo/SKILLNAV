@@ -1,0 +1,489 @@
+{
+  "school_id": "ensa-oujda-idscc",
+  "school_name": "ENSA Oujda",
+  "filiere_name": "Ingenierie Data Sciences et Cloud Computing",
+  "filiere_acronym": "IDSCC",
+  "filiere_url": "http://ensao.ump.ma/fr/cycle-ingenieur-ingenierie-data-sciences-et-cloud-computing",
+  "extracted_at": "2026-05-19T16:38:59.277800Z",
+  "status": "complete",
+  "semesters": [
+    {
+      "label": "S1",
+      "modules": [
+        {
+          "name": "Statistique Inferentielle",
+          "code": null,
+          "hours": null,
+          "credits": null,
+          "description": null,
+          "skills": [
+            "hypothesis testing",
+            "statistics"
+          ]
+        },
+        {
+          "name": "Optimisation mathematique",
+          "code": null,
+          "hours": null,
+          "credits": null,
+          "description": null,
+          "skills": [
+            "optimization"
+          ]
+        },
+        {
+          "name": "Structures de donnees et complexite algorithmique",
+          "code": null,
+          "hours": null,
+          "credits": null,
+          "description": null,
+          "skills": [
+            "algorithms",
+            "data structures"
+          ]
+        },
+        {
+          "name": "Systemes d'exploitation",
+          "code": null,
+          "hours": null,
+          "credits": null,
+          "description": null,
+          "skills": [
+            "Linux",
+            "operating systems"
+          ]
+        },
+        {
+          "name": "Architecture des Systemes d'Information et bases de donnees relationnelles",
+          "code": null,
+          "hours": null,
+          "credits": null,
+          "description": null,
+          "skills": [
+            "PostgreSQL",
+            "SQL",
+            "computer architecture",
+            "information systems"
+          ]
+        },
+        {
+          "name": "Developpement Web",
+          "code": null,
+          "hours": null,
+          "credits": null,
+          "description": null,
+          "skills": [
+            "CSS",
+            "HTML",
+            "JavaScript"
+          ]
+        },
+        {
+          "name": "Langues et communication",
+          "code": null,
+          "hours": null,
+          "credits": null,
+          "description": null,
+          "skills": []
+        }
+      ]
+    },
+    {
+      "label": "S2",
+      "modules": [
+        {
+          "name": "Outils informatiques pour la Statistique",
+          "code": null,
+          "hours": null,
+          "credits": null,
+          "description": null,
+          "skills": [
+            "R",
+            "statistics"
+          ]
+        },
+        {
+          "name": "Analyse de donnees multivariees",
+          "code": null,
+          "hours": null,
+          "credits": null,
+          "description": null,
+          "skills": [
+            "data analysis",
+            "pandas"
+          ]
+        },
+        {
+          "name": "Bases de donnees avancees",
+          "code": null,
+          "hours": null,
+          "credits": null,
+          "description": null,
+          "skills": [
+            "NoSQL",
+            "PostgreSQL",
+            "SQL"
+          ]
+        },
+        {
+          "name": "Modelisation orientee objet",
+          "code": null,
+          "hours": null,
+          "credits": null,
+          "description": null,
+          "skills": [
+            "OOP",
+            "UML"
+          ]
+        },
+        {
+          "name": "Programmation POO Python",
+          "code": null,
+          "hours": null,
+          "credits": null,
+          "description": null,
+          "skills": [
+            "OOP",
+            "Python"
+          ]
+        },
+        {
+          "name": "Systemes temps reel",
+          "code": null,
+          "hours": null,
+          "credits": null,
+          "description": null,
+          "skills": [
+            "real-time systems"
+          ]
+        },
+        {
+          "name": "Reseaux Informatiques",
+          "code": null,
+          "hours": null,
+          "credits": null,
+          "description": null,
+          "skills": [
+            "networking"
+          ]
+        },
+        {
+          "name": "Marketing Digital",
+          "code": null,
+          "hours": null,
+          "credits": null,
+          "description": null,
+          "skills": []
+        }
+      ]
+    },
+    {
+      "label": "S3",
+      "modules": [
+        {
+          "name": "Modelisation statistique",
+          "code": null,
+          "hours": null,
+          "credits": null,
+          "description": null,
+          "skills": [
+            "regression",
+            "statistics"
+          ]
+        },
+        {
+          "name": "Series temporelles",
+          "code": null,
+          "hours": null,
+          "credits": null,
+          "description": null,
+          "skills": [
+            "ARIMA",
+            "time series"
+          ]
+        },
+        {
+          "name": "Bases de donnees NoSql et Intro Big Data",
+          "code": null,
+          "hours": null,
+          "credits": null,
+          "description": null,
+          "skills": [
+            "Apache Spark",
+            "Hadoop",
+            "MongoDB",
+            "NoSQL",
+            "SQL",
+            "big data"
+          ]
+        },
+        {
+          "name": "Programmation Web avancee",
+          "code": null,
+          "hours": null,
+          "credits": null,
+          "description": null,
+          "skills": [
+            "JavaScript",
+            "Node.js",
+            "React"
+          ]
+        },
+        {
+          "name": "Machine Learning",
+          "code": null,
+          "hours": null,
+          "credits": null,
+          "description": null,
+          "skills": [
+            "Machine Learning",
+            "Python",
+            "scikit-learn"
+          ]
+        },
+        {
+          "name": "Business Intelligence et Datawarehouse",
+          "code": null,
+          "hours": null,
+          "credits": null,
+          "description": null,
+          "skills": [
+            "BI",
+            "Power BI",
+            "data warehouse"
+          ]
+        },
+        {
+          "name": "Developpement personnel et professionnel et Anglais",
+          "code": null,
+          "hours": null,
+          "credits": null,
+          "description": null,
+          "skills": []
+        }
+      ]
+    },
+    {
+      "label": "S4",
+      "modules": [
+        {
+          "name": "Analyse stochastique",
+          "code": null,
+          "hours": null,
+          "credits": null,
+          "description": null,
+          "skills": [
+            "Bayesian",
+            "stochastic processes"
+          ]
+        },
+        {
+          "name": "Statistique en grande dimension",
+          "code": null,
+          "hours": null,
+          "credits": null,
+          "description": null,
+          "skills": [
+            "high-dimensional statistics",
+            "statistics"
+          ]
+        },
+        {
+          "name": "Theorie de l'information et traitement du signal pour les Data Science",
+          "code": null,
+          "hours": null,
+          "credits": null,
+          "description": null,
+          "skills": [
+            "information theory"
+          ]
+        },
+        {
+          "name": "Systemes distribues",
+          "code": null,
+          "hours": null,
+          "credits": null,
+          "description": null,
+          "skills": [
+            "distributed systems"
+          ]
+        },
+        {
+          "name": "Cloud computing",
+          "code": null,
+          "hours": null,
+          "credits": null,
+          "description": null,
+          "skills": [
+            "AWS",
+            "Azure",
+            "Cloud",
+            "GCP"
+          ]
+        },
+        {
+          "name": "Securite des systemes d'information",
+          "code": null,
+          "hours": null,
+          "credits": null,
+          "description": null,
+          "skills": [
+            "cybersecurity",
+            "information systems"
+          ]
+        },
+        {
+          "name": "Projet de fin d'annee (PFA)",
+          "code": null,
+          "hours": null,
+          "credits": null,
+          "description": null,
+          "skills": []
+        },
+        {
+          "name": "Conduite et gestion de projets Informatiques",
+          "code": null,
+          "hours": null,
+          "credits": null,
+          "description": null,
+          "skills": []
+        }
+      ]
+    },
+    {
+      "label": "S5",
+      "modules": [
+        {
+          "name": "Big data",
+          "code": null,
+          "hours": null,
+          "credits": null,
+          "description": null,
+          "skills": [
+            "Apache Spark",
+            "Hadoop",
+            "big data"
+          ]
+        },
+        {
+          "name": "Data mining",
+          "code": null,
+          "hours": null,
+          "credits": null,
+          "description": null,
+          "skills": [
+            "data mining"
+          ]
+        },
+        {
+          "name": "Intelligence Artificielle",
+          "code": null,
+          "hours": null,
+          "credits": null,
+          "description": null,
+          "skills": [
+            "AI"
+          ]
+        },
+        {
+          "name": "Programmation mobile",
+          "code": null,
+          "hours": null,
+          "credits": null,
+          "description": null,
+          "skills": [
+            "Android",
+            "Flutter"
+          ]
+        },
+        {
+          "name": "Conception des applications pour le cloud",
+          "code": null,
+          "hours": null,
+          "credits": null,
+          "description": null,
+          "skills": [
+            "AWS",
+            "Cloud",
+            "microservices"
+          ]
+        },
+        {
+          "name": "Internet of Things",
+          "code": null,
+          "hours": null,
+          "credits": null,
+          "description": null,
+          "skills": [
+            "IoT",
+            "MQTT"
+          ]
+        },
+        {
+          "name": "Management et Marketing",
+          "code": null,
+          "hours": null,
+          "credits": null,
+          "description": null,
+          "skills": []
+        }
+      ]
+    }
+  ],
+  "skills_taught": [
+    "hypothesis testing",
+    "Statistics",
+    "model optimization",
+    "algorithms",
+    "data structures",
+    "Linux",
+    "operating systems",
+    "PostgreSQL",
+    "SQL",
+    "computer architecture",
+    "information systems",
+    "CSS",
+    "HTML",
+    "JavaScript",
+    "R",
+    "Data Science",
+    "Pandas",
+    "NoSQL",
+    "OOP",
+    "UML",
+    "Python",
+    "real-time systems",
+    "networking",
+    "regression",
+    "ARIMA",
+    "time series",
+    "Apache Spark",
+    "Hadoop",
+    "MongoDB",
+    "Big Data",
+    "Node.js",
+    "React",
+    "Machine Learning",
+    "scikit-learn",
+    "BI",
+    "Power BI",
+    "Data Warehouse",
+    "Bayesian",
+    "stochastic processes",
+    "high-dimensional statistics",
+    "information theory",
+    "distributed systems",
+    "AWS",
+    "Azure",
+    "Cloud",
+    "GCP",
+    "cybersecurity",
+    "data mining",
+    "agentic AI",
+    "Android",
+    "Flutter",
+    "microservices",
+    "IoT",
+    "MQTT"
+  ]
+}

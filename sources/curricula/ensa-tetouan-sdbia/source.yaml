@@ -1,0 +1,14 @@
+slug: ensa-tetouan-sdbia
+school_name: "ENSA Tetouan"
+filiere_name: "Sciences des Donnees, Big Data et IA"
+filiere_acronym: "SDBIA"
+filiere_url: "http://ensa.ac.ma/"
+official_source: "Brochure PDF officielle ENSA Tetouan - Formation Initiale"
+fetched_at: "2026-05-19"
+extracted_at: "2026-05-19"
+status: complete
+extraction_method: "pdf_user_provided"
+cycle: "Cycle Ingenieur, 3 ans (S1 a S5 + PFE)"
+notes: |
+  Programme transcrit depuis le PDF "Big data et IA de ENSATE.pdf" fourni par l'utilisateur.
+  Le S6 correspond au PFE et n'est pas modelise dans le schema (uniquement S1 a S5).

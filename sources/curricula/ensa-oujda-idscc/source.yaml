@@ -1,0 +1,14 @@
+slug: ensa-oujda-idscc
+school_name: "ENSA Oujda"
+filiere_name: "Ingenierie Data Sciences et Cloud Computing"
+filiere_acronym: "IDSCC"
+filiere_url: "http://ensao.ump.ma/fr/cycle-ingenieur-ingenierie-data-sciences-et-cloud-computing"
+official_source: "Page officielle ENSA Oujda - cycle ingenieur IDSCC"
+fetched_at: "2026-05-19"
+extracted_at: "2026-05-19"
+status: complete
+extraction_method: "web_official"
+cycle: "Cycle Ingenieur, 3 ans (S1 a S5 + PFE)"
+notes: |
+  Page web officielle a fetcher via WebFetch.
+  Le S6 = PFE n'est pas modelise dans le schema.

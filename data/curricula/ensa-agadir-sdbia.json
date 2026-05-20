@@ -1,0 +1,408 @@
+{
+  "school_id": "ensa-agadir-sdbia",
+  "school_name": "ENSA Agadir",
+  "filiere_name": "Sciences des Donnees, Big Data et IA (Agadir)",
+  "filiere_acronym": "SDBIA-A",
+  "filiere_url": "http://www.ensa-agadir.ac.ma/pages/SDBDIA",
+  "extracted_at": "2026-05-19T16:34:15.575120Z",
+  "status": "complete",
+  "semesters": [
+    {
+      "label": "S1",
+      "modules": [
+        {
+          "name": "Statistique",
+          "code": null,
+          "hours": null,
+          "credits": null,
+          "description": null,
+          "skills": []
+        },
+        {
+          "name": "Analyse et algebre",
+          "code": null,
+          "hours": null,
+          "credits": null,
+          "description": null,
+          "skills": [
+            "linear algebra",
+            "mathematical analysis"
+          ]
+        },
+        {
+          "name": "Algorithmique et Programmation",
+          "code": null,
+          "hours": null,
+          "credits": null,
+          "description": null,
+          "skills": [
+            "Python",
+            "algorithms"
+          ]
+        },
+        {
+          "name": "Architecture des Systemes",
+          "code": null,
+          "hours": null,
+          "credits": null,
+          "description": null,
+          "skills": [
+            "computer architecture"
+          ]
+        },
+        {
+          "name": "Management 1",
+          "code": null,
+          "hours": null,
+          "credits": null,
+          "description": null,
+          "skills": []
+        },
+        {
+          "name": "Langues Etrangeres 1",
+          "code": null,
+          "hours": null,
+          "credits": null,
+          "description": null,
+          "skills": []
+        },
+        {
+          "name": "Competences Numeriques",
+          "code": null,
+          "hours": null,
+          "credits": null,
+          "description": null,
+          "skills": []
+        }
+      ]
+    },
+    {
+      "label": "S2",
+      "modules": [
+        {
+          "name": "Structures de Donnees et Python",
+          "code": null,
+          "hours": null,
+          "credits": null,
+          "description": null,
+          "skills": [
+            "Python",
+            "data structures"
+          ]
+        },
+        {
+          "name": "Modelisation des Donnees",
+          "code": null,
+          "hours": null,
+          "credits": null,
+          "description": null,
+          "skills": [
+            "data modeling"
+          ]
+        },
+        {
+          "name": "Developpement Web",
+          "code": null,
+          "hours": null,
+          "credits": null,
+          "description": null,
+          "skills": [
+            "CSS",
+            "HTML",
+            "JavaScript"
+          ]
+        },
+        {
+          "name": "Structures de Donnees et Python Avance",
+          "code": null,
+          "hours": null,
+          "credits": null,
+          "description": null,
+          "skills": [
+            "Python",
+            "data structures"
+          ]
+        },
+        {
+          "name": "Management 2",
+          "code": null,
+          "hours": null,
+          "credits": null,
+          "description": null,
+          "skills": []
+        },
+        {
+          "name": "Langues Etrangeres 2",
+          "code": null,
+          "hours": null,
+          "credits": null,
+          "description": null,
+          "skills": []
+        },
+        {
+          "name": "Culture et Art",
+          "code": null,
+          "hours": null,
+          "credits": null,
+          "description": null,
+          "skills": []
+        }
+      ]
+    },
+    {
+      "label": "S3",
+      "modules": [
+        {
+          "name": "Fouille de Donnees",
+          "code": null,
+          "hours": null,
+          "credits": null,
+          "description": null,
+          "skills": [
+            "data mining"
+          ]
+        },
+        {
+          "name": "Bases de Donnees",
+          "code": null,
+          "hours": null,
+          "credits": null,
+          "description": null,
+          "skills": [
+            "SQL"
+          ]
+        },
+        {
+          "name": "Optimisation Stochastique",
+          "code": null,
+          "hours": null,
+          "credits": null,
+          "description": null,
+          "skills": [
+            "optimization",
+            "stochastic processes"
+          ]
+        },
+        {
+          "name": "Modelisation IA",
+          "code": null,
+          "hours": null,
+          "credits": null,
+          "description": null,
+          "skills": [
+            "AI",
+            "Machine Learning"
+          ]
+        },
+        {
+          "name": "Management 3",
+          "code": null,
+          "hours": null,
+          "credits": null,
+          "description": null,
+          "skills": []
+        },
+        {
+          "name": "Langues Etrangeres 3",
+          "code": null,
+          "hours": null,
+          "credits": null,
+          "description": null,
+          "skills": []
+        },
+        {
+          "name": "Intelligence Artificielle Skills",
+          "code": null,
+          "hours": null,
+          "credits": null,
+          "description": null,
+          "skills": [
+            "AI"
+          ]
+        }
+      ]
+    },
+    {
+      "label": "S4",
+      "modules": [
+        {
+          "name": "Big Data",
+          "code": null,
+          "hours": null,
+          "credits": null,
+          "description": null,
+          "skills": [
+            "Apache Spark",
+            "Hadoop",
+            "big data"
+          ]
+        },
+        {
+          "name": "Algorithme IA et Prediction",
+          "code": null,
+          "hours": null,
+          "credits": null,
+          "description": null,
+          "skills": [
+            "Machine Learning",
+            "predictive modeling"
+          ]
+        },
+        {
+          "name": "IA en Milieu Industriel",
+          "code": null,
+          "hours": null,
+          "credits": null,
+          "description": null,
+          "skills": [
+            "AI",
+            "industrial AI"
+          ]
+        },
+        {
+          "name": "Sparsity en Machine Learning",
+          "code": null,
+          "hours": null,
+          "credits": null,
+          "description": null,
+          "skills": [
+            "Machine Learning",
+            "Python",
+            "regularization",
+            "scikit-learn"
+          ]
+        },
+        {
+          "name": "Management 4",
+          "code": null,
+          "hours": null,
+          "credits": null,
+          "description": null,
+          "skills": []
+        },
+        {
+          "name": "Langues Etrangeres 4",
+          "code": null,
+          "hours": null,
+          "credits": null,
+          "description": null,
+          "skills": []
+        },
+        {
+          "name": "Gestion de Projet et Entreprenariat",
+          "code": null,
+          "hours": null,
+          "credits": null,
+          "description": null,
+          "skills": []
+        }
+      ]
+    },
+    {
+      "label": "S5",
+      "modules": [
+        {
+          "name": "IA en Biomedical",
+          "code": null,
+          "hours": null,
+          "credits": null,
+          "description": null,
+          "skills": [
+            "AI",
+            "healthcare AI"
+          ]
+        },
+        {
+          "name": "IA en Agriculture",
+          "code": null,
+          "hours": null,
+          "credits": null,
+          "description": null,
+          "skills": [
+            "AI",
+            "agritech"
+          ]
+        },
+        {
+          "name": "Machine Learning en Python",
+          "code": null,
+          "hours": null,
+          "credits": null,
+          "description": null,
+          "skills": [
+            "Machine Learning",
+            "Python",
+            "scikit-learn"
+          ]
+        },
+        {
+          "name": "Machine Learning sur R",
+          "code": null,
+          "hours": null,
+          "credits": null,
+          "description": null,
+          "skills": [
+            "Machine Learning",
+            "Python",
+            "R",
+            "scikit-learn",
+            "tidyverse"
+          ]
+        },
+        {
+          "name": "Management 5",
+          "code": null,
+          "hours": null,
+          "credits": null,
+          "description": null,
+          "skills": []
+        },
+        {
+          "name": "Langues Etrangeres 5",
+          "code": null,
+          "hours": null,
+          "credits": null,
+          "description": null,
+          "skills": []
+        },
+        {
+          "name": "Competences Personnelles",
+          "code": null,
+          "hours": null,
+          "credits": null,
+          "description": null,
+          "skills": []
+        }
+      ]
+    }
+  ],
+  "skills_taught": [
+    "linear algebra",
+    "mathematical analysis",
+    "Python",
+    "algorithms",
+    "computer architecture",
+    "data structures",
+    "data modeling",
+    "CSS",
+    "HTML",
+    "JavaScript",
+    "data mining",
+    "SQL",
+    "model optimization",
+    "stochastic processes",
+    "agentic AI",
+    "Machine Learning",
+    "Apache Spark",
+    "Hadoop",
+    "Big Data",
+    "predictive modeling",
+    "industrial AI",
+    "regularization",
+    "scikit-learn",
+    "healthcare AI",
+    "agritech",
+    "R",
+    "tidyverse"
+  ]
+}

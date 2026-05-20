@@ -1,0 +1,453 @@
+{
+  "school_id": "ensa-fes-isdia",
+  "school_name": "ENSA Fes",
+  "filiere_name": "Ingenierie des Systemes de Donnees et IA",
+  "filiere_acronym": "ISDIA",
+  "filiere_url": "https://ensaf.ac.ma/fil-isdia.php",
+  "extracted_at": "2026-05-19T16:38:54.864035Z",
+  "status": "complete",
+  "semesters": [
+    {
+      "label": "S1",
+      "modules": [
+        {
+          "name": "Programmation orientee objet C++",
+          "code": "M111",
+          "hours": 48,
+          "credits": null,
+          "description": null,
+          "skills": [
+            "C++",
+            "OOP"
+          ]
+        },
+        {
+          "name": "Principes fondamentaux des reseaux",
+          "code": "M112",
+          "hours": 48,
+          "credits": null,
+          "description": null,
+          "skills": [
+            "TCP/IP",
+            "networking"
+          ]
+        },
+        {
+          "name": "Bases de donnees relationnelles",
+          "code": "M113",
+          "hours": 48,
+          "credits": null,
+          "description": null,
+          "skills": [
+            "PostgreSQL",
+            "SQL"
+          ]
+        },
+        {
+          "name": "Theorie et programmation systeme",
+          "code": "M114",
+          "hours": 48,
+          "credits": null,
+          "description": null,
+          "skills": [
+            "C",
+            "operating systems"
+          ]
+        },
+        {
+          "name": "Analyse des donnees et statistique exploratoire",
+          "code": "M115",
+          "hours": 48,
+          "credits": null,
+          "description": null,
+          "skills": [
+            "lora"
+          ]
+        },
+        {
+          "name": "Langues etrangeres 1 (Anglais et Francais)",
+          "code": "M116",
+          "hours": 48,
+          "credits": null,
+          "description": null,
+          "skills": []
+        },
+        {
+          "name": "Digital skills",
+          "code": "M117",
+          "hours": 48,
+          "credits": null,
+          "description": null,
+          "skills": []
+        }
+      ]
+    },
+    {
+      "label": "S2",
+      "modules": [
+        {
+          "name": "Programmation orientee objet Java",
+          "code": "M121",
+          "hours": 48,
+          "credits": null,
+          "description": null,
+          "skills": [
+            "Java",
+            "OOP"
+          ]
+        },
+        {
+          "name": "Python pour data science",
+          "code": "M122",
+          "hours": 48,
+          "credits": null,
+          "description": null,
+          "skills": [
+            "NumPy",
+            "Python",
+            "pandas"
+          ]
+        },
+        {
+          "name": "Modelisation UML et genie logiciel",
+          "code": "M123",
+          "hours": 48,
+          "credits": null,
+          "description": null,
+          "skills": [
+            "UML",
+            "software engineering"
+          ]
+        },
+        {
+          "name": "Cybersecurite",
+          "code": "M124",
+          "hours": 48,
+          "credits": null,
+          "description": null,
+          "skills": [
+            "cybersecurity"
+          ]
+        },
+        {
+          "name": "Recherche operationnelle et theorie des graphes",
+          "code": "M125",
+          "hours": 48,
+          "credits": null,
+          "description": null,
+          "skills": [
+            "operations research"
+          ]
+        },
+        {
+          "name": "Langues etrangeres 2",
+          "code": "M126",
+          "hours": 48,
+          "credits": null,
+          "description": null,
+          "skills": []
+        },
+        {
+          "name": "Competences artistiques et culturelles",
+          "code": "M127",
+          "hours": 48,
+          "credits": null,
+          "description": null,
+          "skills": []
+        }
+      ]
+    },
+    {
+      "label": "S3",
+      "modules": [
+        {
+          "name": "Machine learning",
+          "code": "M231",
+          "hours": 48,
+          "credits": null,
+          "description": null,
+          "skills": [
+            "Machine Learning",
+            "Python",
+            "scikit-learn"
+          ]
+        },
+        {
+          "name": "Developpement web",
+          "code": "M232",
+          "hours": 48,
+          "credits": null,
+          "description": null,
+          "skills": [
+            "CSS",
+            "HTML",
+            "JavaScript"
+          ]
+        },
+        {
+          "name": "Big data I et BD NoSQL",
+          "code": "M233",
+          "hours": 48,
+          "credits": null,
+          "description": null,
+          "skills": [
+            "Apache Spark",
+            "Hadoop",
+            "NoSQL",
+            "big data"
+          ]
+        },
+        {
+          "name": "Internet des objets",
+          "code": "M234",
+          "hours": 48,
+          "credits": null,
+          "description": null,
+          "skills": [
+            "IoT",
+            "MQTT"
+          ]
+        },
+        {
+          "name": "Systemes Embarques",
+          "code": "M235",
+          "hours": 48,
+          "credits": null,
+          "description": null,
+          "skills": [
+            "C++",
+            "embedded systems"
+          ]
+        },
+        {
+          "name": "Langues etrangeres 3",
+          "code": "M236",
+          "hours": 48,
+          "credits": null,
+          "description": null,
+          "skills": []
+        },
+        {
+          "name": "Realite virtuelle avec IA",
+          "code": "M237",
+          "hours": 48,
+          "credits": null,
+          "description": null,
+          "skills": [
+            "3D",
+            "computer vision"
+          ]
+        }
+      ]
+    },
+    {
+      "label": "S4",
+      "modules": [
+        {
+          "name": "Deep learning",
+          "code": "M241",
+          "hours": 48,
+          "credits": null,
+          "description": null,
+          "skills": [
+            "Deep Learning",
+            "PyTorch",
+            "TensorFlow"
+          ]
+        },
+        {
+          "name": "Business intelligence",
+          "code": "M242",
+          "hours": 48,
+          "credits": null,
+          "description": null,
+          "skills": [
+            "BI",
+            "Power BI"
+          ]
+        },
+        {
+          "name": "Systemes multiagents et blockchain",
+          "code": "M243",
+          "hours": 48,
+          "credits": null,
+          "description": null,
+          "skills": [
+            "AI agents",
+            "blockchain"
+          ]
+        },
+        {
+          "name": "Big data II",
+          "code": "M244",
+          "hours": 48,
+          "credits": null,
+          "description": null,
+          "skills": [
+            "Apache Spark",
+            "Hadoop",
+            "NoSQL",
+            "big data"
+          ]
+        },
+        {
+          "name": "Cloud computing et virtualisation",
+          "code": "M245",
+          "hours": 48,
+          "credits": null,
+          "description": null,
+          "skills": [
+            "AWS",
+            "Azure",
+            "Cloud",
+            "GCP"
+          ]
+        },
+        {
+          "name": "Langues etrangeres 4",
+          "code": "M246",
+          "hours": 48,
+          "credits": null,
+          "description": null,
+          "skills": []
+        },
+        {
+          "name": "Marketing et GRH",
+          "code": "M247",
+          "hours": 48,
+          "credits": null,
+          "description": null,
+          "skills": []
+        }
+      ]
+    },
+    {
+      "label": "S5",
+      "modules": [
+        {
+          "name": "MLOps - Strategies de Deploiement et Considerations Ethiques",
+          "code": "M351",
+          "hours": 48,
+          "credits": null,
+          "description": null,
+          "skills": [
+            "Docker",
+            "MLOps",
+            "MLflow"
+          ]
+        },
+        {
+          "name": "Computer vision",
+          "code": "M352",
+          "hours": 48,
+          "credits": null,
+          "description": null,
+          "skills": [
+            "OpenCV",
+            "PyTorch",
+            "computer vision"
+          ]
+        },
+        {
+          "name": "Natural language processing (NLP)",
+          "code": "M353",
+          "hours": 48,
+          "credits": null,
+          "description": null,
+          "skills": [
+            "NLP",
+            "transformers"
+          ]
+        },
+        {
+          "name": "Systemes de recommandation",
+          "code": "M354",
+          "hours": 48,
+          "credits": null,
+          "description": null,
+          "skills": [
+            "recommender systems"
+          ]
+        },
+        {
+          "name": "Theorie de jeux et apprentissage par renforcement",
+          "code": "M355",
+          "hours": 48,
+          "credits": null,
+          "description": null,
+          "skills": [
+            "reinforcement learning"
+          ]
+        },
+        {
+          "name": "Langues etrangeres 5",
+          "code": "M356",
+          "hours": 48,
+          "credits": null,
+          "description": null,
+          "skills": []
+        },
+        {
+          "name": "Entrepreneuriat et management de projets innovants",
+          "code": "M357",
+          "hours": 48,
+          "credits": null,
+          "description": null,
+          "skills": []
+        }
+      ]
+    }
+  ],
+  "skills_taught": [
+    "C++",
+    "OOP",
+    "TCP/IP",
+    "networking",
+    "PostgreSQL",
+    "SQL",
+    "C",
+    "operating systems",
+    "LoRA",
+    "Java",
+    "NumPy",
+    "Python",
+    "Pandas",
+    "UML",
+    "Software Architecture",
+    "cybersecurity",
+    "operations research",
+    "Machine Learning",
+    "scikit-learn",
+    "CSS",
+    "HTML",
+    "JavaScript",
+    "Apache Spark",
+    "Hadoop",
+    "NoSQL",
+    "Big Data",
+    "IoT",
+    "MQTT",
+    "embedded systems",
+    "3D",
+    "Computer Vision",
+    "Deep Learning",
+    "PyTorch",
+    "TensorFlow",
+    "BI",
+    "Power BI",
+    "AI agents",
+    "blockchain",
+    "AWS",
+    "Azure",
+    "Cloud",
+    "GCP",
+    "Docker",
+    "MLOps",
+    "MLflow",
+    "OpenCV",
+    "NLP",
+    "transformers",
+    "recommender systems",
+    "reinforcement learning"
+  ]
+}

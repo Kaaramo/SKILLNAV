@@ -1,0 +1,14 @@
+slug: ensa-safi-idia
+school_name: "ENSA Safi"
+filiere_name: "Ingenierie des Donnees et Intelligence Artificielle"
+filiere_acronym: "IDIA"
+filiere_url: "https://ensas.uca.ma/contenu/filieres/info.pdf"
+official_source: "Plaquette PDF officielle ENSA Safi"
+fetched_at: "2026-05-19"
+extracted_at: "2026-05-19"
+status: complete
+extraction_method: "pdf_official"
+cycle: "Cycle Ingenieur, 3 ans (S1 a S5 + PFE)"
+notes: |
+  PDF officiel a fetcher via WebFetch.
+  Le S6 = PFE n'est pas modelise dans le schema.
