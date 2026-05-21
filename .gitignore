@@ -11,6 +11,9 @@
 *.key
 secrets/
 
+# ─── Documentation privee (PRD, charte, plans soutenance) ──────────────────
+docs/
+
 # ─── Python ─────────────────────────────────────────────────────────────────
 __pycache__/
 *.py[cod]
