@@ -1,0 +1,67 @@
+{
+  "meta": {
+    "n_ensa_exploitables": 6,
+    "n_ensa_placeholder": 2,
+    "n_familles": 14,
+    "n_top_skills_marche": 10,
+    "n_skills_couverts": 2,
+    "n_ensa_total": 8,
+    "source_notebook": "notebooks/06b_gap_analysis_multi_ensa.ipynb",
+    "source_commit": "42bbe8d/3edacae",
+    "generated_at": "2026-05-21",
+    "perimetre_marche": "top 200 compétences (offres MA + INTL canonicalisées)"
+  },
+  "ensa_columns": [
+    { "slug": "agadir",    "school": "Agadir",    "filiere": "SDBIA-A" },
+    { "slug": "fes",       "school": "Fès",       "filiere": "ISDIA"   },
+    { "slug": "khouribga", "school": "Khouribga", "filiere": "IID"     },
+    { "slug": "oujda",     "school": "Oujda",     "filiere": "IDSCC"   },
+    { "slug": "safi",      "school": "Safi",      "filiere": "IDIA"    },
+    { "slug": "tetouan",   "school": "Tétouan",   "filiere": "SDBIA"   }
+  ],
+  "heatmap_familles": {
+    "rows": [
+      { "family": "GenAI",            "ensa": [0.0, 2.0, 0.0,  0.0,  0.0, 0.0],  "marche": 34.5 },
+      { "family": "Agents AI",        "ensa": [3.7, 2.0, 2.1,  1.9,  2.4, 2.5],  "marche": 17.0 },
+      { "family": "Other",            "ensa": [55.6, 36.0, 39.6, 51.9, 56.1, 42.5], "marche": 13.5 },
+      { "family": "Deep Learning",    "ensa": [0.0, 8.0, 6.2,  0.0,  0.0, 10.0], "marche": 7.0  },
+      { "family": "Machine Learning", "ensa": [14.8, 6.0, 6.2, 5.6,  7.3, 5.0],  "marche": 6.0  },
+      { "family": "Data Engineering", "ensa": [11.1, 8.0, 8.3, 9.3,  2.4, 10.0], "marche": 5.0  },
+      { "family": "NLP",              "ensa": [0.0, 2.0, 2.1,  0.0,  0.0, 7.5],  "marche": 4.5  },
+      { "family": "Programming",      "ensa": [7.4, 10.0, 8.3, 3.7,  9.8, 2.5],  "marche": 2.5  },
+      { "family": "BI & Analytics",   "ensa": [0.0, 2.0, 2.1,  1.9,  0.0, 5.0],  "marche": 2.0  },
+      { "family": "MLOps",            "ensa": [0.0, 6.0, 10.4, 0.0,  0.0, 0.0],  "marche": 2.0  },
+      { "family": "Cloud",            "ensa": [0.0, 8.0, 2.1,  7.4,  9.8, 0.0],  "marche": 2.0  },
+      { "family": "Databases",        "ensa": [3.7, 6.0, 2.1,  7.4,  7.3, 5.0],  "marche": 2.0  },
+      { "family": "Computer Vision",  "ensa": [0.0, 4.0, 4.2,  0.0,  4.9, 5.0],  "marche": 1.0  },
+      { "family": "Statistics",       "ensa": [3.7, 0.0, 6.2,  11.1, 0.0, 5.0],  "marche": 1.0  }
+    ]
+  },
+  "matrice_top_skills": {
+    "skills": [
+      "prompt engineering",
+      "rag",
+      "langchain",
+      "pytorch",
+      "llms",
+      "tensorflow",
+      "langgraph",
+      "fine-tuning",
+      "openai api",
+      "embeddings"
+    ],
+    "matrix": [
+      [false, false, false, false, false, false],
+      [false, false, false, false, false, false],
+      [false, false, false, false, false, false],
+      [false, true,  true,  false, false, true ],
+      [false, false, false, false, false, false],
+      [false, true,  true,  false, false, true ],
+      [false, false, false, false, false, false],
+      [false, false, false, false, false, false],
+      [false, false, false, false, false, false],
+      [false, false, false, false, false, false]
+    ],
+    "totaux": [0, 2, 2, 0, 0, 2]
+  }
+}

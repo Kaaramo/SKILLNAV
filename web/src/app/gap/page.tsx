@@ -1,6 +1,8 @@
 "use client";
 
 import { useMemo, useState } from "react";
+import { Segmented } from "@/components/atoms";
+import { MultiEnsaView } from "@/components/MultiEnsaView";
 import { SkillFamilyCard } from "@/components/SkillFamilyCard";
 import gapJson from "@/lib/gap_analysis_ensat.json";
 
@@ -105,8 +107,26 @@ export default function GapAnalysisPage() {
     return { top5MA, top5INTL, famZeroMA };
   }, []);
 
+  const [scope, setScope] = useState<"tetouan" | "multi">("tetouan");
+
   return (
     <>
+      {/* Toggle ENSA Tétouan ↔ Réseau ENSA Maroc */}
+      <div style={{ display: "flex", justifyContent: "center", margin: "4px 0 28px" }}>
+        <Segmented<"tetouan" | "multi">
+          options={[
+            { value: "tetouan", label: "ENSA Tétouan · SDBIA" },
+            { value: "multi", label: "Réseau ENSA Maroc · 6 écoles" },
+          ]}
+          value={scope}
+          onChange={setScope}
+        />
+      </div>
+
+      {scope === "multi" ? (
+        <MultiEnsaView />
+      ) : (
+      <>
       {/* Hero compact */}
       <section style={{ marginBottom: 28 }}>
         <div
@@ -493,6 +513,8 @@ export default function GapAnalysisPage() {
         </div>
       </section>
 
+      </>
+      )}
     </>
   );
 }
