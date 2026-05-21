@@ -3,7 +3,6 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import {
-  BookOpen,
   Download,
   GitFork,
   LayoutDashboard,
@@ -61,13 +60,6 @@ export const NAV_ITEMS: NavItem[] = [
     Icon: Target,
     eyebrow: "",
     title: "Gap Analysis : curricula vs marché",
-  },
-  {
-    href: "/methodology",
-    label: "Méthodologie",
-    Icon: BookOpen,
-    eyebrow: "3 axes · 7 sources · 4 études comparatives §N2",
-    title: "Méthodologie",
   },
 ];
 
