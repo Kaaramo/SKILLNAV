@@ -48,8 +48,8 @@ const STATS = (() => {
   };
 })();
 
-// Modularite Louvain : valeur snapshot (recalculee dans build_dashboard_overview.py)
-const MODULARITY_LOUVAIN = 0.256;
+// Modularite Leiden (V1 retenu, rapport §4.3) : Q = 0,2988 sur graphe complet (3 937 nœuds)
+const MODULARITY_LEIDEN = 0.2988;
 
 type ColorMode = "family" | "community";
 
@@ -88,8 +88,8 @@ export default function GraphPage() {
       >
         <KPI label="Nœuds" value={STATS.nNodes.toString()} sub="compétences cartographiées" />
         <KPI label="Arêtes" value={STATS.nLinks.toLocaleString("fr-FR")} sub="co-occurrences pondérées" />
-        <KPI label="Communautés" value={STATS.nCommunities.toString()} sub="détectées par Louvain" />
-        <KPI label="Modularité Q" value={MODULARITY_LOUVAIN.toFixed(3).replace(".", ",")} sub="qualité du partitionnement" />
+        <KPI label="Communautés" value={STATS.nCommunities.toString()} sub="détectées par Leiden" />
+        <KPI label="Modularité Q" value={MODULARITY_LEIDEN.toFixed(3).replace(".", ",")} sub="qualité du partitionnement" />
         <KPI
           label="Skill #1"
           value={STATS.topByPagerank[0]?.id ?? "—"}
@@ -402,7 +402,7 @@ export default function GraphPage() {
               marginBottom: 12,
             }}
           >
-            {STATS.nCommunities} communautés Louvain
+            {STATS.nCommunities} communautés Leiden
           </div>
           <div
             style={{
